@@ -7,6 +7,10 @@ name: Weekly chart
 on:
   schedule:
     - cron: "0 7 * * 1"
+  # Editing anything in admin/ on github.com applies it right away
+  push:
+    branches: [main]
+    paths: ["admin/**", ".github/workflows/weekly-chart.yml"]
   workflow_dispatch:
     inputs:
       dry:

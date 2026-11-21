@@ -17,8 +17,12 @@ if (files.length < 2 && !(DRY && files.length)) {
   console.log(`Only ${files.length} snapshot(s). Run collect-youtube.mjs again in 7 days to build the first chart.`);
   process.exit(0);
 }
-if (DRY) files.unshift('__empty__');
-const [prev, cur] = await Promise.all(files.slice(-2).map(async (f) => f === '__empty__' ? null : JSON.parse(await readFile(`${dir}/${f}`, 'utf8'))));
+// Compare the latest snapshot with the most recent one taken ≥ 6 days earlier — extra mid-week runs
+// (e.g. after an admin edit) must not shorten the chart week.
+const day = (f) => new Date(f.match(/(\d{4}-\d{2}-\d{2})/)[1] + 'T00:00:00Z');
+const curFile = files.at(-1);
+const prevFile = DRY ? '__empty__' : [...files].reverse().find((f) => (day(curFile) - day(f)) / 864e5 >= 6) ?? files.at(-2);
+const [prev, cur] = await Promise.all([prevFile, curFile].map(async (f) => f === '__empty__' ? null : JSON.parse(await readFile(`${dir}/${f}`, 'utf8'))));
 if (DRY) Object.assign(prev ?? {}, {});
 const prevSnap = prev ?? { takenAt: new Date(new Date(cur.takenAt) - 7 * 864e5).toISOString(), videos: {} };
 const days = (new Date(cur.takenAt) - new Date(prevSnap.takenAt)) / 864e5;

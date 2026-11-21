@@ -10,7 +10,7 @@
 ## Phase 0 — Decisions & accounts (Week 0–1)
 - [x] 0.1 Audit existing designs and docs
 - [x] 0.2 Lock theme (v2 Quiet + orange accent)
-- [ ] 0.3 Create GitHub account / repo `237charts` (you)
+- [x] 0.3 GitHub repo: https://github.com/ngeneedgar/237charts — project uploaded 2026-11-21
 - [ ] 0.4 Create free Supabase project (you; I'll guide)
 - [x] 0.5 Create free Cloudflare account (you) — connected 2026-11-21
 - [ ] 0.6 Get YouTube Data API key from Google Cloud, free (you; I'll guide)
