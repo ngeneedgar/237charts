@@ -23,7 +23,14 @@
 .hero { background: var(--surface); border-radius: 14px; padding: 16px; display: grid; grid-template-columns: 88px 1fr; gap: 16px; align-items: center; }
 .art { width: 88px; height: 88px; max-width: 100%; border-radius: 8px; background: var(--fill); display: grid; place-items: center; color: var(--label-2); font-size: 28px; font-weight: 700; object-fit: cover; }
 .heroLinks { display: flex; gap: 16px; margin-top: 6px; font-size: 17px; font-weight: 600; }
-.explicit { display: inline-grid; place-items: center; width: 14px; height: 14px; margin-left: 6px; border-radius: 3px; background: var(--label-3); color: var(--surface); font-size: 9px; font-weight: 700; vertical-align: 2px; }
+/* Explicit badge: fixed square, centred by its flex parent (no baseline nudging) */
+.explicit {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  width: 15px; height: 15px; border-radius: 3px;
+  background: var(--label-2); color: var(--surface);
+  font-size: 10px; line-height: 1; font-weight: 700; letter-spacing: 0;
+}
+.detailTitleLine { display: inline-flex; align-items: center; gap: 8px; justify-content: center; max-width: 100%; }
 .heroText { min-width: 0; display: grid; gap: 2px; }
 .eyebrow { font-size: 13px; line-height: 18px; color: var(--accent); font-weight: 600; }
 .heroTitle { font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: 0.35px; margin: 0; overflow-wrap: anywhere; }
@@ -40,8 +47,21 @@
 .row:hover { text-decoration: none; background: color-mix(in srgb, var(--fill) 50%, transparent); }
 .list > li + li > .row::before { content: ""; position: absolute; top: 0; right: 0; left: calc(16px + 28px + 12px + 44px + 12px); border-top: 0.5px solid var(--separator); }
 .row:active { background: var(--fill); transition: none; }
-.rowTitle, .rowArtist { display: block; }
-.back { font-size: 17px; }
+.rowArtist { display: block; }
+.rowTitleLine { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.rowTitleLine .rowTitle { min-width: 0; }
+
+/* Back: chevron + label, 44px tap target; label truncates on narrow screens */
+.back {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px; max-width: 65%;
+  margin-left: -8px; padding: 0 10px 0 8px; border-radius: 10px;
+  font-size: 17px; font-weight: 400; color: var(--accent);
+  transition: background 0.2s var(--ease);
+}
+.back:hover { text-decoration: none; background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.back:active { background: color-mix(in srgb, var(--accent) 18%, transparent); transition: none; }
+.back svg { flex: none; }
+.backLabel { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 
 /* Song / artist detail */
 .detailHero { display: grid; gap: 16px; justify-items: center; text-align: center; }
@@ -130,7 +150,10 @@ button.textBtn { background: none; border: 0; color: var(--accent); font: 17px v
   border-top: 0.5px solid var(--separator);
   display: grid; grid-template-columns: repeat(4, 1fr); max-width: 100%;
 }
-.tab { display: grid; justify-items: center; gap: 2px; font-size: 10px; line-height: 12px; color: var(--label-2); padding: 4px 0; }
+.tab { display: grid; justify-items: center; gap: 2px; font-size: 10px; line-height: 12px; color: var(--label-2); padding: 4px 0; border-radius: 10px; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 .tab:hover { text-decoration: none; }
+/* Instant feedback the moment the icon is touched, before the next page has loaded */
+.tab:active { color: var(--accent); background: var(--fill); transform: scale(0.94); }
+.tab svg { transition: transform 0.15s var(--ease); }
 .tab svg { width: 24px; height: 24px; }
 .tabOn { color: var(--accent); }

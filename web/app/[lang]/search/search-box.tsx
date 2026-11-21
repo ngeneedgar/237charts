@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useDeferredValue, useMemo, useState } from "react";
 import s from "../home.module.css";
 
 type Item = { kind: "song" | "artist"; href: string; title: string; sub: string; img: string | null; text: string };
@@ -12,11 +12,13 @@ export function SearchBox({ items, placeholder, songsLabel, artistsLabel, empty,
   items: Item[]; placeholder: string; songsLabel: string; artistsLabel: string; empty: string; hint: string;
 }) {
   const [q, setQ] = useState("");
+  // The text box updates on every keystroke; the results list follows without blocking typing
+  const dq = useDeferredValue(q);
   const found = useMemo(() => {
-    const words = fold(q).split(/\s+/).filter(Boolean);
+    const words = fold(dq).split(/\s+/).filter(Boolean);
     if (!words.length) return [];
-    return items.filter((it) => words.every((w) => it.text.includes(w))).slice(0, 40);
-  }, [q, items]);
+    return items.filter((it) => words.every((w) => it.text.includes(w))).slice(0, 30);
+  }, [dq, items]);
   const artists = found.filter((f) => f.kind === "artist");
   const songs = found.filter((f) => f.kind === "song");
 
@@ -29,7 +31,7 @@ export function SearchBox({ items, placeholder, songsLabel, artistsLabel, empty,
             <Link className={s.row} href={it.href} style={{ gridTemplateColumns: "44px 1fr" }}>
               {it.img
                 // eslint-disable-next-line @next/next/no-img-element
-                ? <img className={s.thumb} src={it.img} alt="" loading="lazy" />
+                ? <img className={s.thumb} src={it.img} alt="" width={44} height={44} decoding="async" />
                 : <span className={s.thumb} aria-hidden="true">{it.title.slice(0, 2).toUpperCase()}</span>}
               <span className={s.rowText}>
                 <span className={s.rowTitle}>{it.title}</span>

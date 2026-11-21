@@ -35,7 +35,9 @@ for (let pass = 1; pass <= 4; pass++) {
 }
 
 log('4/7 Tests');
-run('node --test collector/test/');
+// List test files explicitly: Node 22 (GitHub) treats a folder argument as a file
+const tests = (await readdir('collector/test')).filter((f) => f.endsWith('.test.mjs')).map((f) => `collector/test/${f}`);
+run(`node --test ${tests.join(' ')}`);
 
 log('5/7 Export for the website');
 run('node collector/export-web.mjs');

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import { allSongs, duration, getChart, getGenre, getSong, longDate, top50Rank } from "../../chart";
-import { Art, Footer, Movement, NavBar, Preview, TabBar } from "../../ui";
+import { Art, Explicit, Footer, Movement, NavBar, Preview, TabBar } from "../../ui";
 import s from "../../home.module.css";
 
 export function generateStaticParams() {
@@ -46,7 +46,7 @@ export default async function Song({ params }: PageProps<"/[lang]/song/[slug]">)
         <section className={s.detailHero}>
           <Art e={e} size="big" className={s.detailArt} />
           <div>
-            <h1 className={s.detailTitle}>{e.title}{e.explicit && <span className={s.explicit} aria-label="explicit">E</span>}</h1>
+            <h1 className={`${s.detailTitle} ${s.detailTitleLine}`}><span>{e.title}</span>{e.explicit && <Explicit />}</h1>
             <Link className={s.detailSub} href={`/${lang}/artist/${e.artistSlug}/`}>{e.artists.join(", ")}</Link>
           </div>
         </section>

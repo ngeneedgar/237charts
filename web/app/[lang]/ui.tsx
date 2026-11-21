@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Entry } from "./chart";
 import type { Locale, getDictionary } from "./dictionaries";
+import { BackLink } from "./back";
 import s from "./home.module.css";
 
 type Dict = ReturnType<typeof getDictionary>;
@@ -32,7 +33,10 @@ export function ChartRow({ e, t, lang }: { e: Entry; t: Dict; lang: Locale }) {
         <span className={`${s.rank} ${e.rank === 1 ? s.rank1 : ""}`}>{e.rank}</span>
         <Art e={e} size="small" className={s.thumb} />
         <span className={s.rowText}>
-          <span className={s.rowTitle}>{e.title}{e.explicit && <span className={s.explicit} aria-label="explicit">E</span>}</span>
+          <span className={s.rowTitleLine}>
+            <span className={s.rowTitle}>{e.title}</span>
+            {e.explicit && <Explicit />}
+          </span>
           <span className={s.rowArtist}>{e.artists.join(", ")}</span>
         </span>
         <Movement e={e} t={t} />
@@ -41,18 +45,23 @@ export function ChartRow({ e, t, lang }: { e: Entry; t: Dict; lang: Locale }) {
   );
 }
 
-/** Large title (home) or back link + inline title (sub-pages), with FR/EN switch keeping the same page. */
+/** "E" badge: fixed size, centred on the text line (never baseline-shifted). */
+export function Explicit() {
+  return <span className={s.explicit} role="img" aria-label="Explicit" title="Explicit">E</span>;
+}
+
+/** Large title (home) or back link + title (sub-pages), with FR/EN switch keeping the same page. */
 export function NavBar({ t, lang, path, title, back }: { t: Dict; lang: Locale; path: string; title: string; back?: { href: string; label: string } }) {
   return (
     <header className={s.nav}>
       <div className={s.navRow}>
-        {back ? <Link className={s.back} href={back.href}>‹ {back.label}</Link> : <span />}
+        {back ? <BackLink href={back.href} label={back.label} /> : <span />}
         <nav className={s.seg} aria-label="Language">
           <Link href={`/en/${path}`} aria-current={lang === "en"} hrefLang="en">EN</Link>
           <Link href={`/fr/${path}`} aria-current={lang === "fr"} hrefLang="fr">FR</Link>
         </nav>
       </div>
-      <h1 className={s.title}>{title}</h1>
+      {title && <h1 className={s.title}>{title}</h1>}
     </header>
   );
 }

@@ -10,7 +10,8 @@ on:
   # Editing anything in admin/ on github.com applies it right away
   push:
     branches: [main]
-    paths: ["admin/**", ".github/workflows/weekly-chart.yml"]
+    # admin edits, plus code changes (the bot's own data commits never trigger a run)
+    paths: ["admin/**", "collector/**/*.mjs", "web/app/**", ".github/workflows/weekly-chart.yml"]
   workflow_dispatch:
     inputs:
       dry:
