@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Search — 237 Charts</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'light-background': '#F2F2F7',
+        'light-on-background': '#000000',
+        'light-surface': '#FFFFFF',
+        'light-on-surface': '#000000',
+        'light-surface-container': '#F2F2F7',
+        'light-surface-container-high': '#E5E5EA',
+        'light-on-surface-variant': '#555558',
+        'light-outline': '#636366',
+        'light-outline-variant': '#D1D1D6',
+        'light-accent': '#B54600',
+        'light-up': '#157F35',
+        'light-down': '#C81E1E',
+        'dark-background': '#000000',
+        'dark-on-background': '#FFFFFF',
+        'dark-surface': '#1C1C1E',
+        'dark-on-surface': '#FFFFFF',
+        'dark-surface-container': '#1C1C1E',
+        'dark-surface-container-high': '#2C2C2E',
+        'dark-on-surface-variant': '#AEAEB2',
+        'dark-outline': '#636366',
+        'dark-outline-variant': '#38383A',
+        'dark-accent': '#FF8A1F',
+        'dark-up': '#30D158',
+        'dark-down': '#FF453A',
+      },
+      borderRadius: {
+        'art': '8px',
+        'list': '10px',
+        'cta': '12px',
+        'hero': '14px',
+        'full': '9999px',
+      },
+      spacing: {
+        'xs': '4px',
+        'sm': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '20px',
+        '2xl': '24px',
+        'section': '32px',
+        'row-min': '44px',
+      },
+      fontFamily: {
+        'large': ['"Inter"', 'sans-serif'],
+        'title': ['"Inter"', 'sans-serif'],
+        'headline': ['"Inter"', 'sans-serif'],
+        'body': ['"Inter"', 'sans-serif'],
+        'subhead': ['"Inter"', 'sans-serif'],
+        'footnote': ['"Inter"', 'sans-serif'],
+        'caption': ['"Inter"', 'sans-serif'],
+        'tab': ['"Inter"', 'sans-serif'],
+      },
+      fontSize: {
+        'large-title': ['34px', { lineHeight: '41px', letterSpacing: '0.37px', fontWeight: '700' }],
+        'large-title-mobile': ['30px', { lineHeight: '36px', letterSpacing: '0.25px', fontWeight: '700' }],
+        'title-2': ['22px', { lineHeight: '28px', letterSpacing: '0.35px', fontWeight: '700' }],
+        'headline': ['17px', { lineHeight: '22px', letterSpacing: '-0.41px', fontWeight: '600' }],
+        'body': ['17px', { lineHeight: '22px', letterSpacing: '-0.41px', fontWeight: '400' }],
+        'subhead': ['15px', { lineHeight: '20px', letterSpacing: '-0.24px', fontWeight: '400' }],
+        'subhead-semibold': ['15px', { lineHeight: '20px', letterSpacing: '-0.24px', fontWeight: '600' }],
+        'footnote': ['13px', { lineHeight: '18px', letterSpacing: '-0.08px', fontWeight: '400' }],
+        'footnote-semibold': ['13px', { lineHeight: '18px', letterSpacing: '-0.08px', fontWeight: '600' }],
+        'caption': ['12px', { lineHeight: '16px', letterSpacing: '0px', fontWeight: '400' }],
+        'tab-label': ['10px', { lineHeight: '12px', letterSpacing: '0.1px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'spring': '250ms',
+        'release': '200ms',
+      },
+      transitionDelay: {
+        'spring': '0ms',
+        'release': '0ms',
+      },
+      transitionTimingFunction: {
+        'spring': 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+        'release': 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    html, body { font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; }
+    .art-1 { background: linear-gradient(135deg, #FF9F43, #EE5A24); }
+    .art-2 { background: linear-gradient(135deg, #5F27CD, #341F97); }
+    .art-3 { background: linear-gradient(135deg, #10AC84, #01695A); }
+  </style>
+</head>
+<body class="bg-light-background dark:bg-dark-background text-light-on-surface dark:text-dark-on-surface font-body">
+
+  <div class="min-h-[884px] flex flex-col bg-light-background dark:bg-dark-background text-light-on-surface dark:text-dark-on-surface pb-24" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- Sticky Navigation Bar -->
+    <header class="sticky top-0 z-10 bg-light-background/80 dark:bg-dark-background/80 backdrop-blur-xl">
+      <div class="max-w-2xl mx-auto px-lg h-11 flex items-center justify-end">
+        <div class="inline-flex bg-light-surface-container-high dark:bg-dark-surface-container-high rounded-list p-0.5" role="group" aria-label="Language">
+          <button type="button" aria-pressed="true" class="font-footnote text-footnote-semibold px-md py-xs rounded-art bg-light-surface dark:bg-dark-surface text-light-on-surface dark:text-dark-on-surface shadow-sm">
+            <span data-design-text-token="footnote-semibold">EN</span>
+          </button>
+          <button type="button" aria-pressed="false" class="font-footnote text-footnote-semibold px-md py-xs rounded-art text-light-on-surface-variant dark:text-dark-on-surface-variant">
+            <span data-design-text-token="footnote-semibold">FR</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-2xl w-full mx-auto px-lg flex-1 flex flex-col">
+
+      <h1 data-design-text-token="large-title-mobile" class="font-large text-large-title-mobile md:text-large-title text-light-on-surface dark:text-dark-on-surface pt-xs mb-lg">
+        Search
+      </h1>
+
+      <!-- Search Input -->
+      <div class="relative mb-2xl">
+        <svg class="w-4 h-4 text-light-outline dark:text-dark-outline absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg>
+        <input id="search-input" type="search" oninput="filterResults(this.value)" placeholder="Songs or artists" aria-label="Search songs or artists" class="w-full h-row-min pl-10 pr-lg rounded-list bg-light-surface-container-high dark:bg-dark-surface-container-high text-light-on-surface dark:text-dark-on-surface placeholder-light-outline dark:placeholder-dark-outline border-0 font-body text-body focus:ring-2 focus:ring-light-accent dark:focus:ring-dark-accent">
+      </div>
+
+      <!-- Matching Results -->
+      <div id="results-section">
+        <div class="flex items-baseline justify-between px-lg pb-1.5">
+          <span data-design-text-token="footnote" class="font-footnote text-footnote uppercase text-light-on-surface-variant dark:text-dark-on-surface-variant">Results</span>
+        </div>
+        <ul id="search-list" class="bg-light-surface dark:bg-dark-surface rounded-list overflow-hidden mb-section divide-y divide-light-outline-variant dark:divide-dark-outline-variant">
+        </ul>
+      </div>
+
+      <!-- No Results State -->
+      <div id="empty-state" class="hidden bg-light-surface dark:bg-dark-surface rounded-list p-2xl text-center flex-col items-center gap-xs">
+        <p data-design-text-token="headline" class="font-headline text-headline text-light-on-surface dark:text-dark-on-surface">No songs or artists found</p>
+        <p data-design-text-token="subhead" class="font-subhead text-subhead text-light-on-surface-variant dark:text-dark-on-surface-variant">Try another title or verified artist name.</p>
+      </div>
+
+    </main>
+
+    <!-- Floating Bottom Tab Bar -->
+    <nav aria-label="Primary navigation" class="fixed bottom-0 inset-x-0 z-20 border-t border-light-outline-variant dark:border-dark-outline-variant bg-light-surface/75 dark:bg-dark-surface/75 backdrop-blur-xl">
+      <div class="max-w-2xl mx-auto px-lg h-14 grid grid-cols-4 items-center">
+        <a href="#charts" class="flex flex-col items-center gap-0.5 text-light-on-surface-variant dark:text-dark-on-surface-variant">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M5 20V10M10 20V4M15 20v-8M20 20v-5"></path></svg>
+          <span data-design-text-token="tab-label" class="font-tab text-tab-label">Charts</span>
+        </a>
+        <a href="#search" aria-current="page" class="flex flex-col items-center gap-0.5 text-light-accent dark:text-dark-accent">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg>
+          <span data-design-text-token="tab-label" class="font-tab text-tab-label">Search</span>
+        </a>
+        <a href="#archive" class="flex flex-col items-center gap-0.5 text-light-on-surface-variant dark:text-dark-on-surface-variant">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>
+          <span data-design-text-token="tab-label" class="font-tab text-tab-label">Archive</span>
+        </a>
+        <a href="#embed" class="flex flex-col items-center gap-0.5 text-light-on-surface-variant dark:text-dark-on-surface-variant">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="m8.5 8-4 4 4 4M15.5 8l4 4-4 4"></path></svg>
+          <span data-design-text-token="tab-label" class="font-tab text-tab-label">Embed</span>
+        </a>
+      </div>
+    </nav>
+
+  </div>
+
+  <script>
+    const items = [
+      { kind: "Song", title: "Mboko Anthem", sub: "Kora Nyambe ft. Tenzo · #1", art: "art-1" },
+      { kind: "Artist", title: "Kora Nyambe", sub: "Verified · Douala · 2 songs on chart", art: "art-1" },
+      { kind: "Song", title: "Douala Nights", sub: "Lino Essomba · #2", art: "art-2" },
+      { kind: "Song", title: "Bastos Flow", sub: "MC Ngoa · #3", art: "art-3" },
+      { kind: "Artist", title: "Lino Essomba", sub: "Verified · Makossa · 1 song on chart", art: "art-2" }
+    ];
+
+    function filterResults(q) {
+      const term = (q || "").trim().toLowerCase();
+      const matched = term ? items.filter(x => x.title.toLowerCase().includes(term) || x.sub.toLowerCase().includes(term)) : items;
+      const listEl = document.getElementById("search-list");
+      const secEl = document.getElementById("results-section");
+      const emptyEl = document.getElementById("empty-state");
+
+      if (matched.length === 0) {
+        secEl.classList.add("hidden");
+        emptyEl.classList.remove("hidden");
+        emptyEl.classList.add("flex");
+        return;
+      }
+      emptyEl.classList.add("hidden");
+      emptyEl.classList.remove("flex");
+      secEl.classList.remove("hidden");
+      listEl.innerHTML = matched.map(x => `
+        <li class="px-lg min-h-15 py-2.5 flex items-center gap-md">
+          <div class="${x.art} shrink-0 rounded-art" style="width:44px;height:44px;"></div>
+          <div class="flex-1 min-w-0">
+            <div data-design-text-token="body" class="font-body text-body text-light-on-surface dark:text-dark-on-surface truncate">${x.title}</div>
+            <div data-design-text-token="subhead" class="font-subhead text-subhead text-light-on-surface-variant dark:text-dark-on-surface-variant truncate">${x.sub}</div>
+          </div>
+          <span data-design-text-token="footnote" class="font-footnote text-footnote text-light-outline dark:text-dark-outline shrink-0">${x.kind}</span>
+        </li>
+      `).join("");
+    }
+
+    filterResults("");
+  </script>
+
+
+</body></html>

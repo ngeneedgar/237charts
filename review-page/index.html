@@ -1,0 +1,156 @@
+<title>237 Charts Artist Check</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one centered grouped list (max 720), sticky header with progress + filter. 237 Charts v2 "Quiet" tokens. */
+:root{
+  --bg:#F2F2F7; --surface:#FFFFFF; --fill:#7878801F; --label:#000000; --label2:#3C3C4399; --label3:#3C3C434D;
+  --sep:#3C3C4349; --accent:#FF7A00; --on-accent:#FFFFFF; --yes:#248A3D; --no:#D70015; --unsure:#8E6A00;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#000000; --surface:#1C1C1E; --fill:#7878803D; --label:#FFFFFF; --label2:#EBEBF599; --label3:#EBEBF54D;
+  --sep:#54545899; --accent:#FF8A1F; --on-accent:#000000; --yes:#30D158; --no:#FF453A; --unsure:#FFD60A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000000; --surface:#1C1C1E; --fill:#7878803D; --label:#FFFFFF; --label2:#EBEBF599; --label3:#EBEBF54D;
+  --sep:#54545899; --accent:#FF8A1F; --on-accent:#000000; --yes:#30D158; --no:#FF453A; --unsure:#FFD60A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--label);font:17px/22px var(--font);letter-spacing:-.41px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:720px;margin:0 auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:16px 10px;display:grid;gap:10px}
+h1{font-size:34px;line-height:41px;font-weight:700;letter-spacing:.37px;margin:0;text-wrap:balance}
+.intro{font-size:15px;line-height:20px;color:var(--label2);margin:0;max-width:62ch}
+.bar{height:6px;border-radius:3px;background:var(--fill);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s cubic-bezier(.25,.1,.25,1)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;font-size:13px;color:var(--label2)}
+.seg{display:inline-flex;background:var(--fill);border-radius:9px;padding:2px}
+.seg button{border:0;background:transparent;color:var(--label);font:600 13px var(--font);padding:6px 12px;border-radius:7px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--surface);box-shadow:0 3px 8px rgba(0,0,0,.12)}
+.status{font-size:13px;color:var(--label2)}
+.status.warn{color:var(--no)}
+ol{list-style:none;margin:8px 0 0;padding:0;background:var(--surface);border-radius:10px;overflow:hidden}
+li{display:grid;grid-template-columns:36px 1fr;gap:4px 12px;padding:12px 16px;border-top:.5px solid var(--sep)}
+li:first-child{border-top:0}
+.p{font-weight:600;font-variant-numeric:tabular-nums;color:var(--label3);font-size:15px;padding-top:2px}
+.body{min-width:0;display:grid;gap:4px}
+.name{font-weight:600;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.name a{font-weight:400;font-size:13px;color:var(--accent);text-decoration:none}
+.name a:hover{text-decoration:underline}
+.rank{font-size:13px;color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums}
+.songs{font-size:15px;line-height:20px;color:var(--label2);overflow-wrap:anywhere}
+.why{font-size:13px;line-height:18px;color:var(--label3);overflow-wrap:anywhere}
+.answers{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.answers button{min-height:36px;border:1px solid var(--sep);background:transparent;color:var(--label);border-radius:9px;
+  font:600 15px var(--font);padding:0 14px;cursor:pointer}
+.answers button:focus-visible,.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.answers button[data-v="yes"][aria-pressed="true"]{background:var(--yes);border-color:var(--yes);color:var(--surface)}
+.answers button[data-v="no"][aria-pressed="true"]{background:var(--no);border-color:var(--no);color:var(--surface)}
+.answers button[data-v="unsure"][aria-pressed="true"]{background:var(--unsure);border-color:var(--unsure);color:var(--surface)}
+.empty{padding:24px 16px;color:var(--label2);text-align:center}
+footer{font-size:13px;line-height:18px;color:var(--label3);margin-top:16px}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Is this artist Cameroonian?</h1>
+    <p class="intro">These artists chart on Shazam in Cameroon, but no free source records their nationality. Sorted by best Shazam Cameroon position, so the top of the list matters most. Each answer is saved straight away and remembered for every future chart week.</p>
+    <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+    <div class="meta">
+      <span id="count">Loading the list…</span>
+      <div class="seg" role="group" aria-label="Show">
+        <button id="f-todo" aria-pressed="true">To answer</button>
+        <button id="f-done" aria-pressed="false">Answered</button>
+        <button id="f-all" aria-pressed="false">All</button>
+      </div>
+    </div>
+    <div class="status" id="status" role="status"></div>
+  </header>
+  <ol id="list"><li class="empty" style="display:block">Loading artists…</li></ol>
+  <footer>"Not sure" keeps the artist out of the chart for now and leaves it in this list. Source: Shazam Cameroon Top 200, week of 21 Nov 2026.</footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let rows = [], answers = {}, filter = 'todo', db = null, canWrite = true;
+
+function render() {
+  const answered = rows.filter((r) => answers[r.id] && answers[r.id] !== 'unsure').length;
+  $('count').textContent = rows.length ? `${answered} of ${rows.length} answered` : 'No artists to check';
+  $('bar').style.width = rows.length ? (100 * answered / rows.length) + '%' : '0';
+  const shown = rows.filter((r) => filter === 'all' ? true : filter === 'done' ? !!answers[r.id] : !answers[r.id] || answers[r.id] === 'unsure');
+  const list = $('list');
+  list.textContent = '';
+  if (!shown.length) {
+    const li = document.createElement('li'); li.className = 'empty'; li.style.display = 'block';
+    li.textContent = filter === 'todo' ? 'All done. Every artist has an answer.' : 'Nothing here yet.';
+    list.append(li); return;
+  }
+  for (const r of shown) {
+    const li = document.createElement('li');
+    const p = document.createElement('div'); p.className = 'p'; p.textContent = r.p;
+    const b = document.createElement('div'); b.className = 'body';
+    const n = document.createElement('div'); n.className = 'name';
+    const nm = document.createElement('span'); nm.textContent = r.name;
+    const rk = document.createElement('span'); rk.className = 'rank'; rk.textContent = 'Shazam CM #' + r.rank;
+    const yt = document.createElement('a'); yt.href = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(r.name); yt.target = '_blank'; yt.rel = 'noopener'; yt.textContent = 'Search YouTube ↗';
+    n.append(nm, rk, yt);
+    const s = document.createElement('div'); s.className = 'songs'; s.textContent = r.songs.join(' · ');
+    const w = document.createElement('div'); w.className = 'why'; w.textContent = r.why.join('; ');
+    const a = document.createElement('div'); a.className = 'answers'; a.setAttribute('role', 'group'); a.setAttribute('aria-label', 'Answer for ' + r.name);
+    for (const [v, label] of [['yes', 'Yes, Cameroonian'], ['no', 'No'], ['unsure', 'Not sure']]) {
+      const btn = document.createElement('button');
+      btn.id = `a-${r.id}-${v}`; btn.dataset.v = v; btn.textContent = label;
+      btn.setAttribute('aria-pressed', answers[r.id] === v ? 'true' : 'false');
+      btn.disabled = !canWrite;
+      btn.addEventListener('click', () => answer(r, v));
+      a.append(btn);
+    }
+    b.append(n, s, w, a);
+    li.append(p, b);
+    list.append(li);
+  }
+}
+
+async function answer(r, v) {
+  if (!db) { $('status').textContent = 'Answers can\'t be saved in this view. Open the page on claude.ai while signed in.'; $('status').className = 'status warn'; return; }
+  const prev = answers[r.id];
+  answers[r.id] = v; render();
+  try {
+    await db.collection('decisions').doc(r.id).set({ name: r.name, answer: v, shazamRank: r.rank, at: new Date().toISOString() });
+    $('status').textContent = `Saved: ${r.name} → ${v === 'yes' ? 'Cameroonian' : v === 'no' ? 'not Cameroonian' : 'not sure'}`;
+    $('status').className = 'status';
+  } catch (e) {
+    answers[r.id] = prev; render();
+    if (e?.code === 'invalid_argument') { canWrite = false; render(); }
+    $('status').textContent = 'Couldn\'t save that answer. ' + (e?.code === 'invalid_argument' ? 'You have view-only access.' : 'Try again in a moment.');
+    $('status').className = 'status warn';
+  }
+}
+
+for (const [id, f] of [['f-todo', 'todo'], ['f-done', 'done'], ['f-all', 'all']]) {
+  $(id).addEventListener('click', () => {
+    filter = f;
+    for (const b of ['f-todo', 'f-done', 'f-all']) $(b).setAttribute('aria-pressed', b === id ? 'true' : 'false');
+    render();
+  });
+}
+
+(async () => {
+  try { rows = await (await fetch('candidates.json')).json(); }
+  catch { $('count').textContent = 'The artist list could not be loaded. Reload the page.'; return; }
+  render();
+  db = window.claude ? await window.claude.use('db') : null;
+  const user = window.claude ? await window.claude.use('user') : null;
+  if (user) { const w = await user.can('data.write'); if (w === false) { canWrite = false; render(); $('status').textContent = 'You can view the answers but not change them.'; } }
+  if (!db) { $('status').textContent = 'Answers can\'t be saved in this view. Open the page on claude.ai while signed in.'; $('status').className = 'status warn'; return; }
+  const timer = setTimeout(() => { $('status').textContent = 'Saved answers can\'t be reached yet. Check your connection.'; $('status').className = 'status warn'; }, 10000);
+  db.collection('decisions').onSnapshot((snap) => {
+    if (!snap.metadata.fromCache) { clearTimeout(timer); if ($('status').classList.contains('warn') && canWrite) $('status').textContent = ''; }
+    answers = {};
+    for (const d of snap.docs) answers[d.id] = d.data().answer;
+    render();
+  }, (e) => { clearTimeout(timer); $('status').textContent = 'Saved answers stopped updating. Reload to reconnect.'; $('status').className = 'status warn'; });
+})();
+</script>

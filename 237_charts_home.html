@@ -1,0 +1,599 @@
+<!DOCTYPE html><html lang="en" class="dark"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>237 Charts — Weekly Cameroon Music Charts</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'neon-orange': '#FF6B00',
+        'on-neon-orange': '#2D0E00',
+        'bold-navy': '#0C1326',
+        'chart-up': '#22C55E',
+        'chart-down': '#EF4444',
+        'chart-new': '#FF6B00',
+        'light-primary': '#A04100',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#FF6B00',
+        'light-on-primary-container': '#572000',
+        'light-secondary': '#1D4ED8',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#4069F2',
+        'light-on-secondary-container': '#FFFBFF',
+        'light-tertiary': '#0062A1',
+        'light-on-tertiary': '#FFFFFF',
+        'light-tertiary-container': '#059EFF',
+        'light-on-tertiary-container': '#003357',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#FAF8FF',
+        'light-on-background': '#141B2E',
+        'light-surface': '#FAF8FF',
+        'light-surface-dim': '#D3D9F4',
+        'light-surface-bright': '#FAF8FF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#F2F3FF',
+        'light-surface-container': '#EAEDFF',
+        'light-surface-container-high': '#E2E7FF',
+        'light-surface-container-highest': '#DBE1FD',
+        'light-on-surface': '#141B2E',
+        'light-surface-variant': '#FFDBCC',
+        'light-on-surface-variant': '#5A4136',
+        'light-outline': '#8E7164',
+        'light-outline-variant': '#E2BFB0',
+        'dark-primary': '#FFB693',
+        'dark-on-primary': '#561F00',
+        'dark-primary-container': '#FF6B00',
+        'dark-on-primary-container': '#572000',
+        'dark-secondary': '#B7C4FF',
+        'dark-on-secondary': '#002682',
+        'dark-secondary-container': '#0040CB',
+        'dark-on-secondary-container': '#B2C0FF',
+        'dark-tertiary': '#9CCAFF',
+        'dark-on-tertiary': '#003257',
+        'dark-tertiary-container': '#059EFF',
+        'dark-on-tertiary-container': '#003357',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#0C1326',
+        'dark-on-background': '#DBE1FD',
+        'dark-surface': '#0C1326',
+        'dark-surface-dim': '#0C1326',
+        'dark-surface-bright': '#32394D',
+        'dark-surface-container-lowest': '#070D20',
+        'dark-surface-container-low': '#141B2E',
+        'dark-surface-container': '#181F33',
+        'dark-surface-container-high': '#23293D',
+        'dark-surface-container-highest': '#2E3449',
+        'dark-on-surface': '#DBE1FD',
+        'dark-surface-variant': '#5A4136',
+        'dark-on-surface-variant': '#E2BFB0',
+        'dark-outline': '#A98A7D',
+        'dark-outline-variant': '#5A4136',
+      },
+      borderRadius: {
+        'sm': '4px',
+        'DEFAULT': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '12px',
+        'gutter-lg': '16px',
+        'gutter-xl': '24px',
+        'section': '32px',
+        'page-margin': '16px',
+      },
+      fontFamily: {
+        'display': ['"Red Hat Display"', 'sans-serif'],
+        'headline': ['"Red Hat Display"', 'sans-serif'],
+        'title': ['"Red Hat Display"', 'sans-serif'],
+        'body': ['"Commissioner"', 'sans-serif'],
+        'label': ['"Commissioner"', 'sans-serif'],
+        'mono': ['"Red Hat Mono"', 'monospace'],
+      },
+      fontSize: {
+        'display-lg': ['44px', { lineHeight: '48px', letterSpacing: '-0.75px', fontWeight: '800' }],
+        'display-lg-mobile': ['30px', { lineHeight: '34px', letterSpacing: '-0.5px', fontWeight: '800' }],
+        'headline-lg': ['36px', { lineHeight: '42px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'headline-lg-mobile': ['24px', { lineHeight: '28px', letterSpacing: '-0.25px', fontWeight: '700' }],
+        'headline-md': ['20px', { lineHeight: '26px', letterSpacing: '-0.15px', fontWeight: '700' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '0px', fontWeight: '700' }],
+        'body-lg': ['16px', { lineHeight: '24px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-md': ['14px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '400' }],
+        'label-lg': ['14px', { lineHeight: '20px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['11px', { lineHeight: '16px', letterSpacing: '0.4px', fontWeight: '600' }],
+        'mono-rank': ['20px', { lineHeight: '24px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'mono-sm': ['12px', { lineHeight: '16px', letterSpacing: '0px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'state-change': '100ms',
+        'surface-enter': '200ms',
+        'surface-exit': '150ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+        'surface-enter': '0ms',
+        'surface-exit': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+        'surface-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+        'surface-exit': 'cubic-bezier(0.3, 0, 1, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&amp;family=Red+Hat+Display:wght@700;800&amp;family=Red+Hat+Mono:wght@500;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
+  <style>.material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons { display: inline-block; width: 1em; height: 1em; line-height: 1 !important; box-sizing: content-box; overflow: hidden; white-space: nowrap; direction: ltr; vertical-align: middle; }</style>
+</head>
+<body class="bg-dark-surface text-dark-on-surface font-body antialiased">
+
+  <div class="min-h-[884px] flex flex-col bg-dark-surface text-dark-on-surface pb-section" data-stitch-vh="min-h-[884px]===min-h-screen">
+
+    <!-- App Header -->
+    <header class="sticky top-0 z-20 bg-dark-surface-container-lowest border-b border-dark-surface-container-highest px-page-margin py-gutter-md flex items-center justify-between gap-gutter-sm">
+      <div class="flex items-center gap-gutter-sm">
+        <div class="bg-neon-orange text-on-neon-orange font-mono text-mono-rank px-gutter-sm py-gutter-xs rounded-sm leading-none">
+          <span data-design-text-token="mono-rank">237</span>
+        </div>
+        <div class="flex flex-col">
+          <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface leading-none">CHARTS</span>
+          <span data-design-text-token="label-sm" class="font-label text-label-sm text-dark-secondary">Cameroon Weekly</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-gutter-sm">
+        <!-- Bilingual Toggle -->
+        <div class="inline-flex items-center bg-dark-surface-container-high rounded-full p-gutter-xs" role="group" aria-label="Language switch">
+          <button type="button" id="lang-en" onclick="setLang(&#39;en&#39;)" class="px-gutter-sm py-gutter-xs rounded-full bg-neon-orange text-on-neon-orange font-label text-label-sm transition-colors duration-state-change">
+            <span data-design-text-token="label-sm">EN</span>
+          </button>
+          <button type="button" id="lang-fr" onclick="setLang(&#39;fr&#39;)" class="px-gutter-sm py-gutter-xs rounded-full text-dark-on-surface font-label text-label-sm transition-colors duration-state-change">
+            <span data-design-text-token="label-sm">FR</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1 flex flex-col gap-gutter-xl px-page-margin pt-gutter-lg max-w-5xl w-full mx-auto">
+
+      <!-- Week Picker & Global Audience Banner -->
+      <section class="flex flex-col gap-gutter-sm">
+        <div class="flex items-center justify-between gap-gutter-sm">
+          <div class="flex items-center gap-gutter-xs">
+            <span data-component-id="badge-dot" data-component-type="badge" data-component-variant="dot" role="status" aria-label="Updated this Monday" class="inline-block w-2.5 h-2.5 rounded-full bg-neon-orange"></span>
+            <span id="i18n-audience" data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">Cameroonian music · Global audience</span>
+          </div>
+          <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-neon-orange tabular-nums">MON 10:00 WAT</span>
+        </div>
+
+        <div class="flex items-center justify-between gap-gutter-sm bg-dark-surface-container rounded-md p-gutter-md border border-dark-surface-container-highest">
+          <button type="button" aria-label="Previous week" class="w-9 h-9 rounded bg-dark-surface-container-high text-dark-on-surface inline-flex items-center justify-center hover:bg-dark-surface-container-highest transition-colors duration-state-change">
+            <span class="material-symbols-outlined text-headline-md" aria-hidden="true">chevron_left</span>
+          </button>
+          <div class="flex flex-col items-center">
+            <span id="i18n-week-label" data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface">Week of 16 Nov 2026</span>
+            <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-secondary tabular-nums">2026-W47 · v1.0</span>
+          </div>
+          <button type="button" aria-label="Next week" disabled class="w-9 h-9 rounded bg-dark-surface-container-low text-dark-outline inline-flex items-center justify-center opacity-50 cursor-not-allowed">
+            <span class="material-symbols-outlined text-headline-md" aria-hidden="true">chevron_right</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- No. 1 of Each Genre (Typographic Horizontal Row) -->
+      <section class="flex flex-col gap-gutter-md" aria-labelledby="genre-leaders-heading">
+        <div class="flex items-baseline justify-between gap-gutter-sm">
+          <h1 id="genre-leaders-heading" data-design-text-token="headline-lg-mobile" class="font-headline text-headline-lg-mobile md:text-headline-lg text-dark-on-surface text-balance">
+            No. 1 by Genre
+          </h1>
+          <a href="#top-10" id="i18n-see-all" data-design-text-token="label-lg" class="font-label text-label-lg text-neon-orange hover:underline">7 charts</a>
+        </div>
+
+        <div class="flex gap-gutter-md overflow-x-auto pb-gutter-xs snap-x">
+          <!-- Card 1: Afro / Afropop -->
+          <a href="#genre-afro" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-neon-orange flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-neon-orange">Afro / Afropop</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲ +2</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Mboko Anthem</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Ko-C ft. Tenor</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 6 wks</span>
+              <span class="material-symbols-outlined text-neon-orange text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+
+          <!-- Card 2: Rap / Urban -->
+          <a href="#genre-rap" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-dark-secondary-container flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">Rap / Urban</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-new tabular-nums">NEW</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Bastos Flow</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Mink&#39;s</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 1 wk</span>
+              <span class="material-symbols-outlined text-dark-secondary text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+
+          <!-- Card 3: Makossa -->
+          <a href="#genre-makossa" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-dark-secondary-container flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">Makossa</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-secondary tabular-nums">—</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Douala Nights</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Locko ft. Cysoul</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 9 wks</span>
+              <span class="material-symbols-outlined text-dark-secondary text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+
+          <!-- Card 4: Bikutsi -->
+          <a href="#genre-bikutsi" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-dark-secondary-container flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">Bikutsi</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲ +4</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Mvet Pulse</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Lady Ponce</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 3 wks</span>
+              <span class="material-symbols-outlined text-dark-secondary text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+
+          <!-- Card 5: R&B / Afro-zouk -->
+          <a href="#genre-rnb" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-dark-secondary-container flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">R&amp;B / Zouk</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲ +1</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Sanza Ya Motema</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Blanche Bailly</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 4 wks</span>
+              <span class="material-symbols-outlined text-dark-secondary text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+
+          <!-- Card 6: Gospel -->
+          <a href="#genre-gospel" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-dark-secondary-container flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">Gospel</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-secondary tabular-nums">—</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Wouri Grace</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Rinyu</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 7 wks</span>
+              <span class="material-symbols-outlined text-dark-secondary text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+
+          <!-- Card 7: Traditional & roots -->
+          <a href="#genre-trad" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="snap-start shrink-0 w-56 bg-dark-surface-container-high hover:bg-dark-surface-container-highest rounded-md p-gutter-lg border border-dark-secondary-container flex flex-col justify-between gap-gutter-md transition-colors duration-state-change">
+            <header class="flex items-center justify-between gap-gutter-xs">
+              <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-dark-secondary">Traditional</span>
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲ +3</span>
+            </header>
+            <div class="flex flex-col gap-gutter-xs">
+              <h2 data-design-text-token="headline-md" class="font-headline text-headline-md text-dark-on-surface">Nkap Assiko</h2>
+              <p data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary">Kristo Numpuby</p>
+            </div>
+            <div class="flex items-center justify-between pt-gutter-xs border-t border-dark-surface-container-highest">
+              <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-on-surface tabular-nums">#1 · 2 wks</span>
+              <span class="material-symbols-outlined text-dark-secondary text-title-md" aria-hidden="true">arrow_forward</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Overall Top 10 -->
+      <section id="top-10" class="flex flex-col gap-gutter-md" aria-labelledby="top10-heading">
+        <div class="flex items-baseline justify-between gap-gutter-sm">
+          <h2 id="top10-heading" data-design-text-token="headline-lg-mobile" class="font-headline text-headline-lg-mobile md:text-headline-lg text-dark-on-surface">
+            Overall Top 10
+          </h2>
+          <span data-design-text-token="label-sm" class="font-label text-label-sm text-dark-secondary">YouTube + Audiomack</span>
+        </div>
+
+        <div class="bg-dark-surface-container-low rounded-md border border-dark-surface-container-highest divide-y divide-dark-surface-container-highest">
+          <!-- Row 1 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-neon-orange tabular-nums">01</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲2</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Mboko Anthem</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Ko-C ft. Tenor</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Mboko Anthem" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">02</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-down tabular-nums">▼1</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Douala Nights</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Locko ft. Cysoul</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Douala Nights" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">03</span>
+                <span data-design-text-token="label-sm" class="font-label text-label-sm text-chart-new uppercase">NEW</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Bastos Flow</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Mink&#39;s</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Bastos Flow" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">04</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲3</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Sanza Ya Motema</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Blanche Bailly</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Sanza Ya Motema" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 5 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">05</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-dark-secondary tabular-nums">—</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Kribi Sunset</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Salatiel</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Kribi Sunset" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 6 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">06</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲4</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Mvet Pulse</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Lady Ponce</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Mvet Pulse" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 7 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">07</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-down tabular-nums">▼2</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Wouri Grace</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Rinyu</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Wouri Grace" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 8 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">08</span>
+                <span data-design-text-token="label-sm" class="font-label text-label-sm text-neon-orange uppercase">RE</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Ndamba Street</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Stanley Enow</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Ndamba Street" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 9 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">09</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-down tabular-nums">▼3</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Mboa Sunrise</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Charlotte Dipanda</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Mboa Sunrise" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+
+          <!-- Row 10 -->
+          <div class="px-gutter-md py-gutter-md flex items-center justify-between gap-gutter-md hover:bg-dark-surface-container transition-colors duration-state-change">
+            <div class="flex items-center gap-gutter-md min-w-0">
+              <div class="w-10 flex flex-col items-center shrink-0">
+                <span data-design-text-token="mono-rank" class="font-mono text-mono-rank text-dark-on-surface tabular-nums">10</span>
+                <span data-design-text-token="mono-sm" class="font-mono text-mono-sm text-chart-up tabular-nums">▲1</span>
+              </div>
+              <div class="flex flex-col min-w-0">
+                <span data-design-text-token="title-md" class="font-headline text-title-md text-dark-on-surface truncate">Nkap Assiko</span>
+                <span data-design-text-token="body-md" class="font-body text-body-md text-dark-secondary truncate">Kristo Numpuby</span>
+              </div>
+            </div>
+            <button data-component-id="button-icon" data-component-type="button" data-component-variant="icon" type="button" aria-label="Play Nkap Assiko" class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-dark-surface-container-high text-neon-orange hover:bg-neon-orange hover:text-on-neon-orange transition-colors duration-state-change">
+              <span class="material-symbols-outlined text-headline-md" aria-hidden="true">play_arrow</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Primary Actions: Share + Put on your site -->
+      <section class="grid grid-cols-1 sm:grid-cols-2 gap-gutter-md">
+        <button id="i18n-share-btn" data-component-id="button-with-icon" data-component-type="button" data-component-variant="with-icon" type="button" class="w-full inline-flex items-center justify-center gap-gutter-sm bg-neon-orange text-on-neon-orange font-label text-label-lg px-gutter-lg py-gutter-md rounded hover:opacity-90 active:scale-95 transition-colors duration-state-change">
+          <span class="material-symbols-outlined text-title-md" aria-hidden="true">share</span>
+          <span data-design-text-token="label-lg">Share this chart</span>
+        </button>
+
+        <button id="i18n-widget-btn" data-component-id="button-secondary" data-component-type="button" data-component-variant="secondary" type="button" class="w-full inline-flex items-center justify-center gap-gutter-sm bg-dark-surface-container-high text-dark-on-surface border border-dark-secondary-container font-label text-label-lg px-gutter-lg py-gutter-md rounded hover:bg-dark-surface-container-highest active:scale-95 transition-colors duration-state-change">
+          <span class="material-symbols-outlined text-title-md text-neon-orange" aria-hidden="true">code</span>
+          <span data-design-text-token="label-lg">Put this chart on your site</span>
+        </button>
+      </section>
+
+      <!-- Source Transparency Footer -->
+      <footer class="pt-gutter-md border-t border-dark-surface-container-highest flex flex-col gap-gutter-xs text-dark-secondary">
+        <p data-design-text-token="body-md" class="font-body text-body-md">
+          Rankings computed by code from YouTube &amp; Audiomack activity. Not affiliated with YouTube, Audiomack, or Spotify.
+        </p>
+        <div class="flex items-center gap-gutter-lg pt-gutter-xs">
+          <a href="#methodology" data-design-text-token="label-sm" class="font-label text-label-sm text-neon-orange hover:underline">Methodology v1.0</a>
+          <a href="#archive" data-design-text-token="label-sm" class="font-label text-label-sm text-dark-secondary hover:underline">Archive</a>
+          <a href="#pricing" data-design-text-token="label-sm" class="font-label text-label-sm text-dark-secondary hover:underline">Pro Widgets</a>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- Bottom App Navigation -->
+    <nav aria-label="Primary navigation" class="fixed bottom-0 inset-x-0 z-30 bg-dark-surface-container-lowest border-t border-dark-surface-container-highest px-page-margin py-gutter-sm">
+      <div class="max-w-5xl mx-auto grid grid-cols-4 gap-gutter-xs">
+        <a href="#home" class="flex flex-col items-center gap-gutter-xs text-neon-orange">
+          <span class="material-symbols-outlined text-headline-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">home</span>
+          <span data-design-text-token="label-sm" class="font-label text-label-sm">Home</span>
+        </a>
+        <a href="#genres" class="flex flex-col items-center gap-gutter-xs text-dark-secondary hover:text-dark-on-surface">
+          <span class="material-symbols-outlined text-headline-md" aria-hidden="true">leaderboard</span>
+          <span data-design-text-token="label-sm" class="font-label text-label-sm">Charts</span>
+        </a>
+        <a href="#archive" class="flex flex-col items-center gap-gutter-xs text-dark-secondary hover:text-dark-on-surface">
+          <span class="material-symbols-outlined text-headline-md" aria-hidden="true">history</span>
+          <span data-design-text-token="label-sm" class="font-label text-label-sm">Archive</span>
+        </a>
+        <a href="#widgets" class="flex flex-col items-center gap-gutter-xs text-dark-secondary hover:text-dark-on-surface">
+          <span class="material-symbols-outlined text-headline-md" aria-hidden="true">widgets</span>
+          <span data-design-text-token="label-sm" class="font-label text-label-sm">Widgets</span>
+        </a>
+      </div>
+    </nav>
+
+  </div>
+
+  <script>
+    const copy = {
+      en: {
+        audience: "Cameroonian music · Global audience",
+        week: "Week of 16 Nov 2026",
+        leaders: "No. 1 by Genre",
+        top10: "Overall Top 10",
+        share: "Share this chart",
+        widget: "Put this chart on your site"
+      },
+      fr: {
+        audience: "Musique camerounaise · Audience mondiale",
+        week: "Semaine du 16 nov. 2026",
+        leaders: "N° 1 par genre",
+        top10: "Top 10 général",
+        share: "Partager ce classement",
+        widget: "Intégrer sur votre site"
+      }
+    };
+
+    function setLang(lang) {
+      const c = copy[lang];
+      document.getElementById('i18n-audience').textContent = c.audience;
+      document.getElementById('i18n-week-label').textContent = c.week;
+      document.getElementById('genre-leaders-heading').textContent = c.leaders;
+      document.getElementById('top10-heading').textContent = c.top10;
+      document.querySelector('#i18n-share-btn span[data-design-text-token]').textContent = c.share;
+      document.querySelector('#i18n-widget-btn span[data-design-text-token]').textContent = c.widget;
+
+      const enBtn = document.getElementById('lang-en');
+      const frBtn = document.getElementById('lang-fr');
+      if (lang === 'en') {
+        enBtn.className = 'px-gutter-sm py-gutter-xs rounded-full bg-neon-orange text-on-neon-orange font-label text-label-sm transition-colors duration-state-change';
+        frBtn.className = 'px-gutter-sm py-gutter-xs rounded-full text-dark-on-surface font-label text-label-sm transition-colors duration-state-change';
+      } else {
+        frBtn.className = 'px-gutter-sm py-gutter-xs rounded-full bg-neon-orange text-on-neon-orange font-label text-label-sm transition-colors duration-state-change';
+        enBtn.className = 'px-gutter-sm py-gutter-xs rounded-full text-dark-on-surface font-label text-label-sm transition-colors duration-state-change';
+      }
+    }
+  </script>
+
+
+</body></html>

@@ -1,0 +1,10 @@
+# Secrets — never uploaded
+.env
+
+# Dependencies and build output
+node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+
+# collector/out IS committed: it is the chart's data and archive (snapshots, charts, decisions).

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>237 Charts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F2F2F7;--surface:#FFF;--fill:#7878801F;--label:#000;--label-2:#3C3C4399;--label-3:#3C3C434D;
+  --sep:#3C3C4349;--accent:#FF7A00;--up:#34C759;--down:#FF3B30;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,system-ui,sans-serif;
+  --ease:cubic-bezier(.25,.1,.25,1);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#000;--surface:#1C1C1E;--fill:#7878803D;--label:#FFF;--label-2:#EBEBF599;--label-3:#EBEBF54D;
+  --sep:#54545899;--accent:#FF8A1F;--up:#30D158;--down:#FF453A;}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--label);font:400 17px/22px var(--font);letter-spacing:-.41px;
+  -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums;padding-bottom:100px}
+.wrap{max-width:680px;margin:0 auto;padding:0 16px}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 80%,transparent);
+  backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px)}
+.nav .wrap{display:flex;justify-content:flex-end;align-items:center;height:44px}
+.seg{display:inline-flex;background:var(--fill);border-radius:9px;padding:2px}
+.seg button{font-size:13px;font-weight:600;letter-spacing:-.08px;padding:4px 12px;border-radius:7px;transition:background .25s var(--ease)}
+.seg button[aria-pressed=true]{background:var(--surface);box-shadow:0 3px 8px rgba(0,0,0,.12),0 0 0 .5px rgba(0,0,0,.04)}
+h1{font-size:34px;line-height:41px;font-weight:700;letter-spacing:.37px;padding:4px 0 2px}
+.week{display:flex;align-items:center;gap:4px;color:var(--label-2);font-size:15px;letter-spacing:-.24px;margin-bottom:24px}
+.week button{color:var(--accent);width:28px;height:28px;display:grid;place-items:center;border-radius:8px}
+.week button:active{background:var(--fill)}
+
+/* hero */
+.hero{background:var(--surface);border-radius:14px;padding:16px;display:flex;gap:16px;align-items:center;margin-bottom:32px}
+.art{flex:none;border-radius:8px;background:linear-gradient(135deg,var(--c1),var(--c2))}
+.hero .art{width:88px;height:88px}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:-.08px}
+.hero h2{font-size:22px;line-height:28px;font-weight:700;letter-spacing:.35px}
+.sub{color:var(--label-2);font-size:15px;line-height:20px;letter-spacing:-.24px}
+.meta{color:var(--label-3);font-size:13px;line-height:18px;margin-top:4px}
+.link{color:var(--accent);font-size:15px;font-weight:600;margin-top:8px;display:inline-block}
+
+/* grouped list */
+.hdr{color:var(--label-2);font-size:13px;text-transform:uppercase;padding:0 16px 6px;display:flex;justify-content:space-between}
+.hdr a{color:var(--accent);text-transform:none;text-decoration:none;font-size:15px}
+.list{background:var(--surface);border-radius:10px;overflow:hidden;margin-bottom:32px;list-style:none}
+.row{display:flex;align-items:center;gap:12px;min-height:60px;padding-left:16px;cursor:pointer;transition:background .2s var(--ease)}
+.row:active{background:var(--fill);transition:none}
+.rank{width:22px;font-weight:600;text-align:center;flex:none}
+.row .art{width:44px;height:44px}
+.body{flex:1;min-width:0;display:flex;align-items:center;gap:8px;padding:10px 16px 10px 0;align-self:stretch}
+.row+.row .body{box-shadow:inset 0 .5px 0 var(--sep)}
+.t{flex:1;min-width:0}
+.t b{font-weight:400;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.t span{display:block;color:var(--label-2);font-size:15px;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mv{font-size:13px;font-weight:600;min-width:36px;text-align:right}
+.up{color:var(--up)}.down{color:var(--down)}.new{color:var(--accent)}.same{color:var(--label-3)}
+.g{min-height:44px}.g .body{padding:11px 16px 11px 0}
+.g .t{display:flex;justify-content:space-between;gap:12px}
+.g .t span{font-size:17px;line-height:22px;color:var(--label-2)}
+.chev{color:var(--label-3);flex:none}
+
+.cta{display:block;width:100%;height:50px;border-radius:12px;background:var(--accent);color:#fff;font-weight:600;margin-bottom:12px}
+.cta2{display:block;width:100%;color:var(--accent);height:44px;margin-bottom:32px}
+.foot{color:var(--label-3);font-size:13px;line-height:18px;padding:0 16px}
+.foot a{color:var(--label-2)}
+
+/* tab bar */
+.tabs{position:fixed;bottom:0;left:0;right:0;border-top:.5px solid var(--sep);
+  background:color-mix(in srgb,var(--surface) 72%,transparent);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
+  padding-bottom:env(safe-area-inset-bottom)}
+.tabs .wrap{display:flex;justify-content:space-around;height:50px;align-items:center}
+.tabs a{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;font-weight:500;color:var(--label-2);text-decoration:none;letter-spacing:.1px}
+.tabs a[aria-current]{color:var(--accent)}
+.tabs svg{width:26px;height:26px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="nav"><div class="wrap">
+  <div class="seg" role="group" aria-label="Language">
+    <button aria-pressed="true" data-l="en">EN</button><button aria-pressed="false" data-l="fr">FR</button>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <h1 data-i="title">Charts</h1>
+  <div class="week">
+    <button aria-label="Previous week"><svg width="12" height="20" viewBox="0 0 12 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2 2 10l8 8"/></svg></button>
+    <span data-i="week">Week of 16 Nov 2026</span>
+    <button aria-label="Next week" disabled style="opacity:.3"><svg width="12" height="20" viewBox="0 0 12 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m2 2 8 8-8 8"/></svg></button>
+  </div>
+
+  <section class="hero">
+    <div class="art" style="--c1:#FF9F43;--c2:#EE5A24"></div>
+    <div>
+      <div class="eyebrow" data-i="no1">No. 1 this week</div>
+      <h2>Mboko Anthem</h2>
+      <div class="sub">Kora Nyambe ft. Tenzo</div>
+      <div class="meta" data-i="wks">6 weeks at No. 1</div>
+      <a class="link" href="#" data-i="listen">Listen</a>
+    </div>
+  </section>
+
+  <div class="hdr"><span data-i="top">Top 10</span><a href="#" data-i="all">See All</a></div>
+  <ol class="list" id="top"></ol>
+
+  <div class="hdr"><span data-i="genres">Genres</span></div>
+  <ul class="list" id="genres"></ul>
+
+  <button class="cta" data-i="share">Share Chart</button>
+  <button class="cta2" data-i="embed">Add to Your Website</button>
+
+  <p class="foot" data-i="foot">Cameroonian music, global audience. Ranked by code from YouTube and Audiomack activity, updated Mondays at 10:00 WAT. Not affiliated with YouTube, Audiomack or Spotify.</p>
+  <p class="foot" style="margin-top:8px"><a href="#">Methodology v1.0</a></p>
+</main>
+
+<nav class="tabs"><div class="wrap">
+  <a href="#" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 20V10M10 20V4M15 20v-8M20 20v-5"/></svg><span data-i="t1">Charts</span></a>
+  <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span data-i="t2">Search</span></a>
+  <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span data-i="t3">Archive</span></a>
+  <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m8.5 8-4 4 4 4M15.5 8l4 4-4 4"/></svg><span data-i="t4">Embed</span></a>
+</div></nav>
+
+<script>
+// Sample data — invented artists, for layout only.
+const top=[
+ ["Mboko Anthem","Kora Nyambe ft. Tenzo","up",2,"#FF9F43","#EE5A24"],
+ ["Douala Nights","Lino Essomba","down",1,"#5F27CD","#341F97"],
+ ["Bastos Flow","MC Ngoa","new",0,"#10AC84","#01695A"],
+ ["Sanza Ya Motema","Belle Ayuk","up",3,"#FF6B81","#C44569"],
+ ["Kribi Sunset","Sali Mbarga","same",0,"#48DBFB","#0A79DF"],
+ ["Mvet Pulse","Dame Owona","up",4,"#FECA57","#E1A100"],
+ ["Wouri Grace","Rine Tabi","down",2,"#A29BFE","#6C5CE7"],
+ ["Ndamba Street","Stan Akwa","re",0,"#576574","#222F3E"],
+ ["Mboa Sunrise","Charly Dikoum","down",3,"#FF9FF3","#B53471"],
+ ["Nkap Assiko","Kris Nouma","up",1,"#1DD1A1","#0E7C61"]];
+const genres=[["Afropop","Mboko Anthem"],["Rap","Bastos Flow"],["Makossa","Douala Nights"],["Bikutsi","Mvet Pulse"],["R&B / Zouk","Sanza Ya Motema"],["Gospel","Wouri Grace"],["Traditional","Nkap Assiko"]];
+const mv=(k,n)=>k=="up"?`<span class="mv up">▲ ${n}</span>`:k=="down"?`<span class="mv down">▼ ${n}</span>`:k=="new"?`<span class="mv new">NEW</span>`:k=="re"?`<span class="mv new">RE</span>`:`<span class="mv same">—</span>`;
+const chev=`<svg class="chev" width="8" height="13" viewBox="0 0 8 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m1.5 1.5 5 5-5 5"/></svg>`;
+document.getElementById('top').innerHTML=top.map((r,i)=>`<li class="row"><span class="rank" style="${i==0?'color:var(--accent)':''}">${i+1}</span><div class="art" style="--c1:${r[4]};--c2:${r[5]}"></div><div class="body"><div class="t"><b>${r[0]}</b><span>${r[1]}</span></div>${mv(r[2],r[3])}</div></li>`).join('');
+document.getElementById('genres').innerHTML=genres.map(g=>`<li class="row g"><div class="body"><div class="t"><b>${g[0]}</b><span>${g[1]}</span></div>${chev}</div></li>`).join('');
+
+const copy={en:{title:"Charts",week:"Week of 16 Nov 2026",no1:"No. 1 this week",wks:"6 weeks at No. 1",listen:"Listen",top:"Top 10",all:"See All",genres:"Genres",share:"Share Chart",embed:"Add to Your Website",foot:"Cameroonian music, global audience. Ranked by code from YouTube and Audiomack activity, updated Mondays at 10:00 WAT. Not affiliated with YouTube, Audiomack or Spotify.",t1:"Charts",t2:"Search",t3:"Archive",t4:"Embed"},
+ fr:{title:"Classements",week:"Semaine du 16 nov. 2026",no1:"N° 1 cette semaine",wks:"6 semaines au n° 1",listen:"Écouter",top:"Top 10",all:"Tout voir",genres:"Genres",share:"Partager",embed:"Ajouter à votre site",foot:"Musique camerounaise, audience mondiale. Classement calculé à partir de l'activité YouTube et Audiomack, mis à jour le lundi à 10 h WAT. Non affilié à YouTube, Audiomack ou Spotify.",t1:"Classements",t2:"Recherche",t3:"Archives",t4:"Intégrer"}};
+document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  const c=copy[b.dataset.l];document.documentElement.lang=b.dataset.l;
+  document.querySelectorAll('[data-i]').forEach(e=>e.textContent=c[e.dataset.i]);
+});
+</script>
+</body>
+</html>

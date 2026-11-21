@@ -1,0 +1,987 @@
+{
+  "Q141715211": {
+    "artist": "Abigail Philip",
+    "id": 50900812,
+    "name": "Abigail Philip",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115452775": {
+    "artist": "Adah Akenji",
+    "id": 13966599,
+    "name": "Adah Akenji",
+    "fans": 7,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q24341755": {
+    "artist": "Adèle Ruffine Ngono",
+    "id": 1725661,
+    "name": "Lady Ponce",
+    "fans": 19813,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q116847170": {
+    "artist": "AkuBai",
+    "id": 95628112,
+    "name": "AkuBai",
+    "fans": 14,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q110051711": {
+    "artist": "Aladji Touré",
+    "id": 5131172,
+    "name": "Aladji Toure",
+    "fans": 30,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q140192382": {
+    "artist": "Aloch 237",
+    "id": 209840837,
+    "name": "ALOCH 237",
+    "fans": 65,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q133822118": {
+    "artist": "André Manga",
+    "id": 4543918,
+    "name": "Andre Manga",
+    "fans": 157,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q2847091": {
+    "artist": "André-Marie Tala",
+    "id": 1229357,
+    "name": "André Marie Tala",
+    "fans": 733,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q4760361": {
+    "artist": "Andy Allo",
+    "id": 4103267,
+    "name": "Andy Allo",
+    "fans": 4198,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q141212991": {
+    "artist": "Andy Jemea",
+    "id": 11536791,
+    "name": "Andy Jemea",
+    "fans": 121,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q137533920": {
+    "artist": "Ange Ebogo Emérent",
+    "id": 5117404,
+    "name": "Ange Ebogo Emerent",
+    "fans": 21,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q175509": {
+    "artist": "Anne Marie Nzié",
+    "id": 153663,
+    "name": "Anne-Marie Nzié",
+    "fans": 404,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q107522274": {
+    "artist": "Armand Biyag",
+    "id": 174784787,
+    "name": "L'homme Orchestre",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q122501891": {
+    "artist": "Asaba",
+    "id": 89560522,
+    "name": "Asaba",
+    "fans": 49,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q117805141": {
+    "artist": "Aurélien Bollevis Saniko",
+    "status": "none"
+  },
+  "Q109920038": {
+    "artist": "Bachot Muna",
+    "id": 4260753,
+    "name": "Bachot Muna",
+    "fans": 18,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q64494": {
+    "artist": "Bébé Manga",
+    "id": 12486,
+    "name": "Bébé Manga",
+    "fans": 853,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q4875441": {
+    "artist": "BeBe Zahara Benet",
+    "id": 409380,
+    "name": "Bebe Zahara Benet",
+    "fans": 517,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q106777901": {
+    "artist": "Beko Sadey",
+    "id": 5103942,
+    "name": "Beko Sadey",
+    "fans": 9,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q30729469": {
+    "artist": "Belka Tobis",
+    "id": 7619784,
+    "name": "Belka Tobis",
+    "fans": 904,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q19544251": {
+    "artist": "Ben Decca",
+    "id": 1227055,
+    "name": "Ben Decca",
+    "fans": 8723,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q140763665": {
+    "artist": "Bissi Mag",
+    "id": 64976312,
+    "name": "BISSI MAG",
+    "fans": 22,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q138601560": {
+    "artist": "Bitjoka Bernard",
+    "id": 4183420,
+    "name": "Veve",
+    "fans": 32,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q54655063": {
+    "artist": "Blaise B",
+    "id": 1041283,
+    "name": "BLAISE B",
+    "fans": 98,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q64667915": {
+    "artist": "Blanche Bailly",
+    "id": 12773361,
+    "name": "Blanche Bailly",
+    "fans": 9484,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q25873680": {
+    "artist": "Blick Bassy",
+    "id": 259211,
+    "name": "Blick Bassy",
+    "fans": 18970,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q115802305": {
+    "artist": "Boy Tag",
+    "id": 64997762,
+    "name": "Boy Tag",
+    "fans": 81,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q99706269": {
+    "artist": "Brice Wassy",
+    "id": 445604,
+    "name": "Brice Wassy",
+    "fans": 404,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q136413247": {
+    "artist": "Carina Sen",
+    "id": 5285965,
+    "name": "Carina Sen",
+    "fans": 32,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q54652991": {
+    "artist": "Charles Arthur Locko",
+    "id": 200195,
+    "name": "Locko",
+    "fans": 56146,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q5085917": {
+    "artist": "Charlotte Dipanda",
+    "id": 1243003,
+    "name": "Charlotte Dipanda",
+    "fans": 39780,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q50801147": {
+    "artist": "Charlotte Mbango",
+    "id": 1221316,
+    "name": "Charlotte Mbango",
+    "fans": 2513,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q115852533": {
+    "artist": "Claudia Dikosso",
+    "id": 10880382,
+    "name": "Claudia Dikosso",
+    "fans": 16,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q27062952": {
+    "artist": "Coco Argentée",
+    "id": 9748664,
+    "name": "Coco Argentée",
+    "fans": 7149,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q115452649": {
+    "artist": "Cysoul",
+    "id": 51167232,
+    "name": "Cysoul",
+    "fans": 7176,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q47371377": {
+    "artist": "Daphne",
+    "id": 5506602,
+    "name": "Daphné",
+    "fans": 9284,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q109816323": {
+    "artist": "Darina Victry",
+    "id": 85191712,
+    "name": "Darina Victry",
+    "fans": 2352,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q125844067": {
+    "artist": "Dashor",
+    "id": 68274122,
+    "name": "Dashor",
+    "fans": 36,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q116303783": {
+    "artist": "Dave K. Moktoï",
+    "id": 213513597,
+    "name": "Dave K. Moktoï",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q135446840": {
+    "artist": "Diese Mbangue",
+    "id": 72389112,
+    "name": "Dièse Mbangue",
+    "fans": 24,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q112112989": {
+    "artist": "Dina Bell",
+    "id": 1380092,
+    "name": "Dina Bell",
+    "fans": 5076,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q115715274": {
+    "artist": "Djene Djento",
+    "id": 7102939,
+    "name": "Djene Djento",
+    "fans": 190,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q1242004": {
+    "artist": "Donny Elwood",
+    "id": 1453570,
+    "name": "Donny Elwood",
+    "fans": 241,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q27063005": {
+    "artist": "Dora Decca",
+    "id": 1243672,
+    "name": "Dora Decca",
+    "fans": 474,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3037333": {
+    "artist": "Dosseh",
+    "id": 158083,
+    "name": "Dosseh",
+    "fans": 1121081,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q107451358": {
+    "artist": "Duprie",
+    "id": 131751762,
+    "name": "Damen des Rundfunkchors Berlin",
+    "fans": 2,
+    "similarity": 0.25,
+    "confidence": 0.21,
+    "status": "none"
+  },
+  "Q140945528": {
+    "artist": "Dynastie Le Tigre",
+    "id": 5901025,
+    "name": "Dynastie le tigre",
+    "fans": 4814,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q16745003": {
+    "artist": "Ebanda Manfred",
+    "id": 4703047,
+    "name": "Ebanda Manfred",
+    "fans": 12,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q1279965": {
+    "artist": "Eboa Lotin",
+    "id": 1315977,
+    "name": "Eboa Lotin",
+    "fans": 3338,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q17350562": {
+    "artist": "Ekambi Brillant",
+    "id": 4508277,
+    "name": "Ekambi Brillant",
+    "fans": 1106,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q48774004": {
+    "artist": "Eko Roosevelt",
+    "id": 5178285,
+    "name": "Eko Roosevelt",
+    "fans": 3300,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q125845494": {
+    "artist": "Enjr",
+    "id": 132344952,
+    "name": "Enjr",
+    "fans": 21,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q107085283": {
+    "artist": "Eric TaxMan",
+    "id": 65418022,
+    "name": "Eric Taxman",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3592261": {
+    "artist": "Étienne Mbappé",
+    "id": 109692,
+    "name": "Etienne Mbappe",
+    "fans": 4479,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q1790048": {
+    "artist": "Etoundi Onambélé",
+    "id": 5291357,
+    "name": "Krotal",
+    "fans": 264,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q529942": {
+    "artist": "Francis Bebey",
+    "id": 376157,
+    "name": "Francis Bebey",
+    "fans": 4989,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q20676012": {
+    "artist": "Franck Biyong",
+    "id": 275116,
+    "name": "Franck Biyong",
+    "fans": 156,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q108039414": {
+    "artist": "François Nkotti",
+    "id": 1380312,
+    "name": "Nkotti François",
+    "fans": 191,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q24578963": {
+    "artist": "Franko",
+    "id": 439931,
+    "name": "Franko",
+    "fans": 19488,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q115128809": {
+    "artist": "Fulbert Feudjio Fokoua",
+    "id": 1410927,
+    "name": "Full Of Hell",
+    "fans": 5723,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "Q133242468": {
+    "artist": "Garcia Landry Belinga",
+    "id": 68172372,
+    "name": "G-Brux",
+    "fans": 14,
+    "similarity": 0.5,
+    "confidence": 0.42,
+    "status": "none"
+  },
+  "Q115612456": {
+    "artist": "Happy d'Efoulan",
+    "id": 14155767,
+    "name": "Happy.",
+    "fans": 78,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q1605812": {
+    "artist": "Henri Dikongué",
+    "id": 55336,
+    "name": "Henri Dikongue",
+    "fans": 5445,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q109653690": {
+    "artist": "Indira",
+    "id": 289128,
+    "name": "Indira",
+    "fans": 1484,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q439028": {
+    "artist": "Irma",
+    "id": 264933,
+    "name": "Irma",
+    "fans": 169820,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q131436249": {
+    "artist": "Jack Djeyim",
+    "id": 545141,
+    "name": "Jack Djeyim",
+    "fans": 51,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q140841663": {
+    "artist": "Joe Lington",
+    "id": 1624186,
+    "name": "Joe Lington",
+    "fans": 1159,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q21294756": {
+    "artist": "Joe Mboule",
+    "id": 5131160,
+    "name": "Joe Mboule",
+    "fans": 30,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q94326699": {
+    "artist": "John Sallé",
+    "id": 1233070,
+    "name": "Salle John",
+    "fans": 330,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q138619461": {
+    "artist": "Joyce Sa'a",
+    "id": 202227117,
+    "name": "Joys Sa'a",
+    "fans": 10,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q111470436": {
+    "artist": "Kocee",
+    "id": 5356611,
+    "name": "Kocee",
+    "fans": 1341,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q115773779": {
+    "artist": "Lab’l",
+    "id": 10253756,
+    "name": "Lab'l",
+    "fans": 377,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115790718": {
+    "artist": "Libianca",
+    "id": 70757872,
+    "name": "Libianca",
+    "fans": 25111,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q47472775": {
+    "artist": "Locko",
+    "id": 200195,
+    "name": "Locko",
+    "fans": 56146,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q30728231": {
+    "artist": "Lydol",
+    "id": 12816977,
+    "name": "Lydol",
+    "fans": 940,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q18351472": {
+    "artist": "Magasco",
+    "id": 5812261,
+    "name": "Magasco",
+    "fans": 14436,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q27062995": {
+    "artist": "Mani Bella",
+    "id": 7441728,
+    "name": "Mani Bella",
+    "fans": 4045,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q445829": {
+    "artist": "Manu Dibango",
+    "id": 4929,
+    "name": "Manu Dibango",
+    "fans": 69372,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q107491845": {
+    "artist": "Mimie",
+    "id": 10153532,
+    "name": "Mimie",
+    "fans": 6782,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q27062890": {
+    "artist": "Ndom’a Deccah Grace",
+    "id": 12682,
+    "name": "Grace Decca",
+    "fans": 9098,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q112113310": {
+    "artist": "Nono Flavy",
+    "id": 126896,
+    "name": "Nono Flavy",
+    "fans": 18,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115868701": {
+    "artist": "Penda Dallé",
+    "id": 1380314,
+    "name": "Penda Dalle",
+    "fans": 316,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115612717": {
+    "artist": "Petit Bozard",
+    "id": 74068802,
+    "name": "Petit Bozard",
+    "fans": 813,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q2079842": {
+    "artist": "Petit-Pays",
+    "id": 209218,
+    "name": "Petit pays",
+    "fans": 11903,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q3389313": {
+    "artist": "Pit Baccardi",
+    "id": 5224,
+    "name": "Pit Baccardi",
+    "fans": 32328,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q133862305": {
+    "artist": "Prince Aimé",
+    "id": 7413640,
+    "name": "Prince Aimé",
+    "fans": 299,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q1893336": {
+    "artist": "Prince Nico Mbarga",
+    "id": 1453568,
+    "name": "Prince Nico Mbarga",
+    "fans": 1063,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q138030984": {
+    "artist": "Prisca Benita",
+    "id": 5164124,
+    "name": "Prisca Benita",
+    "fans": 233,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q28006763": {
+    "artist": "Reniss",
+    "id": 7163620,
+    "name": "Reniss",
+    "fans": 2688,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q25679": {
+    "artist": "Richard Bona",
+    "id": 13921,
+    "name": "Richard Bona",
+    "fans": 51365,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q115790591": {
+    "artist": "Rinyu",
+    "id": 73012012,
+    "name": "Rinyu",
+    "fans": 737,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q117325000": {
+    "artist": "Sabrina",
+    "id": 153683832,
+    "name": "Sabrina",
+    "fans": 50778,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q3471935": {
+    "artist": "Sandra Nkaké",
+    "id": 146961,
+    "name": "Sandra Nkaké",
+    "fans": 17585,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q115452740": {
+    "artist": "Seppo",
+    "id": 2018211,
+    "name": "Seppo",
+    "fans": 187,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q136486889": {
+    "artist": "Shura",
+    "id": 304572,
+    "name": "Shura",
+    "fans": 20678,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q44737083": {
+    "artist": "Slim Marion",
+    "id": 1035310,
+    "name": "SLIM MARION",
+    "fans": 86,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q125844214": {
+    "artist": "Styfler 90",
+    "id": 95406422,
+    "name": "Styfler 90",
+    "fans": 38,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q112537827": {
+    "artist": "Tagne",
+    "id": 14235001,
+    "name": "Tagne",
+    "fans": 160223,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q117319374": {
+    "artist": "Taty Eyong",
+    "id": 13620495,
+    "name": "Taty Eyong",
+    "fans": 113,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q30117947": {
+    "artist": "Tony Sunboy",
+    "id": 13078713,
+    "name": "Tony Sunboy",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115627805": {
+    "artist": "Ulanda",
+    "id": 57134202,
+    "name": "Ulanda",
+    "fans": 28,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q138603502": {
+    "artist": "Vadisco",
+    "id": 2276,
+    "name": "Vasco Rossi",
+    "fans": 487722,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "Q30596023": {
+    "artist": "Vagabon",
+    "id": 401410,
+    "name": "VAGABON",
+    "fans": 3095,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q122830057": {
+    "artist": "Valérie Ekoume",
+    "id": 5273289,
+    "name": "Valérie Ekoumé",
+    "fans": 182,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q109814231": {
+    "artist": "Vernyuy Tina",
+    "id": 391272,
+    "name": "Música",
+    "fans": 9998,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q349703": {
+    "artist": "Wes",
+    "id": 6745,
+    "name": "Wes",
+    "fans": 15644,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q123574342": {
+    "artist": "Yamê",
+    "id": 107030802,
+    "name": "Yamê",
+    "fans": 145763,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q221908": {
+    "artist": "Yannick Noah",
+    "id": 1801,
+    "name": "Yannick Noah",
+    "fans": 174281,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q141660468": {
+    "artist": "Yesu Yeni",
+    "id": 418763932,
+    "name": "YESU YENI",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q130530315": {
+    "artist": "Zenobia Germoh",
+    "id": 61541262,
+    "name": "Zenobia Germoh",
+    "fans": 3,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  }
+}
