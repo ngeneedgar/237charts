@@ -983,5 +983,198 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q16980116": {
+    "artist": "Jovi",
+    "id": 584589,
+    "name": "Jovi",
+    "fans": 6213,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "X-franck-ngouma": {
+    "artist": "Franck Ngouma",
+    "id": 213706727,
+    "name": "Franck Ngouma",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-vanity-fair": {
+    "artist": "VANITY FAIR",
+    "id": 61670,
+    "name": "Vanity Fair",
+    "fans": 814,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "X-la-melo-du-quartier": {
+    "artist": "la mélo du quartier",
+    "id": 330198601,
+    "name": "la mélo du quartier",
+    "fans": 82,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-la-santinelle": {
+    "artist": "La Santinelle",
+    "id": 357099092,
+    "name": "La Santinelle",
+    "fans": 18,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-tabaski": {
+    "artist": "Tabaski",
+    "id": 1643963,
+    "name": "Tabasko",
+    "fans": 4051,
+    "similarity": 0,
+    "confidence": 0.1,
+    "status": "none"
+  },
+  "X-sopeka-diamant": {
+    "artist": "SOPEKA DIAMANT",
+    "id": 295393831,
+    "name": "SOPEKA DIAMANT",
+    "fans": 17,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-ikardi-le-monument": {
+    "artist": "Ikardi Le Monument",
+    "id": 340569521,
+    "name": "Ikardi Le Monument",
+    "fans": 7,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q124152431": {
+    "artist": "Vanister Enama",
+    "id": 178585307,
+    "name": "VANISTER ENAMA",
+    "fans": 308,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-kratos-le-dieu-de-la-guerre": {
+    "artist": "Kratos le Dieu de la guerre",
+    "id": 294414541,
+    "name": "Kratos le Dieu de la guerre",
+    "fans": 108,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-petit-axel": {
+    "artist": "Petit Axel",
+    "id": 239948831,
+    "name": "Petit Axel",
+    "fans": 15,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-tim-storm": {
+    "artist": "Tim Storm",
+    "id": 1077012,
+    "name": "Tim Storm",
+    "fans": 61,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-les-frangins-pongo": {
+    "artist": "LES FRANGINS PONGO",
+    "status": "none"
+  },
+  "X-sokeb-beatz": {
+    "artist": "Sokeb Beatz",
+    "id": 258972232,
+    "name": "Sokeb Beatz",
+    "fans": 13,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-le-duo-magique": {
+    "artist": "LE DUO MAGIQUE",
+    "id": 376879281,
+    "name": "LE DUO MAGIQUE",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-ewolo-minga": {
+    "artist": "EWOLO MINGA",
+    "id": 420170342,
+    "name": "EWOLO MINGA",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-koutchoua-mbada": {
+    "artist": "Koutchoua Mbada",
+    "id": 15176085,
+    "name": "Koutchoua Mbada",
+    "fans": 42,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-petit-pays-rabbi": {
+    "artist": "Petit Pays Rabbi",
+    "id": 4679026,
+    "name": "Petit Pays Rabbi",
+    "fans": 1145,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "X-tsimi-toro": {
+    "artist": "Tsimi Toro",
+    "id": 12103618,
+    "name": "Tsimi Toro",
+    "fans": 126,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-elang-city": {
+    "artist": "Elang City",
+    "id": 274732401,
+    "name": "Elang City",
+    "fans": 188,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-dj-free-boy-l-arrangeur": {
+    "artist": "Dj Free Boy l'arrangeur",
+    "id": 350896982,
+    "name": "Dj Free Boy l'arrangeur",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-maahlox": {
+    "artist": "Maahlox",
+    "id": 9728016,
+    "name": "Maahlox",
+    "fans": 236,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }
