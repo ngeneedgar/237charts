@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-21T18:36:26.681Z",
+  "takenAt": "2026-11-21T19:30:00.384Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -84,12 +84,12 @@
     "Q112112989": {
       "deezerId": 1380092,
       "name": "Dina Bell",
-      "fans": 5076
+      "fans": 5077
     },
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121106
+      "fans": 1121108
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -99,7 +99,7 @@
     "Q1279965": {
       "deezerId": 1315977,
       "name": "Eboa Lotin",
-      "fans": 3338
+      "fans": 3339
     },
     "Q17350562": {
       "deezerId": 4508277,
@@ -139,7 +139,7 @@
     "Q439028": {
       "deezerId": 264933,
       "name": "Irma",
-      "fans": 169823
+      "fans": 169824
     },
     "Q140841663": {
       "deezerId": 1624186,
@@ -179,7 +179,7 @@
     "Q445829": {
       "deezerId": 4929,
       "name": "Manu Dibango",
-      "fans": 69373
+      "fans": 69374
     },
     "Q107491845": {
       "deezerId": 10153532,
@@ -189,7 +189,7 @@
     "Q27062890": {
       "deezerId": 12682,
       "name": "Grace Decca",
-      "fans": 9098
+      "fans": 9099
     },
     "Q115612717": {
       "deezerId": 74068802,
@@ -204,7 +204,7 @@
     "Q3389313": {
       "deezerId": 5224,
       "name": "Pit Baccardi",
-      "fans": 32330
+      "fans": 32331
     },
     "Q1893336": {
       "deezerId": 1453568,
@@ -234,7 +234,7 @@
     "Q3471935": {
       "deezerId": 146961,
       "name": "Sandra Nkaké",
-      "fans": 17585
+      "fans": 17586
     },
     "Q136486889": {
       "deezerId": 304572,
@@ -264,7 +264,7 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145784
+      "fans": 145786
     },
     "Q221908": {
       "deezerId": 1801,
@@ -2993,7 +2993,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "El Paralitico",
-      "rank": 179945,
+      "rank": 210029,
       "albumId": 75284522,
       "link": "https://www.deezer.com/track/566383752"
     },
@@ -6801,7 +6801,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "I Like You Very Much",
-      "rank": 33402,
+      "rank": 170276,
       "albumId": 682514451,
       "link": "https://www.deezer.com/track/3137478381"
     },

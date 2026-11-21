@@ -2307,18 +2307,18 @@
       "Hoigen Ekwalla"
     ],
     "best": {
-      "channelId": "UCz-y_sBsEn166JPAwC430PQ",
-      "title": "Eugène ekwalla Mpouli",
+      "channelId": "UCkMmCGRCNEpEiQIEk7nB1Fg",
+      "title": "Hoïgen Ekwalla - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 6050,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2403,18 +2403,18 @@
       "Thérèse Judith Kingue"
     ],
     "best": {
-      "channelId": "UCsCOrxlY369VHK_gAy0M5EA",
-      "title": "Isis Kingue Officiel ",
-      "country": "FR",
-      "subscribers": 27,
+      "channelId": "UCwxVw2rOLBOznYokxwxUAPA",
+      "title": "Isis Kingue - Topic",
+      "country": null,
+      "subscribers": 1250,
       "similarity": 1,
-      "confidence": 0.8
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
