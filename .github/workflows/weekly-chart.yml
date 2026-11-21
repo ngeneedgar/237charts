@@ -45,7 +45,8 @@ jobs:
       - name: Run the week
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # The secret was saved as CLOUDFLARE_API_TOKE (typo); accept either name
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN || secrets.CLOUDFLARE_API_TOKE }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           SITE_URL: ${{ vars.SITE_URL || 'https://237charts.pages.dev' }}
         # Output is also saved to collector/out/last-run.log (committed below) so failures are readable by anyone
