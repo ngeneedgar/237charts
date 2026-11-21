@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-21T18:22:44.349Z",
+  "takenAt": "2026-11-21T18:33:03.858Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121105
+      "fans": 1121106
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -264,7 +264,7 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145781
+      "fans": 145784
     },
     "Q221908": {
       "deezerId": 1801,
@@ -285,6 +285,11 @@
       "deezerId": 4679026,
       "name": "Petit Pays Rabbi",
       "fans": 1145
+    },
+    "Q41672675": {
+      "deezerId": 176889,
+      "name": "David K",
+      "fans": 1919
     }
   },
   "tracks": {
@@ -1344,6 +1349,30 @@
       "albumId": 7040331,
       "link": "https://www.deezer.com/track/71644226"
     },
+    "74859905": {
+      "wikidata": "Q41672675",
+      "artist": "David K",
+      "title": "Open Eyes",
+      "rank": 70465,
+      "albumId": 7399819,
+      "link": "https://www.deezer.com/track/74859905"
+    },
+    "78483930": {
+      "wikidata": "Q41672675",
+      "artist": "David K",
+      "title": "Mas Que Nada (feat. Rolando Faria)",
+      "rank": 372014,
+      "albumId": 7806018,
+      "link": "https://www.deezer.com/track/78483930"
+    },
+    "78511855": {
+      "wikidata": "Q41672675",
+      "artist": "David K",
+      "title": "Meet You (Thomas Lizzara Remix)",
+      "rank": 397754,
+      "albumId": 7809443,
+      "link": "https://www.deezer.com/track/78511855"
+    },
     "78754760": {
       "wikidata": "Q439028",
       "artist": "Irma",
@@ -2087,6 +2116,14 @@
       "rank": 72726,
       "albumId": 13525933,
       "link": "https://www.deezer.com/track/128093411"
+    },
+    "132827214": {
+      "wikidata": "Q41672675",
+      "artist": "David K",
+      "title": "2 Nite",
+      "rank": 42287,
+      "albumId": 14125054,
+      "link": "https://www.deezer.com/track/132827214"
     },
     "134678420": {
       "wikidata": "Q2079842",

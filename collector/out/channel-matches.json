@@ -2181,7 +2181,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -5352,17 +5352,20 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-vanity-fair": {
     "name": "VANITY FAIR",
     "aliases": [],
     "best": null,
-    "method": "handle",
+    "method": null,
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
     "triedSearch": false,
+    "triedSongSearch": false,
     "blocked": [
       "UCIsbLox_y9dCIMLd8tdC6qg"
     ]
@@ -5375,7 +5378,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-la-santinelle": {
     "name": "La Santinelle",
@@ -5409,7 +5414,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-sopeka-diamant": {
     "name": "SOPEKA DIAMANT",
@@ -5419,7 +5426,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-ikardi-le-monument": {
     "name": "Ikardi Le Monument",
@@ -5446,7 +5455,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-petit-axel": {
     "name": "Petit Axel",
@@ -5463,7 +5474,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-tim-storm": {
     "name": "Tim Storm",
@@ -5473,7 +5486,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-les-frangins-pongo": {
     "name": "LES FRANGINS PONGO",
@@ -5483,7 +5498,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-sokeb-beatz": {
     "name": "Sokeb Beatz",
@@ -5493,7 +5510,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-le-duo-magique": {
     "name": "LE DUO MAGIQUE",
@@ -5510,7 +5529,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-ewolo-minga": {
     "name": "EWOLO MINGA",
@@ -5520,7 +5541,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-koutchoua-mbada": {
     "name": "Koutchoua Mbada",
@@ -5530,7 +5553,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-c-urde-de-noel": {
     "name": "Cœurde de Noël",
@@ -5550,7 +5575,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-tsimi-toro": {
     "name": "Tsimi Toro",
@@ -5567,7 +5594,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-elang-city": {
     "name": "Elang City",
@@ -5577,7 +5606,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-dj-free-boy-l-arrangeur": {
     "name": "Dj Free Boy l'arrangeur",
@@ -5587,7 +5618,9 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
   },
   "X-ishaku": {
     "name": "Ishaku",

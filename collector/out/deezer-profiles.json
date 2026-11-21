@@ -1176,5 +1176,59 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q114896222": {
+    "artist": "Carine Nina Mongoue Kamtchuwe",
+    "id": 77770,
+    "name": "Camilo Sesto",
+    "fans": 483037,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "Q88863974": {
+    "artist": "Claude Ndam",
+    "id": 8933214,
+    "name": "Claude Ndam",
+    "fans": 46,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q41672675": {
+    "artist": "David K",
+    "id": 176889,
+    "name": "David K",
+    "fans": 1919,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q3026502": {
+    "artist": "Diboué Black",
+    "id": 1366674,
+    "name": "Diboué Black",
+    "fans": 9,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115819893": {
+    "artist": "Fhish",
+    "id": 48120762,
+    "name": "FHISH",
+    "fans": 277,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-ishaku": {
+    "artist": "Ishaku",
+    "id": 158700,
+    "name": "Illya Kuryaki And The Valderramas",
+    "fans": 32477,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
   }
 }
