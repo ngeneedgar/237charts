@@ -2192,18 +2192,18 @@
       "Toto Guillaume"
     ],
     "best": {
-      "channelId": "UCfafUn22z_jWydJtaaW08BQ",
-      "title": "Toguy",
+      "channelId": "UCQvlAmxBrSw39ueXweOyy0w",
+      "title": "Toguy - Topic",
       "country": null,
-      "subscribers": 12,
+      "subscribers": 17,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2218,11 +2218,11 @@
       "similarity": 1,
       "confidence": 0.7
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

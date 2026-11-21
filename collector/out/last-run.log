@@ -1,22 +1,22 @@
 
-[18:32:26] 1/7 Collect sources
+[18:35:46] 1/7 Collect sources
 $ node collector/collect-shazam.mjs
 Shazam Cameroon: 200 entries (Saturday, 21 November 2026 [performance over the past 7 days]) → collector/out/snapshots/shazam-cm-2026-11-21.json
-New candidate artists from Shazam Cameroon (→ review): 177
+New candidate artists from Shazam Cameroon (→ review): 157
 $ node collector/collect-deezer.mjs
 Deezer profiles → auto: 58 · review: 71 · none: 9
 Tracks recorded: 1041 → collector/out/snapshots/deezer-2026-11-21.json
 $ node collector/collect-youtube.mjs
-Channels: 117 · eligible videos: 879 (skipped 1028 shorts, 64 non-music)
+Channels: 118 · eligible videos: 889 (skipped 1028 shorts, 64 non-music)
 Saved → collector/out/snapshots/youtube-2026-11-21.json
-Quota used: 180 / 10,000
+Quota used: 181 / 10,000
 $ node collector/collect-audiomack.mjs
 No Audiomack key yet → skipping. Add AUDIOMACK_CONSUMER_KEY and AUDIOMACK_CONSUMER_SECRET to .env
 
-[18:33:28] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
+[18:36:54] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
 $ node collector/discover-collabs.mjs
-Seed channels: 117 · new candidate artists: 105 · with 2+ collaborators: 1
-Quota used: 120 / 10,000
+Seed channels: 118 · new candidate artists: 110 · with 2+ collaborators: 2
+Quota used: 121 / 10,000
 $ node collector/classify-candidates.mjs
 Shazam NG…
 Shazam CI…
@@ -26,80 +26,253 @@ Shazam GH…
 Shazam ZA…
 Shazam US…
 Review queue (charting in Cameroon, by priority): 7 → collector/out/review-queue.csv
-Candidates: 280 → accept: 21 · review: 97 · reject: 162
+Candidates: 265 → accept: 2 · review: 101 · reject: 162
 $ node collector/match-channels.mjs 25
 Search stopped: YouTube search 429: Quota exceeded for quota metric 'Search Queries' and limit '… (resumes next run)
-Checked now: 173 · found via MusicBrainz: 0 · @handle: 0 · search: 0
-Totals → auto-accept: 78 · review: 44 · no match: 178 · still to search: 136
-Quota used: 200 / 10,000
+Checked now: 157 · found via MusicBrainz: 0 · @handle: 0 · search: 2
+Totals → auto-accept: 78 · review: 44 · no match: 178 · still to search: 116
+Quota used: 302 / 10,000
 $ node collector/tag-genres.mjs
 Team genre for "Shey Lontum": artist not in roster — skipped
-Artists with a genre: 86 of 335
-Makossa: 33 · Bikutsi: 14 · Mbolé: 11 · Njang: 2 · Afrobeats & Afropop: 19 · Hip Hop & Dancehall: 5 · Mboko: 2
+Team genre for "VANITY FAIR": artist not in roster — skipped
+Team genre for "la mélo du quartier": artist not in roster — skipped
+Team genre for "La Santinelle": artist not in roster — skipped
+Team genre for "Tabaski": artist not in roster — skipped
+Team genre for "SOPEKA DIAMANT": artist not in roster — skipped
+Team genre for "Ikardi Le Monument": artist not in roster — skipped
+Team genre for "Vanister Enama": artist not in roster — skipped
+Team genre for "Petit Axel": artist not in roster — skipped
+Team genre for "LES FRANGINS PONGO": artist not in roster — skipped
+Team genre for "Franck Ngouma": artist not in roster — skipped
+Team genre for "Sokeb Beatz": artist not in roster — skipped
+Team genre for "LE DUO MAGIQUE": artist not in roster — skipped
+Team genre for "EWOLO MINGA": artist not in roster — skipped
+Team genre for "Koutchoua Mbada": artist not in roster — skipped
+Artists with a genre: 72 of 316
+Makossa: 31 · Bikutsi: 12 · Mbolé: 4 · Njang: 1 · Afrobeats & Afropop: 18 · Hip Hop & Dancehall: 5 · Mboko: 1
 
-[18:33:54] 3/7 Build chart, then complete song data until stable
+[18:37:20] 3/7 Build chart, then complete song data until stable
 $ node collector/build-week.mjs
 Only 1 snapshot(s). Run collect-youtube.mjs again in 7 days to build the first chart.
 Looked up 0 new songs (0 matched on Deezer).
 Coverage (120 songs on all charts): official artwork 72 · YouTube thumbnail only 41 · nothing 7
 
-[18:33:54] 4/7 Tests
-$ node --test collector/test/
+[18:37:20] 4/7 Tests
+$ node --test collector/test/scoring.test.mjs collector/test/songs.test.mjs
 TAP version 13
-# node:internal/modules/cjs/loader:1433
-#   throw err;
-#   ^
-# Error: Cannot find module '/home/runner/work/237charts/237charts/collector/test'
-#     at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
-#     at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
-#     at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
-#     at Function._load (node:internal/modules/cjs/loader:1216:25)
-#     at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
-#     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
-#     at node:internal/main/run_main_module:36:49 {
-#   code: 'MODULE_NOT_FOUND',
-#   requireStack: []
-# }
-# Node.js v22.23.5
-# Subtest: collector/test
-not ok 1 - collector/test
+# Subtest: viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
+ok 1 - viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
   ---
-  duration_ms: 24.802843
+  duration_ms: 2.648427
   type: 'test'
-  location: '/home/runner/work/237charts/237charts/collector/test:1:1'
-  failureType: 'testCodeFailure'
-  exitCode: 1
-  signal: ~
-  error: 'test failed'
-  code: 'ERR_TEST_FAILURE'
   ...
-1..1
-# tests 1
+# Subtest: history carried week to week: peak keeps the best, weeks accumulate
+ok 2 - history carried week to week: peak keeps the best, weeks accumulate
+  ---
+  duration_ms: 0.705613
+  type: 'test'
+  ...
+# Subtest: genres: from titles and Wikidata, most specific wins
+ok 3 - genres: from titles and Wikidata, most specific wins
+  ---
+  duration_ms: 0.562533
+  type: 'test'
+  ...
+# Subtest: weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
+ok 4 - weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
+  ---
+  duration_ms: 0.265746
+  type: 'test'
+  ...
+# Subtest: with Audiomack data the weights become 40/25/20/15
+ok 5 - with Audiomack data the weights become 40/25/20/15
+  ---
+  duration_ms: 0.267352
+  type: 'test'
+  ...
+# Subtest: missing source one week → remaining weights rescale to 100%
+ok 6 - missing source one week → remaining weights rescale to 100%
+  ---
+  duration_ms: 0.259389
+  type: 'test'
+  ...
+# Subtest: Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
+ok 7 - Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
+  ---
+  duration_ms: 0.149976
+  type: 'test'
+  ...
+# Subtest: songs older than 104 weeks are ineligible and do not dilute shares
+ok 8 - songs older than 104 weeks are ineligible and do not dilute shares
+  ---
+  duration_ms: 0.225456
+  type: 'test'
+  ...
+# Subtest: anomaly: spike > 5× median is capped at 3× and flagged
+ok 9 - anomaly: spike > 5× median is capped at 3× and flagged
+  ---
+  duration_ms: 0.371545
+  type: 'test'
+  ...
+# Subtest: ranking: LW, peak, weeks, movement NEW / RE / up / down
+ok 10 - ranking: LW, peak, weeks, movement NEW / RE / up / down
+  ---
+  duration_ms: 0.476751
+  type: 'test'
+  ...
+# Subtest: genre chart only includes that genre; chart size caps entries
+ok 11 - genre chart only includes that genre; chart size caps entries
+  ---
+  duration_ms: 0.562775
+  type: 'test'
+  ...
+# Subtest: recurrent songs (> 52 weeks) drop off Overall below rank 25
+ok 12 - recurrent songs (> 52 weeks) drop off Overall below rank 25
+  ---
+  duration_ms: 1.178182
+  type: 'test'
+  ...
+# Subtest: songTitle strips artist prefix, version tags and features
+ok 13 - songTitle strips artist prefix, version tags and features
+  ---
+  duration_ms: 1.831976
+  type: 'test'
+  ...
+# Subtest: versions of one song merge; different songs stay apart
+ok 14 - versions of one song merge; different songs stay apart
+  ---
+  duration_ms: 0.742152
+  type: 'test'
+  ...
+# Subtest: stage name is used for display and stripped from titles
+ok 15 - stage name is used for display and stripped from titles
+  ---
+  duration_ms: 0.42739
+  type: 'test'
+  ...
+# Subtest: same title by different artists does not merge
+ok 16 - same title by different artists does not merge
+  ---
+  duration_ms: 0.223668
+  type: 'test'
+  ...
+1..16
+# tests 16
 # suites 0
-# pass 0
-# fail 1
+# pass 16
+# fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 30.735691
+# duration_ms 67.879738
+
+[18:37:21] 5/7 Export for the website
+$ node collector/export-web.mjs
+Exported Top 50 (50) + genre charts (Makossa 20, Bikutsi 20, Mbolé 20, Njang 11, Afrobeats & Afropop 20, Hip Hop & Dancehall 20, Mboko 5) from chart-preview.json (PREVIEW)
+Real charts so far: none (site stays in preview)
+
+[18:37:21] 6/7 Build website
+$ npx next build
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 24ms
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.9s
+  Running TypeScript ...
+  Finished TypeScript in 2.8s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/364) ...
+  Generating static pages using 3 workers (91/364) 
+  Generating static pages using 3 workers (182/364) 
+  Generating static pages using 3 workers (273/364) 
+✓ Generating static pages using 3 workers (364/364) in 2.9s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├   /[lang]
+│ ├ ● /fr
+│ └ ● /en
+├   /[lang]/archive
+│ ├ ● /fr/archive
+│ └ ● /en/archive
+├   /[lang]/artist/[slug]
+│ ├ ● /fr/artist/les-frangins-pongo
+│ ├ ● /fr/artist/grace-decca
+│ ├ ● /fr/artist/franck-ngouma
+│ └ ● [+69 more paths]
+├   /[lang]/artists
+│ ├ ● /fr/artists
+│ └ ● /en/artists
+├   /[lang]/embed
+│ ├ ● /fr/embed
+│ └ ● /en/embed
+├   /[lang]/genre/[slug]
+│ ├ ● /fr/genre/makossa
+│ ├ ● /fr/genre/bikutsi
+│ ├ ● /fr/genre/mbole
+│ └ ● [+11 more paths]
+├   /[lang]/methodology
+│ ├ ● /fr/methodology
+│ └ ● /en/methodology
+├   /[lang]/search
+│ ├ ● /fr/search
+│ └ ● /en/search
+├   /[lang]/song/[slug]
+│ ├ ● /fr/song/les-frangins-pongo-la-nouvelle-danse-des-frangins-feat-consty-edem-s-olive-mben
+│ ├ ● /fr/song/grace-decca-johnny
+│ ├ ● /fr/song/franck-ngouma-mane-ma-nkag
+│ └ ● [+237 more paths]
+├   /[lang]/top-50
+│ ├ ● /fr/top-50
+│ └ ● /en/top-50
+├   /[lang]/viral
+│ ├ ● /fr/viral
+│ └ ● /en/viral
+├   /[lang]/widget/[chart]
+│ ├ ● /fr/widget/top-50
+│ ├ ● /fr/widget/makossa
+│ ├ ● /fr/widget/bikutsi
+│ └ ● [+13 more paths]
+├ ○ /manifest.webmanifest
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+
+[18:37:31] 7/7 Deploy to Cloudflare Pages
+$ npx --yes wrangler@3 pages deploy out --project-name 237charts --branch main --commit-dirty=true
+npm warn deprecated rollup-plugin-inject@3.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
+npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mIn a non-interactive environment, it's necessary to set a CLOUDFLARE_API_TOKEN environment variable for wrangler to work. Please go to https://developers.cloudflare.com/fundamentals/api/get-started/create-token/ for instructions on how to create an api token, and assign its value to CLOUDFLARE_API_TOKEN.[0m
+
+
+🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-11-21_18-37-40_356.log"
 node:internal/errors:983
   const err = new Error(message);
               ^
 
-Error: Command failed: node --test collector/test/
+Error: Command failed: npx --yes wrangler@3 pages deploy out --project-name 237charts --branch main --commit-dirty=true
     at genericNodeError (node:internal/errors:983:15)
     at wrappedFn (node:internal/errors:537:14)
     at checkExecSyncError (node:child_process:916:11)
     at execSync (node:child_process:988:15)
     at run (file:///home/runner/work/237charts/237charts/collector/run-week.mjs:12:60)
-    at file:///home/runner/work/237charts/237charts/collector/run-week.mjs:38:1
-    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
-    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+    at file:///home/runner/work/237charts/237charts/collector/run-week.mjs:54:3 {
   status: 1,
   signal: null,
   output: [ null, null, null ],
-  pid: 2450,
+  pid: 2752,
   stdout: null,
   stderr: null
 }
