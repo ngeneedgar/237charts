@@ -36,7 +36,7 @@ export default async function Widget({ params }: PageProps<"/[lang]/widget/[char
   const rootId = "w237";
   return (
     <div id={rootId} className={w.w} data-theme="light">
-      <style>{`#${rootId}[data-theme="dark"]{${"--bg:#1C1C1E;--label:#FFFFFF;--label2:#EBEBF599;--label3:#EBEBF54D;--sep:#54545899;--fill:#7878803D;--accent:#FF8A1F;--up:#30D158;--down:#FF453A;color-scheme:dark"}} body{margin:0;background:transparent}`}</style>
+      <style>{`#${rootId}[data-theme="dark"]{${"--bg:#10261A;--label:#F2FBF5;--label2:#DCEFE3A6;--label3:#DCEFE361;--sep:#DCEFE330;--fill:#D6F5E31F;--accent:#7BC98A;--up:#5EE08F;--down:#FF6B6B;color-scheme:dark"}} body{margin:0;background:transparent}`}</style>
       <div className={w.head}>
         <h1 className={w.title}>{c.title}</h1>
         <span className={w.week}>{t.weekOf} {weekLabel(getChart().weekEnd, lang)}</span>

@@ -1,8 +1,8 @@
 /* Embeddable widget: sits inside other sites' iframes. Explicit theme classes (the host page decides, not the OS). */
-.w { --bg: #FFFFFF; --label: #000000; --label2: #3C3C4399; --label3: #3C3C434D; --sep: #3C3C4349; --fill: #7878801F; --accent: #FF7A00; --up: #248A3D; --down: #D70015;
+.w { --bg: #FFFFFF; --label: #0B2016; --label2: #0B2016A3; --label3: #0B201661; --sep: #0B201638; --fill: #0F2A1C1A; --accent: #24783F; --up: #1E9E5A; --down: #E5484D;
   background: var(--bg); color: var(--label); font: 15px/20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
   min-height: 100vh; display: flex; flex-direction: column; letter-spacing: -0.2px; }
-.dark { --bg: #1C1C1E; --label: #FFFFFF; --label2: #EBEBF599; --label3: #EBEBF54D; --sep: #54545899; --fill: #7878803D; --accent: #FF8A1F; --up: #30D158; --down: #FF453A; color-scheme: dark; }
+.dark { --bg: #10261A; --label: #F2FBF5; --label2: #DCEFE3A6; --label3: #DCEFE361; --sep: #DCEFE330; --fill: #D6F5E31F; --accent: #7BC98A; --up: #5EE08F; --down: #FF6B6B; color-scheme: dark; }
 .head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 12px 14px 8px; }
 .title { font-weight: 700; font-size: 17px; line-height: 22px; margin: 0; }
 .week { font-size: 12px; color: var(--label2); white-space: nowrap; }

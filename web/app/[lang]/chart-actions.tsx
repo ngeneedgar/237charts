@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import s from "./home.module.css";
 
 export type Week = { id: string; label: string; href: string; current: boolean };
-type Sheet = null | "weeks" | "info";
+type Sheet = null | "weeks" | "info" | "share";
 
 /** Chart action bar (under the page title): 📅 choose week · ℹ about this chart · ⤴ share.
  *  Calendar and info open a bottom sheet; share uses the phone's share menu, or copies the link. */
@@ -14,7 +14,7 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
   info: { title: string; paragraphs: string[] };
   methodologyHref: string;
   shareTitle: string;
-  labels: { weeks: string; info: string; share: string; close: string; methodology: string; copied: string; copyFail: string; onlyWeek: string; current: string };
+  labels: { weeks: string; info: string; share: string; close: string; methodology: string; copied: string; copyFail: string; onlyWeek: string; current: string; copyLink: string };
 }) {
   const [sheet, setSheet] = useState<Sheet>(null);
   const [toast, setToast] = useState("");
@@ -28,17 +28,34 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
   }, [sheet]);
   useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(""), 2500); return () => clearTimeout(t); }, [toast]);
 
+  // Share: the device's own share menu (iPhone, Android, Windows, Mac — it already has "Copy link").
+  // Only where a browser has none do we show our own share sheet.
   async function share() {
     const url = window.location.href;
-    try {
-      if (navigator.share) { await navigator.share({ title: shareTitle, url }); return; }
-      await navigator.clipboard.writeText(url);
-      setToast(labels.copied);
-    } catch (e) {
-      if ((e as Error)?.name === "AbortError") return; // viewer closed the share menu
-      setToast(labels.copyFail);
+    if (typeof navigator.share === "function") {
+      try { await navigator.share({ title: shareTitle, text: shareTitle, url }); return; }
+      catch (e) { if ((e as Error)?.name === "AbortError") return; /* other errors → our sheet */ }
     }
+    setSheet("share");
   }
+
+  async function copyLink() {
+    try { await navigator.clipboard.writeText(window.location.href); setToast(labels.copied); }
+    catch { setToast(labels.copyFail); }
+    setSheet(null);
+  }
+
+  const shareTargets = () => {
+    const u = encodeURIComponent(typeof window === "undefined" ? "" : window.location.href);
+    const t = encodeURIComponent(shareTitle);
+    return [
+      { name: "WhatsApp", bg: "#25D366", mark: "W", href: `https://wa.me/?text=${t}%20${u}` },
+      { name: "Facebook", bg: "#1877F2", mark: "f", href: `https://www.facebook.com/sharer/sharer.php?u=${u}` },
+      { name: "X", bg: "#000000", mark: "X", href: `https://x.com/intent/post?text=${t}&url=${u}` },
+      { name: "Telegram", bg: "#229ED9", mark: "T", href: `https://t.me/share/url?url=${u}&text=${t}` },
+      { name: "E-mail", bg: "#6B7280", mark: "@", href: `mailto:?subject=${t}&body=${u}` },
+    ];
+  };
 
   const icon = (d: React.ReactNode) => (
     <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{d}</svg>
@@ -63,7 +80,7 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
         <div className={s.sheetInner}>
           <div className={s.sheetHead}>
             <span className={s.sheetGrab} aria-hidden="true" />
-            <h2 className={s.sheetTitle}>{sheet === "weeks" ? labels.weeks : info.title}</h2>
+            <h2 className={s.sheetTitle}>{sheet === "weeks" ? labels.weeks : sheet === "share" ? labels.share : info.title}</h2>
             <button type="button" className={s.sheetClose} onClick={() => setSheet(null)}>{labels.close}</button>
           </div>
 
@@ -81,6 +98,23 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
               </ul>
               {weeks.length < 2 && <p className={s.note}>{labels.onlyWeek}</p>}
             </>
+          )}
+
+          {sheet === "share" && (
+            <div className={s.shareGrid}>
+              {shareTargets().map((x) => (
+                <a key={x.name} className={s.shareItem} href={x.href} target="_blank" rel="noopener" onClick={() => setSheet(null)}>
+                  <span className={s.shareIcon} style={{ background: x.bg }} aria-hidden="true">{x.mark}</span>
+                  {x.name}
+                </a>
+              ))}
+              <button type="button" className={s.shareItem} onClick={copyLink}>
+                <span className={s.shareIcon} style={{ background: "var(--fill)", color: "var(--label)" }} aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1" /><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1" /></svg>
+                </span>
+                {labels.copyLink}
+              </button>
+            </div>
           )}
 
           {sheet === "info" && (

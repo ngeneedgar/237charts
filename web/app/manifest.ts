@@ -10,8 +10,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Le classement hebdomadaire de la musique camerounaise · Cameroon's weekly music chart",
     start_url: "/fr/",
     display: "standalone",
-    background_color: "#F2F2F7",
-    theme_color: "#FF7A00",
+    background_color: "#07170F",
+    theme_color: "#24783F",
     icons: [
       { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
       { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },

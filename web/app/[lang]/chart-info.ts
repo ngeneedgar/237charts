@@ -10,14 +10,14 @@ const L = {
     weeks: "Choisir la semaine", info: "À propos de ce classement", share: "Partager", close: "OK",
     methodology: "Méthodologie complète", copied: "Lien copié", copyFail: "Impossible de partager. Copiez l'adresse de la page.",
     onlyWeek: "Les semaines précédentes apparaîtront ici dès le premier classement officiel (lundi 30 novembre 2026).",
-    current: "Cette semaine",
+    current: "Cette semaine", copyLink: "Copier le lien",
     sources: "Calculé chaque semaine à partir des vues YouTube (50 %), de la position dans le Top 200 Shazam Cameroun (25 %) et de la popularité Deezer (25 %). Artistes camerounais uniquement, chaînes officielles uniquement.",
   },
   en: {
     weeks: "Choose week", info: "About this chart", share: "Share", close: "Done",
     methodology: "Full methodology", copied: "Link copied", copyFail: "Couldn't share. Copy the page address instead.",
     onlyWeek: "Earlier weeks will appear here from the first official chart (Monday 30 November 2026).",
-    current: "This week",
+    current: "This week", copyLink: "Copy link",
     sources: "Calculated every week from YouTube views (50%), position in Shazam's Cameroon Top 200 (25%) and Deezer popularity (25%). Cameroonian artists only, official channels only.",
   },
 };
@@ -62,6 +62,6 @@ export function chartActionsProps(lang: Locale, kind: Kind, path: string) {
 
   return {
     weeks, info: { title, paragraphs }, methodologyHref: `/${lang}/methodology/`, shareTitle,
-    labels: { weeks: l.weeks, info: l.info, share: l.share, close: l.close, methodology: l.methodology, copied: l.copied, copyFail: l.copyFail, onlyWeek: l.onlyWeek, current: l.current },
+    labels: { weeks: l.weeks, info: l.info, share: l.share, close: l.close, methodology: l.methodology, copied: l.copied, copyFail: l.copyFail, onlyWeek: l.onlyWeek, current: l.current, copyLink: l.copyLink },
   };
 }

@@ -1,15 +1,18 @@
-/* 237 Charts — design system v2 "Quiet". Eleven color tokens, system type, light + dark. */
+/* 237 Charts — design system v2 "Quiet", GREEN theme (2026-11-22):
+   main colour = dark green (replaces black), accent = light forest green. Light + dark. */
 :root {
-  --bg: #F2F2F7;
+  --bg: #EEF4F0;          /* pale green-grey page */
   --surface: #FFFFFF;
-  --fill: #7878801F;
-  --label: #000000;
-  --label-2: #3C3C4399;
-  --label-3: #3C3C434D;
-  --separator: #3C3C4349;
-  --accent: #FF7A00;
-  --up: #34C759;
-  --down: #FF3B30;
+  --fill: #0620121A;      /* dark green, 10% */
+  --label: #062012;       /* darker dark green — was black (15.4:1 on page) */
+  --label-2: #062012A3;
+  --label-3: #06201261;
+  --separator: #06201238;
+  --accent: #6FC285;      /* light forest green: buttons, highlights, fills */
+  --accent-text: #1F6E39; /* same green, deep enough for small text & icons on light (5.6:1) */
+  --on-accent: #062012;   /* text on light-green buttons (8:1) */
+  --up: #1E9E5A;
+  --down: #E5484D;
   --new: var(--accent);
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", Roboto, system-ui, sans-serif;
   --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -21,14 +24,14 @@
 /* Dark: when the device says so (unless the visitor chose Light in Settings), or when they chose Dark */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #000000; --surface: #1C1C1E; --fill: #7878803D; --label: #FFFFFF; --label-2: #EBEBF599;
-    --label-3: #EBEBF54D; --separator: #54545899; --accent: #FF8A1F; --up: #30D158; --down: #FF453A;
+    --bg: #03100A; --surface: #0A1E13; --fill: #D6F5E31F; --label: #F2FBF5; --label-2: #DCEFE3A6;
+    --label-3: #DCEFE361; --separator: #DCEFE330; --accent: #A6E3B3; --accent-text: #A6E3B3; --on-accent: #03100A; --up: #5EE08F; --down: #FF6B6B;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #000000; --surface: #1C1C1E; --fill: #7878803D; --label: #FFFFFF; --label-2: #EBEBF599;
-  --label-3: #EBEBF54D; --separator: #54545899; --accent: #FF8A1F; --up: #30D158; --down: #FF453A;
+  --bg: #03100A; --surface: #0A1E13; --fill: #D6F5E31F; --label: #F2FBF5; --label-2: #DCEFE3A6;
+  --label-3: #DCEFE361; --separator: #DCEFE330; --accent: #A6E3B3; --accent-text: #A6E3B3; --on-accent: #03100A; --up: #5EE08F; --down: #FF6B6B;
   color-scheme: dark;
 }
 
@@ -53,7 +56,7 @@ body {
   letter-spacing: -0.41px;
   -webkit-font-smoothing: antialiased;
 }
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--accent-text); text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 .num { font-variant-numeric: tabular-nums; }
