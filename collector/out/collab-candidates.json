@@ -3,13 +3,18 @@
     "name": "CYSOULOfficiel",
     "collaborators": [
       "Darina Victry",
+      "Tenor",
       "Fulbert Feudjio Fokoua"
     ],
-    "confidence": 0.8,
+    "confidence": 0.85,
     "videos": [
       {
         "title": "Darina Victry - Follow you feat. @CYSOULOfficiel  (Audio officiel) #VieThree",
         "videoId": "GrT1RE-6G4c"
+      },
+      {
+        "title": "TENOR - S'aimer Bien Feat @CYSOULOfficiel & @blackystarofficiel2068",
+        "videoId": "uLjhfmNPYyg"
       },
       {
         "title": "FUL ft @CYSOULOfficiel & @TheYembaOff  - SANTÉ",
@@ -18,32 +23,56 @@
     ]
   },
   {
-    "name": "LADY PONCE",
+    "name": "Ishaku",
     "collaborators": [
-      "Cysoul"
+      "Jovi",
+      "Reniss"
     ],
-    "confidence": 0.7,
+    "confidence": 0.8,
     "videos": [
       {
-        "title": "CYSOUL - KIDNAPPE FEAT LADY PONCE (CLIP OFFICIEL)",
-        "videoId": "UGXkHexwvPo"
+        "title": "Jovi Ft Ishaku - CA SERRE [ Prod by Le Monstre ]",
+        "videoId": "w6k3tPcI0aE"
       },
       {
-        "title": "CYSOUL - Kidnappé feat Lady Ponce (Lyrics Video)",
-        "videoId": "zStnzH26sbg"
+        "title": "Reniss - Paddy Man feat. Ishaku",
+        "videoId": "_ieXPinukm8"
       }
     ]
   },
   {
-    "name": "Hen's Ebol'am HD Directed by MouphassA",
+    "name": "Lucky +2",
     "collaborators": [
-      "Cysoul"
+      "DJ Lexus",
+      "Petit Bozard"
     ],
-    "confidence": 0.7,
+    "confidence": 0.8,
     "videos": [
       {
-        "title": "Cysoul ft Hen's Ebol'am HD Directed by MouphassA",
-        "videoId": "02ee1h4IY3c"
+        "title": "DJ Lexus Le Monstre - Ca vient du kwatta feat Lucky +2 ( E.P Triomphe)",
+        "videoId": "FpaapxD36c0"
+      },
+      {
+        "title": "Petit Bozard - Chanter c'est prier deux fois Ft. LUCKY +2 (Clip officiel)",
+        "videoId": "tPWSyogTWfE"
+      }
+    ]
+  },
+  {
+    "name": "Salatiel",
+    "collaborators": [
+      "Dynastie Le Tigre",
+      "Stéphane Akam"
+    ],
+    "confidence": 0.8,
+    "videos": [
+      {
+        "title": "Dynastie le tigre feat Salatiel",
+        "videoId": "G59uNYO97h0"
+      },
+      {
+        "title": "Stéphane Akam ft Salatiel - Che Woue (remix)",
+        "videoId": "ioKBZcYQfJ8"
       }
     ]
   },
@@ -100,19 +129,6 @@
     ]
   },
   {
-    "name": "TATA",
-    "collaborators": [
-      "Jovi"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Jovi Ft TATA - MBOKO NOSTALGIA [ Prod by Le Monstre ]",
-        "videoId": "VC1KB2NmpO8"
-      }
-    ]
-  },
-  {
     "name": "Tabu Ley Rochereau",
     "collaborators": [
       "Jovi"
@@ -152,6 +168,939 @@
     ]
   },
   {
+    "name": "Collectif mbolé 237",
+    "collaborators": [
+      "DJ Lexus"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ Lexus Le Monstre - Dieu dedans feat Collectif mbolé 237 ( E.P Triomphe)",
+        "videoId": "6uv9UAT_HK4"
+      }
+    ]
+  },
+  {
+    "name": "Prince Djapazor",
+    "collaborators": [
+      "DJ Lexus"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ Lexus Le Monstre - Le mbolé feat Prince Djapazor ( E.P Triomphe)",
+        "videoId": "kDk087sbAs8"
+      }
+    ]
+  },
+  {
+    "name": "Kibrom Birhane",
+    "collaborators": [
+      "Nkono Teles"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dexter Story - Fiat (feat. Kibrom Birhane) OUT NOW 🔊🖤 #newmusic #jazz #spiritualjazz",
+        "videoId": "Iahq-PJVUmY"
+      },
+      {
+        "title": "Dexter Story - Fiat (feat. Kibrom Birhane) (Official Visualiser)",
+        "videoId": "qWPC-qMyHyM"
+      }
+    ]
+  },
+  {
+    "name": "Sudan Archives",
+    "collaborators": [
+      "Nkono Teles"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dexter Story - Mama (feat. Sudan Archives and Kamasi Washington) (Official Audio)",
+        "videoId": "a_wnogRrjq4"
+      }
+    ]
+  },
+  {
+    "name": "Kamasi Washington",
+    "collaborators": [
+      "Nkono Teles"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dexter Story - Mama (feat. Sudan Archives and Kamasi Washington) (Official Audio)",
+        "videoId": "a_wnogRrjq4"
+      }
+    ]
+  },
+  {
+    "name": "Conjunto Media Luna",
+    "collaborators": [
+      "Nkono Teles"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Rizomagic’s new single ‘Plutarco (Ft. Conjunto Media Luna)’ is out now 🔥#music #newsingle #cumbia",
+        "videoId": "9o6zqlwrm90"
+      },
+      {
+        "title": "Rizomagic - Plutarco (ft. Conjunto Media Luna) (Official Visualiser)",
+        "videoId": "FyNwb8z2vik"
+      }
+    ]
+  },
+  {
+    "name": "IMILO LeChanceux",
+    "collaborators": [
+      "Dynastie Le Tigre"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dynastie Le Tigre 🇨🇲 feat 🇧🇫 IMILO LeChanceux - On est vacciné Clip Officiel",
+        "videoId": "184v4VsFnPA"
+      }
+    ]
+  },
+  {
+    "name": "5StarWave _ CHRONICLES The Cypher vol 1",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJPENTY x ASKIA ft 5StarWave _ CHRONICLES  The Cypher vol 1 (official video ) PortSheehanFilms",
+        "videoId": "Ltm1c8Nd8WY"
+      }
+    ]
+  },
+  {
+    "name": "Vegah",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia Karin  LEVELS Ft Vegah (Otantik Films) produced by Vegah",
+        "videoId": "h9nfobPVj18"
+      }
+    ]
+  },
+  {
+    "name": "DRAAAG Prod by DJ PENTY.",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "ASKIA KARIN - BAHAT MENDEM EP1 FT DRAAAG Prod by DJ PENTY.",
+        "videoId": "5_etvwbEAXQ"
+      }
+    ]
+  },
+  {
+    "name": "Mamiso",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia ft Mamiso - 2 MAMi",
+        "videoId": "lqPbTJyoyN8"
+      }
+    ]
+  },
+  {
+    "name": "Dyonce",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia  ft Dyonce, Chindo - BAG (S1 episode 7)",
+        "videoId": "tLXVztyf_eQ"
+      }
+    ]
+  },
+  {
+    "name": "Chindo",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia  ft Dyonce, Chindo - BAG (S1 episode 7)",
+        "videoId": "tLXVztyf_eQ"
+      }
+    ]
+  },
+  {
+    "name": "Ewube",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia ft Ewube - BAG ( S1 EPISODE 6 )",
+        "videoId": "I4pGveQNv0M"
+      }
+    ]
+  },
+  {
+    "name": "Keezy",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia ft Keezy - BAG (S1 Episode 5 )",
+        "videoId": "ZObDLLjX_qs"
+      }
+    ]
+  },
+  {
+    "name": "L'or",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "ASKIA ft L'or  - BAG ( S1 episode 4 )",
+        "videoId": "Q3W8nL5pH_E"
+      }
+    ]
+  },
+  {
+    "name": "Yung meagan",
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Askia ft Yung meagan -  BAG ( season 1 episode 3 )",
+        "videoId": "EFDQK8meRIo"
+      }
+    ]
+  },
+  {
+    "name": "Claye Edou EVINA",
+    "collaborators": [
+      "Kamille Abongo"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Pascal Mefo'o feat Claye Edou \"EVINA\"",
+        "videoId": "J9sb0_s3cZM"
+      }
+    ]
+  },
+  {
+    "name": "Lady Fi",
+    "collaborators": [
+      "Joe Lington"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Joe Lington-Move your body Feat Lady Fi  & Otaku Black ( audio File with Guitar  )",
+        "videoId": "i0vEmh0Q4JE"
+      },
+      {
+        "title": "Joe Lington - Move your body (official Video ) Feat Lady Fi & Otaku Black",
+        "videoId": "gP6KFSefACs"
+      }
+    ]
+  },
+  {
+    "name": "Otaku Black",
+    "collaborators": [
+      "Joe Lington"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Joe Lington-Move your body Feat Lady Fi  & Otaku Black ( audio File with Guitar  )",
+        "videoId": "i0vEmh0Q4JE"
+      },
+      {
+        "title": "Joe Lington - Move your body (official Video ) Feat Lady Fi & Otaku Black",
+        "videoId": "gP6KFSefACs"
+      }
+    ]
+  },
+  {
+    "name": "Kinshasa Orchestra",
+    "collaborators": [
+      "Irma"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Irma - Moon River (feat. Kinshasa Orchestra) [Official Video]",
+        "videoId": "ta13M0Jdd8A"
+      }
+    ]
+  },
+  {
+    "name": "Voice2gether",
+    "collaborators": [
+      "Irma"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "IRMA - House of Cards (Ft. Voice2gether)",
+        "videoId": "JBTFCZyKiNk"
+      },
+      {
+        "title": "House of Cards (under the rain) Ft. Voice2gether #houseofcards #irma #irmamusic #acoustic #gospel",
+        "videoId": "aE9jcT9ibIM"
+      }
+    ]
+  },
+  {
+    "name": "M'lynn",
+    "collaborators": [
+      "Muriel Blanche"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Muriel blanche feat M'lynn - Laissér tomber",
+        "videoId": "1AA8wKHvx1Q"
+      }
+    ]
+  },
+  {
+    "name": "PHIL.B",
+    "collaborators": [
+      "Garcia Landry Belinga"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "G Brax Official  FEAT PHIL.B  - JALOUSIE ( audio officiel )",
+        "videoId": "Y-arlY-xzls"
+      }
+    ]
+  },
+  {
+    "name": "Maxxy Dready",
+    "collaborators": [
+      "Garcia Landry Belinga"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "G brax - S.O.S Ft. Maxxy Dready - Dex Willy ( Official Lyric Video )",
+        "videoId": "oFzLTvVMPmw"
+      }
+    ]
+  },
+  {
+    "name": "TENOR Abena",
+    "collaborators": [
+      "Garcia Landry Belinga"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "G Brax feat TENOR  \"Abena\"",
+        "videoId": "a4-o2iPKQjI"
+      }
+    ]
+  },
+  {
+    "name": "Quarteto Do Rio",
+    "collaborators": [
+      "Adango salicia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Adango ft Quarteto Do Rio",
+        "videoId": "4_go-QqXdFw"
+      }
+    ]
+  },
+  {
+    "name": "Adango-Addicted",
+    "collaborators": [
+      "Adango salicia"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Lionel Loueke ft Adango-\"Addicted\" (Lionel Loueke Masterclass)",
+        "videoId": "3Jqd5WTrn1k"
+      }
+    ]
+  },
+  {
+    "name": "Skelly banks",
+    "collaborators": [
+      "Missy BK"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Missy Bk - ADDICTED  (AUDIO) ft. Skelly banks",
+        "videoId": "konesf1CpnI"
+      }
+    ]
+  },
+  {
+    "name": "Ish Mevs",
+    "collaborators": [
+      "Missy BK"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Missy Bk - Ndolo ft. Ish Mevs",
+        "videoId": "Zb6CpeTr1UQ"
+      }
+    ]
+  },
+  {
+    "name": "Zitalight",
+    "collaborators": [
+      "Atangche Zita Ngeche"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "@Akubai_Higher ft @Zitalightofficial @elsienericeofficielle4814 @pak-maille8486 #dance #afro",
+        "videoId": "XOshmYQjxTA"
+      }
+    ]
+  },
+  {
+    "name": "Sunny",
+    "collaborators": [
+      "Atangche Zita Ngeche"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Zita Light_Baba XII ft Sunny Clip_Dir by Akuchu Pictures_Prod_@GodemmaDeBeatDoctor",
+        "videoId": "mnRaAq4QTgk"
+      }
+    ]
+  },
+  {
+    "name": "Ketia Anzouer",
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Phillbill | Réparateur ft Ketia Anzouer",
+        "videoId": "zSXERgdu4jo"
+      }
+    ]
+  },
+  {
+    "name": "Mic Monsta",
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Phillbill | FACTURE ft Mic Monsta",
+        "videoId": "o5nEOJ1_2tQ"
+      }
+    ]
+  },
+  {
+    "name": "Roseline Layo",
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Phillbill | Sawalé ft Roseline Layo",
+        "videoId": "1yOccRKE2Lw"
+      }
+    ]
+  },
+  {
+    "name": "Lil Jay Bingerack",
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "PhillBill MÊME SI TU PARS feat Lil Jay Bingerack & Krys M (Official Video)",
+        "videoId": "7EoiLZwvHE0"
+      }
+    ]
+  },
+  {
+    "name": "liljaybingerack",
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Join the the TikTok Trend Ft @liljaybingerack & @krysm4403",
+        "videoId": "YpFNTdTCF68"
+      }
+    ]
+  },
+  {
+    "name": "krysm4403",
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Join the the TikTok Trend Ft @liljaybingerack & @krysm4403",
+        "videoId": "YpFNTdTCF68"
+      }
+    ]
+  },
+  {
+    "name": "Tonton Boudor",
+    "collaborators": [
+      "Boudor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "WEA LOBA. FOLIE DE JEUNESSE feat Tonton Boudor",
+        "videoId": "HiyinObptdc"
+      },
+      {
+        "title": "SHADAYE . LA GO ANDROIDE  feat TONTON BOUDOR ET MUUTU.Official video Joint By Boté Malonguè 2016",
+        "videoId": "XcluvA24g2Q"
+      }
+    ]
+  },
+  {
+    "name": "Thomas Sankara : Noirosankarisme",
+    "collaborators": [
+      "Boudor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Tonton Boudor feat Thomas Sankara : Noirosankarisme",
+        "videoId": "sggApmwOoy0"
+      }
+    ]
+  },
+  {
+    "name": "MUUTU.",
+    "collaborators": [
+      "Boudor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "SHADAYE . LA GO ANDROIDE  feat TONTON BOUDOR ET MUUTU.Official video Joint By Boté Malonguè 2016",
+        "videoId": "XcluvA24g2Q"
+      }
+    ]
+  },
+  {
+    "name": "BASHIRU",
+    "collaborators": [
+      "Ahri Yell Nkembe Pesauk"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "AHRI YELL MBAMBAMBE(Remix)feat BASHIRU Official Cartoon Music Video",
+        "videoId": "wwSGSBY_jGQ"
+      }
+    ]
+  },
+  {
+    "name": "Tino MBARGA",
+    "collaborators": [
+      "Ahri Yell Nkembe Pesauk"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Rachel MiMBO Feat Tino MBARGA- MEBILI",
+        "videoId": "-_jgbYZKJY4"
+      }
+    ]
+  },
+  {
+    "name": "Blueprint Hakeem",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - Man Go Do How ft Blueprint Hakeem (Official Audio)",
+        "videoId": "T2AUZuXcPp0"
+      },
+      {
+        "title": "Rapvengers237 - Lifestyle ft Blueprint Hakeem, Fly Habit, MD Lyonga & Melcube",
+        "videoId": "KQhENJojxcU"
+      }
+    ]
+  },
+  {
+    "name": "Herve Slim",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - The Blues ft Herve Slim & Kupbu (Official Audio)",
+        "videoId": "X2qySGoWf74"
+      }
+    ]
+  },
+  {
+    "name": "Kupbu",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - The Blues ft Herve Slim & Kupbu (Official Audio)",
+        "videoId": "X2qySGoWf74"
+      }
+    ]
+  },
+  {
+    "name": "Leera GD",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - Get Better ft Leera GD (Official Audio)",
+        "videoId": "X3FgwSR3Yxo"
+      }
+    ]
+  },
+  {
+    "name": "D'Slyk remix",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - Power Moves ft D'Slyk remix (Official Audio)",
+        "videoId": "i-3GBpQZGAI"
+      }
+    ]
+  },
+  {
+    "name": "Leera Gd now on YouTube Music",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - Get Better ft Leera Gd now on YouTube Music 🔥 #shorts #shortvideo #fyp #trendingshorts",
+        "videoId": "yhFo2h_4Pt4"
+      }
+    ]
+  },
+  {
+    "name": "Fix Author",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - Dey ft Fix Author (Official Music Video)",
+        "videoId": "batFCs2jW3k"
+      }
+    ]
+  },
+  {
+    "name": "Spido",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Melcube - 2H ft Spido (Official Video)",
+        "videoId": "y3An2AjpmwQ"
+      }
+    ]
+  },
+  {
+    "name": "Fly Habit",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Rapvengers237 - Lifestyle ft Blueprint Hakeem, Fly Habit, MD Lyonga & Melcube",
+        "videoId": "KQhENJojxcU"
+      }
+    ]
+  },
+  {
+    "name": "MD Lyonga",
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Rapvengers237 - Lifestyle ft Blueprint Hakeem, Fly Habit, MD Lyonga & Melcube",
+        "videoId": "KQhENJojxcU"
+      }
+    ]
+  },
+  {
+    "name": "Drake",
+    "collaborators": [
+      "Letis Diva"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Rihanna - work (african ) ft. Drake",
+        "videoId": "-4NFrhZc8Bs"
+      }
+    ]
+  },
+  {
+    "name": "Jack Anzouer",
+    "collaborators": [
+      "Annie Anzouer"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Annie Anzouer - Tchombe ft. Jack Anzouer (official lyrics video)",
+        "videoId": "l-kiW4jWWOw"
+      }
+    ]
+  },
+  {
+    "name": "LADY PONCE",
+    "collaborators": [
+      "Cysoul"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "CYSOUL - KIDNAPPE FEAT LADY PONCE (CLIP OFFICIEL)",
+        "videoId": "UGXkHexwvPo"
+      },
+      {
+        "title": "CYSOUL - Kidnappé feat Lady Ponce (Lyrics Video)",
+        "videoId": "zStnzH26sbg"
+      }
+    ]
+  },
+  {
+    "name": "Hen's Ebol'am HD Directed by MouphassA",
+    "collaborators": [
+      "Cysoul"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Cysoul ft Hen's Ebol'am HD Directed by MouphassA",
+        "videoId": "02ee1h4IY3c"
+      }
+    ]
+  },
+  {
+    "name": "Dex Willy Change My Life",
+    "collaborators": [
+      "Blacky Carat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Blacky feat Dex Willy   Change My Life",
+        "videoId": "golN-8B1K84"
+      }
+    ]
+  },
+  {
+    "name": "TAI P",
+    "collaborators": [
+      "Junior Eyango"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "JUNIOR EYANGO Feat TAI P & MEA SHOW ( HOMMAGE À SA MAJESTÉ MPONDO ETAME JOSEPH CHEF LENDI BASSA)",
+        "videoId": "DL7N8itsf7w"
+      }
+    ]
+  },
+  {
+    "name": "MEA SHOW",
+    "collaborators": [
+      "Junior Eyango"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "JUNIOR EYANGO Feat TAI P & MEA SHOW ( HOMMAGE À SA MAJESTÉ MPONDO ETAME JOSEPH CHEF LENDI BASSA)",
+        "videoId": "DL7N8itsf7w"
+      }
+    ]
+  },
+  {
+    "name": "PRINCE NDEDI EYANGO",
+    "collaborators": [
+      "Junior Eyango"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "JUNIOR EYANGO FEAT PRINCE NDEDI EYANGO & NICOLE MARA 🎵 FAUT COMMENCER PETIT",
+        "videoId": "SjtL8iCeKs0"
+      },
+      {
+        "title": "Junior EYANGO FEAT PRINCE NDEDI EYANGO & NICOLE MARA ( 🎵FAUT COMMENCER PETIT 🎵)",
+        "videoId": "LO02C8-6X0c"
+      }
+    ]
+  },
+  {
+    "name": "NICOLE MARA FAUT COMMENCER PETIT",
+    "collaborators": [
+      "Junior Eyango"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "JUNIOR EYANGO FEAT PRINCE NDEDI EYANGO & NICOLE MARA 🎵 FAUT COMMENCER PETIT",
+        "videoId": "SjtL8iCeKs0"
+      }
+    ]
+  },
+  {
+    "name": "Shana",
+    "collaborators": [
+      "H3riQ"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "H3riQ - Get Enough (Feat. Shana) | Care Package",
+        "videoId": "-4HlsQHB3C0"
+      }
+    ]
+  },
+  {
+    "name": "Yemi Alade",
+    "collaborators": [
+      "Prince Aimé"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Prince Aimé ft Yemi Alade - Viviane (official remix audio)",
+        "videoId": "Q3-Tl04GTZA"
+      }
+    ]
+  },
+  {
+    "name": "A. Mpacko",
+    "collaborators": [
+      "Prince Aimé"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Prince Aime, Petit Malo, Dj Lexus -Viviane (Mbole Rmx) ft A. Mpacko, Gifto La Russe, Watto de Souza",
+        "videoId": "6LMEQEDk4TI"
+      }
+    ]
+  },
+  {
+    "name": "Gifto La Russe",
+    "collaborators": [
+      "Prince Aimé"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Prince Aime, Petit Malo, Dj Lexus -Viviane (Mbole Rmx) ft A. Mpacko, Gifto La Russe, Watto de Souza",
+        "videoId": "6LMEQEDk4TI"
+      }
+    ]
+  },
+  {
+    "name": "Watto de Souza",
+    "collaborators": [
+      "Prince Aimé"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Prince Aime, Petit Malo, Dj Lexus -Viviane (Mbole Rmx) ft A. Mpacko, Gifto La Russe, Watto de Souza",
+        "videoId": "6LMEQEDk4TI"
+      }
+    ]
+  },
+  {
+    "name": "Lili Anoma",
+    "collaborators": [
+      "Prince Aimé"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Prince Aimé - Viviane Remix Ft. Maahlox Le Vibeur, Magasco, Lili Anoma & Thérapie (Official Video)",
+        "videoId": "5EdVEghU-Xc"
+      }
+    ]
+  },
+  {
+    "name": "Thérapie",
+    "collaborators": [
+      "Prince Aimé"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Prince Aimé - Viviane Remix Ft. Maahlox Le Vibeur, Magasco, Lili Anoma & Thérapie (Official Video)",
+        "videoId": "5EdVEghU-Xc"
+      }
+    ]
+  },
+  {
     "name": "Goulam",
     "collaborators": [
       "Darina Victry"
@@ -161,6 +1110,213 @@
       {
         "title": "Darina Victry  - Avec toi feat @Goulam  (Audio officiel) #VieThree",
         "videoId": "zYMwvG45ObA"
+      }
+    ]
+  },
+  {
+    "name": "Eddy NEM",
+    "collaborators": [
+      "Armand Biyag"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Armand BIYAG feat Eddy NEM et Tony NOBODY Chantent Hommage à Basseck Ba Kobhio Emile",
+        "videoId": "-D0mml7nm0Y"
+      }
+    ]
+  },
+  {
+    "name": "Gabi E Wem Mwan",
+    "collaborators": [
+      "Armand Biyag"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Armand Biyag feat Gabi              E Wem Mwan",
+        "videoId": "0ljec55omFw"
+      }
+    ]
+  },
+  {
+    "name": "BLACK M merci audio officiel",
+    "collaborators": [
+      "Maahlox"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "MAAHLOX le VIBEUR feat BLACK M \" merci \" audio officiel",
+        "videoId": "Aa83F1ROOxw"
+      }
+    ]
+  },
+  {
+    "name": "Ottou Marcelin",
+    "collaborators": [
+      "Vanister Enama"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Ne cours pas feat Ottou Marcelin ( Clip officiel par Fabien Nguemo )",
+        "videoId": "ycBt3VJuw-8"
+      }
+    ]
+  },
+  {
+    "name": "Kocee_DONNE MOI L’ARGENT",
+    "collaborators": [
+      "Vanister Enama"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Vanister Enama ft Kocee_DONNE MOI L’ARGENT ( CLIP OFFICIEL BY MR ADRENALINE )",
+        "videoId": "OxMK_VZfs04"
+      }
+    ]
+  },
+  {
+    "name": "DJ MULUKUKU_JE BALAIE",
+    "collaborators": [
+      "Vanister Enama"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "VANISTER ENAMA FT DJ MULUKUKU_JE BALAIE ( CLIP OFFICIEL BY MR ADRENALINE )",
+        "videoId": "jqZd10D-UDM"
+      }
+    ]
+  },
+  {
+    "name": "ALOCH237 _ J'IRAI LA-BAS",
+    "collaborators": [
+      "Vanister Enama"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "VANISTER ENAMA FEAT ALOCH237 _ J'IRAI LA-BAS (OFFICIAL VIDEO BY CHUZIH)",
+        "videoId": "QVQYfpS0V6w"
+      }
+    ]
+  },
+  {
+    "name": "ROGER",
+    "collaborators": [
+      "Adèle Ruffine Ngono"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "LADY PONCE feat. ROGER (X-MALEYA) - LES LARMES DE MON COEUR (Audio)",
+        "videoId": "IQ1aRoiwatY"
+      }
+    ]
+  },
+  {
+    "name": "TROIS OFFICIEL -À la vie à la mort",
+    "collaborators": [
+      "la mélo du quartier"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "La mélo du quartier Feat TROIS OFFICIEL -À la vie à la mort (CLIP OFFICIEL)",
+        "videoId": "bV06yD3KdCY"
+      }
+    ]
+  },
+  {
+    "name": "le roy Tsala",
+    "collaborators": [
+      "la mélo du quartier"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "la mélo du quartier feat le roy Tsala & iza muan - mon berger acoustique chorale",
+        "videoId": "LbwZk6e1gcM"
+      },
+      {
+        "title": "la mélo du quartier feat le roy Tsala & iza muan - mon berger (clip officiel)",
+        "videoId": "ibUUTq04CIs"
+      },
+      {
+        "title": "Vladimir le doigté magique feat la melo du quartier & Le Roy Tsala - on veut le changement",
+        "videoId": "TZdmNT71TmA"
+      }
+    ]
+  },
+  {
+    "name": "iza muan",
+    "collaborators": [
+      "la mélo du quartier"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "la mélo du quartier feat le roy Tsala & iza muan - mon berger acoustique chorale",
+        "videoId": "LbwZk6e1gcM"
+      },
+      {
+        "title": "la mélo du quartier feat le roy Tsala & iza muan - mon berger (clip officiel)",
+        "videoId": "ibUUTq04CIs"
+      }
+    ]
+  },
+  {
+    "name": "Kiriku dj -Akiribo",
+    "collaborators": [
+      "la mélo du quartier"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "La mélo du quartier feat Kiriku dj -Akiribo (visualizer)Themelo show act2",
+        "videoId": "6_vHPN9xgZs"
+      }
+    ]
+  },
+  {
+    "name": "machine 1er",
+    "collaborators": [
+      "la mélo du quartier"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Le père de la police Feat machine 1er & la team mballe act 2",
+        "videoId": "Iny3fu5PLLM"
+      }
+    ]
+  },
+  {
+    "name": "la team mballe act 2",
+    "collaborators": [
+      "la mélo du quartier"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Le père de la police Feat machine 1er & la team mballe act 2",
+        "videoId": "Iny3fu5PLLM"
+      }
+    ]
+  },
+  {
+    "name": "GUY MICHEL KINGUE",
+    "collaborators": [
+      "Vershiy"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "MAUREEN FORBAH FT GUY MICHEL KINGUE - CHILD OF GOD (OFFICIAL VIDEO)",
+        "videoId": "_TP7q6oXsOU"
       }
     ]
   },
@@ -195,6 +1351,19 @@
     ]
   },
   {
+    "name": "Martin's",
+    "collaborators": [
+      "Sabrina"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Sabrina - Saint Tropez (Official Audio) ft. Martin's",
+        "videoId": "zPizfodNVXE"
+      }
+    ]
+  },
+  {
     "name": "Prince Nico Mbarga",
     "collaborators": [
       "Sabrina"
@@ -212,58 +1381,538 @@
     ]
   },
   {
-    "name": "Eddy NEM",
+    "name": "bendeccaofficiel",
     "collaborators": [
-      "Armand Biyag"
+      "Tzy Panchak"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Armand BIYAG feat Eddy NEM et Tony NOBODY Chantent Hommage à Basseck Ba Kobhio Emile",
-        "videoId": "-D0mml7nm0Y"
+        "title": "Tzy Panchak- Ensemble Ft @bendeccaofficiel  ,@cleograe6931  ,Ketidy & Bluejay Kings",
+        "videoId": "HG1dTfaUSzY"
       }
     ]
   },
   {
-    "name": "Gabi E Wem Mwan",
+    "name": "cleograe6931",
     "collaborators": [
-      "Armand Biyag"
+      "Tzy Panchak"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Armand Biyag feat Gabi              E Wem Mwan",
-        "videoId": "0ljec55omFw"
+        "title": "Tzy Panchak- Ensemble Ft @bendeccaofficiel  ,@cleograe6931  ,Ketidy & Bluejay Kings",
+        "videoId": "HG1dTfaUSzY"
       }
     ]
   },
   {
-    "name": "Kinshasa Orchestra",
+    "name": "Ketidy",
     "collaborators": [
-      "Irma"
+      "Tzy Panchak"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Irma - Moon River (feat. Kinshasa Orchestra) [Official Video]",
-        "videoId": "ta13M0Jdd8A"
+        "title": "Tzy Panchak- Ensemble Ft @bendeccaofficiel  ,@cleograe6931  ,Ketidy & Bluejay Kings",
+        "videoId": "HG1dTfaUSzY"
       }
     ]
   },
   {
-    "name": "Voice2gether",
+    "name": "Bluejay Kings",
     "collaborators": [
-      "Irma"
+      "Tzy Panchak"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "IRMA - House of Cards (Ft. Voice2gether)",
-        "videoId": "JBTFCZyKiNk"
+        "title": "Tzy Panchak- Ensemble Ft @bendeccaofficiel  ,@cleograe6931  ,Ketidy & Bluejay Kings",
+        "videoId": "HG1dTfaUSzY"
+      }
+    ]
+  },
+  {
+    "name": "Félix stone .",
+    "collaborators": [
+      "SOPEKA DIAMANT"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Je vais m’envoler de Sopeka diamant ft Félix stone .",
+        "videoId": "XEgFkjaumZE"
+      }
+    ]
+  },
+  {
+    "name": "La Diktatur",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Shapat FT La Diktatur - Appelez les",
+        "videoId": "XdF_9OHJmd8"
+      }
+    ]
+  },
+  {
+    "name": "minksofficiel5855",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Shapat Ft. @minksofficiel5855  - Tous les jours (Clip officiel)",
+        "videoId": "7D8fpUMtFZA"
+      }
+    ]
+  },
+  {
+    "name": "samyonlyofficiel",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Shapat - La Révolution (Saturation 5) Ft. @samyonlyofficiel x @styfler90 x ENJR",
+        "videoId": "10Z0n--wjJs"
+      }
+    ]
+  },
+  {
+    "name": "styfler90",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Shapat - La Révolution (Saturation 5) Ft. @samyonlyofficiel x @styfler90 x ENJR",
+        "videoId": "10Z0n--wjJs"
+      }
+    ]
+  },
+  {
+    "name": "SAMY ONLY",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "SHAPAT - YES or NO Partie 2 feat SAMY ONLY X CDAK X OVER FLOW X KIZOMBA Directed By SPATIAL Ent",
+        "videoId": "0YMue1KdQU0"
+      }
+    ]
+  },
+  {
+    "name": "CDAK",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "SHAPAT - YES or NO Partie 2 feat SAMY ONLY X CDAK X OVER FLOW X KIZOMBA Directed By SPATIAL Ent",
+        "videoId": "0YMue1KdQU0"
+      }
+    ]
+  },
+  {
+    "name": "OVER FLOW",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "SHAPAT - YES or NO Partie 2 feat SAMY ONLY X CDAK X OVER FLOW X KIZOMBA Directed By SPATIAL Ent",
+        "videoId": "0YMue1KdQU0"
+      }
+    ]
+  },
+  {
+    "name": "KIZOMBA Directed By SPATIAL Ent",
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "SHAPAT - YES or NO Partie 2 feat SAMY ONLY X CDAK X OVER FLOW X KIZOMBA Directed By SPATIAL Ent",
+        "videoId": "0YMue1KdQU0"
+      }
+    ]
+  },
+  {
+    "name": "blackystarofficiel2068",
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "TENOR - S'aimer Bien Feat @CYSOULOfficiel & @blackystarofficiel2068",
+        "videoId": "uLjhfmNPYyg"
+      }
+    ]
+  },
+  {
+    "name": "EDEL KOULLA",
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ JUST DIZLE x TENOR FT EDEL KOULLA - JOMBE (LA PORTE) - CLIP OFFICIEL",
+        "videoId": "Pa6jSkjxO4Y"
       },
       {
-        "title": "House of Cards (under the rain) Ft. Voice2gether #houseofcards #irma #irmamusic #acoustic #gospel",
-        "videoId": "aE9jcT9ibIM"
+        "title": "TENOR - JOMBE (LA PORTE) FT. JUST DIZLE & EDEL KOULLA",
+        "videoId": "P_LrsICciwY"
+      }
+    ]
+  },
+  {
+    "name": "DJ KESSY",
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "TENOR - CCQS FT. DJ KESSY (AUDIO)",
+        "videoId": "oZi3Rq_uIc4"
+      }
+    ]
+  },
+  {
+    "name": "DIDI B",
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "TENOR - MARTEAU DE THOR FT. DIDI B (AUDIO)",
+        "videoId": "THFy3A_7Bh8"
+      }
+    ]
+  },
+  {
+    "name": "JUST DIZLE",
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "TENOR - JOMBE (LA PORTE) FT. JUST DIZLE & EDEL KOULLA",
+        "videoId": "P_LrsICciwY"
+      }
+    ]
+  },
+  {
+    "name": "Joe Pro",
+    "collaborators": [
+      "Tilla Tafari"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Tilla Tafari - Butterfly ft Joe Pro (Official Audio)",
+        "videoId": "YdSXbXCwkvI"
+      }
+    ]
+  },
+  {
+    "name": "N.B.O",
+    "collaborators": [
+      "Tilla Tafari"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Tilla Tafari ft N.B.O - No Be So (Official Audio)",
+        "videoId": "wI9CZR6CW-c"
+      }
+    ]
+  },
+  {
+    "name": "Groovie Selecta",
+    "collaborators": [
+      "Tilla Tafari"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Tilla Tafari ft Groovie Selecta - Flow (Official Audio)",
+        "videoId": "9n5dZiy5_6o"
+      }
+    ]
+  },
+  {
+    "name": "MH Centro",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dj Free Boy ft. MH Centro -  LAM  ( Rumba )",
+        "videoId": "PSHjNxKja7Y"
+      }
+    ]
+  },
+  {
+    "name": "Kaiena",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dj Free Boy - Vie Réelle ft. Kaiena (Clip Officiel) by Fatal Prod INK",
+        "videoId": "mDuITWLoLDs"
+      },
+      {
+        "title": "Dj Free Boy - PRESTATION NGUON 2024 ft Kaiena",
+        "videoId": "G08T-TmIFRc"
+      }
+    ]
+  },
+  {
+    "name": "ADY KAKANDU",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ FREE BOY Mendu danse feat ADY KAKANDU ( audio)",
+        "videoId": "mVyMGDRS22A"
+      }
+    ]
+  },
+  {
+    "name": "Rachida Jolie",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Dj Free Boy - PHOTO DE MAMAN ft. Rachida Jolie | Arouna Trésor (Clip Officiel)",
+        "videoId": "7j6UordcbPg"
+      },
+      {
+        "title": "DJ Free Boy Photo de maman feat Rachida jolie et AROUNA trésor (audio) officiel",
+        "videoId": "nVFHjZh1mv4"
+      }
+    ]
+  },
+  {
+    "name": "Debordo parler parler",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Séance studio OBM feat Debordo parler parler",
+        "videoId": "-tpcPFIwA7M"
+      }
+    ]
+  },
+  {
+    "name": "AROUNA trésor",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ Free Boy Photo de maman feat Rachida jolie et AROUNA trésor (audio) officiel",
+        "videoId": "nVFHjZh1mv4"
+      }
+    ]
+  },
+  {
+    "name": "ERIC DE PARIS",
+    "collaborators": [
+      "Dj Free Boy l'arrangeur"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ FREE BOY - KPALUM MOOD feat ERIC DE PARIS (Audio Officiel)",
+        "videoId": "wJgQ7lo755s"
+      }
+    ]
+  },
+  {
+    "name": "Armand BIYAG Hommage à Samson Chaud Gars",
+    "collaborators": [
+      "Franck Ngouma"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Franck NGOUMA feat Armand BIYAG Hommage à Samson Chaud Gars",
+        "videoId": "WClguKv1L5g"
+      }
+    ]
+  },
+  {
+    "name": "Konshens",
+    "collaborators": [
+      "TATA"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "DJ Mathematic - React ft. Konshens",
+        "videoId": "eJmx2JC0pwA"
+      }
+    ]
+  },
+  {
+    "name": "Lor",
+    "collaborators": [
+      "TATA"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Pascal - Manka'a ft. Lor (Directed by Tatapong Beyala)",
+        "videoId": "Axu6AKYED98"
+      }
+    ]
+  },
+  {
+    "name": "Shey",
+    "collaborators": [
+      "TATA"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Reniss - Na You ft. Shey (Directed by Ndukong)",
+        "videoId": "uoZMufZb64E"
+      }
+    ]
+  },
+  {
+    "name": "Pascal",
+    "collaborators": [
+      "TATA"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Tata - Contri Boy Remix ft. Pascal and Tilla (Directed By Ndukong)",
+        "videoId": "ixnKYCxXW7s"
+      }
+    ]
+  },
+  {
+    "name": "Tilla",
+    "collaborators": [
+      "TATA"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Tata - Contri Boy Remix ft. Pascal and Tilla (Directed By Ndukong)",
+        "videoId": "ixnKYCxXW7s"
+      }
+    ]
+  },
+  {
+    "name": "RCHL",
+    "collaborators": [
+      "TATA"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Jovi - Big Vulture ft. RCHL (Directed By Ndukong)",
+        "videoId": "yMJ8mnORx-8"
+      }
+    ]
+  },
+  {
+    "name": "Zépé kior_Le Warr_",
+    "collaborators": [
+      "LE DUO MAGIQUE"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Mondial Premier ft Zépé kior_Le Warr_(Clip officiel)",
+        "videoId": "LNt7RBvkTjU"
+      }
+    ]
+  },
+  {
+    "name": "Germoh Group",
+    "collaborators": [
+      "Prosper Germoh"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Best Praise And Worship featuring Prosper Germoh, Germoh Group and Zenobia Germoh",
+        "videoId": "HNbLbNcKNf4"
+      }
+    ]
+  },
+  {
+    "name": "AveiroDjess",
+    "collaborators": [
+      "Elang City"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Elang City - On va les percuter feat @AveiroDjess  (Audio Officiel)",
+        "videoId": "2oec7BqBxcc"
+      }
+    ]
+  },
+  {
+    "name": "TCHAKALA VIP MON ANNEE",
+    "collaborators": [
+      "Kratos le Dieu de la guerre"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "KRATOS feat TCHAKALA VIP MON ANNEE (clip officiel)",
+        "videoId": "-YmGi96bZuU"
+      },
+      {
+        "title": "KRATOS feat TCHAKALA VIP Mon année",
+        "videoId": "eJQXekhZ2mw"
+      }
+    ]
+  },
+  {
+    "name": "dijytal dk les amis de la rue",
+    "collaborators": [
+      "Kratos le Dieu de la guerre"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Kratos feat dijytal dk les amis de la rue",
+        "videoId": "Q90b2WD4ZDo"
       }
     ]
   },
@@ -363,162 +2012,6 @@
     ]
   },
   {
-    "name": "Yemi Alade",
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Prince Aimé ft Yemi Alade - Viviane (official remix audio)",
-        "videoId": "Q3-Tl04GTZA"
-      }
-    ]
-  },
-  {
-    "name": "A. Mpacko",
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Prince Aime, Petit Malo, Dj Lexus -Viviane (Mbole Rmx) ft A. Mpacko, Gifto La Russe, Watto de Souza",
-        "videoId": "6LMEQEDk4TI"
-      }
-    ]
-  },
-  {
-    "name": "Gifto La Russe",
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Prince Aime, Petit Malo, Dj Lexus -Viviane (Mbole Rmx) ft A. Mpacko, Gifto La Russe, Watto de Souza",
-        "videoId": "6LMEQEDk4TI"
-      }
-    ]
-  },
-  {
-    "name": "Watto de Souza",
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Prince Aime, Petit Malo, Dj Lexus -Viviane (Mbole Rmx) ft A. Mpacko, Gifto La Russe, Watto de Souza",
-        "videoId": "6LMEQEDk4TI"
-      }
-    ]
-  },
-  {
-    "name": "Lili Anoma",
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Prince Aimé - Viviane Remix Ft. Maahlox Le Vibeur, Magasco, Lili Anoma & Thérapie (Official Video)",
-        "videoId": "5EdVEghU-Xc"
-      }
-    ]
-  },
-  {
-    "name": "Thérapie",
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Prince Aimé - Viviane Remix Ft. Maahlox Le Vibeur, Magasco, Lili Anoma & Thérapie (Official Video)",
-        "videoId": "5EdVEghU-Xc"
-      }
-    ]
-  },
-  {
-    "name": "Salatiel",
-    "collaborators": [
-      "Dynastie Le Tigre"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Dynastie le tigre feat Salatiel",
-        "videoId": "G59uNYO97h0"
-      }
-    ]
-  },
-  {
-    "name": "IMILO LeChanceux",
-    "collaborators": [
-      "Dynastie Le Tigre"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Dynastie Le Tigre 🇨🇲 feat 🇧🇫 IMILO LeChanceux - On est vacciné Clip Officiel",
-        "videoId": "184v4VsFnPA"
-      }
-    ]
-  },
-  {
-    "name": "PHIL.B",
-    "collaborators": [
-      "Garcia Landry Belinga"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "G Brax Official  FEAT PHIL.B  - JALOUSIE ( audio officiel )",
-        "videoId": "Y-arlY-xzls"
-      }
-    ]
-  },
-  {
-    "name": "Maxxy Dready",
-    "collaborators": [
-      "Garcia Landry Belinga"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "G brax - S.O.S Ft. Maxxy Dready - Dex Willy ( Official Lyric Video )",
-        "videoId": "oFzLTvVMPmw"
-      }
-    ]
-  },
-  {
-    "name": "TENOR Abena",
-    "collaborators": [
-      "Garcia Landry Belinga"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "G Brax feat TENOR  \"Abena\"",
-        "videoId": "a4-o2iPKQjI"
-      }
-    ]
-  },
-  {
-    "name": "BLACK M merci audio officiel",
-    "collaborators": [
-      "Maahlox"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "MAAHLOX le VIBEUR feat BLACK M \" merci \" audio officiel",
-        "videoId": "Aa83F1ROOxw"
-      }
-    ]
-  },
-  {
     "name": "H-Campbell",
     "collaborators": [
       "Andy Jemea"
@@ -575,49 +2068,101 @@
     ]
   },
   {
-    "name": "ROGER",
+    "name": "Fadil Le Sorcier",
     "collaborators": [
-      "Adèle Ruffine Ngono"
+      "Coco Argentée"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "LADY PONCE feat. ROGER (X-MALEYA) - LES LARMES DE MON COEUR (Audio)",
-        "videoId": "IQ1aRoiwatY"
+        "title": "Coco Argentée  EGOUNOU Remix feat Fadil Le Sorcier x Askia x Polio Le Vent",
+        "videoId": "5VQVioT32HQ"
       }
     ]
   },
   {
-    "name": "Lady Fi",
+    "name": "Polio Le Vent",
     "collaborators": [
-      "Joe Lington"
+      "Coco Argentée"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Joe Lington-Move your body Feat Lady Fi  & Otaku Black ( audio File with Guitar  )",
-        "videoId": "i0vEmh0Q4JE"
-      },
-      {
-        "title": "Joe Lington - Move your body (official Video ) Feat Lady Fi & Otaku Black",
-        "videoId": "gP6KFSefACs"
+        "title": "Coco Argentée  EGOUNOU Remix feat Fadil Le Sorcier x Askia x Polio Le Vent",
+        "videoId": "5VQVioT32HQ"
       }
     ]
   },
   {
-    "name": "Otaku Black",
+    "name": "teetyofficiel9367",
     "collaborators": [
-      "Joe Lington"
+      "Fulbert Feudjio Fokoua"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Joe Lington-Move your body Feat Lady Fi  & Otaku Black ( audio File with Guitar  )",
-        "videoId": "i0vEmh0Q4JE"
+        "title": "Mangez l’amour les amis. Maintenant ou Jamais ft @teetyofficiel9367",
+        "videoId": "jdUAv0MUN58"
       },
       {
-        "title": "Joe Lington - Move your body (official Video ) Feat Lady Fi & Otaku Black",
-        "videoId": "gP6KFSefACs"
+        "title": "“Maintenant ou Jamais” ft @teetyofficiel9367 . Clip officiel disponible ce vendredi 02.05. À 18HR",
+        "videoId": "K2fqlMz5Fhs"
+      }
+    ]
+  },
+  {
+    "name": "TEETY",
+    "collaborators": [
+      "Fulbert Feudjio Fokoua"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "FUL - Maintenant ou Jamais Ft TEETY ( Live sur la télé d’ici)",
+        "videoId": "YRlO5xnUT9Q"
+      }
+    ]
+  },
+  {
+    "name": "teetyofficiel9367 !!! Le",
+    "collaborators": [
+      "Fulbert Feudjio Fokoua"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "MAINTENANT OU JAMAIS ft @teetyofficiel9367 !!! Le clip arrive bientôt",
+        "videoId": "3WS6i_GDKac"
+      }
+    ]
+  },
+  {
+    "name": "GBC the yemba",
+    "collaborators": [
+      "Fulbert Feudjio Fokoua"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "FUL - Santé ft Cysoul & GBC the yemba (Vidéo Officiel)",
+        "videoId": "dLqlCAgxdYI"
+      },
+      {
+        "title": "FUL - Santé ft Cysoul & GBC the yemba (Audio)",
+        "videoId": "0lXm9WBvDmw"
+      }
+    ]
+  },
+  {
+    "name": "TheYembaOff",
+    "collaborators": [
+      "Fulbert Feudjio Fokoua"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "FUL ft @CYSOULOfficiel & @TheYembaOff  - SANTÉ",
+        "videoId": "vgH7oOiym5E"
       }
     ]
   },
@@ -631,6 +2176,79 @@
       {
         "title": "indira feat marco bi - Chantal Biya",
         "videoId": "6JyrE8GKcnc"
+      }
+    ]
+  },
+  {
+    "name": "SXL OV × KEMI2VINCI × NZO CACHMIR",
+    "collaborators": [
+      "Enjr"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "ENJR - CNFQ Ft. SXL OV × KEMI2VINCI × NZO CACHMIR (Official Music Video)",
+        "videoId": "AJvghrNtGMM"
+      }
+    ]
+  },
+  {
+    "name": "LiFkA",
+    "collaborators": [
+      "Enjr"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Clip \"WOW SMOKE\" feat LiFkA , Kill B Psycatra , Disponible en Grrr ! ⚜🏴 #drill",
+        "videoId": "R-1GxIr-Qxw"
+      },
+      {
+        "title": "ENJR - WOW SMOKE ft LiFkA, Kill B Psycatra (Clip Officiel)",
+        "videoId": "l_EkwQbCE58"
+      }
+    ]
+  },
+  {
+    "name": "Kill B Psycatra",
+    "collaborators": [
+      "Enjr"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Clip \"WOW SMOKE\" feat LiFkA , Kill B Psycatra , Disponible en Grrr ! ⚜🏴 #drill",
+        "videoId": "R-1GxIr-Qxw"
+      },
+      {
+        "title": "ENJR - WOW SMOKE ft LiFkA, Kill B Psycatra (Clip Officiel)",
+        "videoId": "l_EkwQbCE58"
+      }
+    ]
+  },
+  {
+    "name": "Disponible en Grrr !",
+    "collaborators": [
+      "Enjr"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Clip \"WOW SMOKE\" feat LiFkA , Kill B Psycatra , Disponible en Grrr ! ⚜🏴 #drill",
+        "videoId": "R-1GxIr-Qxw"
+      }
+    ]
+  },
+  {
+    "name": "The Value",
+    "collaborators": [
+      "Enjr"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "ENJR - Makossa feat The Value",
+        "videoId": "t4Ir_NLvYLw"
       }
     ]
   },
@@ -739,6 +2357,19 @@
     ]
   },
   {
+    "name": "Kikoh",
+    "collaborators": [
+      "Kocee"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Ko-C - Ghana Must Go ft. Cleo Grae, Banye, Kikoh & Kking Kum (Official Video)",
+        "videoId": "QcxH49XbL0k"
+      }
+    ]
+  },
+  {
     "name": "Kking Kum",
     "collaborators": [
       "Kocee"
@@ -752,101 +2383,15 @@
     ]
   },
   {
-    "name": "Fadil Le Sorcier",
+    "name": "Yanicko la star du Flow",
     "collaborators": [
-      "Coco Argentée"
+      "Joyce Sa'a"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Coco Argentée  EGOUNOU Remix feat Fadil Le Sorcier x Askia x Polio Le Vent",
-        "videoId": "5VQVioT32HQ"
-      }
-    ]
-  },
-  {
-    "name": "Polio Le Vent",
-    "collaborators": [
-      "Coco Argentée"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Coco Argentée  EGOUNOU Remix feat Fadil Le Sorcier x Askia x Polio Le Vent",
-        "videoId": "5VQVioT32HQ"
-      }
-    ]
-  },
-  {
-    "name": "teetyofficiel9367",
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Mangez l’amour les amis. Maintenant ou Jamais ft @teetyofficiel9367",
-        "videoId": "jdUAv0MUN58"
-      },
-      {
-        "title": "“Maintenant ou Jamais” ft @teetyofficiel9367 . Clip officiel disponible ce vendredi 02.05. À 18HR",
-        "videoId": "K2fqlMz5Fhs"
-      }
-    ]
-  },
-  {
-    "name": "TEETY",
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "FUL - Maintenant ou Jamais Ft TEETY ( Live sur la télé d’ici)",
-        "videoId": "YRlO5xnUT9Q"
-      }
-    ]
-  },
-  {
-    "name": "teetyofficiel9367 !!! Le",
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "MAINTENANT OU JAMAIS ft @teetyofficiel9367 !!! Le clip arrive bientôt",
-        "videoId": "3WS6i_GDKac"
-      }
-    ]
-  },
-  {
-    "name": "GBC the yemba",
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "FUL - Santé ft Cysoul & GBC the yemba (Vidéo Officiel)",
-        "videoId": "dLqlCAgxdYI"
-      },
-      {
-        "title": "FUL - Santé ft Cysoul & GBC the yemba (Audio)",
-        "videoId": "0lXm9WBvDmw"
-      }
-    ]
-  },
-  {
-    "name": "TheYembaOff",
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "FUL ft @CYSOULOfficiel & @TheYembaOff  - SANTÉ",
-        "videoId": "vgH7oOiym5E"
+        "title": "Joys Sa’a ft Yanicko la star du Flow - KÊÊH",
+        "videoId": "33v5A652qmQ"
       }
     ]
   },
@@ -890,109 +2435,6 @@
     ]
   },
   {
-    "name": "SXL OV × KEMI2VINCI × NZO CACHMIR",
-    "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "ENJR - CNFQ Ft. SXL OV × KEMI2VINCI × NZO CACHMIR (Official Music Video)",
-        "videoId": "AJvghrNtGMM"
-      }
-    ]
-  },
-  {
-    "name": "LiFkA",
-    "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Clip \"WOW SMOKE\" feat LiFkA , Kill B Psycatra , Disponible en Grrr ! ⚜🏴 #drill",
-        "videoId": "R-1GxIr-Qxw"
-      },
-      {
-        "title": "ENJR - WOW SMOKE ft LiFkA, Kill B Psycatra (Clip Officiel)",
-        "videoId": "l_EkwQbCE58"
-      }
-    ]
-  },
-  {
-    "name": "Kill B Psycatra",
-    "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Clip \"WOW SMOKE\" feat LiFkA , Kill B Psycatra , Disponible en Grrr ! ⚜🏴 #drill",
-        "videoId": "R-1GxIr-Qxw"
-      },
-      {
-        "title": "ENJR - WOW SMOKE ft LiFkA, Kill B Psycatra (Clip Officiel)",
-        "videoId": "l_EkwQbCE58"
-      }
-    ]
-  },
-  {
-    "name": "Disponible en Grrr !",
-    "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Clip \"WOW SMOKE\" feat LiFkA , Kill B Psycatra , Disponible en Grrr ! ⚜🏴 #drill",
-        "videoId": "R-1GxIr-Qxw"
-      }
-    ]
-  },
-  {
-    "name": "The Value",
-    "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "ENJR - Makossa feat The Value",
-        "videoId": "t4Ir_NLvYLw"
-      }
-    ]
-  },
-  {
-    "name": "AMATULA",
-    "collaborators": [
-      "Magasco"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "MAGASCO - FOR YOU FT AMATULA (IKFINI ALBUM)",
-        "videoId": "Z7RBIC6olsM"
-      }
-    ]
-  },
-  {
-    "name": "HENDRY MASSAMBA",
-    "collaborators": [
-      "Lydol"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "LYDOL - Afili feat. HENDRY MASSAMBA (Official Lyrics Video)",
-        "videoId": "tzGLM1YGoIY"
-      },
-      {
-        "title": "ÉLIXIR sort le 14 Novembre… Retrouvez AFILI feat Hendry Massamba - LYDOL",
-        "videoId": "aUqaB8ma1m8"
-      }
-    ]
-  },
-  {
     "name": "Jonathan Butler",
     "collaborators": [
       "Ndom’a Deccah Grace"
@@ -1002,19 +2444,6 @@
       {
         "title": "Vidéo officielle du titre \"Never let go\". Grace Decca feat Jonathan Butler",
         "videoId": "cqq6CK70IoU"
-      }
-    ]
-  },
-  {
-    "name": "LUCKY +2",
-    "collaborators": [
-      "Petit Bozard"
-    ],
-    "confidence": 0.7,
-    "videos": [
-      {
-        "title": "Petit Bozard - Chanter c'est prier deux fois Ft. LUCKY +2 (Clip officiel)",
-        "videoId": "tPWSyogTWfE"
       }
     ]
   },
@@ -1166,32 +2595,45 @@
     ]
   },
   {
-    "name": "kratos",
+    "name": "Cassandra Jenkins",
     "collaborators": [
-      "La Santinelle"
+      "Shura"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Exagère dans ma vie la sentinelle feat kratos clip officiel",
-        "videoId": "cgiFYTFUFCQ"
+        "title": "Shura - Richardson (Official Video) ft. Cassandra Jenkins",
+        "videoId": "K4HyDMVoFl4"
       },
       {
-        "title": "Exagere dans ma vie  La santinelle feat Kratos",
-        "videoId": "5PVipE50GCg"
+        "title": "Shura - Richardson (Official Visualiser) ft. Cassandra Jenkins",
+        "videoId": "ZOV_T6B8UQ8"
       }
     ]
   },
   {
-    "name": "Ulanda",
+    "name": "Ivy Sole",
     "collaborators": [
-      "Rinyu"
+      "Shura"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "| Ngah Rinyu ft Ulanda - Contagious | (Official Video)",
-        "videoId": "rO3fbpPMn9o"
+        "title": "Shura - elevator girl ft. Ivy Sole (Space Tape Edit)",
+        "videoId": "iwekG_XNoP8"
+      }
+    ]
+  },
+  {
+    "name": "Talib Kweli",
+    "collaborators": [
+      "Shura"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "Shura - Touch (Talib Kweli Video) ft. Talib Kweli",
+        "videoId": "hJjj_kJIdT0"
       }
     ]
   },
@@ -1261,45 +2703,58 @@
     ]
   },
   {
-    "name": "Cassandra Jenkins",
+    "name": "Ulanda",
     "collaborators": [
-      "Shura"
+      "Rinyu"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Shura - Richardson (Official Video) ft. Cassandra Jenkins",
-        "videoId": "K4HyDMVoFl4"
+        "title": "| Ngah Rinyu ft Ulanda - Contagious | (Official Video)",
+        "videoId": "rO3fbpPMn9o"
+      }
+    ]
+  },
+  {
+    "name": "HENDRY MASSAMBA",
+    "collaborators": [
+      "Lydol"
+    ],
+    "confidence": 0.7,
+    "videos": [
+      {
+        "title": "LYDOL - Afili feat. HENDRY MASSAMBA (Official Lyrics Video)",
+        "videoId": "tzGLM1YGoIY"
       },
       {
-        "title": "Shura - Richardson (Official Visualiser) ft. Cassandra Jenkins",
-        "videoId": "ZOV_T6B8UQ8"
+        "title": "ÉLIXIR sort le 14 Novembre… Retrouvez AFILI feat Hendry Massamba - LYDOL",
+        "videoId": "aUqaB8ma1m8"
       }
     ]
   },
   {
-    "name": "Ivy Sole",
+    "name": "AMATULA",
     "collaborators": [
-      "Shura"
+      "Magasco"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Shura - elevator girl ft. Ivy Sole (Space Tape Edit)",
-        "videoId": "iwekG_XNoP8"
+        "title": "MAGASCO - FOR YOU FT AMATULA (IKFINI ALBUM)",
+        "videoId": "Z7RBIC6olsM"
       }
     ]
   },
   {
-    "name": "Talib Kweli",
+    "name": "TENOR – YAMO",
     "collaborators": [
-      "Shura"
+      "Ulanda"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Shura - Touch (Talib Kweli Video) ft. Talib Kweli",
-        "videoId": "hJjj_kJIdT0"
+        "title": "Behind the Cover Art 👀 | ULANDA ft. TENOR – YAMO",
+        "videoId": "SZ77H6T7iLk"
       }
     ]
   },
@@ -1325,15 +2780,19 @@
     ]
   },
   {
-    "name": "TENOR – YAMO",
+    "name": "kratos",
     "collaborators": [
-      "Ulanda"
+      "La Santinelle"
     ],
     "confidence": 0.7,
     "videos": [
       {
-        "title": "Behind the Cover Art 👀 | ULANDA ft. TENOR – YAMO",
-        "videoId": "SZ77H6T7iLk"
+        "title": "Exagère dans ma vie la sentinelle feat kratos clip officiel",
+        "videoId": "cgiFYTFUFCQ"
+      },
+      {
+        "title": "Exagere dans ma vie  La santinelle feat Kratos",
+        "videoId": "5PVipE50GCg"
       }
     ]
   }

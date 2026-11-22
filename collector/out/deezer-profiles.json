@@ -1617,5 +1617,386 @@
     "similarity": 1,
     "confidence": 0.95,
     "status": "auto"
+  },
+  "Q117156668": {
+    "artist": "Adango salicia",
+    "id": 9580466,
+    "name": "Adango Salicia",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q112874794": {
+    "artist": "Ahri Yell Nkembe Pesauk",
+    "status": "none"
+  },
+  "Q16021407": {
+    "artist": "Annie Anzouer",
+    "id": 8623172,
+    "name": "Annie Anzouer",
+    "fans": 116,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q4792697": {
+    "artist": "Armand Sabal-Lecco",
+    "id": 3748911,
+    "name": "Armand Sabal-Lecco",
+    "fans": 59,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q61652919": {
+    "artist": "Askia",
+    "id": 11564217,
+    "name": "Askia",
+    "fans": 26,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q141385703": {
+    "artist": "Atangche Zita Ngeche",
+    "status": "none"
+  },
+  "Q139044733": {
+    "artist": "Bedelito",
+    "id": 804969,
+    "name": "Nedeljko Bajic Baja",
+    "fans": 71010,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "Q122028120": {
+    "artist": "Blacky Carat",
+    "id": 11439608,
+    "name": "Blacky Carat",
+    "fans": 95,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q107522224": {
+    "artist": "Boudor",
+    "id": 4515932,
+    "name": "Boudor",
+    "fans": 227,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q97675959": {
+    "artist": "Chantal Ayissi",
+    "id": 144702,
+    "name": "Chantal Ayissi",
+    "fans": 515,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q115612642": {
+    "artist": "DJ Lexus",
+    "id": 5306146,
+    "name": "DJ Lexus",
+    "fans": 383,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3106820": {
+    "artist": "Gino Sitson",
+    "id": 170085,
+    "name": "Gino Sitson",
+    "fans": 971,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q107449344": {
+    "artist": "Govinal",
+    "id": 4571560,
+    "name": "Govinal",
+    "fans": 53,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q138528100": {
+    "artist": "Grace Bethel",
+    "id": 72133862,
+    "name": "Grace Bethel",
+    "fans": 8,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115527001": {
+    "artist": "H3riQ",
+    "id": 73676502,
+    "name": "H3riQ",
+    "fans": 89,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q16210689": {
+    "artist": "Jean Pierre Essome",
+    "id": 1243668,
+    "name": "Jean Pierre Essome",
+    "fans": 223,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q124984259": {
+    "artist": "Joyce Babatunde",
+    "id": 50631572,
+    "name": "Joyce Babatunde",
+    "fans": 40,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q64021639": {
+    "artist": "Junior Eyango",
+    "id": 13823267,
+    "name": "Junior Eyango",
+    "fans": 7,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q125149181": {
+    "artist": "Kamille Abongo",
+    "id": 91937922,
+    "name": "Kamille Abongo",
+    "fans": 3,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q109890549": {
+    "artist": "Letis Diva",
+    "id": 7852242,
+    "name": "Letis Diva",
+    "fans": 1368,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q112349557": {
+    "artist": "Luc Séraphin Ayissi Fouda",
+    "id": 146324732,
+    "name": "Ayissi Le Duc",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q141638755": {
+    "artist": "Melcube",
+    "id": 5664399,
+    "name": "Melcube",
+    "fans": 103,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q19956223": {
+    "artist": "Missy BK",
+    "id": 5482852,
+    "name": "Missy Bk",
+    "fans": 203,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q122460818": {
+    "artist": "Mosayane 2 Claire",
+    "id": 108724322,
+    "name": "Mosayane 2 Claire",
+    "fans": 4,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q102883150": {
+    "artist": "Muriel Blanche",
+    "id": 14078029,
+    "name": "Muriel Blanche",
+    "fans": 37,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q122186526": {
+    "artist": "Nda Chi",
+    "id": 67309782,
+    "name": "Nda Chi",
+    "fans": 40,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q136955991": {
+    "artist": "Nkono Teles",
+    "id": 5306036,
+    "name": "Nkono Teles",
+    "fans": 66,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q60832668": {
+    "artist": "Ottou Marcellin",
+    "id": 14432401,
+    "name": "Ottou Marcelin",
+    "fans": 59,
+    "similarity": 0.5,
+    "confidence": 0.42,
+    "status": "none"
+  },
+  "Q3359998": {
+    "artist": "Pablo Symbol",
+    "status": "none"
+  },
+  "Q108862298": {
+    "artist": "Phillbill",
+    "id": 59400642,
+    "name": "Phillbill",
+    "fans": 408,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q130530235": {
+    "artist": "Prosper Germoh",
+    "id": 61541252,
+    "name": "Prosper Germoh",
+    "fans": 13,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q118954708": {
+    "artist": "Samy Manga",
+    "id": 5481040,
+    "name": "Samy Danger",
+    "fans": 82,
+    "similarity": 0.5,
+    "confidence": 0.42,
+    "status": "none"
+  },
+  "Q112112912": {
+    "artist": "Sergeo Polo",
+    "id": 4942994,
+    "name": "Sergeo Polo",
+    "fans": 6149,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q125843988": {
+    "artist": "Shapat",
+    "id": 75469022,
+    "name": "Shapat",
+    "fans": 107,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q17150144": {
+    "artist": "Stanley Ebai Enow",
+    "id": 179487607,
+    "name": "Bayanni",
+    "fans": 5223,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "Q112093339": {
+    "artist": "Stéphane Akam",
+    "id": 13875757,
+    "name": "Stephane AKAM",
+    "fans": 19,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q50348621": {
+    "artist": "Teety Tezano",
+    "id": 7600890,
+    "name": "Teety Tezano",
+    "fans": 21,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q48774408": {
+    "artist": "Tenor",
+    "id": 563324,
+    "name": "Tenor",
+    "fans": 27177,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q109891140": {
+    "artist": "Tilla Tafari",
+    "id": 14435085,
+    "name": "Tilla Tafari",
+    "fans": 9,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115869958": {
+    "artist": "Tom Yoms",
+    "id": 5131162,
+    "name": "Tom Yom's",
+    "fans": 723,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q118077425": {
+    "artist": "TracyLor",
+    "id": 7960626,
+    "name": "TracyLor",
+    "fans": 1277,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q61653325": {
+    "artist": "Tzy Panchak",
+    "id": 12093648,
+    "name": "Tzy Panchak",
+    "fans": 961,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q115941888": {
+    "artist": "Vershiy",
+    "id": 4903,
+    "name": "Bersuit Vergarabat",
+    "fans": 102400,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "Q138711071": {
+    "artist": "Witty Minstrel",
+    "id": 93389112,
+    "name": "Witty Minstrel",
+    "fans": 181,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

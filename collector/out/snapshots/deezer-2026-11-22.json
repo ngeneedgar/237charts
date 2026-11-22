@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T15:08:00.267Z",
+  "takenAt": "2026-11-22T16:38:11.294Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -69,7 +69,7 @@
     "Q115452649": {
       "deezerId": 51167232,
       "name": "Cysoul",
-      "fans": 7177
+      "fans": 7178
     },
     "Q47371377": {
       "deezerId": 5506602,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121165
+      "fans": 1121171
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -109,7 +109,7 @@
     "Q48774004": {
       "deezerId": 5178285,
       "name": "Eko Roosevelt",
-      "fans": 3302
+      "fans": 3303
     },
     "Q3592261": {
       "deezerId": 109692,
@@ -139,7 +139,7 @@
     "Q439028": {
       "deezerId": 264933,
       "name": "Irma",
-      "fans": 169831
+      "fans": 169832
     },
     "Q140841663": {
       "deezerId": 1624186,
@@ -154,7 +154,7 @@
     "Q115790718": {
       "deezerId": 70757872,
       "name": "Libianca",
-      "fans": 25115
+      "fans": 25116
     },
     "Q47472775": {
       "deezerId": 200195,
@@ -179,7 +179,7 @@
     "Q445829": {
       "deezerId": 4929,
       "name": "Manu Dibango",
-      "fans": 69385
+      "fans": 69386
     },
     "Q107491845": {
       "deezerId": 10153532,
@@ -204,7 +204,7 @@
     "Q3389313": {
       "deezerId": 5224,
       "name": "Pit Baccardi",
-      "fans": 32338
+      "fans": 32339
     },
     "Q1893336": {
       "deezerId": 1453568,
@@ -219,7 +219,7 @@
     "Q25679": {
       "deezerId": 13921,
       "name": "Richard Bona",
-      "fans": 51375
+      "fans": 51376
     },
     "Q115790591": {
       "deezerId": 73012012,
@@ -239,7 +239,7 @@
     "Q136486889": {
       "deezerId": 304572,
       "name": "Shura",
-      "fans": 20678
+      "fans": 20680
     },
     "Q112537827": {
       "deezerId": 14235001,
@@ -249,7 +249,7 @@
     "Q30596023": {
       "deezerId": 401410,
       "name": "VAGABON",
-      "fans": 3095
+      "fans": 3096
     },
     "Q109814231": {
       "deezerId": 391272,
@@ -259,22 +259,22 @@
     "Q349703": {
       "deezerId": 6745,
       "name": "Wes",
-      "fans": 15649
+      "fans": 15650
     },
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145820
+      "fans": 145824
     },
     "Q221908": {
       "deezerId": 1801,
       "name": "Yannick Noah",
-      "fans": 174295
+      "fans": 174299
     },
     "Q16980116": {
       "deezerId": 584589,
       "name": "Jovi",
-      "fans": 6213
+      "fans": 6214
     },
     "X-vanity-fair": {
       "deezerId": 61670,
@@ -360,6 +360,46 @@
       "deezerId": 12527634,
       "name": "Sojip",
       "fans": 614
+    },
+    "Q97675959": {
+      "deezerId": 144702,
+      "name": "Chantal Ayissi",
+      "fans": 515
+    },
+    "Q3106820": {
+      "deezerId": 170085,
+      "name": "Gino Sitson",
+      "fans": 971
+    },
+    "Q109890549": {
+      "deezerId": 7852242,
+      "name": "Letis Diva",
+      "fans": 1368
+    },
+    "Q112112912": {
+      "deezerId": 4942994,
+      "name": "Sergeo Polo",
+      "fans": 6149
+    },
+    "Q48774408": {
+      "deezerId": 563324,
+      "name": "Tenor",
+      "fans": 27177
+    },
+    "Q115869958": {
+      "deezerId": 5131162,
+      "name": "Tom Yom's",
+      "fans": 723
+    },
+    "Q118077425": {
+      "deezerId": 7960626,
+      "name": "TracyLor",
+      "fans": 1277
+    },
+    "Q61653325": {
+      "deezerId": 12093648,
+      "name": "Tzy Panchak",
+      "fans": 961
     }
   },
   "tracks": {
@@ -439,7 +479,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Ose",
-      "rank": 87480,
+      "rank": 111812,
       "albumId": 77598,
       "link": "https://www.deezer.com/track/615147"
     },
@@ -1423,7 +1463,7 @@
       "wikidata": "Q4760361",
       "artist": "Andy Allo",
       "title": "Fly Away (feat. The Tones)",
-      "rank": 98500,
+      "rank": 66284,
       "albumId": 6642850,
       "link": "https://www.deezer.com/track/67848113"
     },
@@ -1779,6 +1819,14 @@
       "albumId": 9873948,
       "link": "https://www.deezer.com/track/97001034"
     },
+    "97105846": {
+      "wikidata": "Q115869958",
+      "artist": "Tom Yoms",
+      "title": "Trésor",
+      "rank": 107167,
+      "albumId": 9885454,
+      "link": "https://www.deezer.com/track/97105846"
+    },
     "97216548": {
       "wikidata": "Q7243974",
       "artist": "Prince Eyango",
@@ -1794,6 +1842,54 @@
       "rank": 203810,
       "albumId": 9898022,
       "link": "https://www.deezer.com/track/97216550"
+    },
+    "97216692": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Papa yeye",
+      "rank": 66731,
+      "albumId": 9898030,
+      "link": "https://www.deezer.com/track/97216692"
+    },
+    "97216694": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Fidélité",
+      "rank": 41551,
+      "albumId": 9898030,
+      "link": "https://www.deezer.com/track/97216694"
+    },
+    "97216696": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Mama RV",
+      "rank": 28467,
+      "albumId": 9898030,
+      "link": "https://www.deezer.com/track/97216696"
+    },
+    "97216700": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Carton rouge",
+      "rank": 53756,
+      "albumId": 9898030,
+      "link": "https://www.deezer.com/track/97216700"
+    },
+    "97216702": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Belle époque",
+      "rank": 89181,
+      "albumId": 9898030,
+      "link": "https://www.deezer.com/track/97216702"
+    },
+    "97247906": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Sona Ponda",
+      "rank": 59380,
+      "albumId": 9901106,
+      "link": "https://www.deezer.com/track/97247906"
     },
     "97329262": {
       "wikidata": "Q2079842",
@@ -1898,6 +1994,38 @@
       "rank": 67851,
       "albumId": 9920326,
       "link": "https://www.deezer.com/track/97425792"
+    },
+    "97806368": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Géorgie",
+      "rank": 113594,
+      "albumId": 9959228,
+      "link": "https://www.deezer.com/track/97806368"
+    },
+    "97806372": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Hela",
+      "rank": 48853,
+      "albumId": 9959228,
+      "link": "https://www.deezer.com/track/97806372"
+    },
+    "97806374": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Amour & folie",
+      "rank": 175039,
+      "albumId": 9959228,
+      "link": "https://www.deezer.com/track/97806374"
+    },
+    "97806376": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Je me libère",
+      "rank": 77808,
+      "albumId": 9959228,
+      "link": "https://www.deezer.com/track/97806376"
     },
     "97827658": {
       "wikidata": "Q439028",
@@ -2643,6 +2771,14 @@
       "albumId": 41503761,
       "link": "https://www.deezer.com/track/361260511"
     },
+    "361814471": {
+      "wikidata": "Q61653325",
+      "artist": "Tzy Panchak",
+      "title": "Mad 4 Yu' luv",
+      "rank": 74265,
+      "albumId": 41590531,
+      "link": "https://www.deezer.com/track/361814471"
+    },
     "365434501": {
       "wikidata": "Q18351472",
       "artist": "Magasco",
@@ -2732,8 +2868,8 @@
       "link": "https://www.deezer.com/track/412363772"
     },
     "430244462": {
-      "wikidata": "Q107315146",
-      "artist": "Mink's",
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
       "title": "Power",
       "rank": 246768,
       "albumId": 51873482,
@@ -2772,8 +2908,8 @@
       "link": "https://www.deezer.com/track/451258432"
     },
     "467497522": {
-      "wikidata": "Q107315146",
-      "artist": "Mink's",
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
       "title": "Donner Donner (Power 2)",
       "rank": 215410,
       "albumId": 58012592,
@@ -2810,6 +2946,54 @@
       "rank": 195649,
       "albumId": 58221032,
       "link": "https://www.deezer.com/track/468694992"
+    },
+    "483548822": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Bad Things",
+      "rank": 167652,
+      "albumId": 60828352,
+      "link": "https://www.deezer.com/track/483548822"
+    },
+    "483549912": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Bahatland",
+      "rank": 37201,
+      "albumId": 60828512,
+      "link": "https://www.deezer.com/track/483549912"
+    },
+    "483549932": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Do le dab",
+      "rank": 176771,
+      "albumId": 60828532,
+      "link": "https://www.deezer.com/track/483549932"
+    },
+    "483550352": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Alain parfait (A l'imparfait)",
+      "rank": 177389,
+      "albumId": 60828602,
+      "link": "https://www.deezer.com/track/483550352"
+    },
+    "499995992": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "LVMH",
+      "rank": 115881,
+      "albumId": 63572232,
+      "link": "https://www.deezer.com/track/499995992"
+    },
+    "499996002": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Appeler",
+      "rank": 77232,
+      "albumId": 63572232,
+      "link": "https://www.deezer.com/track/499996002"
     },
     "508622382": {
       "wikidata": "Q529942",
@@ -3388,8 +3572,8 @@
       "link": "https://www.deezer.com/track/629514342"
     },
     "632542802": {
-      "wikidata": "Q64494",
-      "artist": "Bébé Manga",
+      "wikidata": "Q115869958",
+      "artist": "Tom Yoms",
       "title": "Naméya",
       "rank": 106156,
       "albumId": 87323762,
@@ -3987,6 +4171,14 @@
       "albumId": 115081322,
       "link": "https://www.deezer.com/track/776652542"
     },
+    "809425642": {
+      "wikidata": "Q61653325",
+      "artist": "Tzy Panchak",
+      "title": "Tomorrow",
+      "rank": 13538,
+      "albumId": 119160362,
+      "link": "https://www.deezer.com/track/809425642"
+    },
     "819970592": {
       "wikidata": "Q30596023",
       "artist": "Vagabon",
@@ -4215,7 +4407,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Bodimbea",
-      "rank": 235131,
+      "rank": 230562,
       "albumId": 140906432,
       "link": "https://www.deezer.com/track/926353352"
     },
@@ -4239,7 +4431,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Mukusa",
-      "rank": 189993,
+      "rank": 191139,
       "albumId": 140906432,
       "link": "https://www.deezer.com/track/926353422"
     },
@@ -4322,6 +4514,22 @@
       "rank": 175256,
       "albumId": 142575552,
       "link": "https://www.deezer.com/track/933922382"
+    },
+    "933922442": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Chicoter",
+      "rank": 30964,
+      "albumId": 142575552,
+      "link": "https://www.deezer.com/track/933922442"
+    },
+    "933922472": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "La fille est laide",
+      "rank": 61107,
+      "albumId": 142575552,
+      "link": "https://www.deezer.com/track/933922472"
     },
     "936969002": {
       "wikidata": "Q4875441",
@@ -4487,7 +4695,7 @@
       "wikidata": "Q30596023",
       "artist": "Vagabon",
       "title": "Water Me Down (Pamcy Remix)",
-      "rank": 31783,
+      "rank": 105856,
       "albumId": 160172242,
       "link": "https://www.deezer.com/track/1018391302"
     },
@@ -4714,6 +4922,14 @@
       "rank": 147988,
       "albumId": 193343592,
       "link": "https://www.deezer.com/track/1177838592"
+    },
+    "1178678812": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Salauds",
+      "rank": 176553,
+      "albumId": 193480992,
+      "link": "https://www.deezer.com/track/1178678812"
     },
     "1195474312": {
       "wikidata": "Q30596023",
@@ -5151,7 +5367,7 @@
       "wikidata": "Q3592261",
       "artist": "Étienne Mbappé",
       "title": "Not Time Yet",
-      "rank": 120548,
+      "rank": 151518,
       "albumId": 260332702,
       "link": "https://www.deezer.com/track/1500142632"
     },
@@ -5467,6 +5683,14 @@
       "albumId": 326469027,
       "link": "https://www.deezer.com/track/1787042957"
     },
+    "1791066577": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Zero",
+      "rank": 16531,
+      "albumId": 327380477,
+      "link": "https://www.deezer.com/track/1791066577"
+    },
     "1808385817": {
       "wikidata": "Q65131531",
       "artist": "Maahlox le vibeur",
@@ -5491,6 +5715,14 @@
       "albumId": 334804987,
       "link": "https://www.deezer.com/track/1821209927"
     },
+    "1826539197": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Un",
+      "rank": 54765,
+      "albumId": 336210907,
+      "link": "https://www.deezer.com/track/1826539197"
+    },
     "1827118797": {
       "wikidata": "Q30728231",
       "artist": "Lydol",
@@ -5514,6 +5746,22 @@
       "rank": 113197,
       "albumId": 339522847,
       "link": "https://www.deezer.com/track/1840213857"
+    },
+    "1847835987": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Salazar",
+      "rank": 218945,
+      "albumId": 341834117,
+      "link": "https://www.deezer.com/track/1847835987"
+    },
+    "1847836017": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Profiter",
+      "rank": 38104,
+      "albumId": 341834117,
+      "link": "https://www.deezer.com/track/1847836017"
     },
     "1849820787": {
       "wikidata": "Q3037333",
@@ -5546,6 +5794,14 @@
       "rank": 21987,
       "albumId": 344670407,
       "link": "https://www.deezer.com/track/1859436057"
+    },
+    "1868521037": {
+      "wikidata": "Q61653325",
+      "artist": "Tzy Panchak",
+      "title": "L'homme Est Mauvais",
+      "rank": 137735,
+      "albumId": 346898167,
+      "link": "https://www.deezer.com/track/1868521037"
     },
     "1897748327": {
       "wikidata": "Q47472775",
@@ -5698,6 +5954,14 @@
       "rank": 198008,
       "albumId": 374361947,
       "link": "https://www.deezer.com/track/2009687817"
+    },
+    "2020667357": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Marteau De Thor",
+      "rank": 79708,
+      "albumId": 376375047,
+      "link": "https://www.deezer.com/track/2020667357"
     },
     "2030647107": {
       "wikidata": "Q115452792",
@@ -5951,7 +6215,7 @@
       "wikidata": "X-tata",
       "artist": "TATA",
       "title": "To Whom It May Concern",
-      "rank": 230246,
+      "rank": 253525,
       "albumId": 423098467,
       "link": "https://www.deezer.com/track/2213614347"
     },
@@ -6266,6 +6530,14 @@
       "rank": 366932,
       "albumId": 455592335,
       "link": "https://www.deezer.com/track/2335319715"
+    },
+    "2336348345": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Love Makossa",
+      "rank": 93658,
+      "albumId": 455898425,
+      "link": "https://www.deezer.com/track/2336348345"
     },
     "2344390635": {
       "wikidata": "Q109771617",
@@ -6695,7 +6967,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Di Saegri",
-      "rank": 63620,
+      "rank": 121497,
       "albumId": 512960921,
       "link": "https://www.deezer.com/track/2543691701"
     },
@@ -6807,7 +7079,7 @@
       "wikidata": "Q2079842",
       "artist": "Petit-Pays",
       "title": "Le Jour De Ma Mort",
-      "rank": 119464,
+      "rank": 88760,
       "albumId": 520767032,
       "link": "https://www.deezer.com/track/2574467512"
     },
@@ -6818,6 +7090,14 @@
       "rank": 159844,
       "albumId": 520767032,
       "link": "https://www.deezer.com/track/2574467532"
+    },
+    "2582487982": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Ohlala",
+      "rank": 161291,
+      "albumId": 523004702,
+      "link": "https://www.deezer.com/track/2582487982"
     },
     "2586478742": {
       "wikidata": "Q3037333",
@@ -6923,6 +7203,14 @@
       "albumId": 550993272,
       "link": "https://www.deezer.com/track/2672599362"
     },
+    "2674194302": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Lo Bebe",
+      "rank": 201336,
+      "albumId": 551382102,
+      "link": "https://www.deezer.com/track/2674194302"
+    },
     "2683136422": {
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
@@ -6962,6 +7250,14 @@
       "rank": 59993,
       "albumId": 555039342,
       "link": "https://www.deezer.com/track/2686081572"
+    },
+    "2688340532": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Il est né",
+      "rank": 68033,
+      "albumId": 555771202,
+      "link": "https://www.deezer.com/track/2688340532"
     },
     "2693603572": {
       "wikidata": "Q109771617",
@@ -7123,6 +7419,14 @@
       "albumId": 591959762,
       "link": "https://www.deezer.com/track/2818008372"
     },
+    "2851518052": {
+      "wikidata": "Q61653325",
+      "artist": "Tzy Panchak",
+      "title": "We Outside [feat. HASSAN & Boy Tag]",
+      "rank": 22128,
+      "albumId": 603105502,
+      "link": "https://www.deezer.com/track/2851518052"
+    },
     "2853727862": {
       "wikidata": "Q25679",
       "artist": "Richard Bona",
@@ -7283,6 +7587,14 @@
       "albumId": 665534761,
       "link": "https://www.deezer.com/track/3074329701"
     },
+    "3077436551": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "DEMARRER",
+      "rank": 142186,
+      "albumId": 666361081,
+      "link": "https://www.deezer.com/track/3077436551"
+    },
     "3078212331": {
       "wikidata": "Q112537827",
       "artist": "Tagne",
@@ -7367,7 +7679,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "Leonard Street",
-      "rank": 140450,
+      "rank": 109506,
       "albumId": 673016701,
       "link": "https://www.deezer.com/track/3102796781"
     },
@@ -7391,7 +7703,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "I Wanna Be Loved By You",
-      "rank": 107777,
+      "rank": 72030,
       "albumId": 673016701,
       "link": "https://www.deezer.com/track/3102796841"
     },
@@ -7631,7 +7943,7 @@
       "wikidata": "Q24341755",
       "artist": "Adèle Ruffine Ngono",
       "title": "Oulala",
-      "rank": 158067,
+      "rank": 117442,
       "albumId": 687431231,
       "link": "https://www.deezer.com/track/3154850801"
     },
@@ -7716,8 +8028,8 @@
       "link": "https://www.deezer.com/track/3185985131"
     },
     "3185985141": {
-      "wikidata": "Q115452649",
-      "artist": "Cysoul",
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
       "title": "BIKUT5",
       "rank": 163801,
       "albumId": 697936781,
@@ -7754,6 +8066,14 @@
       "rank": 339314,
       "albumId": 702356611,
       "link": "https://www.deezer.com/track/3200796151"
+    },
+    "3209242931": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "L'HOMME",
+      "rank": 229046,
+      "albumId": 705263371,
+      "link": "https://www.deezer.com/track/3209242931"
     },
     "3215345131": {
       "wikidata": "Q136486889",
@@ -8018,6 +8338,14 @@
       "rank": 282401,
       "albumId": 747714801,
       "link": "https://www.deezer.com/track/3339981301"
+    },
+    "3357108831": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "S'Aimer Bien",
+      "rank": 152605,
+      "albumId": 753458951,
+      "link": "https://www.deezer.com/track/3357108831"
     },
     "3366843281": {
       "wikidata": "Q3389313",
@@ -8487,7 +8815,7 @@
       "wikidata": "X-martin-s",
       "artist": "Martin's",
       "title": "Saint Tropez",
-      "rank": 40886,
+      "rank": 135878,
       "albumId": 869810272,
       "link": "https://www.deezer.com/track/3695010752"
     },
@@ -8522,6 +8850,14 @@
       "rank": 194515,
       "albumId": 874165992,
       "link": "https://www.deezer.com/track/3706440702"
+    },
+    "3709164392": {
+      "wikidata": "Q97675959",
+      "artist": "Chantal Ayissi",
+      "title": "Melu Megning",
+      "rank": 76054,
+      "albumId": 874856072,
+      "link": "https://www.deezer.com/track/3709164392"
     },
     "3723234242": {
       "wikidata": "Q19544251",
@@ -8723,6 +9059,30 @@
       "albumId": 892100942,
       "link": "https://www.deezer.com/track/3759234122"
     },
+    "3761398602": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "S. O. S",
+      "rank": 177687,
+      "albumId": 892889802,
+      "link": "https://www.deezer.com/track/3761398602"
+    },
+    "3761398652": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Solantine",
+      "rank": 204680,
+      "albumId": 892889802,
+      "link": "https://www.deezer.com/track/3761398652"
+    },
+    "3761398682": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Mes amours",
+      "rank": 113890,
+      "albumId": 892889802,
+      "link": "https://www.deezer.com/track/3761398682"
+    },
     "3772032132": {
       "wikidata": "Q115790718",
       "artist": "Libianca",
@@ -8730,6 +9090,30 @@
       "rank": 153877,
       "albumId": 896736012,
       "link": "https://www.deezer.com/track/3772032132"
+    },
+    "3776426142": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "La chicotte de Papa",
+      "rank": 107591,
+      "albumId": 898248962,
+      "link": "https://www.deezer.com/track/3776426142"
+    },
+    "3776426172": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Pardonne-moi",
+      "rank": 182409,
+      "albumId": 898248962,
+      "link": "https://www.deezer.com/track/3776426172"
+    },
+    "3776426202": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "No Try Me",
+      "rank": 116986,
+      "albumId": 898248962,
+      "link": "https://www.deezer.com/track/3776426202"
     },
     "3778768002": {
       "wikidata": "Q112537827",
@@ -8834,6 +9218,54 @@
       "rank": 29112,
       "albumId": 922939941,
       "link": "https://www.deezer.com/track/3855434851"
+    },
+    "3864080091": {
+      "wikidata": "Q61653325",
+      "artist": "Tzy Panchak",
+      "title": "God in Me",
+      "rank": 11515,
+      "albumId": 926187301,
+      "link": "https://www.deezer.com/track/3864080091"
+    },
+    "3865244291": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Maman hermine ekollo salle",
+      "rank": 22431,
+      "albumId": 926585351,
+      "link": "https://www.deezer.com/track/3865244291"
+    },
+    "3865257081": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Fleur et Vénus (Gloire à la femme)",
+      "rank": 73937,
+      "albumId": 926588901,
+      "link": "https://www.deezer.com/track/3865257081"
+    },
+    "3865257091": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Vraie déesse",
+      "rank": 39522,
+      "albumId": 926588901,
+      "link": "https://www.deezer.com/track/3865257091"
+    },
+    "3865268611": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Lili",
+      "rank": 93534,
+      "albumId": 926592211,
+      "link": "https://www.deezer.com/track/3865268611"
+    },
+    "3865268631": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Amour à deux, amour à vie",
+      "rank": 149388,
+      "albumId": 926592211,
+      "link": "https://www.deezer.com/track/3865268631"
     },
     "3876366111": {
       "wikidata": "Q3037333",
@@ -9107,6 +9539,14 @@
       "albumId": 952247921,
       "link": "https://www.deezer.com/track/3935090111"
     },
+    "3938127731": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "RAHIM",
+      "rank": 88552,
+      "albumId": 953035541,
+      "link": "https://www.deezer.com/track/3938127731"
+    },
     "3941474461": {
       "wikidata": "Q64667915",
       "artist": "Blanche Bailly",
@@ -9146,6 +9586,22 @@
       "rank": 717947,
       "albumId": 971201611,
       "link": "https://www.deezer.com/track/3989540221"
+    },
+    "4024199371": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Baninga Mabé",
+      "rank": 130159,
+      "albumId": 983684841,
+      "link": "https://www.deezer.com/track/4024199371"
+    },
+    "4024199381": {
+      "wikidata": "Q112112912",
+      "artist": "Sergeo Polo",
+      "title": "Regards Jaloux",
+      "rank": 90024,
+      "albumId": 983684841,
+      "link": "https://www.deezer.com/track/4024199381"
     },
     "4029106341": {
       "wikidata": "Q439028",
@@ -9443,6 +9899,38 @@
       "albumId": 1036113342,
       "link": "https://www.deezer.com/track/4172034032"
     },
+    "4183067342": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Quand Même",
+      "rank": 140185,
+      "albumId": 1040488292,
+      "link": "https://www.deezer.com/track/4183067342"
+    },
+    "4183067352": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Woke",
+      "rank": 134558,
+      "albumId": 1040488292,
+      "link": "https://www.deezer.com/track/4183067352"
+    },
+    "4183067382": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Deux",
+      "rank": 71090,
+      "albumId": 1040488292,
+      "link": "https://www.deezer.com/track/4183067382"
+    },
+    "4183067402": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Gros Nerfs",
+      "rank": 59872,
+      "albumId": 1040488292,
+      "link": "https://www.deezer.com/track/4183067402"
+    },
     "4190947232": {
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
@@ -9482,6 +9970,22 @@
       "rank": 103697,
       "albumId": 1059885862,
       "link": "https://www.deezer.com/track/4238214492"
+    },
+    "4243042342": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Venez voir",
+      "rank": 132311,
+      "albumId": 1061892752,
+      "link": "https://www.deezer.com/track/4243042342"
+    },
+    "4259630631": {
+      "wikidata": "Q48774408",
+      "artist": "Tenor",
+      "title": "Boulevard",
+      "rank": 281098,
+      "albumId": 1068401791,
+      "link": "https://www.deezer.com/track/4259630631"
     },
     "4260844411": {
       "wikidata": "Q3389313",
@@ -9527,7 +10031,7 @@
       "wikidata": "Q111470436",
       "artist": "Kocee",
       "title": "Go Na Go",
-      "rank": 157245,
+      "rank": 189406,
       "albumId": 1078708552,
       "link": "https://www.deezer.com/track/4286047522"
     },
