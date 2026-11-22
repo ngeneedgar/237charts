@@ -20,8 +20,8 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <>
       <main className={s.page}>
         <header className={s.nav}>
-          <div className={s.navRow}>
-            {/* Logo beside the title and week, as one brand block */}
+          <div className={s.navRow} style={{ justifyContent: "center" }}>
+            {/* Logo beside the title and week, as one centred brand block */}
             <div className={s.brandBlock}>
               <Link href={`/${lang}/`} aria-label="237 Charts" className={s.brandLogo}><Logo height={56} /></Link>
               <div className={s.brandText}>
@@ -29,10 +29,6 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 <p className={s.week}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
               </div>
             </div>
-            <nav className={s.seg} aria-label="Language">
-              <Link href="/en/" aria-current={lang === "en"} hrefLang="en">EN</Link>
-              <Link href="/fr/" aria-current={lang === "fr"} hrefLang="fr">FR</Link>
-            </nav>
           </div>
         </header>
 

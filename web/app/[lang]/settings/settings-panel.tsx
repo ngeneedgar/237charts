@@ -22,7 +22,7 @@ type Copy = {
   appearance: string; theme: string; auto: string; light: string; dark: string; autoNote: string;
   content: string; hideExplicit: string; hideExplicitNote: string;
   notifications: string; newChart: string; newChartNote: string; favArtists: string; appOnly: string;
-  about: string; methodology: string; forArtists: string; embed: string; version: string; versionValue: string;
+  about: string; methodology: string; forArtists: string; embed: string; archive: string; version: string; versionValue: string;
   reset: string; resetDone: string; savedNote: string;
 };
 
@@ -101,6 +101,7 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
         <div className={s.setCard}>
           <Link className={s.setRow} href={`/${lang}/methodology/`}><span>{c.methodology}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <Link className={s.setRow} href={`/${lang}/artists/`}><span>{c.forArtists}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
+          <Link className={s.setRow} href={`/${lang}/archive/`}><span>{c.archive}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <Link className={s.setRow} href={`/${lang}/embed/`}><span>{c.embed}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <div className={s.setRow}><span>{c.version}</span><span className={s.setValue}>{c.versionValue}</span></div>
         </div>

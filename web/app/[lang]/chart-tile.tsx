@@ -14,9 +14,9 @@ export const TILE_BG: Record<string, string> = {
   bikutsi: "linear-gradient(145deg, #F7B733 0%, #E8590C 60%, #8A2C02 100%)",             // forest fire
   mbole: "radial-gradient(110% 110% at 85% 15%, #FF5F6D 0%, #B21F1F 50%, #3D0C11 100%)", // street red
   njang: "linear-gradient(120deg, #A8C256 0%, #4C8C2B 45%, #1B3A1A 100%)",               // grassfields
-  afro: "linear-gradient(225deg, #F72585 0%, #7209B7 50%, #3A0CA3 100%)",                // night out
+  afro: "linear-gradient(225deg, #FF7EB3 0%, #E0218A 45%, #7A0B3D 100%)",                // hot pink → wine (no purple)
   hiphop: "linear-gradient(170deg, #434343 0%, #1F1F1F 60%, #000000 100%), radial-gradient(80% 60% at 80% 90%, rgba(255,214,10,.35), transparent 70%)", // asphalt + streetlight
-  mboko: "radial-gradient(130% 100% at 0% 100%, #FFD60A 0%, #FF7B00 22%, #6A00F4 60%, #240046 100%)", // Mboko gang gold-on-purple
+  mboko: "linear-gradient(160deg, #9D4EDD 0%, #5A189A 50%, #240046 100%)",               // royal purple (Afro is pink, never purple)
 };
 
 export function ChartTile({ href, kind, title, label, caption, sub, long }: {

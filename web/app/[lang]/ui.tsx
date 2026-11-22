@@ -64,18 +64,14 @@ export function Explicit() {
   return <span className={s.explicit} role="img" aria-label="Explicit" title="Explicit">E</span>;
 }
 
-/** Large title (home) or back link + title (sub-pages), with FR/EN switch keeping the same page. */
+/** Page header: back control on the left, page title centred (language is chosen in Settings). */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function NavBar({ t, lang, path, title, back }: { t: Dict; lang: Locale; path: string; title: string; back?: { href: string; label: string } }) {
   return (
-    <header className={s.nav}>
-      <div className={s.navRow}>
-        {back ? <BackLink href={back.href} label={back.label} /> : <span />}
-        <nav className={s.seg} aria-label="Language">
-          <Link href={`/en/${path}`} aria-current={lang === "en"} hrefLang="en">EN</Link>
-          <Link href={`/fr/${path}`} aria-current={lang === "fr"} hrefLang="fr">FR</Link>
-        </nav>
-      </div>
-      {title && <h1 className={s.title}>{title}</h1>}
+    <header className={s.navBar}>
+      <div className={s.navSide}>{back && <BackLink href={back.href} label={back.label} />}</div>
+      <h1 className={s.navTitle}>{title}</h1>
+      <div className={s.navSide} aria-hidden="true" />
     </header>
   );
 }
@@ -90,6 +86,7 @@ export function Footer({ t, lang }: { t: Dict; lang: Locale }) {
       <Logo height={32} />
       <span>{t.footer}</span>
       <Link href={`/${lang}/methodology/`}>{t.methodology}</Link>
+      <Link href={`/${lang}/archive/`}>{t.archiveTitle}</Link>
       <Link href={`/${lang}/artists/`}>{t.forArtists}</Link>
     </footer>
   );
@@ -103,10 +100,13 @@ const icons = {
   settings: <><circle cx="12" cy="12" r="3" /><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" /><circle cx="12" cy="12" r="7" /></>,
 };
 
+// Clean navigation: only the three main places. Archive and Embed live in Settings and the footer.
+const TABS = ["charts", "search", "settings"] as const;
+
 export function TabBar({ t, lang, active }: { t: Dict; lang: Locale; active: keyof typeof icons }) {
   return (
     <nav className={s.tabbar} aria-label="Main">
-      {(Object.keys(icons) as (keyof typeof icons)[]).map((k) => (
+      {TABS.map((k) => (
         <Link key={k} href={k === "charts" ? `/${lang}/` : `/${lang}/${k}/`} className={`${s.tab} ${k === active ? s.tabOn : ""}`} aria-current={k === active ? "page" : undefined}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{icons[k]}</svg>
           {t.tabs[k]}

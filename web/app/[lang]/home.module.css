@@ -10,8 +10,19 @@
 
 .nav { display: grid; gap: var(--s2); padding-top: calc(var(--s5) + env(safe-area-inset-top, 0px)); }
 .navRow { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+/* Sub-page header: [back] [centred title] [empty] — equal side columns keep the title truly centred */
+.navBar {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--s2);
+  min-height: 52px; padding-top: calc(var(--s3) + env(safe-area-inset-top, 0px));
+}
+.navSide { min-width: 0; display: flex; }
+.navBar + .week { text-align: center; }
+.navTitle {
+  font-size: 17px; line-height: 22px; font-weight: 700; margin: 0; text-align: center;
+  max-width: 60vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 /* Home header: logo + (title / week) side by side; EN/FR aligned to the top of the block */
-.brandBlock { display: flex; align-items: center; gap: var(--s3); min-width: 0; flex: 1; }
+.brandBlock { display: flex; align-items: center; justify-content: center; gap: var(--s3); min-width: 0; }
 .brandLogo { flex: none; display: block; }
 .brandText { display: grid; gap: 2px; min-width: 0; }
 /* "Classements" is long: scale the title with the screen so EN/FR never gets pushed off */
@@ -65,7 +76,7 @@
 
 /* Back: chevron + label, 44px tap target; label truncates on narrow screens */
 .back {
-  display: inline-flex; align-items: center; gap: 6px; min-height: 44px; max-width: 65%;
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px; max-width: 100%;
   margin-left: -8px; padding: 0 10px 0 8px; border-radius: 10px;
   font-size: 17px; font-weight: 400; color: var(--accent);
   transition: background 0.2s var(--ease);
@@ -73,7 +84,9 @@
 .back:hover { text-decoration: none; background: color-mix(in srgb, var(--accent) 10%, transparent); }
 .back:active { background: color-mix(in srgb, var(--accent) 18%, transparent); transition: none; }
 .back svg { flex: none; }
-.backLabel { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+/* Chevron-only back button (label kept for screen readers), round 44px tap target */
+.back { width: 44px; height: 44px; padding: 0; margin-left: -10px; justify-content: center; border-radius: 50%; }
+.backLabel { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Song / artist detail */
 .detailHero { display: grid; gap: var(--s5); justify-items: center; text-align: center; padding-top: var(--s2); }
@@ -218,7 +231,7 @@ button.textBtn { background: none; border: 0; color: var(--accent); font: 17px v
   background: color-mix(in srgb, var(--surface) 72%, transparent);
   backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-top: 0.5px solid var(--separator);
-  display: grid; grid-template-columns: repeat(5, 1fr); max-width: 100%;
+  display: grid; grid-template-columns: repeat(3, 1fr); max-width: 100%;
 }
 .tab { display: grid; justify-items: center; gap: 2px; font-size: 10px; line-height: 12px; color: var(--label-2); padding: 4px 0; border-radius: 10px; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 .tab:hover { text-decoration: none; }
