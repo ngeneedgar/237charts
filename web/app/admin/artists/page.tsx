@@ -37,7 +37,7 @@ function Artists() {
   async function save(path: string, content: string, sha: string | null, reason: string, done: string) {
     try {
       const r = await api.save(path, content, sha, reason);
-      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `${done} Applies on the next run.`, link: r.commit });
+      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `${done} Live after the Monday run, or press Re-run now on Overview.`, link: r.commit });
       setPending(null);
       if (!r.dry) await load();
     } catch (e) { setToast({ kind: "bad", text: (e as Error).message }); }

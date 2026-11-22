@@ -43,7 +43,7 @@ function Channels() {
     try {
       const r = await api.save("admin/channels.csv", appendRow(f.content, [pending.artist.name, pending.channelId, reason]), f.sha,
         `Channel for ${pending.artist.name}: ${pending.channelId} (${reason})`);
-      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `Channel saved for ${pending.artist.name}. Their videos count from the next run.`, link: r.commit });
+      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `Channel saved for ${pending.artist.name}. Their videos count after the Monday run, or press Re-run now on Overview.`, link: r.commit });
       setPending(null);
       if (!r.dry) load(); else setData((d) => d && { ...d, artists: d.artists.map((a) => a.id === pending.artist.id ? { ...a, channelStatus: "official", channels: [pending.channelId] } : a) });
     } catch (e) { setToast({ kind: "bad", text: (e as Error).message }); }

@@ -7,11 +7,13 @@ name: Weekly chart
 on:
   schedule:
     - cron: "0 7 * * 1"
-  # Editing anything in admin/ on github.com applies it right away
+  # Admin edits (dashboard or github.com) do NOT start a run: they apply at the Monday run,
+  # or right away with "Re-run now" in the admin (Actions → Weekly chart → Run workflow).
+  # One run per batch of decisions saves YouTube quota and GitHub minutes.
   push:
     branches: [main]
-    # admin edits, plus code changes (the bot's own data commits never trigger a run)
-    paths: ["admin/**", "collector/**/*.mjs", "web/app/**", ".github/workflows/weekly-chart.yml"]
+    # code changes only (the bot's own data commits never trigger a run)
+    paths: ["collector/**/*.mjs", "web/app/**", ".github/workflows/weekly-chart.yml"]
   workflow_dispatch:
     inputs:
       dry:

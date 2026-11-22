@@ -40,7 +40,7 @@ function Review() {
       if (!/^name,cameroonian,source/.test(text)) text = text.replace(/^name,cameroonian[^\n]*/, "name,cameroonian,source");
       const reason = `${cur.name}: ${answer === "yes" ? "Cameroonian" : "not eligible"} (${source.trim()})`;
       const r = await api.save(ELIG, appendRow(text, [cur.name, answer, source.trim()]), file.sha, reason);
-      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `Saved: ${cur.name} → ${answer === "yes" ? "Cameroonian" : "not eligible"}. Applies on the next run.`, link: r.commit });
+      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `Saved: ${cur.name} → ${answer === "yes" ? "Cameroonian" : "not eligible"}. Live after the Monday run, or press Re-run now on Overview.`, link: r.commit });
       setSource("");
       if (r.dry) { setQueue((q) => (q ?? []).filter((c) => c.name !== cur.name)); }
       else await load();

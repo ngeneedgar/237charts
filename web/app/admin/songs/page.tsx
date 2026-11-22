@@ -79,7 +79,7 @@ function Songs() {
       : action === "hide" ? "hidden (not a song)" : `merged into ${songs?.find((s) => s.songId === v)?.title ?? v}`;
     try {
       const r = await api.save(FIXES, appendRow(fixes.content, [song.songId, action, v, reason]), fixes.sha, `${song.artist} – ${song.title}: ${what} (${reason})`);
-      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `Saved: ${song.title} ${what}. Applies on the next run.`, link: r.commit });
+      setToast({ kind: "ok", text: r.dry ? `Test mode — would commit: “${r.message?.split("\n")[0]}”` : `Saved: ${song.title} ${what}. Live after the Monday run, or press Re-run now on Overview.`, link: r.commit });
       setPending(null);
       if (!r.dry) await load();
     } catch (e) { setToast({ kind: "bad", text: (e as Error).message }); }
@@ -93,7 +93,7 @@ function Songs() {
     lines.splice(i, 1);
     try {
       const r = await api.save(FIXES, lines.join("\n"), fixes.sha, `Undo ${row[1]} fix on ${row[0]} (${reason})`);
-      setToast({ kind: "ok", text: r.dry ? "Test mode — undo would be committed." : "Fix removed. Applies on the next run.", link: r.commit });
+      setToast({ kind: "ok", text: r.dry ? "Test mode — undo would be committed." : "Fix removed. Live after the Monday run, or press Re-run now on Overview.", link: r.commit });
       if (!r.dry) await load();
     } catch (e) { setToast({ kind: "bad", text: (e as Error).message }); }
   }
