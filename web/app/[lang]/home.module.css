@@ -316,10 +316,17 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 }
 @media (prefers-reduced-motion: no-preference) { .heroArt { transition: transform .3s var(--ease); } .heroArtLink:hover .heroArt { transform: scale(1.02); } }
 
-/* ---------- Genre Top 3 cards (home) ---------- */
-.genreGrid { display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
-.genreCard { display: grid; gap: var(--s2); min-width: 0; }
-.genreHead { display: flex; align-items: center; gap: 10px; color: var(--label); text-decoration: none; padding: 0 var(--s1); }
-.genreHead:hover { text-decoration: none; }
-.genreSwatch { width: 28px; height: 28px; border-radius: 8px; flex: none; }
-.genreName { flex: 1; min-width: 0; font-size: 18px; line-height: 24px; font-weight: 500; }
+/* ---------- Genre rows (home): cover left, top 3 tracks right — from the team sketch ---------- */
+.genreGrid { display: grid; gap: var(--s5); }
+.genreBlock { display: grid; grid-template-columns: minmax(0, 42%) minmax(0, 1fr); gap: var(--s4); align-items: center; }
+.genreCover { display: block; color: inherit; }
+.genreCover:hover { text-decoration: none; }
+.genreCover > * { width: 100%; }
+.genreTracks { list-style: none; margin: 0; padding: 0; min-width: 0; }
+.genreTracks li + li .genreTrack { border-top: 1px solid var(--separator); }
+.genreTrack { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: var(--s3); align-items: center; padding: var(--s3) 0; color: var(--label); min-width: 0; }
+.genreTrack:hover { text-decoration: none; }
+.genreTrack:hover .rowTitle { text-decoration: underline; }
+.genreRank { font-size: 22px; line-height: 1; font-weight: 300; font-variant-numeric: tabular-nums; color: var(--accent-text); text-align: center; }
+.tileCustom { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.genreTrack .rowTitle, .genreTrack .rowArtist { display: block; }

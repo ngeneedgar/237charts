@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "admin:dev": "npx --yes wrangler@3.114.0 pages dev out --port 8788 --kv REQUESTS"
+    "admin:dev": "npx --yes wrangler@3.114.0 pages dev out --port 8788 --kv REQUESTS --r2 COVERS"
   },
   "dependencies": {
     "next": "16.4.6",

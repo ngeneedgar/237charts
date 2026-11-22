@@ -23,18 +23,29 @@ export const TILE_BG: Record<string, string> = {
 export function ChartTile({ href, kind, title, label, caption, sub, long }: {
   href: string; kind: string; title: string; label: string; caption: string; sub: string; long?: boolean;
 }) {
-  const bg = TILE_BG[kind] ?? TILE_BG["top-50"];
   return (
     <Link className={s.tile} href={href}>
-      <span className={s.tileArt} style={{ background: `linear-gradient(rgba(0,0,0,.14), rgba(0,0,0,.14)), ${bg}` }} aria-hidden="true">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className={s.tileMark} src="/brand/logo-white.svg" alt="" />
-        <span className={`${s.tileTitle} ${long ? s.tileTitleLong : ""}`}>{title}</span>
-        <span className={s.tileRule} />
-        <span className={s.tileLabel}>{label}</span>
-      </span>
+      <CoverArt kind={kind} title={title} label={label} long={long} />
       <span className={s.tileCaption}>{caption}</span>
       <span className={s.tileSub}>{sub}</span>
     </Link>
+  );
+}
+
+/** The square chart cover: the drawn gradient cover, with the team's custom 1:1 image (Cloudflare R2,
+ *  uploaded in the admin → /cover/<chart>.jpg) laid on top. With no custom image the endpoint returns a
+ *  transparent pixel, so the gradient shows. A new upload appears within ~5 minutes, no rebuild needed. */
+export function CoverArt({ kind, title, label, long, className }: { kind: string; title: string; label: string; long?: boolean; className?: string }) {
+  const bg = TILE_BG[kind] ?? TILE_BG["top-50"];
+  return (
+    <span className={`${s.tileArt} ${className ?? ""}`} style={{ background: `linear-gradient(rgba(0,0,0,.14), rgba(0,0,0,.14)), ${bg}` }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img className={s.tileMark} src="/brand/logo-white.svg" alt="" />
+      <span className={`${s.tileTitle} ${long ? s.tileTitleLong : ""}`} aria-hidden="true">{title}</span>
+      <span className={s.tileRule} />
+      <span className={s.tileLabel} aria-hidden="true">{label}</span>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img className={s.tileCustom} src={`/cover/${kind}.jpg`} alt="" loading="lazy" decoding="async" />
+    </span>
   );
 }

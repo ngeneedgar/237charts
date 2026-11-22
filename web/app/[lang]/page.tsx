@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { getChart, weekLabel } from "./chart";
 import { Art, ChartRow, Footer, Logo, Preview, TabBar } from "./ui";
-import { ChartTile, TILE_BG } from "./chart-tile";
+import { ChartTile, CoverArt } from "./chart-tile";
 import s from "./home.module.css";
 
 const year = (d: string | null) => (d ? d.slice(0, 4) : null);
@@ -63,23 +63,39 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </section>
         )}
 
-        {/* Top 3 of every genre, right under the No. 1 */}
-        <section aria-label={t.genres}>
-          <div className={s.sectionHead}><h2 className={s.sectionTitle}>{t.genres}</h2></div>
-          <div className={s.genreGrid}>
-            {chart.genres.filter((g) => g.entries.length).map((g) => (
-              <section key={g.slug} className={s.genreCard} aria-label={g[lang]}>
-                <Link href={`/${lang}/genre/${g.slug}/`} className={s.genreHead}>
-                  <span className={s.genreSwatch} style={{ background: TILE_BG[g.slug] ?? TILE_BG["top-50"] }} aria-hidden="true" />
-                  <span className={s.genreName}>{g[lang]}</span>
-                  <span className={s.sectionLink}>{t.seeAll}</span>
-                </Link>
-                <ol className={s.list}>
-                  {g.entries.slice(0, 3).map((e) => <ChartRow key={e.slug} e={e} t={t} lang={lang} />)}
-                </ol>
-              </section>
-            ))}
+        <section>
+          <div className={s.sectionHead}>
+            <h2 className={s.sectionTitle}>{t.top10}</h2>
+            <Link className={s.sectionLink} href={`/${lang}/top-50/`}>{t.seeAll}</Link>
           </div>
+          <ol className={s.list}>
+            {top10.map((e) => <ChartRow key={e.slug} e={e} t={t} lang={lang} />)}
+          </ol>
+        </section>
+
+        {/* Then every genre: Top 3 each */}
+        {/* Layout from the team's sketch: no heading; each genre = its square cover on the left, top 3 tracks on the right */}
+        <section className={s.genreGrid} aria-label={t.genres}>
+          {chart.genres.filter((g) => g.entries.length).map((g) => (
+            <section key={g.slug} className={s.genreBlock} aria-label={g[lang]}>
+              <Link href={`/${lang}/genre/${g.slug}/`} className={s.genreCover} aria-label={`${g[lang]} Top 20`}>
+                <CoverArt kind={g.slug} long title={g.slug === "afro" ? "Afro" : g.slug === "hiphop" ? (lang === "fr" ? "Hip-hop" : "Hip Hop") : g[lang]} label="Top 20" />
+              </Link>
+              <ol className={s.genreTracks}>
+                {g.entries.slice(0, 3).map((e) => (
+                  <li key={e.slug} data-explicit={e.explicit ? "true" : undefined}>
+                    <Link href={`/${lang}/song/${e.slug}/`} className={s.genreTrack}>
+                      <span className={s.genreRank}>{e.rank}</span>
+                      <span className={s.rowText}>
+                        <span className={s.rowTitle}>{e.title}</span>
+                        <span className={s.rowArtist}>{e.artists.join(", ")}</span>
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))}
         </section>
 
         {/* Chart shelves: main charts first (3 across), genre charts below */}
@@ -92,16 +108,6 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             <ChartTile kind="viral" href={`/${lang}/viral/`} title="Viral" label={t.country}
               caption="Viral 20" sub={lang === "fr" ? "Titres qui décollent" : "Songs taking off"} />
           </div>
-        </section>
-
-        <section>
-          <div className={s.sectionHead}>
-            <h2 className={s.sectionTitle}>{t.top10}</h2>
-            <Link className={s.sectionLink} href={`/${lang}/top-50/`}>{t.seeAll}</Link>
-          </div>
-          <ol className={s.list}>
-            {top10.map((e) => <ChartRow key={e.slug} e={e} t={t} lang={lang} />)}
-          </ol>
         </section>
 
         <div className={s.actions}>

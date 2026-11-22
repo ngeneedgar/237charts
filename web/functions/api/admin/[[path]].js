@@ -204,6 +204,31 @@ export async function onRequest({ request, env, params }) {
       return json({ ok: true, item: r });
     }
 
+    // ---------- chart covers (Cloudflare R2, binding COVERS): custom 1:1 images ----------
+    if (route === 'covers' && request.method === 'GET') {
+      if (!env.COVERS) return fail(503, 'Cover storage is not set up yet (R2 binding COVERS missing).');
+      const list = await env.COVERS.list({ prefix: 'covers/', include: ['customMetadata'] });
+      return json({ items: list.objects.map((o) => ({ slug: o.key.slice(7, -4), size: o.size, uploaded: o.uploaded, by: o.customMetadata?.by ?? null, reason: o.customMetadata?.reason ?? null })) });
+    }
+    const cv = route.match(/^covers\/([a-z0-9-]{2,30})$/);
+    if (cv && (request.method === 'PUT' || request.method === 'DELETE')) {
+      if (!env.COVERS) return fail(503, 'Cover storage is not set up yet.');
+      if (!can('editor')) return fail(403, 'Viewers cannot change covers.');
+      const key = `covers/${cv[1]}.jpg`;
+      const reason = (url.searchParams.get('reason') || '').trim();
+      if (reason.length < 3) return fail(400, 'A reason is required.');
+      if (request.method === 'DELETE') {
+        if (env.DRY_WRITES !== '1') await env.COVERS.delete(key);
+        return json({ ok: true, dry: env.DRY_WRITES === '1' });
+      }
+      const type = request.headers.get('content-type') || '';
+      if (!/^image\/(jpeg|png|webp)$/.test(type)) return fail(400, 'Send a JPEG, PNG or WebP image.');
+      const body = await request.arrayBuffer();
+      if (body.byteLength > 2_000_000) return fail(413, 'Image too large (max 2 MB after resizing).');
+      await env.COVERS.put(key, body, { httpMetadata: { contentType: type }, customMetadata: { by: user.name, reason: reason.slice(0, 200), at: new Date().toISOString() } });
+      return json({ ok: true, size: body.byteLength });
+    }
+
     return fail(404, 'Unknown admin route.');
   } catch (e) {
     return fail(502, `Couldn't reach GitHub: ${e.message}`);
