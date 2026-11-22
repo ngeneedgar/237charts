@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T14:39:49.064Z",
+  "takenAt": "2026-11-22T14:53:42.603Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -355,6 +355,11 @@
       "deezerId": 214180257,
       "name": "Martin's",
       "fans": 1834
+    },
+    "Q125844335": {
+      "deezerId": 12527634,
+      "name": "Sojip",
+      "fans": 614
     }
   },
   "tracks": {
@@ -2450,7 +2455,7 @@
       "wikidata": "Q1893336",
       "artist": "Prince Nico Mbarga",
       "title": "Christiana",
-      "rank": 117001,
+      "rank": 149036,
       "albumId": 14565166,
       "link": "https://www.deezer.com/track/136214590"
     },
@@ -3882,7 +3887,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Aphrodite Shake",
-      "rank": 358716,
+      "rank": 323138,
       "albumId": 110020622,
       "link": "https://www.deezer.com/track/747178792"
     },

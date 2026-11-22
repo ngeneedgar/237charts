@@ -2663,5 +2663,57 @@
   "Q18351472::magasco jigger": {
     "checked": "2026-11-22T14:42:11.544Z",
     "youtubeThumb": "https://i.ytimg.com/vi/07-It8e5haI/hqdefault.jpg"
+  },
+  "Q3389313::feu": {
+    "checked": "2026-11-22T14:54:41.432Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/rHYgbDleRak/hqdefault.jpg",
+    "deezerId": 3400777561,
+    "deezer": "https://www.deezer.com/track/3400777561",
+    "deezerTitle": "FEU",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/f7a62c5dc101e38b6f995c3f69b10435/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/f7a62c5dc101e38b6f995c3f69b10435/250x250-000000-80-0-0.jpg",
+    "album": "FEU",
+    "releaseDate": "2025-06-13",
+    "durationSec": 107,
+    "isrc": "FRX452504513",
+    "artists": [
+      "Pit Baccardi"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q115452649::morpheus le prelude": {
+    "checked": "2026-11-22T14:54:42.609Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/KP11ubszroM/hqdefault.jpg"
+  },
+  "Q109816323::ma raison": {
+    "checked": "2026-11-22T14:54:43.413Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/m3lT_UBYYqs/hqdefault.jpg",
+    "deezerId": 3298437961,
+    "deezer": "https://www.deezer.com/track/3298437961",
+    "deezerTitle": "Ma raison",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/255ae6557c410be79da901a7fee9b50f/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/255ae6557c410be79da901a7fee9b50f/250x250-000000-80-0-0.jpg",
+    "album": "Vie-Three",
+    "releaseDate": "2025-04-04",
+    "durationSec": 179,
+    "isrc": "CMA6Z2500038",
+    "artists": [
+      "Darina Victry"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q27062952::coco argentee na tondi wa": {
+    "checked": "2026-11-22T14:54:44.523Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/eW3464T9Obw/hqdefault.jpg"
+  },
+  "Q30728231::molo molo par kini and adams": {
+    "checked": "2026-11-22T14:54:45.259Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/8TRO2n8EEDU/hqdefault.jpg"
+  },
+  "Q2079842::african woman": {
+    "checked": "2026-11-22T14:54:46.025Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/ZrK_n-L8ojY/hqdefault.jpg"
   }
 }
