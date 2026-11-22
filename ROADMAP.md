@@ -11,9 +11,9 @@
 - [x] 0.1 Audit existing designs and docs
 - [x] 0.2 Lock theme (v2 Quiet + orange accent)
 - [x] 0.3 GitHub repo: https://github.com/ngeneedgar/237charts — project uploaded 2026-11-21
-- [ ] 0.4 Create free Supabase project (you; I'll guide)
+- [x] 0.4 ~~Supabase~~ not needed: the GitHub repo is the database/archive and admin/ is the admin panel
 - [x] 0.5 Create free Cloudflare account (you) — connected 2026-11-21
-- [ ] 0.6 Get YouTube Data API key from Google Cloud, free (you; I'll guide)
+- [x] 0.6 YouTube Data API key (in .env and GitHub secrets)
 - [ ] 0.7 Buy domain — planned next week (you)
 
 ## Phase 1 — Data & backend (Week 1–4)
@@ -38,7 +38,7 @@
   - [~] Find channels for the 21 new artists: cheap lookups found only La Santinelle (+ Ikardi Le Monument in review); a wrong match (VANITY FAIR → 4.9M-sub magazine channel) was blocked
   - [ ] **Song search** (built, not yet run): search "artist + charting song" → channel of that video. Needs search quota (resets overnight, ~2,100 units for 21 artists). Run: `node collector/match-channels.mjs 25`
 - [x] 1.4 YouTube collector (`collect-youtube.mjs`): 109 channels → 883 eligible music videos, 178 units/run. Shorts + non-music skipped. First snapshot taken 2026-11-21
-  - [ ] **Run again on/after 2026-11-28** → first real chart (`build-week.mjs`)
+  - [ ] **First real chart: Monday 30 Nov 2026** (automatic run)
   - [ ] Known issue: a few channels post non-music videos tagged "Music" (e.g. Aurélien Bollevis Saniko) → needs artist-level review
   - [x] Merge versions of one song (clip, visualizer, lyric, audio) into one chart entry — 883 videos → 738 songs; stage names shown (Lady Ponce); 11/11 tests pass
   - [ ] Polish: ALL-CAPS titles ("KIDNAPPE" → "Kidnappé"); spot-check re-uploads of compilations
@@ -57,7 +57,7 @@
   - [ ] Tidy: rename GitHub secret `CLOUDFLARE_API_TOKE` → `CLOUDFLARE_API_TOKEN` (workflow accepts both for now)
 - [x] **Team admin without Claude:** `admin/` folder (eligibility, genres, add/remove artists, channels, contact) editable on github.com; edits trigger a run automatically
 - [ ] 1.10 Public JSON feed: current chart, genre charts, song, artist, archive
-- [ ] 1.11 Admin page: approve artists, merges, overrides (with public log)
+- [x] 1.11 Admin without code: admin/ folder editable on github.com (eligibility, genres, artists, channels, contact); edits trigger a run
 - [ ] 1.12 Dry run: generate first internal chart week and sanity-check it
 
 ## Phase 2 — Website (Week 3–7)
@@ -67,7 +67,7 @@
   - [ ] 5 songs without artwork (e.g. Tabaski, LES FRANGINS PONGO, LE DUO MAGIQUE) → retry after their YouTube channels are found
   - [x] **Eligibility from release dates:** release date = earliest of YouTube upload / Deezer release (compilations count as proof of age). 24 songs got an older date; "Coco carbure" (2015) and "You must calculer" now off the chart. Methodology text (FR/EN) updated
   - [ ] Artwork coverage after the change: 38/50 official, 4 YouTube thumbnail, 8 none (new entrants are smaller, less-catalogued songs)
-  - [ ] Genre list (needs genre tagging of songs — not built yet)
+  - [x] Genre charts as tiles on Home (7 genres, 3 per row)
   - [ ] Root `/` language redirect works only in the static build (404 in dev)
   - [ ] Week dates: align chart week to Mon–Sun (currently shows "15 nov.")
 - [x] 2.3 Full chart Top 50 (`/fr/top-50/`) — every row links to its song page
@@ -82,20 +82,20 @@
   - [ ] Decide: Gospel songs (no genre for them now — e.g. Tim Storm, Zenobia Germoh wrongly tagged Makossa by Wikidata)
   - [ ] Shey Lontum not in roster yet → research and add
   - [x] Genre pages on the website (`/fr/genre/<slug>/`, genre switcher chips) + Genres list on Home (each genre's No. 1) — build passes (346 pages)
-  - [ ] Embed tab ("Intégrer") still 404 — page not built
+  - [x] Embed page built (in Settings + Home button)
 - [~] 2.4b **Viral chart (Top 20)** — scoring built + tested: songs ≤ 8 weeks old; 50% YouTube view growth + 50% Shazam Cameroon; newness multiplier (1.0 for weeks 0–2 → 0.4 at week 8). Based on Spotify's stated viral signals (growth, sharing, new listeners). **Approved 2026-11-21.** First viral chart needs 3 weekly snapshots (≈ 5 Dec). `/fr/viral/` page explains it until then; linked from Home
 - [~] 2.5 Song detail (`/fr/song/<slug>/`, 100 pages): artwork, all artists, this week / last week / peak / weeks, album, release date, length, ISRC, YouTube + Deezer links. Checked on phone
   - [ ] Rank history sparkline + per-source numbers (needs more than one week of data)
 - [~] 2.6 Artist profile (`/fr/artist/<slug>/`, 60 pages): charting songs, best peak. Bio/photo/official links not yet
-- [~] 2.7 Archive: page exists, explains that the archive starts 28 Nov; week picker comes with real weeks
+- [x] 2.7 Archive page removed → calendar (week picker) on every chart page; past weeks appear from 30 Nov
 - [x] 2.8 Search (`/fr/search/`): artists + songs on this week's chart, accent-insensitive, instant. Tested on phone (dark)
 - [x] 2.9 Methodology v1.0 (FR/EN): formula, weights with bars, eligibility rules, irregular-activity rule, corrections log (empty). Checked on phone. Future plans removed: page states only rules in force
 - [~] 2.9b **For artists** page (`/fr/artists/`): what artists can request, how requests are handled (7-day reply, proof, public corrections log, ranks never changed on request), request form that builds the message. Linked from footer, artist pages, methodology. Form tested on phone
   - [x] Contact set: WhatsApp +237 681 372 757 and corrections@237charts.com
   - [ ] **After buying 237charts.com:** set up free email forwarding (Cloudflare Email Routing) so corrections@237charts.com reaches your inbox — until then only WhatsApp works
-- [ ] 2.10 About / Contact, More
+- [x] 2.10 Settings page (language, theme, hide explicit, app notification placeholders, about) + chart info sheets
 - [ ] 2.11 Empty, loading and error states
-- [ ] 2.12 Share sheet + auto share images (1200×630, 1080×1080, 1080×1920)
+- [~] 2.12 Share: native share menu + fallback sheet ✔ · auto share images (1200×630, 1080×1080, 1080×1920) not done
 - [x] 2.13 **Embed**: builder page (`/fr/embed/`: chart = Top 50 or any genre, Top 5/10, light/dark, FR/EN, live preview, copy code) + widget pages (`/fr/widget/<chart>/?n=&theme=`). Tested inside an outside test page (different origin): works. Every row links back to 237 Charts
   - [ ] WordPress shortcode needs a WordPress plugin — iframe code already works in WordPress "Custom HTML" block
   - [ ] Top 20/50 widgets, custom colours = Pro (Phase 4)

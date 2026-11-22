@@ -25,11 +25,14 @@ export async function loadRoster() {
     wikidata: `X-${norm(name).replace(/ /g, '-')}`, name, aliases: [], youtube: [], spotify: [], basis: [basis], discoveredVia: ['research'],
   }));
   const excluded = new Set((await csv('admin/artists-remove.csv')).map(([n]) => norm(n)));
+  // HARD RULE: Cameroonian nationals only — anyone with another recorded nationality is out
+  const nat = JSON.parse(await readFile('collector/out/nationality.json', 'utf8').catch(() => '{}'));
+  const otherNationality = new Set(Object.entries(nat).filter(([, cs]) => cs.some((c) => c.id !== 'Q1009')).map(([q]) => q));
 
   const seen = new Set();
   const roster = [...base, ...extra, ...added].filter((a) => {
     const k = norm(a.name);
-    if (seen.has(a.wikidata) || seen.has(k) || excluded.has(k)) return false;
+    if (seen.has(a.wikidata) || seen.has(k) || excluded.has(k) || otherNationality.has(a.wikidata)) return false;
     seen.add(a.wikidata); seen.add(k);
     return true;
   }).map((a) => ({ ...a, youtube: [...(a.youtube ?? [])] }));

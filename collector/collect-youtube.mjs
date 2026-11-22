@@ -18,6 +18,22 @@ const channels = new Map(); // channelId -> { artist, wikidata }
 for (const a of wikidata) for (const id of a.youtube) channels.set(id, { artist: a.name, wikidata: a.wikidata });
 for (const [qid, m] of Object.entries(matches)) if (m.status === 'auto') channels.set(m.best.channelId, { artist: m.name, wikidata: qid });
 
+// Label channels (admin/labels.csv): one channel, many artists — each video is credited to the
+// roster artist named in its title; videos naming no roster artist are skipped.
+const labelIds = new Set((await readFile('admin/labels.csv', 'utf8').catch(() => '')).split(/\r?\n/).slice(1)
+  .map((l) => l.split(',')[0].trim()).filter((id) => /^UC[\w-]{22}$/.test(id)));
+for (const id of labelIds) channels.set(id, { label: true });
+const fold = (x) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const rosterNames = wikidata.flatMap((a) => [a.name, ...(a.aliases ?? [])].filter((n) => n && n.length >= 3).map((n) => ({ n: fold(n), a })))
+  .sort((x, y) => y.n.length - x.n.length); // longest names first ("Jovi Le Monstre" before "Jovi")
+function creditFromTitle(title) {
+  const t = fold(title);
+  const hit = rosterNames.find(({ n }) => new RegExp(`(^|[^a-z0-9])${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-z0-9]|$)`).test(t));
+  return hit ? { artist: hit.a.name, wikidata: hit.a.wikidata } : null;
+}
+// Beat / instrumental / karaoke versions are not songs and never chart
+const NOT_A_SONG = /\b(instrumental|karaoke)\b|(\(|\[|\s)beat(\)|\]|\s*$)|\bbeat (prod|version)\b/i;
+
 // ---------- uploads ----------
 const details = await batched('channels', [...channels.keys()], 'contentDetails');
 const cutoff = Date.now() - ELIGIBLE_MS;
@@ -43,7 +59,7 @@ for (const c of details) {
 const dur = (iso) => { const m = iso?.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/) ?? []; return (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0); };
 const stats = await batched('videos', [...videoMeta.keys()], 'snippet,statistics,contentDetails');
 const snapshot = {};
-let shorts = 0, nonMusic = 0;
+let shorts = 0, nonMusic = 0, beats = 0, labelSkipped = 0;
 for (const v of stats) {
   const seconds = dur(v.contentDetails?.duration);
   if (seconds < MIN_SECONDS) { shorts++; continue; }
@@ -51,8 +67,15 @@ for (const v of stats) {
   const isMusic = v.snippet.categoryId === '10' ||
     /clip|official|officiel|audio|lyric|visuali[sz]er|feat\.?|ft\.?|remix/i.test(v.snippet.title);
   if (!isMusic) { nonMusic++; continue; }
+  if (NOT_A_SONG.test(v.snippet.title)) { beats++; continue; }
+  let meta = videoMeta.get(v.id);
+  if (meta.label) {
+    const who = creditFromTitle(v.snippet.title);
+    if (!who) { labelSkipped++; continue; }
+    meta = { channelId: meta.channelId, ...who };
+  }
   snapshot[v.id] = {
-    ...videoMeta.get(v.id),
+    ...meta,
     title: v.snippet.title,
     publishedAt: v.snippet.publishedAt,
     seconds,
@@ -64,6 +87,6 @@ const takenAt = new Date().toISOString();
 await mkdir('collector/out/snapshots', { recursive: true });
 const file = `collector/out/snapshots/youtube-${takenAt.slice(0, 10)}.json`;
 await writeFile(file, JSON.stringify({ takenAt, videos: snapshot }, null, 2));
-console.log(`Channels: ${channels.size} · eligible videos: ${Object.keys(snapshot).length} (skipped ${shorts} shorts, ${nonMusic} non-music)`);
+console.log(`Channels: ${channels.size} (${labelIds.size} label) · eligible videos: ${Object.keys(snapshot).length} (skipped ${shorts} shorts, ${nonMusic} non-music, ${beats} beat/instrumental, ${labelSkipped} label videos naming no roster artist)`);
 console.log(`Saved → ${file}`);
 console.log(`Quota used: ${quota.used} / 10,000`);
