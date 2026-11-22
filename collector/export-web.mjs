@@ -5,6 +5,9 @@
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { GENRES } from './lib/genres.mjs';
 import { bestTitle } from './lib/songs.mjs';
+import { loadSongFixes } from './lib/song-fixes.mjs';
+// Artwork uploaded by the team in the admin (Songs → Fix → Artwork), served from Cloudflare R2 at /cover/art-….jpg
+const artFix = Object.fromEntries((await loadSongFixes()).filter((x) => x.action === 'artwork' && x.value).map((x) => [x.songId, x.value]));
 
 const dir = 'collector/out';
 const real = (await readdir(dir)).filter((f) => /^chart-\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().at(-1);
@@ -22,9 +25,9 @@ function entry(e) {
     rank: e.rank, title: bestTitle(e.title, m.deezerTitle), artist: e.artist, lastWeek: e.lastWeek ?? null, peak: e.peak,
     weeks: e.weeksOnChart, movement: e.movement, delta: e.delta ?? null, adjusted: !!e.adjusted, manual: !!e.manual,
     // Official release artwork (Deezer); otherwise the official video thumbnail; otherwise none
-    artwork: m.artwork ?? m.youtubeThumb ?? null,
-    artworkSmall: m.artworkSmall ?? m.youtubeThumb ?? null,
-    artworkSource: m.artwork ? 'deezer' : m.youtubeThumb ? 'youtube' : null,
+    artwork: artFix[e.songId] ?? m.artwork ?? m.youtubeThumb ?? null,
+    artworkSmall: artFix[e.songId] ?? m.artworkSmall ?? m.youtubeThumb ?? null,
+    artworkSource: artFix[e.songId] ? 'team' : m.artwork ? 'deezer' : m.youtubeThumb ? 'youtube' : null,
     artists: m.artists ?? [e.artist],
     album: m.album ?? null, releaseDate: m.releaseDate ?? null, durationSec: m.durationSec ?? null,
     isrc: m.isrc ?? null, explicit: !!m.explicit,

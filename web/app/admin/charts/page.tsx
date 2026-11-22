@@ -9,7 +9,8 @@ import { Icon } from "../icons";
 
 type Entry = { rank: number; title: string; artist: string; genre: string | null; movement: string; delta: number | null; lastWeek: number | null; peak: number; adjusted: boolean; artworkSmall?: string | null; youtube?: string; deezer?: string; slug: string };
 type Chart = { weekEnd: string; preview: boolean; generatedAt: string; entries: Entry[]; genres: { slug: string; en: string; entries: Entry[] }[] };
-type Scores = { entries: { rank: number; score: number; versions: number }[] };
+type Sc = { rank: number; score: number };
+type Scores = { entries: Sc[]; genreCharts?: Record<string, Sc[]> };
 
 function flags(e: Entry): string[] {
   const f: string[] = [];
@@ -30,7 +31,7 @@ function Move({ e }: { e: Entry }) {
 
 function Charts() {
   const [chart, setChart] = useState<Chart | null>(null);
-  const [scores, setScores] = useState<Map<number, number>>(new Map());
+  const [scores, setScores] = useState<Map<string, number>>(new Map());
   const [err, setErr] = useState<string | null>(null);
   const [tab, setTab] = useState("top50");
   const [onlyFlags, setOnlyFlags] = useState(false);
@@ -41,7 +42,10 @@ function Charts() {
 
   useEffect(() => {
     api.json<Chart>("web/data/chart.json").then(setChart).catch((e) => setErr(e.message));
-    api.json<Scores>("collector/out/chart-preview.json").then((s) => setScores(new Map(s.entries.map((x) => [x.rank, x.score])))).catch(() => {});
+    api.json<Scores>("collector/out/chart-preview.json").then((s) => setScores(new Map([
+      ...s.entries.map((x) => [`top50:${x.rank}`, x.score] as [string, number]),
+      ...Object.entries(s.genreCharts ?? {}).flatMap(([g, l]) => l.map((x) => [`${g}:${x.rank}`, x.score] as [string, number])),
+    ]))).catch(() => {});
   }, []);
 
   const list = useMemo(() => {
@@ -49,8 +53,9 @@ function Charts() {
     const base = tab === "top50" ? chart.entries : tab === "top20" ? chart.entries.slice(0, 20) : chart.genres.find((g) => g.slug === tab)?.entries ?? [];
     return onlyFlags ? base.filter((e) => flags(e).length) : base;
   }, [chart, tab, onlyFlags]);
+  const isGenre = tab !== "top50" && tab !== "top20";
   const allFlags = useMemo(() => (chart?.entries ?? []).flatMap((e) => flags(e).map((f) => ({ e, f }))), [chart]);
-  const top = scores.get(1) ?? 0;
+  const top = scores.get(`${tab === "top20" ? "top50" : tab}:1`) ?? 0;
 
   return (
     <div className="content stack">
@@ -81,11 +86,12 @@ function Charts() {
         <div className="card" style={{ padding: 0, overflowX: "auto" }}>
           {!chart ? <div className="skeleton" style={{ height: 400, margin: 20 }} /> : (
             <table className="t">
-              <thead><tr><th style={{ width: 50 }}>#</th><th>Song</th><th>Genre</th><th>Move</th><th>Score</th><th>Check</th></tr></thead>
+              <thead><tr><th style={{ width: 50 }}>#</th><th>Song</th>{isGenre ? null : <th>Genre</th>}<th>Move</th><th>Score</th><th>Check</th></tr></thead>
               <tbody>
                 {list.map((e) => {
                   const g = GENRES.find((x) => x.slug === e.genre);
-                  const s = tab === "top50" || tab === "top20" ? scores.get(e.rank) : undefined;
+                  const key = tab === "top20" ? "top50" : tab;
+                  const s = scores.get(`${key}:${e.rank}`);
                   const fl = flags(e);
                   return (
                     <tr key={e.slug + e.rank} style={fl.length ? { background: "var(--warn-bg)" } : undefined}>
@@ -93,14 +99,17 @@ function Charts() {
                       <td>
                         <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
                           {/* eslint-disable-next-line @next/next/no-img-element */}
-                          {e.artworkSmall ? <img src={e.artworkSmall} alt="" width={40} height={40} style={{ borderRadius: 8, objectFit: "cover" }} /> : <span style={{ width: 40, height: 40, borderRadius: 8, background: "var(--fill)", display: "inline-block" }} />}
+                          <span style={{ width: 40, height: 40, flex: "none", borderRadius: 8, background: "var(--fill)", display: "inline-block", overflow: "hidden" }}>{e.artworkSmall ? <img src={e.artworkSmall} alt="" width={40} height={40} style={{ objectFit: "cover", display: "block" }} onError={(ev) => { ev.currentTarget.style.display = "none"; }} /> : null}</span>
                           <span><a href={`/en/song/${e.slug}/`} target="_blank" rel="noopener" style={{ fontWeight: 500, textDecoration: "none" }}>{e.title}</a><br /><span className="muted" style={{ fontSize: 13 }}>{e.artist}</span></span>
                         </div>
                       </td>
-                      <td><span style={{ display: "inline-flex", gap: 8, alignItems: "center", fontSize: 13 }}>{g && <GenreDot color={g.color} />}{genreLabel(e.genre)}</span></td>
+                      {isGenre ? null : <td><span style={{ display: "inline-flex", gap: 8, alignItems: "center", fontSize: 13 }}>{g && <GenreDot color={g.color} />}{genreLabel(e.genre)}</span></td>}
                       <td><Move e={e} /></td>
                       <td style={{ minWidth: 120 }}>{s ? <div style={{ display: "flex", alignItems: "center", gap: 8 }}><span className="bar"><i style={{ width: `${Math.max(4, (s / top) * 100)}%` }} /></span><span className="muted" style={{ fontSize: 13 }}>{Math.round(s)}</span></div> : <span className="muted">—</span>}</td>
-                      <td>{fl.map((f) => <span key={f} className="pill warn" style={{ marginRight: 4, display: "inline-block", marginBottom: 2 }}>{f}</span>)}</td>
+                      <td>
+                        {fl.map((f) => <span key={f} className="pill warn" style={{ marginRight: 4, display: "inline-block", marginBottom: 2 }}>{f}</span>)}
+                        {fl.length > 0 && <a className="btn" style={{ minHeight: 30, padding: "4px 10px", fontSize: 13, marginLeft: 4 }} href={`/admin/songs/?q=${encodeURIComponent(e.title.replace(/\s*[([](feat|ft)\.?[^)\]]*[)\]]/gi, "").slice(0, 30))}`}>Fix</a>}
+                      </td>
                     </tr>
                   );
                 })}
@@ -117,7 +126,7 @@ function Charts() {
               <div className="muted" style={{ fontSize: 13 }}>{f} · {e.artist}</div>
             </div>
           ))}
-          <p className="muted" style={{ fontSize: 13, marginBottom: 0 }}>Fixing songs (titles, merges, hiding uploads) comes with the Songs screen.</p>
+          <p className="muted" style={{ fontSize: 13, marginBottom: 0 }}>Press <strong>Fix</strong> on a song to change its title, artwork, genre or release date, hide it, or merge duplicates.</p>
         </aside>
       </div>
     </div>

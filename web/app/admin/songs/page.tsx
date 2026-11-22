@@ -8,11 +8,25 @@ import { Icon } from "../icons";
 
 const FIXES = "admin/song-fixes.csv";
 type Song = { songId: string; rank: number | null; title: string; artist: string; genre: string | null; score: number; versions: number; adjusted: boolean; where: string[] };
-type Action = "title" | "genre" | "date" | "hide" | "merge";
+type Action = "title" | "artwork" | "genre" | "date" | "hide" | "merge";
 type Pending = { song: Song; action: Action } | null;
 type Preview = { entries: (Omit<Song, "where" | "rank"> & { rank: number })[]; genreCharts: Record<string, (Omit<Song, "where" | "rank"> & { rank: number })[]> };
 
-const ACTION_LABEL: Record<Action, string> = { title: "Fix title", genre: "Change genre", date: "Set release date", hide: "Hide (not a song)", merge: "Merge into another song" };
+const ACTION_LABEL: Record<Action, string> = { title: "Fix title", artwork: "Upload artwork", genre: "Change genre", date: "Set release date", hide: "Hide (not a song)", merge: "Merge into another song" };
+
+/** Square 1000×1000 JPEG from any image (center crop). */
+async function toSquare(file: File): Promise<Blob> {
+  const bmp = await createImageBitmap(file);
+  const side = Math.min(bmp.width, bmp.height);
+  const c = document.createElement("canvas"); c.width = c.height = Math.min(1000, side);
+  c.getContext("2d")!.drawImage(bmp, (bmp.width - side) / 2, (bmp.height - side) / 2, side, side, 0, 0, c.width, c.height);
+  return new Promise((res, rej) => c.toBlob((b) => (b ? res(b) : rej(new Error("Couldn't process the image."))), "image/jpeg", 0.88));
+}
+/** Stable storage name for a song's artwork: art-<12 hex of sha1(songId)>. */
+async function artSlug(songId: string) {
+  const d = await crypto.subtle.digest("SHA-1", new TextEncoder().encode(songId));
+  return "art-" + [...new Uint8Array(d)].slice(0, 6).map((b) => b.toString(16).padStart(2, "0")).join("");
+}
 
 function issues(s: Song): string[] {
   const f: string[] = [];
@@ -30,7 +44,8 @@ function Songs() {
   const [songs, setSongs] = useState<Song[] | null>(null);
   const [fixes, setFixes] = useState<FileData | null>(null);
   const [err, setErr] = useState<string | null>(null);
-  const [q, setQ] = useState("");
+  const [q, setQ] = useState(() => (typeof window === "undefined" ? "" : new URLSearchParams(window.location.search).get("q") ?? ""));
+  const [art, setArt] = useState<{ blob: Blob; url: string } | null>(null);
   const [view, setView] = useState<"all" | "flagged" | "dupes">("all");
   const [pending, setPending] = useState<Pending>(null);
   const [value, setValue] = useState("");
@@ -68,14 +83,23 @@ function Songs() {
 
   function open(song: Song, action: Action) {
     setValue(action === "title" ? song.title : action === "genre" ? song.genre ?? "" : "");
+    if (art) URL.revokeObjectURL(art.url);
+    setArt(null);
     setPending({ song, action });
   }
 
   async function confirm(reason: string) {
     if (!pending || !fixes) return;
     const { song, action } = pending;
-    const v = action === "hide" ? "" : value.trim();
-    const what = action === "title" ? `title → “${v}”` : action === "genre" ? `genre → ${genreLabel(v)}` : action === "date" ? `release date → ${v}`
+    let v = action === "hide" ? "" : value.trim();
+    if (action === "artwork") {
+      if (!art) return;
+      const slug = await artSlug(song.songId);
+      const up = await fetch(`/api/admin/covers/${slug}?reason=${encodeURIComponent(reason)}`, { method: "PUT", headers: { "content-type": "image/jpeg" }, body: art.blob });
+      if (!up.ok) { const b = await up.json().catch(() => ({})); setToast({ kind: "bad", text: b.error ?? `Upload failed (${up.status})` }); return; }
+      v = `/cover/${slug}.jpg?v=${Date.now().toString(36)}`;
+    }
+    const what = action === "artwork" ? "new artwork" : action === "title" ? `title → “${v}”` : action === "genre" ? `genre → ${genreLabel(v)}` : action === "date" ? `release date → ${v}`
       : action === "hide" ? "hidden (not a song)" : `merged into ${songs?.find((s) => s.songId === v)?.title ?? v}`;
     try {
       const r = await api.save(FIXES, appendRow(fixes.content, [song.songId, action, v, reason]), fixes.sha, `${song.artist} – ${song.title}: ${what} (${reason})`);
@@ -99,7 +123,7 @@ function Songs() {
   }
   const [undoRow, setUndoRow] = useState<string[] | null>(null);
 
-  const valid = !pending ? false : pending.action === "hide" ? true : pending.action === "date" ? /^\d{4}-\d{2}-\d{2}$/.test(value) : pending.action === "genre" ? !!value : value.trim().length > 0 && value.trim() !== pending.song.title;
+  const valid = !pending ? false : pending.action === "artwork" ? !!art : pending.action === "hide" ? true : pending.action === "date" ? /^\d{4}-\d{2}-\d{2}$/.test(value) : pending.action === "genre" ? !!value : value.trim().length > 0 && value.trim() !== pending.song.title;
   const nameOf = (id: string) => songs?.find((s) => s.songId === id);
 
   return (
@@ -174,6 +198,14 @@ function Songs() {
                 <optgroup label="Other artists">{(songs ?? []).filter((s) => s.songId !== pending.song.songId && fold(s.artist) !== fold(pending.song.artist)).map((s) => <option key={s.songId} value={s.songId}>{s.title} — {s.artist}</option>)}</optgroup>
               </select>
             </label>
+          ) : pending.action === "artwork" ? (
+            <div className="stack" style={{ gap: 10 }}>
+              <label className="f">Image (any size — cropped to a square)
+                <input type="file" accept="image/jpeg,image/png,image/webp" onChange={async (ev) => { const f = ev.target.files?.[0]; if (!f) return; try { const blob = await toSquare(f); if (art) URL.revokeObjectURL(art.url); setArt({ blob, url: URL.createObjectURL(blob) }); } catch (x) { setToast({ kind: "bad", text: (x as Error).message }); } }} />
+              </label>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              {art && <img src={art.url} alt="" style={{ width: 180, height: 180, borderRadius: 12, objectFit: "cover", justifySelf: "center" }} />}
+            </div>
           ) : pending.action === "date" ? (
             <label className="f">Release date (earliest proof the song existed)<input type="date" value={value} onChange={(e) => setValue(e.target.value)} /></label>
           ) : (

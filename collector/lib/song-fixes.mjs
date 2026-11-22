@@ -22,7 +22,7 @@ export async function loadSongFixes(path = 'admin/song-fixes.csv') {
   const text = await readFile(path, 'utf8').catch(() => '');
   return text.replace(/^﻿/, '').split(/\r?\n/).slice(1).filter((l) => l.trim()).map(parseCsvLine)
     .map(([songId, action, value = '', reason = '']) => ({ songId, action: (action ?? '').toLowerCase(), value, reason }))
-    .filter((f) => f.songId && ['title', 'genre', 'hide', 'merge', 'date'].includes(f.action));
+    .filter((f) => f.songId && ['title', 'genre', 'hide', 'merge', 'date', 'artwork'].includes(f.action));
 }
 
 /**

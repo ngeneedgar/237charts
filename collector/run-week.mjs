@@ -34,6 +34,13 @@ for (let pass = 1; pass <= 4; pass++) {
   console.log(out.trim());
   if (/Looked up 0 new songs/.test(out)) break;
 }
+// Before the first real chart (needs snapshots a full week apart), refresh the preview every run so the
+// team sees its decisions (exclusions, genres, song fixes, manual positions) instead of a frozen test chart.
+if (!DRY && !(await readdir('collector/out')).some((f) => /^chart-\d{4}-\d{2}-\d{2}\.json$/.test(f))) {
+  log('No real chart yet — refreshing the preview with the latest data and team decisions');
+  tryRun('Preview', 'node collector/build-week.mjs --dry');
+  tryRun('Preview song data', 'node collector/enrich-songs.mjs');
+}
 
 log('4/7 Tests');
 // List test files explicitly: Node 22 (GitHub) treats a folder argument as a file
