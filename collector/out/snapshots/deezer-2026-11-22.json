@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T07:05:15.619Z",
+  "takenAt": "2026-11-22T07:21:55.285Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -2718,7 +2718,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Everybody",
-      "rank": 428266,
+      "rank": 463346,
       "albumId": 71512222,
       "link": "https://www.deezer.com/track/545794542"
     },
@@ -3022,7 +3022,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Quizas, Quizas, Quizas",
-      "rank": 513053,
+      "rank": 504560,
       "albumId": 75284522,
       "link": "https://www.deezer.com/track/566383722"
     },
@@ -3598,7 +3598,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Encore temps",
-      "rank": 320584,
+      "rank": 290360,
       "albumId": 109639192,
       "link": "https://www.deezer.com/track/744440532"
     },
@@ -4246,7 +4246,7 @@
       "wikidata": "Q349703",
       "artist": "Wes",
       "title": "Alane",
-      "rank": 289273,
+      "rank": 249079,
       "albumId": 159201142,
       "link": "https://www.deezer.com/track/1014296792"
     },
@@ -4590,7 +4590,7 @@
       "wikidata": "Q107491845",
       "artist": "Mimie",
       "title": "Faya",
-      "rank": 218398,
+      "rank": 289251,
       "albumId": 207490622,
       "link": "https://www.deezer.com/track/1243395682"
     },
