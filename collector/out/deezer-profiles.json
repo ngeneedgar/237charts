@@ -1590,5 +1590,23 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q111211654": {
+    "artist": "Simon Nwambeben",
+    "id": 416767,
+    "name": "SIMON NWAMBEBEN",
+    "fans": 143,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115852777": {
+    "artist": "Sissy Dipoko",
+    "id": 5291359,
+    "name": "Sissy Dipoko",
+    "fans": 24,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

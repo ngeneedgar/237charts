@@ -488,7 +488,8 @@
       "Tim Storm"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "SUSPENDU"
   },
   "Q123574342::ne reviens pas": {
     "checked": "2026-11-21T16:04:53.968Z",
@@ -890,7 +891,8 @@
       "Philjohn"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Bonne à rien"
   },
   "Q115790718::i know": {
     "checked": "2026-11-21T17:23:28.738Z",
@@ -1662,5 +1664,1004 @@
   "Q124152431::vanister enama officiel par fabien nguemo": {
     "checked": "2026-11-21T17:32:13.622Z",
     "youtubeThumb": "https://i.ytimg.com/vi/FYgELy7fK2Y/hqdefault.jpg"
+  },
+  "Q107522274::mane ma nkag": {
+    "checked": "2026-11-22T14:40:39.923Z",
+    "youtubeThumb": null,
+    "deezerId": 4199019622,
+    "deezer": "https://www.deezer.com/track/4199019622",
+    "deezerTitle": "Manè ma nkag",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/c7bd331de54fc55012e50076f1ddbf07/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/c7bd331de54fc55012e50076f1ddbf07/250x250-000000-80-0-0.jpg",
+    "album": "Manè ma nkag",
+    "releaseDate": "2026-08-04",
+    "durationSec": 218,
+    "isrc": "FRX452635252",
+    "artists": [
+      "Franck Ngouma",
+      "Armand Biyag"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q439028::black sun": {
+    "checked": "2026-11-22T14:40:41.080Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/uDUoW6INcSQ/hqdefault.jpg",
+    "deezerId": 3724918902,
+    "deezer": "https://www.deezer.com/track/3724918902",
+    "deezerTitle": "Black Sun",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/e016c44fb6a393b6b2bc7352fde27a45/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/e016c44fb6a393b6b2bc7352fde27a45/250x250-000000-80-0-0.jpg",
+    "album": "The Dawn",
+    "releaseDate": "2020-02-28",
+    "durationSec": 206,
+    "isrc": "FR9W11900314",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q3389313::ticaret remix": {
+    "checked": "2026-11-22T14:40:42.252Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/dUHm7gJ1VoE/hqdefault.jpg"
+  },
+  "Q136486889::world s worst girlfriend": {
+    "checked": "2026-11-22T14:40:43.392Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/UDrrsPjuRhE/hqdefault.jpg",
+    "deezerId": 3267758141,
+    "deezer": "https://www.deezer.com/track/3267758141",
+    "deezerTitle": "World's Worst Girlfriend",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/2c3703deccaacc7f27efddb09012f835/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/2c3703deccaacc7f27efddb09012f835/250x250-000000-80-0-0.jpg",
+    "album": "World's Worst Girlfriend",
+    "releaseDate": "2025-04-16",
+    "durationSec": 161,
+    "isrc": "GBENL2404119",
+    "artists": [
+      "Shura"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q439028::the dawn": {
+    "checked": "2026-11-22T14:40:44.584Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/TsOrsXA22vg/hqdefault.jpg",
+    "deezerId": 3724918842,
+    "deezer": "https://www.deezer.com/track/3724918842",
+    "deezerTitle": "The Dawn",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/e016c44fb6a393b6b2bc7352fde27a45/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/e016c44fb6a393b6b2bc7352fde27a45/250x250-000000-80-0-0.jpg",
+    "album": "The Dawn",
+    "releaseDate": "2020-02-28",
+    "durationSec": 201,
+    "isrc": "FR9W11900311",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q136486889::richardson": {
+    "checked": "2026-11-22T14:40:45.757Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/K4HyDMVoFl4/hqdefault.jpg",
+    "deezerId": 3215345131,
+    "deezer": "https://www.deezer.com/track/3215345131",
+    "deezerTitle": "Richardson",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/1ee289adc4c5d3f176d7b097277c19d5/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/1ee289adc4c5d3f176d7b097277c19d5/250x250-000000-80-0-0.jpg",
+    "album": "Richardson (feat. Cassandra Jenkins)",
+    "releaseDate": "2025-02-26",
+    "durationSec": 224,
+    "isrc": "GBENL2404120",
+    "artists": [
+      "Shura",
+      "Cassandra Jenkins"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q3389313::chiffres romains": {
+    "checked": "2026-11-22T14:40:46.892Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/Y__LCQ9OK78/hqdefault.jpg",
+    "deezerId": 3366843281,
+    "deezer": "https://www.deezer.com/track/3366843281",
+    "deezerTitle": "CHIFFRES ROMAINS",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/fd47a6fb2eb69d74bef86b456c491c2f/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/fd47a6fb2eb69d74bef86b456c491c2f/250x250-000000-80-0-0.jpg",
+    "album": "CHIFFRES ROMAINS",
+    "releaseDate": "2025-05-23",
+    "durationSec": 139,
+    "isrc": "FRX282526486",
+    "artists": [
+      "Pit Baccardi",
+      "Dosseh"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q439028::miss celie s blues": {
+    "checked": "2026-11-22T14:40:48.024Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/iMVCQMPCPJc/hqdefault.jpg",
+    "deezerId": 3724475832,
+    "deezer": "https://www.deezer.com/track/3724475832",
+    "deezerTitle": "Miss Celie's Blues (Sister)",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/811b45eac2c7efe7e9d840f6895ffbdc/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/811b45eac2c7efe7e9d840f6895ffbdc/250x250-000000-80-0-0.jpg",
+    "album": "Live From Paris (Deluxe Version)",
+    "releaseDate": "2024-11-18",
+    "durationSec": 123,
+    "isrc": "FR9W12413563",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 0.88
+  },
+  "Q439028::house of cards": {
+    "checked": "2026-11-22T14:40:49.218Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/TzgSzFgzy_I/hqdefault.jpg",
+    "deezerId": 3805302362,
+    "deezer": "https://www.deezer.com/track/3805302362",
+    "deezerTitle": "House of Cards",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/0f3dd70258035551a8a64602f9b01a1f/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/0f3dd70258035551a8a64602f9b01a1f/250x250-000000-80-0-0.jpg",
+    "album": "House of Cards",
+    "releaseDate": "2024-02-14",
+    "durationSec": 171,
+    "isrc": "TCAHY2401748",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q439028::the best we can do": {
+    "checked": "2026-11-22T14:40:50.458Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/y7TsSJ1Gq7A/hqdefault.jpg",
+    "deezerId": 4029107121,
+    "deezer": "https://www.deezer.com/track/4029107121",
+    "deezerTitle": "The Best We Can Do",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a716ee17fbc7d10bb3cc0b7b02ae60ad/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/a716ee17fbc7d10bb3cc0b7b02ae60ad/250x250-000000-80-0-0.jpg",
+    "album": "The Best We Can Do",
+    "releaseDate": "2026-05-20",
+    "durationSec": 132,
+    "isrc": "QM7282617282",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q439028::lost and found": {
+    "checked": "2026-11-22T14:40:51.652Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/FQeq8wNNmWY/hqdefault.jpg",
+    "deezerId": 3839189191,
+    "deezer": "https://www.deezer.com/track/3839189191",
+    "deezerTitle": "Lost and Found",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a716ee17fbc7d10bb3cc0b7b02ae60ad/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/a716ee17fbc7d10bb3cc0b7b02ae60ad/250x250-000000-80-0-0.jpg",
+    "album": "Lost and Found",
+    "releaseDate": "2025-04-18",
+    "durationSec": 161,
+    "isrc": "TCAJN2514300",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q439028::nobody s fault but mine": {
+    "checked": "2026-11-22T14:40:52.818Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/oDp5bwFmFUU/hqdefault.jpg",
+    "deezerId": 3724918882,
+    "deezer": "https://www.deezer.com/track/3724918882",
+    "deezerTitle": "Nobody's Fault But Mine",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/e016c44fb6a393b6b2bc7352fde27a45/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/e016c44fb6a393b6b2bc7352fde27a45/250x250-000000-80-0-0.jpg",
+    "album": "The Dawn",
+    "releaseDate": "2020-02-28",
+    "durationSec": 190,
+    "isrc": "FR9W11900316",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q109816323::bb d amour": {
+    "checked": "2026-11-22T14:40:54.018Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/9qf5cy_0tL0/hqdefault.jpg"
+  },
+  "Q439028::nothing compares to loving you": {
+    "checked": "2026-11-22T14:40:54.778Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/cFrcCUsZaEA/hqdefault.jpg",
+    "deezerId": 3724476422,
+    "deezer": "https://www.deezer.com/track/3724476422",
+    "deezerTitle": "Nothing Compares to Loving You",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/9428cae1948c5858bf29b8d80f5e3c24/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/9428cae1948c5858bf29b8d80f5e3c24/250x250-000000-80-0-0.jpg",
+    "album": "The Sound Of What We Are",
+    "releaseDate": "2023-06-10",
+    "durationSec": 178,
+    "isrc": "FR9W12344166",
+    "artists": [
+      "Irma"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q44737083::copines": {
+    "checked": "2026-11-22T14:40:55.916Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/0wPeXsXjh4w/hqdefault.jpg",
+    "deezerId": 3682057512,
+    "deezer": "https://www.deezer.com/track/3682057512",
+    "deezerTitle": "Copines",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ee9f870b79d993f165fb08ff3ce81e5b/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/ee9f870b79d993f165fb08ff3ce81e5b/250x250-000000-80-0-0.jpg",
+    "album": "Copines",
+    "releaseDate": "2025-11-28",
+    "durationSec": 150,
+    "isrc": "QMFMG2595862",
+    "artists": [
+      "Slim Marion"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q138030984::prisca benita covenant keeping god": {
+    "checked": "2026-11-22T14:40:57.133Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/iTWGIGdZnY0/hqdefault.jpg"
+  },
+  "Q3389313::goat": {
+    "checked": "2026-11-22T14:40:57.900Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/bVzspeZ23UE/hqdefault.jpg",
+    "deezerId": 3680047262,
+    "deezer": "https://www.deezer.com/track/3680047262",
+    "deezerTitle": "GOAT",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/cc90c8811dce269a2447a8183027c23a/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/cc90c8811dce269a2447a8183027c23a/250x250-000000-80-0-0.jpg",
+    "album": "OG",
+    "releaseDate": "2025-12-05",
+    "durationSec": 188,
+    "isrc": "FR6P12502280",
+    "artists": [
+      "Pit Baccardi",
+      "Dosseh"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q115452649::albertine": {
+    "checked": "2026-11-22T14:40:59.168Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/w-A0l7MNKYo/hqdefault.jpg",
+    "deezerId": 4303513502,
+    "deezer": "https://www.deezer.com/track/4303513502",
+    "deezerTitle": "Albertine",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ac60dda3af7506f2c96414f275de0006/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/ac60dda3af7506f2c96414f275de0006/250x250-000000-80-0-0.jpg",
+    "album": "MORPHEUS",
+    "releaseDate": "2026-10-02",
+    "durationSec": 234,
+    "isrc": "CIA3K2500081",
+    "artists": [
+      "Cysoul"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q115790591::hola": {
+    "checked": "2026-11-22T14:41:00.369Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/JIQ0o_HDqoU/hqdefault.jpg"
+  },
+  "Q25679::achouka gongoli": {
+    "checked": "2026-11-22T14:41:01.146Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/fsuB9yzcrgo/hqdefault.jpg",
+    "deezerId": 4044116341,
+    "deezer": "https://www.deezer.com/track/4044116341",
+    "deezerTitle": "ACHOUKA GONGOLI",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/00193045865cdaf2c7f2da2ac5cbddd3/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/00193045865cdaf2c7f2da2ac5cbddd3/250x250-000000-80-0-0.jpg",
+    "album": "ACHOUKA GONGOLI",
+    "releaseDate": "2026-05-25",
+    "durationSec": 208,
+    "isrc": "QT3EX2638449",
+    "artists": [
+      "Richard Bona"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::big b tch": {
+    "checked": "2026-11-22T14:41:02.241Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/JoHt-YseLVY/hqdefault.jpg"
+  },
+  "Q117325000::got that thing": {
+    "checked": "2026-11-22T14:41:03.065Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/F9ejWOHFARM/hqdefault.jpg",
+    "deezerId": 3913403711,
+    "deezer": "https://www.deezer.com/track/3913403711",
+    "deezerTitle": "Got that thing",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/60d8c88bea921157d524cb34c48ecdac/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/60d8c88bea921157d524cb34c48ecdac/250x250-000000-80-0-0.jpg",
+    "album": "Got that thing",
+    "releaseDate": "2026-05-08",
+    "durationSec": 141,
+    "isrc": "CMA9D2600006",
+    "artists": [
+      "Sabrina"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q30728231::sans garantie realise par kini and adams et lecris mila": {
+    "checked": "2026-11-22T14:41:04.131Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/LHkNYIlveco/hqdefault.jpg"
+  },
+  "Q138030984::prisca benita when jesus says yes gospelmusic": {
+    "checked": "2026-11-22T14:41:04.941Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/ToaBaPsrfkk/hqdefault.jpg"
+  },
+  "Q25679::kess kiva paa": {
+    "checked": "2026-11-22T14:41:05.774Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/cTneUq3n3_g/hqdefault.jpg",
+    "deezerId": 3772621342,
+    "deezer": "https://www.deezer.com/track/3772621342",
+    "deezerTitle": "Kess Kiva Paa",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/662706f5a62bfffbbcd6c46498b44b94/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/662706f5a62bfffbbcd6c46498b44b94/250x250-000000-80-0-0.jpg",
+    "album": "Kess Kiva Paa",
+    "releaseDate": "2026-01-15",
+    "durationSec": 240,
+    "isrc": "QZDA52671798",
+    "artists": [
+      "Richard Bona"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q112113310::esquive et avance": {
+    "checked": "2026-11-22T14:41:06.940Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/JeEKT3OhiLo/hqdefault.jpg"
+  },
+  "Q2079842::petit pays jen ai assez 2": {
+    "checked": "2026-11-22T14:41:07.783Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/Nas_LZ7Ps98/hqdefault.jpg"
+  },
+  "Q2079842::petit pays maladi 1080": {
+    "checked": "2026-11-22T14:41:08.576Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/NoqU7vc0lfE/hqdefault.jpg"
+  },
+  "Q2079842::bulu de petit pays": {
+    "checked": "2026-11-22T14:41:09.471Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/VLAtKYvweoE/hqdefault.jpg"
+  },
+  "Q27062890::du titre never let go grace decca": {
+    "checked": "2026-11-22T14:41:10.186Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/cqq6CK70IoU/hqdefault.jpg"
+  },
+  "Q2079842::petit pays makakane": {
+    "checked": "2026-11-22T14:41:10.992Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/5cojzdC7hqI/hqdefault.jpg"
+  },
+  "Q2079842::4myCE1UPxXM": {
+    "checked": "2026-11-22T14:41:11.789Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/4myCE1UPxXM/hqdefault.jpg"
+  },
+  "Q2079842::petit pays telephone moi": {
+    "checked": "2026-11-22T14:41:12.560Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/fFA_V1-mkto/hqdefault.jpg"
+  },
+  "Q2079842::konda": {
+    "checked": "2026-11-22T14:41:13.353Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/lLV-rs050_k/hqdefault.jpg",
+    "deezerId": 98077954,
+    "deezer": "https://www.deezer.com/track/98077954",
+    "deezerTitle": "Konda",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/f23d9ed15fc64a0d5047b04ee953d025/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/f23d9ed15fc64a0d5047b04ee953d025/250x250-000000-80-0-0.jpg",
+    "album": "Gagnez gagnez",
+    "releaseDate": "2011-01-01",
+    "durationSec": 438,
+    "isrc": "FRYAS1006056",
+    "artists": [
+      "Petit pays"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q2079842::les sans visas le grand maitre possa massa": {
+    "checked": "2026-11-22T14:41:14.468Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/pY18XSmDYK0/hqdefault.jpg"
+  },
+  "Q2079842::petit pays je ne tiens plus street": {
+    "checked": "2026-11-22T14:41:15.288Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/FnPh7ZTPGp0/hqdefault.jpg"
+  },
+  "Q2079842::petit pays travailler": {
+    "checked": "2026-11-22T14:41:16.093Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/FWIpPNALaqM/hqdefault.jpg"
+  },
+  "Q24341755::oulala": {
+    "checked": "2026-11-22T14:41:16.868Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/4G5lTq6MiME/hqdefault.jpg",
+    "deezerId": 3154850801,
+    "deezer": "https://www.deezer.com/track/3154850801",
+    "deezerTitle": "Oulala",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/250x250-000000-80-0-0.jpg",
+    "album": "Légende",
+    "releaseDate": "2025-01-17",
+    "durationSec": 291,
+    "isrc": "FR7PE2400240",
+    "artists": [
+      "Lady Ponce"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q24341755::allo": {
+    "checked": "2026-11-22T14:41:18.058Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/M9pVATd8neA/hqdefault.jpg",
+    "deezerId": 3154850841,
+    "deezer": "https://www.deezer.com/track/3154850841",
+    "deezerTitle": "Allô",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/250x250-000000-80-0-0.jpg",
+    "album": "Légende",
+    "releaseDate": "2025-01-17",
+    "durationSec": 201,
+    "isrc": "FR7PE2400280",
+    "artists": [
+      "Lady Ponce"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q24341755::c est mon bebe": {
+    "checked": "2026-11-22T14:41:19.218Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/fqPhweNzxRk/hqdefault.jpg",
+    "deezerId": 3154850831,
+    "deezer": "https://www.deezer.com/track/3154850831",
+    "deezerTitle": "C'est mon bébé",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/250x250-000000-80-0-0.jpg",
+    "album": "Légende",
+    "releaseDate": "2025-01-17",
+    "durationSec": 246,
+    "isrc": "FR7PE2400200",
+    "artists": [
+      "Lady Ponce"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q24341755::le monde": {
+    "checked": "2026-11-22T14:41:20.395Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/Ma2lrAoHv98/hqdefault.jpg",
+    "deezerId": 3154850701,
+    "deezer": "https://www.deezer.com/track/3154850701",
+    "deezerTitle": "Le monde",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/250x250-000000-80-0-0.jpg",
+    "album": "Légende",
+    "releaseDate": "2025-01-17",
+    "durationSec": 150,
+    "isrc": "FR7PE2400130",
+    "artists": [
+      "Lady Ponce"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q115612717::bozailleurs": {
+    "checked": "2026-11-22T14:41:21.564Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/u1UQ0Ju-TLs/hqdefault.jpg",
+    "deezerId": 3453924691,
+    "deezer": "https://www.deezer.com/track/3453924691",
+    "deezerTitle": "BOZAILLEURS",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/1745d523e3f4e1292c18a5de8e556a8f/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/1745d523e3f4e1292c18a5de8e556a8f/250x250-000000-80-0-0.jpg",
+    "album": "BOZAILLEURS",
+    "releaseDate": "2025-07-16",
+    "durationSec": 230,
+    "isrc": "CI2DY2500268",
+    "artists": [
+      "Petit Bozard"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q115612717::c est monte le tube booster": {
+    "checked": "2026-11-22T14:41:22.742Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/JRQFZF-vfBQ/hqdefault.jpg"
+  },
+  "Q115612717::on a rien": {
+    "checked": "2026-11-22T14:41:23.550Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/mIF30z6_Weg/hqdefault.jpg",
+    "deezerId": 3645331002,
+    "deezer": "https://www.deezer.com/track/3645331002",
+    "deezerTitle": "On a rien",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ea96ad4724ed9ce0858091dfeab229fe/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/ea96ad4724ed9ce0858091dfeab229fe/250x250-000000-80-0-0.jpg",
+    "album": "On a rien",
+    "releaseDate": "2025-11-15",
+    "durationSec": 210,
+    "isrc": "CMA6Z2500071",
+    "artists": [
+      "Petit Bozard"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q115612456::viens nous sauver": {
+    "checked": "2026-11-22T14:41:24.683Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/adwnYZVywZg/hqdefault.jpg",
+    "deezerId": 3196788931,
+    "deezer": "https://www.deezer.com/track/3196788931",
+    "deezerTitle": "Viens Nous Sauver",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/cc1c5ebaf77a91ee00d8e00542bd32ce/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/cc1c5ebaf77a91ee00d8e00542bd32ce/250x250-000000-80-0-0.jpg",
+    "album": "Viens Nous Sauver",
+    "releaseDate": "2025-01-31",
+    "durationSec": 220,
+    "isrc": "US7VG2571528",
+    "artists": [
+      "Happy D’efoulan"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q115612717::bozailleurs migrants immigration migrantafricain newmusic africa": {
+    "checked": "2026-11-22T14:41:25.740Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/vhRk57MoExY/hqdefault.jpg"
+  },
+  "Q115612717::realite": {
+    "checked": "2026-11-22T14:41:26.570Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/tNc4EpV37Hk/hqdefault.jpg",
+    "deezerId": 3658242822,
+    "deezer": "https://www.deezer.com/track/3658242822",
+    "deezerTitle": "Réalité",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/252bcf55330456a2c776ba8806492157/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/252bcf55330456a2c776ba8806492157/250x250-000000-80-0-0.jpg",
+    "album": "Réalité",
+    "releaseDate": "2025-11-23",
+    "durationSec": 266,
+    "isrc": "CMA6Z2500072",
+    "artists": [
+      "Petit Bozard"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q115612717::taper les mains mbolefreestyle": {
+    "checked": "2026-11-22T14:41:27.633Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/FXYdBxQw0po/hqdefault.jpg"
+  },
+  "Q115612717::couronne de sueurs": {
+    "checked": "2026-11-22T14:41:28.392Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/VXseh0rJn78/hqdefault.jpg"
+  },
+  "Q47472775::espoir": {
+    "checked": "2026-11-22T14:41:29.221Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/v8OT7UpzDhI/hqdefault.jpg",
+    "deezerId": 3267424281,
+    "deezer": "https://www.deezer.com/track/3267424281",
+    "deezerTitle": "Espoir",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a49f079f19502e707d5f75598dcdd124/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/a49f079f19502e707d5f75598dcdd124/250x250-000000-80-0-0.jpg",
+    "album": "Purple Love",
+    "releaseDate": "2025-03-14",
+    "durationSec": 217,
+    "isrc": "FRZ082500181",
+    "artists": [
+      "Locko"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::amigo": {
+    "checked": "2026-11-22T14:41:30.378Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/pYjBipM_nPs/hqdefault.jpg",
+    "deezerId": 3343788351,
+    "deezer": "https://www.deezer.com/track/3343788351",
+    "deezerTitle": "Amigo",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/1f9b1b47d576c1f0a584070134f25e2f/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/1f9b1b47d576c1f0a584070134f25e2f/250x250-000000-80-0-0.jpg",
+    "album": "Amigo",
+    "releaseDate": "2025-04-23",
+    "durationSec": 151,
+    "isrc": "NL4CP2520519",
+    "artists": [
+      "Kocee"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::mademoiselle": {
+    "checked": "2026-11-22T14:41:31.554Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/mFsEuwSB8zg/hqdefault.jpg",
+    "deezerId": 3383361171,
+    "deezer": "https://www.deezer.com/track/3383361171",
+    "deezerTitle": "Mademoiselle",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/96efbbeacce2815cae36ff05acc06cd0/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/96efbbeacce2815cae36ff05acc06cd0/250x250-000000-80-0-0.jpg",
+    "album": "Mademoiselle",
+    "releaseDate": "2025-05-21",
+    "durationSec": 183,
+    "isrc": "QZNJV2597577",
+    "artists": [
+      "Kocee"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::obili bandit": {
+    "checked": "2026-11-22T14:41:32.662Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/WYLA_9mLWO8/hqdefault.jpg",
+    "deezerId": 3363268521,
+    "deezer": "https://www.deezer.com/track/3363268521",
+    "deezerTitle": "Obili Bandit",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/92dd35264289c6c4b06694f6093dc631/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/92dd35264289c6c4b06694f6093dc631/250x250-000000-80-0-0.jpg",
+    "album": "Obili Bandit",
+    "releaseDate": "2025-05-17",
+    "durationSec": 147,
+    "isrc": "QZNJV2560151",
+    "artists": [
+      "Kocee"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q47472775::ramasser": {
+    "checked": "2026-11-22T14:41:33.840Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/s50w8EVXiIw/hqdefault.jpg",
+    "deezerId": 3267424291,
+    "deezer": "https://www.deezer.com/track/3267424291",
+    "deezerTitle": "Ramasser",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a49f079f19502e707d5f75598dcdd124/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/a49f079f19502e707d5f75598dcdd124/250x250-000000-80-0-0.jpg",
+    "album": "Purple Love",
+    "releaseDate": "2025-03-14",
+    "durationSec": 188,
+    "isrc": "FRZ082500182",
+    "artists": [
+      "Locko"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::zero": {
+    "checked": "2026-11-22T14:41:35.030Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/R3nuPZ22nok/hqdefault.jpg",
+    "deezerId": 3548347911,
+    "deezer": "https://www.deezer.com/track/3548347911",
+    "deezerTitle": "Zero",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/4d71e6f48060700d2420e733a0b6646e/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/4d71e6f48060700d2420e733a0b6646e/250x250-000000-80-0-0.jpg",
+    "album": "Zero",
+    "releaseDate": "2025-09-13",
+    "durationSec": 176,
+    "isrc": "QZNJZ2594742",
+    "artists": [
+      "Kocee",
+      "Felani"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q117325000::my africa": {
+    "checked": "2026-11-22T14:41:36.167Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/10krG3EcGHc/hqdefault.jpg",
+    "deezerId": 2757137131,
+    "deezer": "https://www.deezer.com/track/2757137131",
+    "deezerTitle": "My Africa",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/9e20b06d05409949243ee4f898f6e61c/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/9e20b06d05409949243ee4f898f6e61c/250x250-000000-80-0-0.jpg",
+    "album": "UNSTOPPABLE",
+    "releaseDate": "2024-06-07",
+    "durationSec": 161,
+    "isrc": "USUYG1527480",
+    "artists": [
+      "Sabrina"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::chicoter": {
+    "checked": "2026-11-22T14:41:37.589Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/EzlQts--O8E/hqdefault.jpg"
+  },
+  "Q28006763::un peu un peu": {
+    "checked": "2026-11-22T14:41:38.456Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/xtGEt5BgI0I/hqdefault.jpg",
+    "deezerId": 3491500441,
+    "deezer": "https://www.deezer.com/track/3491500441",
+    "deezerTitle": "Un Peu Un Peu",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a5bb2bbf4c0c344c9e3f9620e4b4ad7f/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/a5bb2bbf4c0c344c9e3f9620e4b4ad7f/250x250-000000-80-0-0.jpg",
+    "album": "Encore Vol. 1",
+    "releaseDate": "2025-08-12",
+    "durationSec": 219,
+    "isrc": "QZNJZ2453861",
+    "artists": [
+      "Reniss"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q18351472::culture money": {
+    "checked": "2026-11-22T14:41:39.871Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/tSp0KsG_PFE/hqdefault.jpg"
+  },
+  "X-maahlox::maahlox levibeur john wick": {
+    "checked": "2026-11-22T14:41:40.630Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/Uly4qUMCV5I/hqdefault.jpg"
+  },
+  "Q18351472::nyugab vida loca": {
+    "checked": "2026-11-22T14:41:41.466Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/HpZin1sx3u8/hqdefault.jpg"
+  },
+  "Q18351472::my g": {
+    "checked": "2026-11-22T14:41:42.248Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/PKQj8ShEg3A/hqdefault.jpg",
+    "deezerId": 4152332712,
+    "deezer": "https://www.deezer.com/track/4152332712",
+    "deezerTitle": "My G",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/043611f0f50666fd0c536fc00616efb0/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/043611f0f50666fd0c536fc00616efb0/250x250-000000-80-0-0.jpg",
+    "album": "Ikfini",
+    "releaseDate": "2026-11-13",
+    "durationSec": 204,
+    "isrc": "QZMZ92661809",
+    "artists": [
+      "Magasco",
+      "Hen’s"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "X-maahlox::john wick by tepson art": {
+    "checked": "2026-11-22T14:41:43.351Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/oBQlBB9QNcU/hqdefault.jpg"
+  },
+  "Q18351472::evil tinz": {
+    "checked": "2026-11-22T14:41:44.150Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/8yVpoQdQXCA/hqdefault.jpg",
+    "deezerId": 2959923531,
+    "deezer": "https://www.deezer.com/track/2959923531",
+    "deezerTitle": "Evil Tinz",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/711c983e4ff8839a93337c7a423fccaf/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/711c983e4ff8839a93337c7a423fccaf/250x250-000000-80-0-0.jpg",
+    "album": "Vida",
+    "releaseDate": "2024-10-11",
+    "durationSec": 194,
+    "isrc": "QZTPX2407318",
+    "artists": [
+      "Magasco"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q18351472::magasco culture money": {
+    "checked": "2026-11-22T14:41:45.321Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/ehwMqwZBs90/hqdefault.jpg"
+  },
+  "Q107491845::whNYhPBmnFg": {
+    "checked": "2026-11-22T14:41:46.152Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/whNYhPBmnFg/hqdefault.jpg"
+  },
+  "Q18351472::decoler": {
+    "checked": "2026-11-22T14:41:47.008Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/cZmTZWHL3LU/hqdefault.jpg",
+    "deezerId": 3676029682,
+    "deezer": "https://www.deezer.com/track/3676029682",
+    "deezerTitle": "Decoler",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/557037a7f9082efebc80b4d2ec818fed/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/557037a7f9082efebc80b4d2ec818fed/250x250-000000-80-0-0.jpg",
+    "album": "Red Carpet",
+    "releaseDate": "2025-11-20",
+    "durationSec": 227,
+    "isrc": "QZTPX2594698",
+    "artists": [
+      "Magasco",
+      "Shado Chris"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q18351472::i want 4": {
+    "checked": "2026-11-22T14:41:48.202Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/6EVqddWnN8o/hqdefault.jpg",
+    "deezerId": 3532916351,
+    "deezer": "https://www.deezer.com/track/3532916351",
+    "deezerTitle": "I want 4",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ad62a1f9e24377c4890baa6b1301ad77/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/ad62a1f9e24377c4890baa6b1301ad77/250x250-000000-80-0-0.jpg",
+    "album": "I want 4",
+    "releaseDate": "2025-09-22",
+    "durationSec": 165,
+    "isrc": "QZNJZ2549466",
+    "artists": [
+      "Magasco"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q18351472::magasco stay": {
+    "checked": "2026-11-22T14:41:49.492Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/o5XiefPrEuo/hqdefault.jpg"
+  },
+  "Q18351472::magasco too good": {
+    "checked": "2026-11-22T14:41:50.339Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/CvikLR-RTtA/hqdefault.jpg"
+  },
+  "Q18351472::papa est la": {
+    "checked": "2026-11-22T14:41:51.162Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/x8tg9dRTzA0/hqdefault.jpg"
+  },
+  "Q107491845::as the year ends let s maintain a posture of gratitude grace brought us thus far mimietenkorang": {
+    "checked": "2026-11-22T14:41:51.896Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/8jXbR8rUlvM/hqdefault.jpg"
+  },
+  "Q18351472::too good": {
+    "checked": "2026-11-22T14:41:52.843Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/QaqoONZLslQ/hqdefault.jpg",
+    "deezerId": 3262389761,
+    "deezer": "https://www.deezer.com/track/3262389761",
+    "deezerTitle": "Too Good",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/bbcde5e57bb297673e4c140cd0b3bd81/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/bbcde5e57bb297673e4c140cd0b3bd81/250x250-000000-80-0-0.jpg",
+    "album": "The Cold Rainy Days",
+    "releaseDate": "2025-04-11",
+    "durationSec": 177,
+    "isrc": "QZGLS2518319",
+    "artists": [
+      "Magasco"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q138030984::prisca benita en mon coeur j ai choisi temoignage louange": {
+    "checked": "2026-11-22T14:41:53.916Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/zLyV1qlSLc0/hqdefault.jpg"
+  },
+  "Q138030984::prisca benita adoration gospel francophone": {
+    "checked": "2026-11-22T14:41:54.684Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/BD_ZnVlhjRY/hqdefault.jpg"
+  },
+  "Q138030984::prisca benita maintenant": {
+    "checked": "2026-11-22T14:41:55.482Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/pvuq98pdDGc/hqdefault.jpg"
+  },
+  "Q138030984::mon dieu": {
+    "checked": "2026-11-22T14:41:56.305Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/kicNkXfpZz4/hqdefault.jpg",
+    "deezerId": 3632271992,
+    "deezer": "https://www.deezer.com/track/3632271992",
+    "deezerTitle": "MON DIEU",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/8ede110d0d234f48642dfabc07068679/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/8ede110d0d234f48642dfabc07068679/250x250-000000-80-0-0.jpg",
+    "album": "MAINTENANT",
+    "releaseDate": "2025-11-10",
+    "durationSec": 273,
+    "isrc": "QT65Y2558531",
+    "artists": [
+      "Prisca Benita"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q138030984::je suis purifie puissant temoignage d adoration": {
+    "checked": "2026-11-22T14:41:57.499Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/_zO-weH2pX4/hqdefault.jpg"
+  },
+  "Q138030984::nul et sans effet louange": {
+    "checked": "2026-11-22T14:41:58.281Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/xOp1Dh8DkBc/hqdefault.jpg"
+  },
+  "Q138030984::prisca benita by the blood gospelmusic praise testimony": {
+    "checked": "2026-11-22T14:41:58.997Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/I943tO9GR44/hqdefault.jpg"
+  },
+  "Q138030984::prisca benita gospel francophone": {
+    "checked": "2026-11-22T14:41:59.719Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/iY5ysVey9zc/hqdefault.jpg"
+  },
+  "Q138030984::prisca benita powerful spontaneous worship": {
+    "checked": "2026-11-22T14:42:00.443Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/C4zhx9divlM/hqdefault.jpg"
+  },
+  "Q138030984::20 minutes soaked in praise covenant keeping god by the blood winner when jesus": {
+    "checked": "2026-11-22T14:42:01.211Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/H9mr521D2aQ/hqdefault.jpg"
+  },
+  "Q130530315::no longer slaves what a beautiful name goodness of god hillsong worship germoh group way maker": {
+    "checked": "2026-11-22T14:42:01.932Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/BfdoPn-ZugE/hqdefault.jpg"
+  },
+  "Q130530315::worthy is the lamb what a beautiful name goodness of god hillsong worship way maker cece winans": {
+    "checked": "2026-11-22T14:42:02.742Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/GCmJI6StV8k/hqdefault.jpg"
+  },
+  "Q130530315::my trust is in you david g mercy chinwo nathaniel bassey prosper germoh moses bliss guc": {
+    "checked": "2026-11-22T14:42:03.523Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/dEVlfZ3xd48/hqdefault.jpg"
+  },
+  "Q107491845::gratitude for 2025 mimietenkorang worship gospel endofyear": {
+    "checked": "2026-11-22T14:42:04.262Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/jnzc0RsZi8k/hqdefault.jpg"
+  },
+  "Q130530315::way maker what a beautiful name goodness of god hillsong worship germoh group elevation worship": {
+    "checked": "2026-11-22T14:42:05.031Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/tyqLNhY0VSE/hqdefault.jpg"
+  },
+  "X-petit-pays-rabbi::loba": {
+    "checked": "2026-11-22T14:42:06.165Z",
+    "youtubeThumb": null,
+    "deezerId": 3491032161,
+    "deezer": "https://www.deezer.com/track/3491032161",
+    "deezerTitle": "Loba",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/b31357d4c0c4cd40f805aae5f6191418/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/b31357d4c0c4cd40f805aae5f6191418/250x250-000000-80-0-0.jpg",
+    "album": "MAKOSSA LOVE",
+    "releaseDate": "2025-07-31",
+    "durationSec": 496,
+    "isrc": "FRX762599781",
+    "artists": [
+      "Petit Pays Rabbi"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "X-tsimi-toro::oyili": {
+    "checked": "2026-11-22T14:42:07.362Z",
+    "youtubeThumb": null,
+    "deezerId": 850221002,
+    "deezer": "https://www.deezer.com/track/850221002",
+    "deezerTitle": "Oyili",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/fb536d5768e2fb87246e7fc8ec93791c/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/fb536d5768e2fb87246e7fc8ec93791c/250x250-000000-80-0-0.jpg",
+    "album": "Merci",
+    "releaseDate": "2008-01-01",
+    "durationSec": 442,
+    "isrc": "QMFMF1906588",
+    "artists": [
+      "Tsimi Toro"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "X-elang-city::tchokorobo": {
+    "checked": "2026-11-22T14:42:08.684Z",
+    "youtubeThumb": null,
+    "deezerId": 4121296251,
+    "deezer": "https://www.deezer.com/track/4121296251",
+    "deezerTitle": "Tchokorobo",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/dc1d8f202734cb2184ffdeedca2ee33d/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/dc1d8f202734cb2184ffdeedca2ee33d/250x250-000000-80-0-0.jpg",
+    "album": "Tchokorobo",
+    "releaseDate": "2026-07-01",
+    "durationSec": 280,
+    "isrc": "FRX282640367",
+    "artists": [
+      "Elang City"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "X-la-santinelle::exagere dans ma vie la sentinelle": {
+    "checked": "2026-11-22T14:42:09.861Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/cgiFYTFUFCQ/hqdefault.jpg"
+  },
+  "X-la-santinelle::exagere dans ma vie la santinelle": {
+    "checked": "2026-11-22T14:42:10.754Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/5PVipE50GCg/hqdefault.jpg"
+  },
+  "Q18351472::magasco jigger": {
+    "checked": "2026-11-22T14:42:11.544Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/07-It8e5haI/hqdefault.jpg"
   }
 }

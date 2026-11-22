@@ -5032,24 +5032,38 @@
   "Q2290969": {
     "name": "Siyou Isabelle Ngnoubamdjum",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCHXCbfzZ-PcYiyqMgryGMOA",
+      "title": "Siyou Ngnoubamdjum",
+      "country": null,
+      "subscribers": 91,
+      "similarity": 0.67,
+      "confidence": 0.47
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q125844335": {
     "name": "Sojip",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UC0JXH1n9pppbbhiZDpo6txw",
+      "title": "Sojip - Topic",
+      "country": null,
+      "subscribers": 342,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

@@ -1,22 +1,22 @@
 
-[14:14:39] 1/7 Collect sources
+[14:38:54] 1/7 Collect sources
 $ node collector/collect-shazam.mjs
 Shazam Cameroon: 200 entries (Sunday, 22 November 2026 [performance over the past 7 days]) → collector/out/snapshots/shazam-cm-2026-11-22.json
-New candidate artists from Shazam Cameroon (→ review): 153
+New candidate artists from Shazam Cameroon (→ review): 173
 $ node collector/collect-deezer.mjs
-Deezer profiles → auto: 71 · review: 98 · none: 9
+Deezer profiles → auto: 71 · review: 100 · none: 9
 Tracks recorded: 1168 → collector/out/snapshots/deezer-2026-11-22.json
 $ node collector/collect-youtube.mjs
-Channels: 143 (2 label) · eligible videos: 777 (skipped 812 shorts, 55 non-music, 1 beat/instrumental, 0 label videos naming no roster artist)
+Channels: 144 (2 label) · eligible videos: 767 (skipped 812 shorts, 55 non-music, 1 beat/instrumental, 0 label videos naming no roster artist)
 Saved → collector/out/snapshots/youtube-2026-11-22.json
-Quota used: 196 / 10,000
+Quota used: 197 / 10,000
 $ node collector/collect-audiomack.mjs
 No Audiomack key yet → skipping. Add AUDIOMACK_CONSUMER_KEY and AUDIOMACK_CONSUMER_SECRET to .env
 
-[14:15:49] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
+[14:40:11] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
 $ node collector/discover-collabs.mjs
-Seed channels: 141 · new candidate artists: 104 · with 2+ collaborators: 2
-Quota used: 144 / 10,000
+Seed channels: 142 · new candidate artists: 97 · with 2+ collaborators: 1
+Quota used: 145 / 10,000
 $ node collector/classify-candidates.mjs
 Shazam NG…
 Shazam CI…
@@ -26,36 +26,21 @@ Shazam GH…
 Shazam ZA…
 Shazam US…
 Review queue (charting in Cameroon, by priority): 0 → collector/out/review-queue.csv
-Candidates: 252 → accept: 4 · review: 44 · reject: 204
+Candidates: 265 → accept: 21 · review: 44 · reject: 200
 $ node collector/match-channels.mjs 25
 Search stopped: YouTube search 429: Quota exceeded for quota metric 'Search Queries' and limit '… (resumes next run)
-Checked now: 106 · found via MusicBrainz: 0 · @handle: 0 · search: 3
-Totals → auto-accept: 116 · review: 50 · no match: 138 · still to search: 16
-Quota used: 403 / 10,000
+Checked now: 118 · found via MusicBrainz: 0 · @handle: 0 · search: 2
+Totals → auto-accept: 117 · review: 50 · no match: 137 · still to search: 30
+Quota used: 302 / 10,000
 $ node collector/tag-genres.mjs
 Team genre for "Manu Dibango": artist not in roster — skipped
 Team genre for "Shey Lontum": artist not in roster — skipped
 Team genre for "Yamê": artist not in roster — skipped
-Team genre for "VANITY FAIR": artist not in roster — skipped
-Team genre for "la mélo du quartier": artist not in roster — skipped
-Team genre for "La Santinelle": artist not in roster — skipped
-Team genre for "Tabaski": artist not in roster — skipped
-Team genre for "SOPEKA DIAMANT": artist not in roster — skipped
-Team genre for "Ikardi Le Monument": artist not in roster — skipped
-Team genre for "Vanister Enama": artist not in roster — skipped
-Team genre for "Petit Axel": artist not in roster — skipped
 Team genre for "Dosseh": artist not in roster — skipped
-Team genre for "LES FRANGINS PONGO": artist not in roster — skipped
-Team genre for "Franck Ngouma": artist not in roster — skipped
-Team genre for "Sokeb Beatz": artist not in roster — skipped
-Team genre for "LE DUO MAGIQUE": artist not in roster — skipped
-Team genre for "EWOLO MINGA": artist not in roster — skipped
-Team genre for "Koutchoua Mbada": artist not in roster — skipped
-Team genre for "Tim Storm": artist not in roster — skipped
-Artists with a genre: 69 of 289
-Makossa: 26 · Bikutsi: 12 · Mbolé: 4 · Njang: 1 · Afrobeats & Afropop: 14 · Hip Hop & Dancehall: 4 · Mboko: 1 · Gospel: 7
+Artists with a genre: 84 of 306
+Makossa: 28 · Bikutsi: 14 · Mbolé: 11 · Njang: 2 · Afrobeats & Afropop: 15 · Hip Hop & Dancehall: 4 · Mboko: 2 · Gospel: 8
 $ node collector/check-nationality.mjs
-Checked 317 artists · excluded by the hard rule: 31
+Checked 318 artists · excluded by the hard rule: 31
   ✗ Henri Dikongué — France + Cameroon
   ✗ Dosseh — France + Cameroon
   ✗ Andy Allo — United States + Cameroon
@@ -88,169 +73,217 @@ Checked 317 artists · excluded by the hard rule: 31
   ✗ Yamê — France + Cameroon
   ✗ Zam Martino Ébalé — Belgium + Cameroon
 
-[14:16:19] 3/7 Build chart, then complete song data until stable
+[14:40:38] 3/7 Build chart, then complete song data until stable
+$ node collector/build-week.mjs
+Snapshots are only 0.8 days apart — no chart built. The next weekly run will build it.
+Looked up 88 new songs (41 matched on Deezer).
+Coverage (147 songs on all charts): official artwork 75 · YouTube thumbnail only 71 · nothing 1
 $ node collector/build-week.mjs
 Snapshots are only 0.8 days apart — no chart built. The next weekly run will build it.
 Looked up 0 new songs (0 matched on Deezer).
-Coverage (120 songs on all charts): official artwork 72 · YouTube thumbnail only 41 · nothing 7
+Coverage (147 songs on all charts): official artwork 75 · YouTube thumbnail only 71 · nothing 1
 
-[14:16:19] 4/7 Tests
-$ node --test collector/test/candidate-name.test.mjs collector/test/scoring.test.mjs collector/test/song-fixes.test.mjs collector/test/songs.test.mjs collector/test/titles.test.mjs
+[14:42:05] No real chart yet — refreshing the preview with the latest data and team decisions
+$ node collector/build-week.mjs --dry
+Shazam CM: 1 matched to YouTube songs, 29 added as Shazam-only songs (of 200) ·Deezer tracks matched: 66/1168
+Release dates: 45 songs got an earlier date from Deezer
+731 videos merged into 611 songs
+Genre coverage — Top 50: 40/50 tagged · genre charts: Makossa 20 · Bikutsi 20 · Mbolé 20 · Njang 11 · Afrobeats & Afropop 20 · Hip Hop & Dancehall 20 · Mboko 4 · Gospel 20
+DRY RUN (lifetime views, not a real chart):
+ 1. Kocee — Stranger  yt=44729729 sz=0 dz=384705
+ 2. Sabrina — Faraway  yt=40106236 sz=0 dz=0
+ 3. Sabrina — On Djah  yt=13061216 sz=0 dz=0
+ 4. Cysoul — Koulos  yt=8035321 sz=0 dz=314130
+ 5. Kocee — Go Na Go  yt=1752141 sz=179 dz=157245
+ 6. Kocee — PDG  yt=4186858 sz=0 dz=251622
+ 7. Sabrina — Alone  yt=6256671 sz=0 dz=0
+ 8. Lady Ponce — Je veux danser  yt=3456597 sz=0 dz=274681
+ 9. VANITY FAIR — Ma’a Philo  yt=undefined sz=192 dz=0
+10. la mélo du quartier — Moui de mamouai  yt=undefined sz=191 dz=0
+11. Krys M & Cysoul — Ma Moitié  yt=undefined sz=170 dz=0
+12. La Santinelle — 1,2,3 tremble  yt=undefined sz=169 dz=0
+13. Pit Baccardi — Ticaret Remix  yt=153358 sz=0 dz=511832
+14. Tzy Panchak — Ensemble (feat. Ben Decca, Cleo Grae, Ketidy & Blu  yt=undefined sz=157 dz=0
+15. Shapat — Appelez les (feat. La Diktatur)  yt=undefined sz=154 dz=0
+$ node collector/enrich-songs.mjs
+Looked up 6 new songs (3 matched on Deezer).
+Coverage (146 songs on all charts): official artwork 70 · YouTube thumbnail only 69 · nothing 7
+
+[14:42:12] 4/7 Tests
+$ node --test collector/test/candidate-name.test.mjs collector/test/chart-overrides.test.mjs collector/test/scoring.test.mjs collector/test/song-fixes.test.mjs collector/test/songs.test.mjs collector/test/titles.test.mjs
 TAP version 13
 # Subtest: video-title junk is rejected
 ok 1 - video-title junk is rejected
   ---
-  duration_ms: 2.241957
+  duration_ms: 2.178182
   type: 'test'
   ...
 # Subtest: real artist names pass
 ok 2 - real artist names pass
   ---
-  duration_ms: 1.623916
+  duration_ms: 1.27601
+  type: 'test'
+  ...
+# Subtest: without pins the order follows the score
+ok 3 - without pins the order follows the score
+  ---
+  duration_ms: 2.146563
+  type: 'test'
+  ...
+# Subtest: a pinned song takes its position; the others keep their order
+ok 4 - a pinned song takes its position; the others keep their order
+  ---
+  duration_ms: 0.422493
+  type: 'test'
+  ...
+# Subtest: pins in a genre chart, unknown songs ignored, rank past the end goes last
+ok 5 - pins in a genre chart, unknown songs ignored, rank past the end goes last
+  ---
+  duration_ms: 0.609383
   type: 'test'
   ...
 # Subtest: viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
-ok 3 - viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
+ok 6 - viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
   ---
-  duration_ms: 2.024065
+  duration_ms: 3.503275
   type: 'test'
   ...
 # Subtest: history carried week to week: peak keeps the best, weeks accumulate
-ok 4 - history carried week to week: peak keeps the best, weeks accumulate
+ok 7 - history carried week to week: peak keeps the best, weeks accumulate
   ---
-  duration_ms: 0.545323
+  duration_ms: 1.143862
   type: 'test'
   ...
 # Subtest: genres: from titles and Wikidata, most specific wins
-ok 5 - genres: from titles and Wikidata, most specific wins
+ok 8 - genres: from titles and Wikidata, most specific wins
   ---
-  duration_ms: 0.427213
+  duration_ms: 0.880253
   type: 'test'
   ...
 # Subtest: weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
-ok 6 - weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
+ok 9 - weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
   ---
-  duration_ms: 0.200341
+  duration_ms: 0.402002
   type: 'test'
   ...
 # Subtest: with Audiomack data the weights become 40/25/20/15
-ok 7 - with Audiomack data the weights become 40/25/20/15
+ok 10 - with Audiomack data the weights become 40/25/20/15
   ---
-  duration_ms: 0.237039
+  duration_ms: 1.819307
   type: 'test'
   ...
 # Subtest: missing source one week → remaining weights rescale to 100%
-ok 8 - missing source one week → remaining weights rescale to 100%
+ok 11 - missing source one week → remaining weights rescale to 100%
   ---
-  duration_ms: 0.187209
+  duration_ms: 0.453344
   type: 'test'
   ...
 # Subtest: Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
-ok 9 - Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
+ok 12 - Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
   ---
-  duration_ms: 0.107503
+  duration_ms: 0.232858
   type: 'test'
   ...
 # Subtest: songs older than 104 weeks are ineligible and do not dilute shares
-ok 10 - songs older than 104 weeks are ineligible and do not dilute shares
+ok 13 - songs older than 104 weeks are ineligible and do not dilute shares
   ---
-  duration_ms: 0.142625
+  duration_ms: 0.279397
   type: 'test'
   ...
 # Subtest: anomaly: spike > 5× median is capped at 3× and flagged
-ok 11 - anomaly: spike > 5× median is capped at 3× and flagged
+ok 14 - anomaly: spike > 5× median is capped at 3× and flagged
   ---
-  duration_ms: 0.2389
+  duration_ms: 0.489278
   type: 'test'
   ...
 # Subtest: ranking: LW, peak, weeks, movement NEW / RE / up / down
-ok 12 - ranking: LW, peak, weeks, movement NEW / RE / up / down
+ok 15 - ranking: LW, peak, weeks, movement NEW / RE / up / down
   ---
-  duration_ms: 0.355144
+  duration_ms: 0.73101
   type: 'test'
   ...
 # Subtest: genre chart only includes that genre; chart size caps entries
-ok 13 - genre chart only includes that genre; chart size caps entries
+ok 16 - genre chart only includes that genre; chart size caps entries
   ---
-  duration_ms: 0.377642
+  duration_ms: 0.742575
   type: 'test'
   ...
 # Subtest: recurrent songs (> 52 weeks) drop off Overall below rank 25
-ok 14 - recurrent songs (> 52 weeks) drop off Overall below rank 25
+ok 17 - recurrent songs (> 52 weeks) drop off Overall below rank 25
   ---
-  duration_ms: 1.127046
+  duration_ms: 1.27948
   type: 'test'
   ...
 # Subtest: merge adds YouTube views, keeps best Shazam/Deezer and the earliest date
-ok 15 - merge adds YouTube views, keeps best Shazam/Deezer and the earliest date
+ok 18 - merge adds YouTube views, keeps best Shazam/Deezer and the earliest date
   ---
-  duration_ms: 1.629834
+  duration_ms: 1.926424
   type: 'test'
   ...
 # Subtest: title, genre, date and hide
-ok 16 - title, genre, date and hide
+ok 19 - title, genre, date and hide
   ---
-  duration_ms: 0.305161
+  duration_ms: 0.367804
   type: 'test'
   ...
 # Subtest: unknown genre, unknown song and bad date are ignored; later line wins
-ok 17 - unknown genre, unknown song and bad date are ignored; later line wins
+ok 20 - unknown genre, unknown song and bad date are ignored; later line wins
   ---
-  duration_ms: 0.420977
+  duration_ms: 0.461425
   type: 'test'
   ...
 # Subtest: songTitle strips artist prefix, version tags and features
-ok 18 - songTitle strips artist prefix, version tags and features
+ok 21 - songTitle strips artist prefix, version tags and features
   ---
-  duration_ms: 1.406706
+  duration_ms: 2.031774
   type: 'test'
   ...
 # Subtest: versions of one song merge; different songs stay apart
-ok 19 - versions of one song merge; different songs stay apart
+ok 22 - versions of one song merge; different songs stay apart
   ---
-  duration_ms: 1.754811
+  duration_ms: 2.311751
   type: 'test'
   ...
 # Subtest: stage name is used for display and stripped from titles
-ok 20 - stage name is used for display and stripped from titles
+ok 23 - stage name is used for display and stripped from titles
   ---
-  duration_ms: 0.303613
+  duration_ms: 0.413296
   type: 'test'
   ...
 # Subtest: same title by different artists does not merge
-ok 21 - same title by different artists does not merge
+ok 24 - same title by different artists does not merge
   ---
-  duration_ms: 0.162426
+  duration_ms: 0.357824
   type: 'test'
   ...
 # Subtest: ALL-CAPS titles are title-cased; mixed case is kept
-ok 22 - ALL-CAPS titles are title-cased; mixed case is kept
+ok 25 - ALL-CAPS titles are title-cased; mixed case is kept
   ---
-  duration_ms: 1.536747
+  duration_ms: 2.005373
   type: 'test'
   ...
 # Subtest: Deezer's spelling wins when it is the same title
-ok 23 - Deezer's spelling wins when it is the same title
+ok 26 - Deezer's spelling wins when it is the same title
   ---
-  duration_ms: 1.262884
+  duration_ms: 1.614882
   type: 'test'
   ...
-1..23
-# tests 23
+1..26
+# tests 26
 # suites 0
-# pass 23
+# pass 26
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 102.402457
+# duration_ms 160.675699
 
-[14:16:19] 5/7 Export for the website
+[14:42:12] 5/7 Export for the website
 $ node collector/export-web.mjs
-Exported Top 50 (50) + genre charts (Makossa 20, Bikutsi 20, Mbolé 20, Njang 11, Afrobeats & Afropop 20, Hip Hop & Dancehall 20, Mboko 5, Gospel 0) from chart-preview.json (PREVIEW)
+Exported Top 50 (50) + genre charts (Makossa 20, Bikutsi 20, Mbolé 20, Njang 11, Afrobeats & Afropop 20, Hip Hop & Dancehall 20, Mboko 4, Gospel 20) from chart-preview.json (PREVIEW)
 Real charts so far: none (site stays in preview)
 
-[14:16:20] 6/7 Build website
+[14:42:12] 6/7 Build website
 $ npx next build
 ▲ Next.js 16.4.6 (Turbopack)
 ✓ Running next.config.ts took 26ms
@@ -262,19 +295,19 @@ https://nextjs.org/telemetry
 
 
   Creating an optimized production build ...
-✓ Compiled successfully in 2.7s
+✓ Compiled successfully in 3.4s
   Running TypeScript ...
-  Finished TypeScript in 3.4s ...
+  Finished TypeScript in 5.0s ...
   Collecting page data using 3 workers ...
-  Generating static pages using 3 workers (0/413) ...
-  Generating static pages using 3 workers (103/413) 
-  Generating static pages using 3 workers (206/413) 
-  Generating static pages using 3 workers (309/413) 
+  Generating static pages using 3 workers (0/486) ...
+  Generating static pages using 3 workers (121/486) 
+  Generating static pages using 3 workers (242/486) 
+  Generating static pages using 3 workers (364/486) 
 Failed to load dynamic font for ✩❝❞ . Error: Error: Failed to download dynamic font. Status: 400
     at ignore-listed frames
 Failed to load dynamic font for ✩❝❞ . Error: Error: Failed to download dynamic font. Status: 400
     at ignore-listed frames
-✓ Generating static pages using 3 workers (413/413) in 13.7s
+✓ Generating static pages using 3 workers (486/486) in 12.7s
   Finalizing page optimization ...
 
 Route (app)
@@ -284,9 +317,9 @@ Route (app)
 │ └ ● /en
 ├   /[lang]/artist/[slug]
 │ ├ ● /fr/artist/les-frangins-pongo
-│ ├ ● /fr/artist/grace-decca
 │ ├ ● /fr/artist/franck-ngouma
-│ └ ● [+69 more paths]
+│ ├ ● /fr/artist/grace-decca
+│ └ ● [+87 more paths]
 ├   /[lang]/artists
 │ ├ ● /fr/artists
 │ └ ● /en/artists
@@ -315,9 +348,9 @@ Route (app)
 │ └ ● /en/settings
 ├   /[lang]/song/[slug]
 │ ├ ● /fr/song/les-frangins-pongo-la-nouvelle-danse-des-frangins-feat-consty-edem-s-olive-mben
-│ ├ ● /fr/song/grace-decca-johnny
 │ ├ ● /fr/song/franck-ngouma-mane-ma-nkag
-│ └ ● [+237 more paths]
+│ ├ ● /fr/song/grace-decca-johnny
+│ └ ● [+289 more paths]
 ├   /[lang]/terms
 │ ├ ● /fr/terms
 │ └ ● /en/terms
@@ -351,7 +384,7 @@ Route (app)
 │ ├ ● /share/top-50/og.png
 │ ├ ● /share/top-50/square.png
 │ ├ ● /share/top-50/story.png
-│ └ ● [+24 more paths]
+│ └ ● [+27 more paths]
 └ ○ /sitemap.xml
 
 
@@ -359,17 +392,17 @@ Route (app)
 ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
 
 
-[14:16:41] 7/7 Deploy to Cloudflare Pages
+[14:42:35] 7/7 Deploy to Cloudflare Pages
 $ npx --yes wrangler@3 pages deploy out --project-name 237charts --branch main --commit-dirty=true
 ✨ Compiled Worker successfully
-Uploading... (70/1983)
-Uploading... (707/1983)
-Uploading... (1345/1983)
-Uploading... (1983/1983)
-✨ Success! Uploaded 1913 files (70 already uploaded) (2.91 sec)
+Uploading... (46/2336)
+Uploading... (809/2336)
+Uploading... (1573/2336)
+Uploading... (2336/2336)
+✨ Success! Uploaded 2290 files (46 already uploaded) (3.91 sec)
 
 ✨ Uploading Functions bundle
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://dd11871d.237charts.pages.dev
+✨ Deployment complete! Take a peek over at https://7a9b4a17.237charts.pages.dev
 
-[14:16:51] Done in 132 s
+[14:42:46] Done in 233 s

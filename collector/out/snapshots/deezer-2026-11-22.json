@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T14:15:23.220Z",
+  "takenAt": "2026-11-22T14:39:49.064Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -44,7 +44,7 @@
     "Q25873680": {
       "deezerId": 259211,
       "name": "Blick Bassy",
-      "fans": 18971
+      "fans": 18972
     },
     "Q54652991": {
       "deezerId": 200195,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121160
+      "fans": 1121162
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -139,7 +139,7 @@
     "Q439028": {
       "deezerId": 264933,
       "name": "Irma",
-      "fans": 169830
+      "fans": 169831
     },
     "Q140841663": {
       "deezerId": 1624186,
@@ -244,7 +244,7 @@
     "Q112537827": {
       "deezerId": 14235001,
       "name": "Tagne",
-      "fans": 160230
+      "fans": 160231
     },
     "Q30596023": {
       "deezerId": 401410,
@@ -954,7 +954,7 @@
       "wikidata": "Q3470485",
       "artist": "Sam Fan Thomas",
       "title": "Si Tcha",
-      "rank": 154350,
+      "rank": 114680,
       "albumId": 963176,
       "link": "https://www.deezer.com/track/10523113"
     },
@@ -3570,7 +3570,7 @@
       "wikidata": "Q47472775",
       "artist": "Locko",
       "title": "M'en aller",
-      "rank": 80345,
+      "rank": 48969,
       "albumId": 98190922,
       "link": "https://www.deezer.com/track/685839032"
     },
@@ -6626,7 +6626,7 @@
       "wikidata": "X-tata",
       "artist": "TATA",
       "title": "Broom",
-      "rank": 114683,
+      "rank": 77174,
       "albumId": 511017451,
       "link": "https://www.deezer.com/track/2536917541"
     },
@@ -7378,7 +7378,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "Online",
-      "rank": 101905,
+      "rank": 68575,
       "albumId": 673016701,
       "link": "https://www.deezer.com/track/3102796831"
     },
@@ -8930,7 +8930,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Depuis",
-      "rank": 132258,
+      "rank": 98266,
       "albumId": 936673431,
       "link": "https://www.deezer.com/track/3892025291"
     },
