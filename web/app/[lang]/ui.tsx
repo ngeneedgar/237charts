@@ -45,6 +45,17 @@ export function ChartRow({ e, t, lang }: { e: Entry; t: Dict; lang: Locale }) {
   );
 }
 
+/** Official 237 Charts logo: white version in dark mode, black version in light mode (follows the device). */
+export function Logo({ className, height = 40 }: { className?: string; height?: number }) {
+  return (
+    <picture className={className}>
+      <source srcSet="/brand/logo-white.svg" media="(prefers-color-scheme: dark)" />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/brand/logo-black.svg" alt="237 Charts" height={height} style={{ height, width: "auto", display: "block" }} />
+    </picture>
+  );
+}
+
 /** "E" badge: fixed size, centred on the text line (never baseline-shifted). */
 export function Explicit() {
   return <span className={s.explicit} role="img" aria-label="Explicit" title="Explicit">E</span>;
@@ -73,6 +84,7 @@ export function Preview({ t, show }: { t: Dict; show: boolean }) {
 export function Footer({ t, lang }: { t: Dict; lang: Locale }) {
   return (
     <footer className={s.footer}>
+      <Logo height={32} />
       <span>{t.footer}</span>
       <Link href={`/${lang}/methodology/`}>{t.methodology}</Link>
       <Link href={`/${lang}/artists/`}>{t.forArtists}</Link>

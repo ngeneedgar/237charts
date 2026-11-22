@@ -100,7 +100,7 @@
 }
 .tile:active .tileArt { transform: scale(0.97); transition: none; }
 /* Sizes scale with the tile itself (container units), so 3-across fits a 375px phone and a desktop alike */
-.tileMark { position: absolute; top: 6cqw; left: 7cqw; font-size: max(9px, 9cqw); font-weight: 800; letter-spacing: -0.3px; opacity: 0.85; }
+.tileMark { position: absolute; top: 6cqw; left: 6cqw; height: 17cqw; width: auto; opacity: 0.95; }
 .tileTitle { font-size: 22cqw; line-height: 1; font-weight: 800; letter-spacing: -0.04em; white-space: nowrap; }
 /* Genre names are longer than "Top 50": smaller, may wrap to two lines */
 .tileTitleLong { font-size: 15cqw; line-height: 1.05; white-space: normal; overflow-wrap: anywhere; }

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { getChart, weekLabel } from "./chart";
-import { Art, ChartRow, Footer, Preview, TabBar } from "./ui";
+import { Art, ChartRow, Footer, Logo, Preview, TabBar } from "./ui";
 import { ChartTile } from "./chart-tile";
 import s from "./home.module.css";
 
@@ -21,12 +21,13 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <main className={s.page}>
         <header className={s.nav}>
           <div className={s.navRow}>
-            <h1 className={s.title}>{t.charts}</h1>
+            <Link href={`/${lang}/`} aria-label="237 Charts"><Logo height={44} /></Link>
             <nav className={s.seg} aria-label="Language">
               <Link href="/en/" aria-current={lang === "en"} hrefLang="en">EN</Link>
               <Link href="/fr/" aria-current={lang === "fr"} hrefLang="fr">FR</Link>
             </nav>
           </div>
+          <h1 className={s.title} style={{ marginTop: "var(--s4)" }}>{t.charts}</h1>
           <p className={s.week}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
         </header>
 

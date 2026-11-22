@@ -22,7 +22,9 @@ export function ChartTile({ href, kind, title, label, caption, sub, long }: {
   return (
     <Link className={s.tile} href={href}>
       <span className={s.tileArt} style={{ background: `linear-gradient(150deg, ${a} 0%, ${b} 100%)` }} aria-hidden="true">
-        <span className={s.tileMark}>237</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className={s.tileMark} src="/brand/logo-white.svg" alt="" />
+
         <span className={`${s.tileTitle} ${long ? s.tileTitleLong : ""}`}>{title}</span>
         <span className={s.tileRule} />
         <span className={s.tileLabel}>{label}</span>
