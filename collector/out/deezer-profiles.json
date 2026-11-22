@@ -1230,5 +1230,23 @@
     "similarity": 0,
     "confidence": 0.15,
     "status": "none"
+  },
+  "Q115849403": {
+    "artist": "Hoïgen Ekwalla",
+    "id": 1315980,
+    "name": "Hoigen Ekwalla",
+    "fans": 1516,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q115788270": {
+    "artist": "Isis Kingue",
+    "id": 78954322,
+    "name": "Isis Kingue",
+    "fans": 46,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

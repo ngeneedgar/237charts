@@ -1,22 +1,22 @@
 
-[19:29:19] 1/7 Collect sources
+[05:54:46] 1/7 Collect sources
 $ node collector/collect-shazam.mjs
-Shazam Cameroon: 200 entries (Saturday, 21 November 2026 [performance over the past 7 days]) → collector/out/snapshots/shazam-cm-2026-11-21.json
-New candidate artists from Shazam Cameroon (→ review): 177
+Shazam Cameroon: 200 entries (Sunday, 22 November 2026 [performance over the past 7 days]) → collector/out/snapshots/shazam-cm-2026-11-22.json
+New candidate artists from Shazam Cameroon (→ review): 157
 $ node collector/collect-deezer.mjs
-Deezer profiles → auto: 58 · review: 71 · none: 9
-Tracks recorded: 1041 → collector/out/snapshots/deezer-2026-11-21.json
+Deezer profiles → auto: 59 · review: 72 · none: 9
+Tracks recorded: 1047 → collector/out/snapshots/deezer-2026-11-22.json
 $ node collector/collect-youtube.mjs
-Channels: 117 · eligible videos: 879 (skipped 1028 shorts, 64 non-music)
-Saved → collector/out/snapshots/youtube-2026-11-21.json
-Quota used: 180 / 10,000
+Channels: 120 · eligible videos: 890 (skipped 1027 shorts, 64 non-music)
+Saved → collector/out/snapshots/youtube-2026-11-22.json
+Quota used: 183 / 10,000
 $ node collector/collect-audiomack.mjs
 No Audiomack key yet → skipping. Add AUDIOMACK_CONSUMER_KEY and AUDIOMACK_CONSUMER_SECRET to .env
 
-[19:30:23] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
+[05:56:04] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
 $ node collector/discover-collabs.mjs
-Seed channels: 117 · new candidate artists: 105 · with 2+ collaborators: 1
-Quota used: 120 / 10,000
+Seed channels: 120 · new candidate artists: 110 · with 2+ collaborators: 2
+Quota used: 123 / 10,000
 $ node collector/classify-candidates.mjs
 Shazam NG…
 Shazam CI…
@@ -26,120 +26,134 @@ Shazam GH…
 Shazam ZA…
 Shazam US…
 Review queue (charting in Cameroon, by priority): 7 → collector/out/review-queue.csv
-Candidates: 280 → accept: 21 · review: 97 · reject: 162
+Candidates: 265 → accept: 2 · review: 101 · reject: 162
 $ node collector/match-channels.mjs 25
 Search stopped: YouTube search 429: Quota exceeded for quota metric 'Search Queries' and limit '… (resumes next run)
-Checked now: 173 · found via MusicBrainz: 0 · @handle: 0 · search: 2
-Totals → auto-accept: 80 · review: 44 · no match: 176 · still to search: 132
+Checked now: 155 · found via MusicBrainz: 0 · @handle: 0 · search: 2
+Totals → auto-accept: 80 · review: 44 · no match: 176 · still to search: 112
 Quota used: 302 / 10,000
 $ node collector/tag-genres.mjs
 Team genre for "Shey Lontum": artist not in roster — skipped
-Artists with a genre: 86 of 335
-Makossa: 33 · Bikutsi: 14 · Mbolé: 11 · Njang: 2 · Afrobeats & Afropop: 19 · Hip Hop & Dancehall: 5 · Mboko: 2
+Team genre for "VANITY FAIR": artist not in roster — skipped
+Team genre for "la mélo du quartier": artist not in roster — skipped
+Team genre for "La Santinelle": artist not in roster — skipped
+Team genre for "Tabaski": artist not in roster — skipped
+Team genre for "SOPEKA DIAMANT": artist not in roster — skipped
+Team genre for "Ikardi Le Monument": artist not in roster — skipped
+Team genre for "Vanister Enama": artist not in roster — skipped
+Team genre for "Petit Axel": artist not in roster — skipped
+Team genre for "LES FRANGINS PONGO": artist not in roster — skipped
+Team genre for "Franck Ngouma": artist not in roster — skipped
+Team genre for "Sokeb Beatz": artist not in roster — skipped
+Team genre for "LE DUO MAGIQUE": artist not in roster — skipped
+Team genre for "EWOLO MINGA": artist not in roster — skipped
+Team genre for "Koutchoua Mbada": artist not in roster — skipped
+Artists with a genre: 72 of 316
+Makossa: 31 · Bikutsi: 12 · Mbolé: 4 · Njang: 1 · Afrobeats & Afropop: 18 · Hip Hop & Dancehall: 5 · Mboko: 1
 
-[19:30:50] 3/7 Build chart, then complete song data until stable
+[05:56:33] 3/7 Build chart, then complete song data until stable
 $ node collector/build-week.mjs
-Only 1 snapshot(s). Run collect-youtube.mjs again in 7 days to build the first chart.
+Snapshots are only 0.4 days apart — no chart built. The next weekly run will build it.
 Looked up 0 new songs (0 matched on Deezer).
 Coverage (120 songs on all charts): official artwork 72 · YouTube thumbnail only 41 · nothing 7
 
-[19:30:50] 4/7 Tests
+[05:56:33] 4/7 Tests
 $ node --test collector/test/scoring.test.mjs collector/test/songs.test.mjs
 TAP version 13
 # Subtest: viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
 ok 1 - viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
   ---
-  duration_ms: 1.779601
+  duration_ms: 2.809048
   type: 'test'
   ...
 # Subtest: history carried week to week: peak keeps the best, weeks accumulate
 ok 2 - history carried week to week: peak keeps the best, weeks accumulate
   ---
-  duration_ms: 0.442937
+  duration_ms: 0.764925
   type: 'test'
   ...
 # Subtest: genres: from titles and Wikidata, most specific wins
 ok 3 - genres: from titles and Wikidata, most specific wins
   ---
-  duration_ms: 0.336987
+  duration_ms: 0.591709
   type: 'test'
   ...
 # Subtest: weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
 ok 4 - weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
   ---
-  duration_ms: 0.19896
+  duration_ms: 0.351068
   type: 'test'
   ...
 # Subtest: with Audiomack data the weights become 40/25/20/15
 ok 5 - with Audiomack data the weights become 40/25/20/15
   ---
-  duration_ms: 0.184297
+  duration_ms: 0.461436
   type: 'test'
   ...
 # Subtest: missing source one week → remaining weights rescale to 100%
 ok 6 - missing source one week → remaining weights rescale to 100%
   ---
-  duration_ms: 0.15916
+  duration_ms: 0.375834
   type: 'test'
   ...
 # Subtest: Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
 ok 7 - Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
   ---
-  duration_ms: 0.092649
+  duration_ms: 0.210855
   type: 'test'
   ...
 # Subtest: songs older than 104 weeks are ineligible and do not dilute shares
 ok 8 - songs older than 104 weeks are ineligible and do not dilute shares
   ---
-  duration_ms: 0.121473
+  duration_ms: 0.251542
   type: 'test'
   ...
 # Subtest: anomaly: spike > 5× median is capped at 3× and flagged
 ok 9 - anomaly: spike > 5× median is capped at 3× and flagged
   ---
-  duration_ms: 0.234754
+  duration_ms: 0.435557
   type: 'test'
   ...
 # Subtest: ranking: LW, peak, weeks, movement NEW / RE / up / down
 ok 10 - ranking: LW, peak, weeks, movement NEW / RE / up / down
   ---
-  duration_ms: 0.327943
+  duration_ms: 0.558879
   type: 'test'
   ...
 # Subtest: genre chart only includes that genre; chart size caps entries
 ok 11 - genre chart only includes that genre; chart size caps entries
   ---
-  duration_ms: 0.350929
+  duration_ms: 0.647725
   type: 'test'
   ...
 # Subtest: recurrent songs (> 52 weeks) drop off Overall below rank 25
 ok 12 - recurrent songs (> 52 weeks) drop off Overall below rank 25
   ---
-  duration_ms: 0.754006
+  duration_ms: 1.197045
   type: 'test'
   ...
 # Subtest: songTitle strips artist prefix, version tags and features
 ok 13 - songTitle strips artist prefix, version tags and features
   ---
-  duration_ms: 1.224504
+  duration_ms: 1.94637
   type: 'test'
   ...
 # Subtest: versions of one song merge; different songs stay apart
 ok 14 - versions of one song merge; different songs stay apart
   ---
-  duration_ms: 0.477969
+  duration_ms: 0.832721
   type: 'test'
   ...
 # Subtest: stage name is used for display and stripped from titles
 ok 15 - stage name is used for display and stripped from titles
   ---
-  duration_ms: 0.267493
+  duration_ms: 0.426109
   type: 'test'
   ...
 # Subtest: same title by different artists does not merge
 ok 16 - same title by different artists does not merge
   ---
-  duration_ms: 0.140291
+  duration_ms: 0.268313
   type: 'test'
   ...
 1..16
@@ -150,17 +164,17 @@ ok 16 - same title by different artists does not merge
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 48.020403
+# duration_ms 79.458364
 
-[19:30:50] 5/7 Export for the website
+[05:56:33] 5/7 Export for the website
 $ node collector/export-web.mjs
 Exported Top 50 (50) + genre charts (Makossa 20, Bikutsi 20, Mbolé 20, Njang 11, Afrobeats & Afropop 20, Hip Hop & Dancehall 20, Mboko 5) from chart-preview.json (PREVIEW)
 Real charts so far: none (site stays in preview)
 
-[19:30:50] 6/7 Build website
+[05:56:33] 6/7 Build website
 $ npx next build
 ▲ Next.js 16.4.6 (Turbopack)
-✓ Running next.config.ts took 20ms
+✓ Running next.config.ts took 28ms
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
 Attention: Next.js now collects completely anonymous telemetry regarding usage.
 This information is used to shape Next.js' roadmap and prioritize features.
@@ -169,15 +183,15 @@ https://nextjs.org/telemetry
 
 
   Creating an optimized production build ...
-✓ Compiled successfully in 2.1s
+✓ Compiled successfully in 3.4s
   Running TypeScript ...
-  Finished TypeScript in 2.1s ...
+  Finished TypeScript in 3.1s ...
   Collecting page data using 3 workers ...
-  Generating static pages using 3 workers (0/364) ...
-  Generating static pages using 3 workers (91/364) 
-  Generating static pages using 3 workers (182/364) 
-  Generating static pages using 3 workers (273/364) 
-✓ Generating static pages using 3 workers (364/364) in 2.1s
+  Generating static pages using 3 workers (0/366) ...
+  Generating static pages using 3 workers (91/366) 
+  Generating static pages using 3 workers (182/366) 
+  Generating static pages using 3 workers (274/366) 
+✓ Generating static pages using 3 workers (366/366) in 3.4s
   Finalizing page optimization ...
 
 Route (app)
@@ -215,6 +229,9 @@ Route (app)
 │ ├ ● /fr/song/grace-decca-johnny
 │ ├ ● /fr/song/franck-ngouma-mane-ma-nkag
 │ └ ● [+237 more paths]
+├   /[lang]/top-20
+│ ├ ● /fr/top-20
+│ └ ● /en/top-20
 ├   /[lang]/top-50
 │ ├ ● /fr/top-50
 │ └ ● /en/top-50
@@ -235,17 +252,15 @@ Route (app)
 ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
 
 
-[19:30:58] 7/7 Deploy to Cloudflare Pages
+[05:56:45] 7/7 Deploy to Cloudflare Pages
 $ npx --yes wrangler@3 pages deploy out --project-name 237charts --branch main --commit-dirty=true
-npm warn deprecated rollup-plugin-inject@3.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-inject.
-npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
-Uploading... (26/1831)
-Uploading... (628/1831)
-Uploading... (1229/1831)
-Uploading... (1831/1831)
-✨ Success! Uploaded 1805 files (26 already uploaded) (3.00 sec)
+Uploading... (27/1841)
+Uploading... (631/1841)
+Uploading... (1236/1841)
+Uploading... (1841/1841)
+✨ Success! Uploaded 1814 files (27 already uploaded) (2.49 sec)
 
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://52376ec0.237charts.pages.dev
+✨ Deployment complete! Take a peek over at https://a72e31ea.237charts.pages.dev
 
-[19:31:11] Done in 112 s
+[05:56:52] Done in 126 s

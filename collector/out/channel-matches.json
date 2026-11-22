@@ -2498,18 +2498,18 @@
     "name": "Jean Pierre Essome",
     "aliases": [],
     "best": {
-      "channelId": "UCF31Cb4_NoMrcIxpgS8EzRw",
-      "title": "jeanpierreessome",
+      "channelId": "UCrqf67jUv-HFvDpujtN9lBg",
+      "title": "Jean-Pierre Essome - Topic",
       "country": null,
-      "subscribers": 1,
+      "subscribers": 8,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2528,7 +2528,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
