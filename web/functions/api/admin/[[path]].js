@@ -20,6 +20,7 @@ const READABLE = [
 const WRITABLE = {
   'admin/eligibility.csv': 'editor', 'admin/genres.csv': 'editor', 'admin/artists-add.csv': 'editor',
   'admin/artists-remove.csv': 'editor', 'admin/channels.csv': 'editor', 'admin/labels.csv': 'editor',
+  'admin/song-fixes.csv': 'editor',
   'admin/contact.json': 'owner',
 };
 const RANK = { viewer: 0, editor: 1, owner: 2 };

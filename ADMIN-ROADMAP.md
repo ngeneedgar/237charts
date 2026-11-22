@@ -70,15 +70,15 @@ Local testing: `web/.dev.vars` (not committed) signs you in as a test owner with
 ## Phase B — Daily work screens (weeks 2–3)
 - [x] **B1 Overview** (`/admin/`; YouTube quota not shown yet — not tracked by the run): next run countdown, last run result (OK / failed + reason), items waiting for review, artists without a channel, YouTube quota used
 - [x] **B2 Review queue** (`/admin/review/`): one card per candidate showing songs, chart ranks, countries it charts in, Wikidata/MusicBrainz facts, web links. Buttons: *Cameroonian* / *Not eligible* / *Skip*, with a source field. Replaces `review-queue.csv` → writes `eligibility.csv`
-- [ ] **B3 Artists**: searchable table (name, stage names, genre, nationality status, channels, songs charting). Artist page: edit genre, aliases, channels; add/remove with reason
+- [x] **B3 Artists** (`/admin/artists/`: search, filters, genre change, add/remove; artist detail page not yet): searchable table (name, stage names, genre, nationality status, channels, songs charting). Artist page: edit genre, aliases, channels; add/remove with reason
 - [x] **B4 Nationality panel** (`/admin/nationality/`): list of artists excluded by the hard rule with their citizenships and source. Read-only, with "report wrong data" that opens a correction on Wikidata
-- [ ] **B5 Channels**: artists without a channel, suggested matches from `channel-matches.json` (accept / reject), label channels (`labels.csv`), paste-a-URL to get the channel ID automatically
-- [ ] **B6 Genres**: genre list with artist counts; drag or pick genre per artist; song-level override (e.g. a gospel song by a makossa artist)
+- [x] **B5 Channels** (`/admin/channels/`; paste only resolves UC… IDs, not @handles): artists without a channel, suggested matches from `channel-matches.json` (accept / reject), label channels (`labels.csv`), paste-a-URL to get the channel ID automatically
+- [~] **B6 Genres** (artist genre on Artists, song genre on Songs; no separate Genres page): genre list with artist counts; drag or pick genre per artist; song-level override (e.g. a gospel song by a makossa artist)
 
 ## Phase C — Chart control (weeks 3–4)
-- [ ] **C1 Chart preview before publish**: this week's Top 50 / genre / Viral charts as they will appear, with movement vs last week and each song's score breakdown (YouTube / Shazam / Deezer)
-- [ ] **C2 Flags to check**: songs capped for irregular activity, new entries from unverified channels, beat/instrumental versions, ALL-CAPS or messy titles, missing artwork
-- [ ] **C3 Song fixes**: edit display title, merge duplicate songs, split wrongly merged ones, set release date, hide a non-song upload. Each fix is a logged correction
+- [~] **C1 Chart preview** (`/admin/charts/`: shows the current chart with scores; a held draft before publish needs the run split into collect/publish): this week's Top 50 / genre / Viral charts as they will appear, with movement vs last week and each song's score breakdown (YouTube / Shazam / Deezer)
+- [x] **C2 Flags to check**: songs capped for irregular activity, new entries from unverified channels, beat/instrumental versions, ALL-CAPS or messy titles, missing artwork
+- [x] **C3 Song fixes** (`/admin/songs/` → `admin/song-fixes.csv`, applied in build-week; split not built): edit display title, merge duplicate songs, split wrongly merged ones, set release date, hide a non-song upload. Each fix is a logged correction
 - [ ] **C4 Publish control**: "Approve & publish" (or auto-publish Monday 08:00 WAT if nobody blocks), "Re-run now", "Hold this week" with a public notice
 - [~] **C5 Corrections log** — admin page done (`/admin/corrections/`); public Methodology version not yet: generated from the audit trail and published automatically on the Methodology page (replaces the hand-written text)
 

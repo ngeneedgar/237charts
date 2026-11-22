@@ -7,6 +7,7 @@ import { scoreWeek, rankChart, shazamPoints } from './lib/scoring.mjs';
 import { mergeVersions, songKey } from './lib/songs.mjs';
 import { norm } from './lib/names.mjs';
 import { GENRES, genreFromTitle } from './lib/genres.mjs';
+import { applySongFixes, loadSongFixes } from './lib/song-fixes.mjs';
 import { loadRoster } from './lib/roster.mjs';
 
 const dir = 'collector/out/snapshots';
@@ -102,6 +103,13 @@ const artistGenres = JSON.parse(await readFile('collector/out/artist-genres.json
 for (const s of songs) {
   const qid = s.songId.split('::')[0];
   s.genre = genreFromTitle(s.meta.title ?? '') ?? artistGenres[qid]?.genre ?? null;
+}
+
+// ---------- team fixes from the admin (admin/song-fixes.csv): titles, genres, merges, hidden uploads ----------
+{
+  const { songs: fixed, log } = applySongFixes(songs, await loadSongFixes(), GENRES.map((g) => g.slug));
+  songs.splice(0, songs.length, ...fixed);
+  if (log.length) console.log(`Song fixes applied (${log.length}): ${log.join(' · ')}`);
 }
 
 const weekEnd = cur.takenAt.slice(0, 10);

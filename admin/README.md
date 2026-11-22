@@ -14,6 +14,7 @@ If a value contains a comma, put it in "double quotes".
 | `artists-add.csv` | Add an artist we don't know yet (with your reason/source) | `Maahlox,Cameroonian rapper born in Yaoundé` |
 | `artists-remove.csv` | Remove someone who isn't an eligible artist (with reason) | `Some Channel,not a musician` |
 | `channels.csv` | An artist's official YouTube channel (the ID starts with `UC`) | `Jovi,UCSG0CS2umjnuMeOYyoow5QA,@JoviLeMonstre` |
+| `song-fixes.csv` | Fix one song: `title`, `genre`, `hide`, `merge` (value = song to keep), `date` — easiest from the admin dashboard (Songs) | `Q123::koulos lyrics,merge,Q123::koulos,duplicate lyric video` |
 | `contact.json` | Where artist requests go (email, WhatsApp in international format) | `"whatsapp": "237681372757"` |
 
 **Genre codes:** `makossa` · `bikutsi` · `mbole` · `njang` · `afro` · `hiphop` · `mboko` · `gospel`
