@@ -333,3 +333,9 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 .genreTrack .rowTitle, .genreTrack .rowArtist { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .genreEmpty { margin: 0; font-size: 15px; color: var(--label-3); }
+
+/* Genres page: cover cards only */
+.genreCards { display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fill, minmax(min(46%, 200px), 1fr)); }
+.genreCardLink { display: block; color: inherit; }
+.genreCardLink:hover { text-decoration: none; }
+.genreCardLink:active .tileArt { transform: scale(0.97); }
