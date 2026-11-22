@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T14:53:42.603Z",
+  "takenAt": "2026-11-22T15:08:00.267Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121162
+      "fans": 1121165
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -154,7 +154,7 @@
     "Q115790718": {
       "deezerId": 70757872,
       "name": "Libianca",
-      "fans": 25114
+      "fans": 25115
     },
     "Q47472775": {
       "deezerId": 200195,
@@ -179,7 +179,7 @@
     "Q445829": {
       "deezerId": 4929,
       "name": "Manu Dibango",
-      "fans": 69384
+      "fans": 69385
     },
     "Q107491845": {
       "deezerId": 10153532,
@@ -259,17 +259,17 @@
     "Q349703": {
       "deezerId": 6745,
       "name": "Wes",
-      "fans": 15648
+      "fans": 15649
     },
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145819
+      "fans": 145820
     },
     "Q221908": {
       "deezerId": 1801,
       "name": "Yannick Noah",
-      "fans": 174294
+      "fans": 174295
     },
     "Q16980116": {
       "deezerId": 584589,
@@ -1623,7 +1623,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Lena (Fille du Sahel)",
-      "rank": 191285,
+      "rank": 156917,
       "albumId": 9511008,
       "link": "https://www.deezer.com/track/93634458"
     },
@@ -6543,7 +6543,7 @@
       "wikidata": "Q24341755",
       "artist": "Adèle Ruffine Ngono",
       "title": "Envie de saouler",
-      "rank": 70150,
+      "rank": 103727,
       "albumId": 504794661,
       "link": "https://www.deezer.com/track/2514688741"
     },
@@ -7047,7 +7047,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Séa",
-      "rank": 89112,
+      "rank": 143781,
       "albumId": 568386611,
       "link": "https://www.deezer.com/track/2734726611"
     },
