@@ -1545,5 +1545,50 @@
     "similarity": 1,
     "confidence": 0.95,
     "status": "auto"
+  },
+  "Q109771617": {
+    "artist": "Sandrine Nnanga",
+    "id": 57102322,
+    "name": "Sandrine Nnanga",
+    "fans": 792,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q30728613": {
+    "artist": "Sanzy Viany",
+    "id": 816097,
+    "name": "Sanzy Viany",
+    "fans": 65,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-martin-s": {
+    "artist": "Martin's",
+    "id": 214180257,
+    "name": "Martin's",
+    "fans": 1834,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "X-kikoh": {
+    "artist": "Kikoh",
+    "id": 12818109,
+    "name": "Kikoh",
+    "fans": 43,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-yanicko-la-star-du-flow": {
+    "artist": "Yanicko la star du Flow",
+    "id": 189196307,
+    "name": "Yanicko la star du flow",
+    "fans": 9,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

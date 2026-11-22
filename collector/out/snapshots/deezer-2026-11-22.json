@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T14:01:49.354Z",
+  "takenAt": "2026-11-22T14:07:57.907Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -264,7 +264,7 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145818
+      "fans": 145819
     },
     "Q221908": {
       "deezerId": 1801,
@@ -345,6 +345,16 @@
       "deezerId": 562503,
       "name": "tata",
       "fans": 3890
+    },
+    "Q109771617": {
+      "deezerId": 57102322,
+      "name": "Sandrine Nnanga",
+      "fans": 792
+    },
+    "X-martin-s": {
+      "deezerId": 214180257,
+      "name": "Martin's",
+      "fans": 1834
     }
   },
   "tracks": {
@@ -4600,7 +4610,7 @@
       "wikidata": "Q1893336",
       "artist": "Prince Nico Mbarga",
       "title": "Aki Special",
-      "rank": 68272,
+      "rank": 98689,
       "albumId": 185822922,
       "link": "https://www.deezer.com/track/1139730042"
     },
@@ -6252,6 +6262,14 @@
       "albumId": 455592335,
       "link": "https://www.deezer.com/track/2335319715"
     },
+    "2344390635": {
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
+      "title": "Toi et moi",
+      "rank": 74805,
+      "albumId": 458190835,
+      "link": "https://www.deezer.com/track/2344390635"
+    },
     "2349939955": {
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
@@ -6475,6 +6493,14 @@
       "rank": 132928,
       "albumId": 499558461,
       "link": "https://www.deezer.com/track/2496582391"
+    },
+    "2501643441": {
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
+      "title": "Ton Feu",
+      "rank": 258424,
+      "albumId": 501127521,
+      "link": "https://www.deezer.com/track/2501643441"
     },
     "2502838891": {
       "wikidata": "Q123574342",
@@ -6864,7 +6890,7 @@
       "wikidata": "Q25679",
       "artist": "Richard Bona",
       "title": "Suninga (Live)",
-      "rank": 74072,
+      "rank": 164149,
       "albumId": 546135392,
       "link": "https://www.deezer.com/track/2657201892"
     },
@@ -6933,8 +6959,8 @@
       "link": "https://www.deezer.com/track/2686081572"
     },
     "2693603572": {
-      "wikidata": "Q115452649",
-      "artist": "Cysoul",
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
       "title": "On est ensemble",
       "rank": 53886,
       "albumId": 557281312,
@@ -7396,6 +7422,14 @@
       "albumId": 675755821,
       "link": "https://www.deezer.com/track/3113030711"
     },
+    "3114320611": {
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
+      "title": "Un homme comme toi",
+      "rank": 102317,
+      "albumId": 676076291,
+      "link": "https://www.deezer.com/track/3114320611"
+    },
     "3134655371": {
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
@@ -7733,8 +7767,8 @@
       "link": "https://www.deezer.com/track/3218750151"
     },
     "3225617961": {
-      "wikidata": "Q47472775",
-      "artist": "Locko",
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
       "title": "Pas de toi Sans Moi",
       "rank": 235189,
       "albumId": 710435011,
@@ -8445,12 +8479,20 @@
       "link": "https://www.deezer.com/track/3693872482"
     },
     "3695010752": {
-      "wikidata": "Q117325000",
-      "artist": "Sabrina",
+      "wikidata": "X-martin-s",
+      "artist": "Martin's",
       "title": "Saint Tropez",
       "rank": 40886,
       "albumId": 869810272,
       "link": "https://www.deezer.com/track/3695010752"
+    },
+    "3696011652": {
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
+      "title": "Sobo",
+      "rank": 128845,
+      "albumId": 870212072,
+      "link": "https://www.deezer.com/track/3696011652"
     },
     "3697796642": {
       "wikidata": "Q3389313",
@@ -8781,8 +8823,8 @@
       "link": "https://www.deezer.com/track/3853286611"
     },
     "3855434851": {
-      "wikidata": "Q117325000",
-      "artist": "Sabrina",
+      "wikidata": "X-martin-s",
+      "artist": "Martin's",
       "title": "ABC Mbole",
       "rank": 29112,
       "albumId": 922939941,
@@ -8980,6 +9022,14 @@
       "albumId": 944069501,
       "link": "https://www.deezer.com/track/3912745631"
     },
+    "3913154911": {
+      "wikidata": "X-martin-s",
+      "artist": "Martin's",
+      "title": "Pose for me",
+      "rank": 190011,
+      "albumId": 944196181,
+      "link": "https://www.deezer.com/track/3913154911"
+    },
     "3924354261": {
       "wikidata": "X-tata",
       "artist": "TATA",
@@ -9132,9 +9182,25 @@
       "albumId": 994677861,
       "link": "https://www.deezer.com/track/4054342331"
     },
+    "4058088441": {
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
+      "title": "Bipolaire",
+      "rank": 85793,
+      "albumId": 996157821,
+      "link": "https://www.deezer.com/track/4058088441"
+    },
+    "4058088461": {
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
+      "title": "Ndolo",
+      "rank": 33750,
+      "albumId": 996157821,
+      "link": "https://www.deezer.com/track/4058088461"
+    },
     "4058088541": {
-      "wikidata": "Q19544251",
-      "artist": "Ben Decca",
+      "wikidata": "Q109771617",
+      "artist": "Sandrine Nnanga",
       "title": "Ndolo",
       "rank": 163674,
       "albumId": 996157821,
