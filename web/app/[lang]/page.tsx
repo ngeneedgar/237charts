@@ -36,11 +36,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <section className={s.shelf} aria-label={t.mainCharts}>
           <div className={s.shelfRow}>
             <ChartTile kind="top-50" href={`/${lang}/top-20/`} title="Top 20" label={t.country}
-              caption={t.top20Title} sub={no1 ? `${no1.title} · ${no1.primaryArtist}` : ""} />
+              caption="Top 20" sub={lang === "fr" ? "Les 20 premiers" : "The top 20 songs"} />
             <ChartTile kind="top-50" href={`/${lang}/top-50/`} title="Top 50" label={t.country}
-              caption={t.top50Title} sub={no1 ? `${no1.title} · ${no1.primaryArtist}` : ""} />
-            <ChartTile kind="viral" href={`/${lang}/viral/`} title="Viral 20" label={t.country}
-              caption={t.viral} sub={lang === "fr" ? "Nouveaux titres qui décollent" : "New songs taking off"} />
+              caption="Top 50" sub={lang === "fr" ? "Le classement complet" : "The full chart"} />
+            <ChartTile kind="viral" href={`/${lang}/viral/`} title="Viral" label={t.country}
+              caption="Viral 20" sub={lang === "fr" ? "Titres qui décollent" : "Songs taking off"} />
           </div>
         </section>
 
@@ -48,8 +48,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <div className={s.shelfHead}><h2 className={s.shelfTitle}>{t.genres}</h2></div>
           <div className={s.shelfRow}>
             {chart.genres.map((g) => (
-              <ChartTile key={g.slug} kind={g.slug} href={`/${lang}/genre/${g.slug}/`} title="Top 20" label={g[lang]}
-                caption={g[lang]} sub={g.entries[0] ? `${g.entries[0].title} · ${g.entries[0].primaryArtist}` : "—"} />
+              <ChartTile key={g.slug} kind={g.slug} href={`/${lang}/genre/${g.slug}/`} long
+                title={g.slug === "afro" ? "Afro" : g.slug === "hiphop" ? (lang === "fr" ? "Hip-hop" : "Hip Hop") : g[lang]} label="Top 20"
+                caption={g.entries[0]?.title ?? "—"} sub={g.entries[0]?.primaryArtist ?? ""} />
             ))}
           </div>
         </section>
@@ -82,8 +83,10 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </ol>
         </section>
 
-        <a className={s.primary} href="#share">{t.share}</a>
-        <Link className={s.textBtn} href={`/${lang}/embed/`}>{t.embed}</Link>
+        <div className={s.actions}>
+          <a className={s.primary} href="#share">{t.share}</a>
+          <Link className={s.textBtn} href={`/${lang}/embed/`}>{t.embed}</Link>
+        </div>
 
         <Footer t={t} lang={lang} />
       </main>

@@ -19,7 +19,7 @@ export default async function Top50({ params }: PageProps<"/[lang]/top-50">) {
     <>
       <main className={s.page}>
         <NavBar t={t} lang={lang} path="top-50/" title={t.top50Title} back={{ href: `/${lang}/`, label: t.back }} />
-        <p className={s.week} style={{ marginTop: -16 }}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
+        <p className={s.week} style={{ marginTop: "calc(-1 * var(--s6))" }}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
         <Preview t={t} show={chart.preview} />
         <ol className={s.list}>
           {chart.entries.map((e) => <ChartRow key={e.slug} e={e} t={t} lang={lang} />)}

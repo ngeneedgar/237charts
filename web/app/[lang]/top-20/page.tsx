@@ -20,7 +20,7 @@ export default async function Top20({ params }: PageProps<"/[lang]/top-20">) {
     <>
       <main className={s.page}>
         <NavBar t={t} lang={lang} path="top-20/" title={t.top20Title} back={{ href: `/${lang}/`, label: t.back }} />
-        <p className={s.week} style={{ marginTop: -16 }}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
+        <p className={s.week} style={{ marginTop: "calc(-1 * var(--s6))" }}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
         <Preview t={t} show={chart.preview} />
         <ol className={s.list}>
           {chart.entries.slice(0, 20).map((e) => <ChartRow key={e.slug} e={e} t={t} lang={lang} />)}

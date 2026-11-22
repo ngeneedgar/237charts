@@ -28,7 +28,7 @@ export default async function Genre({ params }: PageProps<"/[lang]/genre/[slug]"
     <>
       <main className={s.page}>
         <NavBar t={t} lang={lang} path={`genre/${slug}/`} title={t.genreTop(g[lang])} back={{ href: `/${lang}/`, label: t.back }} />
-        <p className={s.week} style={{ marginTop: -16 }}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
+        <p className={s.week} style={{ marginTop: "calc(-1 * var(--s6))" }}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
         <Preview t={t} show={chart.preview} />
         <nav className={s.chips} aria-label={t.genres}>
           {chart.genres.map((x) => (

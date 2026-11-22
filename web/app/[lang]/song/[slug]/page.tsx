@@ -45,7 +45,7 @@ export default async function Song({ params }: PageProps<"/[lang]/song/[slug]">)
 
         <section className={s.detailHero}>
           <Art e={e} size="big" className={s.detailArt} />
-          <div>
+          <div className={s.detailText}>
             <h1 className={`${s.detailTitle} ${s.detailTitleLine}`}><span>{e.title}</span>{e.explicit && <Explicit />}</h1>
             <Link className={s.detailSub} href={`/${lang}/artist/${e.artistSlug}/`}>{e.artists.join(", ")}</Link>
           </div>
@@ -57,7 +57,7 @@ export default async function Song({ params }: PageProps<"/[lang]/song/[slug]">)
           <div className={s.stat}><span className={s.statValue}>{e.peak}</span><span className={s.statLabel}>{t.peak}</span></div>
           <div className={s.stat}><span className={s.statValue}>{e.weeks}</span><span className={s.statLabel}>{t.weeksOn}</span></div>
         </section>
-        <p className={s.note} style={{ marginTop: -16 }}>
+        <p className={s.note} style={{ marginTop: "calc(-1 * var(--s6))" }}>
           {inTop50 ? t.top50Title : genre && <Link href={`/${lang}/genre/${genre.slug}/`}>{`Top 20 ${genre[lang]}`}</Link>}
           {" · "}<Movement e={e} t={t} />{e.adjusted && <> · {t.adjusted}</>}
         </p>

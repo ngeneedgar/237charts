@@ -34,7 +34,7 @@ export default async function Artist({ params }: PageProps<"/[lang]/artist/[slug
 
         <section className={s.detailHero}>
           <Art e={withArt} size="big" className={s.detailArt} />
-          <div>
+          <div className={s.detailText}>
             <h1 className={s.detailTitle}>{name}</h1>
             <span className={s.heroMeta}>{t.artistNote}</span>
           </div>

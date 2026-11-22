@@ -15,15 +15,15 @@ export const TILE_COLORS: Record<string, [string, string]> = {
   mboko: ["#8B5CF6", "#3B1A80"],
 };
 
-export function ChartTile({ href, kind, title, label, caption, sub }: {
-  href: string; kind: string; title: string; label: string; caption: string; sub: string;
+export function ChartTile({ href, kind, title, label, caption, sub, long }: {
+  href: string; kind: string; title: string; label: string; caption: string; sub: string; long?: boolean;
 }) {
   const [a, b] = TILE_COLORS[kind] ?? TILE_COLORS["top-50"];
   return (
     <Link className={s.tile} href={href}>
       <span className={s.tileArt} style={{ background: `linear-gradient(150deg, ${a} 0%, ${b} 100%)` }} aria-hidden="true">
         <span className={s.tileMark}>237</span>
-        <span className={s.tileTitle}>{title}</span>
+        <span className={`${s.tileTitle} ${long ? s.tileTitleLong : ""}`}>{title}</span>
         <span className={s.tileRule} />
         <span className={s.tileLabel}>{label}</span>
       </span>
