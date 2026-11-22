@@ -41,7 +41,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         {/* Chart shelves: main charts first (3 across), genre charts below */}
         <section className={s.shelf} aria-label={t.mainCharts}>
           <div className={s.shelfRow}>
-            <ChartTile kind="top-50" href={`/${lang}/top-20/`} title="Top 20" label={t.country}
+            <ChartTile kind="top-20" href={`/${lang}/top-20/`} title="Top 20" label={t.country}
               caption="Top 20" sub={lang === "fr" ? "Les 20 premiers" : "The top 20 songs"} />
             <ChartTile kind="top-50" href={`/${lang}/top-50/`} title="Top 50" label={t.country}
               caption="Top 50" sub={lang === "fr" ? "Le classement complet" : "The full chart"} />

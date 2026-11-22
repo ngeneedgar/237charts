@@ -5,6 +5,10 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import { hasLocale, locales } from "./dictionaries";
 
+const PREFS_SCRIPT = `try{var p=JSON.parse(localStorage.getItem('237prefs')||'{}'),r=document.documentElement;
+if(p.theme==='light'||p.theme==='dark')r.dataset.theme=p.theme;
+if(p.explicit==='hide')r.dataset.explicit='hide';}catch(e){}`;
+
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
@@ -39,7 +43,12 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   return (
-    <html lang={lang}>
+    // suppressHydrationWarning: the script below sets data-theme / data-explicit before React loads
+    <html lang={lang} suppressHydrationWarning>
+      <head>
+        {/* Apply saved Settings before first paint (no flash of the wrong theme) */}
+        <script dangerouslySetInnerHTML={{ __html: PREFS_SCRIPT }} />
+      </head>
       <body>{children}</body>
     </html>
   );

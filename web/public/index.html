@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>237 Charts</title>
 <script>
-  // Send visitors to their language: English browsers → /en/, everyone else → /fr/
-  var l = (navigator.language || "fr").toLowerCase();
-  location.replace(l.indexOf("en") === 0 ? "/en/" : "/fr/");
+  // Language: the one saved in Settings; otherwise English browsers → /en/, everyone else → /fr/
+  var l = "";
+  try { l = (JSON.parse(localStorage.getItem("237prefs") || "{}").lang) || ""; } catch (e) {}
+  if (l !== "fr" && l !== "en") l = (navigator.language || "fr").toLowerCase().indexOf("en") === 0 ? "en" : "fr";
+  location.replace("/" + l + "/");
 </script>
 <meta http-equiv="refresh" content="1; url=/fr/">
 </head>

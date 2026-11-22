@@ -18,6 +18,7 @@
 .brandText .title { font-size: clamp(21px, 7.4vw, 34px); line-height: 1.15; white-space: nowrap; }
 /* Logo shrinks a little on very small phones so the title never breaks mid-word */
 .brandLogo img { height: clamp(42px, 15vw, 56px) !important; }
+.brandLogo :global(.logo-black) { display: block; }
 .brandText .week { font-size: 14px; line-height: 19px; }
 .brandBlock + .seg { flex: none; align-self: flex-start; margin-top: var(--s1); }
 .title { font-size: 34px; line-height: 41px; font-weight: 700; letter-spacing: 0.37px; margin: 0; }
@@ -111,7 +112,7 @@
 .tile:active .tileArt { transform: scale(0.97); transition: none; }
 /* Sizes scale with the tile itself (container units), so 3-across fits a 375px phone and a desktop alike */
 .tileMark { position: absolute; top: 6cqw; left: 6cqw; height: 17cqw; width: auto; opacity: 0.95; }
-.tileTitle { font-size: 22cqw; line-height: 1; font-weight: 800; letter-spacing: -0.04em; white-space: nowrap; }
+.tileTitle { font-size: 22cqw; line-height: 1; font-weight: 800; letter-spacing: -0.04em; white-space: nowrap; text-shadow: 0 1px 8px rgba(0,0,0,.25); }
 /* Genre names are longer than "Top 50": smaller, may wrap to two lines */
 .tileTitleLong { font-size: 15cqw; line-height: 1.05; white-space: normal; overflow-wrap: anywhere; }
 .tileRule { width: 56%; height: 1px; background: rgba(255, 255, 255, 0.55); margin: 7cqw 0; }
@@ -131,6 +132,34 @@
 .chips a { flex: none; font-size: 15px; font-weight: 600; color: var(--label); background: var(--fill); border-radius: 999px; padding: var(--s2) var(--s4); }
 .chips a:hover { text-decoration: none; }
 .chips a[aria-current="page"] { background: var(--accent); color: #fff; }
+
+/* Settings (mirrors a native settings screen: grouped cards, notes under each group) */
+.setGroup { display: grid; gap: var(--s2); }
+.setTitle { font-size: 13px; line-height: 18px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; color: var(--label-2); margin: 0 var(--s4); }
+.setCard { background: var(--surface); border-radius: 16px; overflow: hidden; }
+.setRow {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--s4);
+  min-height: 56px; padding: var(--s3) var(--s4); color: var(--label); position: relative;
+}
+a.setRow:hover { text-decoration: none; background: color-mix(in srgb, var(--fill) 50%, transparent); }
+.setRow + .setRow::before { content: ""; position: absolute; top: 0; left: var(--s4); right: 0; border-top: 0.5px solid var(--separator); }
+.setLabel { display: block; }
+.setSub { display: block; font-size: 13px; line-height: 18px; color: var(--label-2); }
+.setValue { color: var(--label-2); font-size: 15px; }
+.setNote { font-size: 13px; line-height: 19px; color: var(--label-2); margin: 0 var(--s4); }
+.setDisabled { opacity: 0.5; }
+.setDanger { width: 100%; min-height: 54px; border: 0; border-radius: 16px; background: var(--surface); color: var(--down); font: 600 17px var(--font); cursor: pointer; }
+/* Full-width segmented control */
+.segWide { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; width: 100%; background: var(--fill); border-radius: 10px; padding: 2px; }
+.segWide button { border: 0; background: transparent; color: var(--label); font: 600 15px var(--font); padding: 9px 6px; border-radius: 8px; cursor: pointer; }
+.segWide button[aria-checked="true"] { background: var(--surface); box-shadow: 0 3px 8px rgba(0, 0, 0, 0.14); }
+/* iOS-style switch */
+.switch { appearance: none; -webkit-appearance: none; flex: none; width: 51px; height: 31px; border-radius: 999px; background: var(--fill); position: relative; cursor: pointer; transition: background 0.2s var(--ease); margin: 0; }
+.switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 27px; height: 27px; border-radius: 50%; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,.25); transition: transform 0.2s var(--ease); }
+.switch:checked { background: var(--up); }
+.switch:checked::after { transform: translateX(20px); }
+.switch:disabled { cursor: not-allowed; }
+.switch:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* Embed builder */
 .embedPreview { display: grid; justify-items: center; background: var(--fill); border-radius: 14px; padding: 16px; }
@@ -189,7 +218,7 @@ button.textBtn { background: none; border: 0; color: var(--accent); font: 17px v
   background: color-mix(in srgb, var(--surface) 72%, transparent);
   backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-top: 0.5px solid var(--separator);
-  display: grid; grid-template-columns: repeat(4, 1fr); max-width: 100%;
+  display: grid; grid-template-columns: repeat(5, 1fr); max-width: 100%;
 }
 .tab { display: grid; justify-items: center; gap: 2px; font-size: 10px; line-height: 12px; color: var(--label-2); padding: 4px 0; border-radius: 10px; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 .tab:hover { text-decoration: none; }

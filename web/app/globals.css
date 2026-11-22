@@ -18,21 +18,31 @@
   --gutter: 24px;
   color-scheme: light;
 }
+/* Dark: when the device says so (unless the visitor chose Light in Settings), or when they chose Dark */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #000000;
-    --surface: #1C1C1E;
-    --fill: #7878803D;
-    --label: #FFFFFF;
-    --label-2: #EBEBF599;
-    --label-3: #EBEBF54D;
-    --separator: #54545899;
-    --accent: #FF8A1F;
-    --up: #30D158;
-    --down: #FF453A;
+  :root:not([data-theme="light"]) {
+    --bg: #000000; --surface: #1C1C1E; --fill: #7878803D; --label: #FFFFFF; --label-2: #EBEBF599;
+    --label-3: #EBEBF54D; --separator: #54545899; --accent: #FF8A1F; --up: #30D158; --down: #FF453A;
     color-scheme: dark;
   }
 }
+:root[data-theme="dark"] {
+  --bg: #000000; --surface: #1C1C1E; --fill: #7878803D; --label: #FFFFFF; --label-2: #EBEBF599;
+  --label-3: #EBEBF54D; --separator: #54545899; --accent: #FF8A1F; --up: #30D158; --down: #FF453A;
+  color-scheme: dark;
+}
+
+/* Logo: black on light, white on dark — follows the same rules as the colours above */
+.logo-white { display: none !important; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .logo-white { display: block !important; }
+  :root:not([data-theme="light"]) .logo-black { display: none !important; }
+}
+:root[data-theme="dark"] .logo-white { display: block !important; }
+:root[data-theme="dark"] .logo-black { display: none !important; }
+
+/* Settings: hide songs marked explicit everywhere */
+:root[data-explicit="hide"] [data-explicit="true"] { display: none !important; }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; }

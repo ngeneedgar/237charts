@@ -28,7 +28,7 @@ export function Movement({ e, t }: { e: Entry; t: Dict }) {
 /** Chart row: whole row links to the song page. */
 export function ChartRow({ e, t, lang }: { e: Entry; t: Dict; lang: Locale }) {
   return (
-    <li>
+    <li data-explicit={e.explicit ? "true" : undefined}>
       <Link className={s.row} href={`/${lang}/song/${e.slug}/`}>
         <span className={`${s.rank} ${e.rank === 1 ? s.rank1 : ""}`}>{e.rank}</span>
         <Art e={e} size="small" className={s.thumb} />
@@ -47,12 +47,15 @@ export function ChartRow({ e, t, lang }: { e: Entry; t: Dict; lang: Locale }) {
 
 /** Official 237 Charts logo: white version in dark mode, black version in light mode (follows the device). */
 export function Logo({ className, height = 40 }: { className?: string; height?: number }) {
+  // Both versions are in the page; CSS shows the right one for the current theme (device or Settings choice)
+  const st = { height, width: "auto" };
   return (
-    <picture className={className}>
-      <source srcSet="/brand/logo-white.svg" media="(prefers-color-scheme: dark)" />
+    <span className={className} style={{ display: "block" }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/brand/logo-black.svg" alt="237 Charts" height={height} style={{ height, width: "auto", display: "block" }} />
-    </picture>
+      <img className="logo-black" src="/brand/logo-black.svg" alt="237 Charts" height={height} style={{ ...st, display: "block" }} />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img className="logo-white" src="/brand/logo-white.svg" alt="237 Charts" height={height} style={st} />
+    </span>
   );
 }
 
@@ -97,6 +100,7 @@ const icons = {
   search: <><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5 21 21" /></>,
   archive: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
   embed: <path d="m8 7-5 5 5 5M16 7l5 5-5 5" />,
+  settings: <><circle cx="12" cy="12" r="3" /><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" /><circle cx="12" cy="12" r="7" /></>,
 };
 
 export function TabBar({ t, lang, active }: { t: Dict; lang: Locale; active: keyof typeof icons }) {
