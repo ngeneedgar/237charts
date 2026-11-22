@@ -315,3 +315,11 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
   .heroPrimary { flex: 0 1 auto; }
 }
 @media (prefers-reduced-motion: no-preference) { .heroArt { transition: transform .3s var(--ease); } .heroArtLink:hover .heroArt { transform: scale(1.02); } }
+
+/* ---------- Genre Top 3 cards (home) ---------- */
+.genreGrid { display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.genreCard { display: grid; gap: var(--s2); min-width: 0; }
+.genreHead { display: flex; align-items: center; gap: 10px; color: var(--label); text-decoration: none; padding: 0 var(--s1); }
+.genreHead:hover { text-decoration: none; }
+.genreSwatch { width: 28px; height: 28px; border-radius: 8px; flex: none; }
+.genreName { flex: 1; min-width: 0; font-size: 18px; line-height: 24px; font-weight: 500; }
