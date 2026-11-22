@@ -105,12 +105,31 @@
     "confidence": 0.7
   },
   {
+    "name": "VANITY FAIR",
+    "bestRank": 9,
+    "songs": [
+      "Ma’a Philo (#9)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Fally Ipupa",
     "bestRank": 10,
     "songs": [
       "Je n’aime que toi (#10)",
       "Deux êtres (#18)",
       "Pépélé (#26)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "la mélo du quartier",
+    "bestRank": 12,
+    "songs": [
+      "Moui de mamouai (#12)",
+      "Mon berger (feat. Le Roy Tsala & Iza muan) (#123)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -273,6 +292,15 @@
     "confidence": 0.7
   },
   {
+    "name": "La Santinelle",
+    "bestRank": 34,
+    "songs": [
+      "1,2,3 tremble (#34)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Vanco",
     "bestRank": 35,
     "songs": [
@@ -420,6 +448,15 @@
     "confidence": 0.7
   },
   {
+    "name": "Tabaski",
+    "bestRank": 56,
+    "songs": [
+      "We Di Drink (#56)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "AsapJo",
     "bestRank": 58,
     "songs": [
@@ -556,6 +593,15 @@
     "confidence": 0.7
   },
   {
+    "name": "SOPEKA DIAMANT",
+    "bestRank": 73,
+    "songs": [
+      "Mission compliqué (#73)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "AURORA",
     "bestRank": 74,
     "songs": [
@@ -585,10 +631,38 @@
     "confidence": 0.7
   },
   {
+    "name": "Ikardi Le Monument",
+    "bestRank": 78,
+    "songs": [
+      "Vieux têtu bandit de la nuit (#78)",
+      "Le destin (#99)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Asake",
     "bestRank": 79,
     "songs": [
       "Gratitude (#79)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Vanister Enama",
+    "bestRank": 80,
+    "songs": [
+      "Conduis Moi (#80)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Kratos le Dieu de la guerre",
+    "bestRank": 80,
+    "songs": [
+      "Conduis Moi (#80)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -626,6 +700,15 @@
     "bestRank": 84,
     "songs": [
       "PRAY FOR ME (#84)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Petit Axel",
+    "bestRank": 85,
+    "songs": [
+      "Tata mimi (#85)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -770,6 +853,15 @@
     "confidence": 0.7
   },
   {
+    "name": "Tim Storm",
+    "bestRank": 103,
+    "songs": [
+      "SUSPENDU (GOSPEL) (#103)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Mayo",
     "bestRank": 105,
     "songs": [
@@ -829,6 +921,15 @@
     "bestRank": 112,
     "songs": [
       "Oh Lord (#112)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "LES FRANGINS PONGO",
+    "bestRank": 113,
+    "songs": [
+      "La Nouvelle Danse Des Frangins (feat. Consty Edem's & Olive MBENDE & NTONE Moise) (#113)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -926,6 +1027,24 @@
     "confidence": 0.7
   },
   {
+    "name": "Franck Ngouma",
+    "bestRank": 127,
+    "songs": [
+      "Manè ma nkag (#127)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Sokeb Beatz",
+    "bestRank": 128,
+    "songs": [
+      "Faut toucher (feat. Tsimi Toro, Kill RB & LITH) (#128)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Vacra",
     "bestRank": 129,
     "songs": [
@@ -939,6 +1058,15 @@
     "bestRank": 129,
     "songs": [
       "Fille à Papa (#129)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "LE DUO MAGIQUE",
+    "bestRank": 130,
+    "songs": [
+      "Viens danser (#130)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1123,6 +1251,24 @@
     "confidence": 0.7
   },
   {
+    "name": "EWOLO MINGA",
+    "bestRank": 150,
+    "songs": [
+      "LA TERRE EST SALE 2 (#150)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Koutchoua Mbada",
+    "bestRank": 151,
+    "songs": [
+      "Swega Menzui (#151)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Cœurde de Noël",
     "bestRank": 152,
     "songs": [
@@ -1222,6 +1368,15 @@
     "confidence": 0.7
   },
   {
+    "name": "Petit Pays Rabbi",
+    "bestRank": 173,
+    "songs": [
+      "Loba (#173)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
     "name": "Runtown",
     "bestRank": 175,
     "songs": [
@@ -1235,6 +1390,15 @@
     "bestRank": 176,
     "songs": [
       "BADDIES IN BELGICA (#176)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Tsimi Toro",
+    "bestRank": 177,
+    "songs": [
+      "Oyili (#177)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1262,6 +1426,15 @@
     "bestRank": 179,
     "songs": [
       "Nakupenda (feat. Al Xapo & Zlatan) (#179)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Elang City",
+    "bestRank": 180,
+    "songs": [
+      "Tchokorobo (#180)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1379,6 +1552,15 @@
     "bestRank": 192,
     "songs": [
       "Rebanav 126bpm (#192)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Dj Free Boy l'arrangeur",
+    "bestRank": 194,
+    "songs": [
+      "CONTINGENT 2022 (#194)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7

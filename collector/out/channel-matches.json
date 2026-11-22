@@ -2536,18 +2536,18 @@
     "name": "Jeannot Ekwalla",
     "aliases": [],
     "best": {
-      "channelId": "UCSRnGie1gF4keQpjR5xarFQ",
-      "title": "Jeannot Ekwalla",
+      "channelId": "UCTLgXDcSFD9l53JKJ89X5gg",
+      "title": "Jeannot Ekwalla - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 629,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
