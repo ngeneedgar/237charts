@@ -4,6 +4,8 @@
 //   --skip-deploy  don't upload the website
 import { execSync } from 'node:child_process';
 import { readdir } from 'node:fs/promises';
+import { pruneYoutubeSnapshots, stripOldChannelData } from './lib/retention.mjs';
+import { readFile, writeFile } from 'node:fs/promises';
 
 const DRY = process.argv.includes('--dry');
 const SKIP_DEPLOY = process.argv.includes('--skip-deploy');
@@ -41,6 +43,10 @@ if (!DRY && !(await readdir('collector/out')).some((f) => /^chart-\d{4}-\d{2}-\d
   tryRun('Preview', 'node collector/build-week.mjs --dry');
   tryRun('Preview song data', 'node collector/enrich-songs.mjs');
 }
+
+// YouTube API policy: delete stored YouTube API data older than 30 days (weekly views need only the last ~7 days)
+{ const gone = await pruneYoutubeSnapshots(); if (gone.length) console.log(`Deleted YouTube snapshots older than 30 days: ${gone.join(', ')}`); }
+{ const f = 'collector/out/channel-matches.json'; const m = JSON.parse(await readFile(f, 'utf8').catch(() => '{}')); const n = stripOldChannelData(m); await writeFile(f, JSON.stringify(m, null, 2)); if (n) console.log(`Removed YouTube titles/counts older than 30 days from ${n} channel matches`); }
 
 log('4/7 Tests');
 // List test files explicitly: Node 22 (GitHub) treats a folder argument as a file

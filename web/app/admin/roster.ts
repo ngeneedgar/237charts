@@ -7,11 +7,11 @@ export type Artist = {
   id: string; name: string; aliases: string[]; basis: string[];
   genre: string | null; genreSource: string | null;
   channels: string[]; channelStatus: "official" | "suggested" | "none";
-  suggestion: { channelId: string; title: string; subscribers: number | null; confidence: number } | null;
+  suggestion: { channelId: string; title?: string; subscribers?: number | null; confidence: number } | null;
   via: "wikidata" | "discovered" | "added";
 };
 type Raw = { wikidata: string; name: string; aliases?: string[]; basis?: string[]; youtube?: string[] };
-type Match = { name: string; status: "auto" | "review" | "none"; best?: { channelId: string; title: string; subscribers: number | null; confidence: number } };
+type Match = { name: string; status: "auto" | "review" | "none"; best?: { channelId: string; title?: string; subscribers?: number | null; confidence: number } };
 
 export type RosterFiles = {
   genres: { content: string; sha: string | null };

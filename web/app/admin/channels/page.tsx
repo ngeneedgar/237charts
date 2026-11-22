@@ -80,12 +80,12 @@ function Channels() {
               {suggested.map((a) => (
                 <tr key={a.id}>
                   <td style={{ fontWeight: 500 }}>{a.name}</td>
-                  <td><a href={`https://www.youtube.com/channel/${a.suggestion!.channelId}`} target="_blank" rel="noopener">{a.suggestion!.title} ↗</a></td>
+                  <td><a href={`https://www.youtube.com/channel/${a.suggestion!.channelId}`} target="_blank" rel="noopener">{a.suggestion!.title ?? a.suggestion!.channelId} ↗</a></td>
                   <td className="muted">{a.suggestion!.subscribers?.toLocaleString("en") ?? "—"}</td>
                   <td><span className={`pill ${a.suggestion!.confidence >= 0.7 ? "ok" : "warn"}`}>{a.suggestion!.confidence >= 0.8 ? "High" : a.suggestion!.confidence >= 0.6 ? "Medium" : "Low"}</span></td>
                   <td style={{ textAlign: "right", whiteSpace: "nowrap" }}>
                     <button className="btn" style={{ minHeight: 36 }} onClick={() => setRejected((s) => new Set(s).add(a.id))}><Icon name="x" />Not theirs</button>{" "}
-                    <button className="btn pri" style={{ minHeight: 36 }} disabled={!editable} onClick={() => setPending({ artist: a, channelId: a.suggestion!.channelId, title: a.suggestion!.title })}><Icon name="check" />Accept</button>
+                    <button className="btn pri" style={{ minHeight: 36 }} disabled={!editable} onClick={() => setPending({ artist: a, channelId: a.suggestion!.channelId, title: a.suggestion!.title ?? a.suggestion!.channelId })}><Icon name="check" />Accept</button>
                   </td>
                 </tr>
               ))}

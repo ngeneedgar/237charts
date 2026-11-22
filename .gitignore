@@ -9,3 +9,4 @@ web/next-env.d.ts
 
 # collector/out IS committed: it is the chart's data and archive (snapshots, charts, decisions).
 design/screenshots/
+collector/out/youtube-trending-cm.json

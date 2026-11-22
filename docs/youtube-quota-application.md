@@ -42,11 +42,14 @@ Submit it yourself, signed in with the Google account that owns the API key. Pre
 **Data storage (they will ask — answer honestly):**
 > We store public view counts of tracked videos to compute weekly increases (a song's weekly views = this week's count − last week's count), and we store the resulting chart positions. We refresh YouTube data every week and delete raw YouTube API data older than 30 days; published charts keep only our derived ranking (position, movement), not YouTube data.
 
-> ⚠️ This last sentence must be true before you submit — see "Our side" below.
-
-## Our side (to do before submitting)
-- **30-day rule:** YouTube's Developer Policies require refreshing or deleting stored API data after 30 days. Today we keep every weekly YouTube snapshot (`collector/out/snapshots/youtube-*.json`) in the public repository. Before applying, the weekly run should delete YouTube snapshots older than 30 days (we only ever need the last one or two) — ask Claude to add this; it is a small change.
-- Check the Privacy page mentions YouTube API Services and links Google's privacy policy (it does) and the Terms page links the YouTube ToS (it does).
+## Our side — done 2026-11-22 (live once pushed)
+- **30-day rule (YouTube Developer Policies):** every weekly run now
+  - deletes YouTube snapshots (`collector/out/snapshots/youtube-*.json`) older than 30 days — weekly views only need the last ~7 days;
+  - removes YouTube channel titles and subscriber counts from `channel-matches.json` 30 days after they were fetched (channel IDs are kept, which the policy allows);
+  - the unused trending-discovery file (`youtube-trending-cm.json`) was deleted and is no longer kept.
+  Code: `collector/lib/retention.mjs`, tests `collector/test/retention.test.mjs`.
+- Privacy page mentions YouTube API Services and links Google's privacy policy; Terms page links the YouTube ToS.
+- **Git history:** old snapshots still exist in the repository's history. If Google asks, the honest answer is that current data follows the 30-day rule. To remove old copies completely, the repository could be made private (Pages deploys and the admin keep working with the token) — decide before submitting.
 
 ## After submitting
 - Google usually replies by email within a few weeks and may ask for a short screen recording or more screenshots.
