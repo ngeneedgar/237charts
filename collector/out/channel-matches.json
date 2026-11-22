@@ -4936,18 +4936,18 @@
     "name": "Shapat",
     "aliases": [],
     "best": {
-      "channelId": "UCMRJiWTBx_cEQ0RL78JtkkQ",
-      "title": "Shapat",
+      "channelId": "UCdta0NQAKZwvmOLCTce5WfQ",
+      "title": "Shapat - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 44,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4993,18 +4993,18 @@
     "name": "Simon Nwambeben",
     "aliases": [],
     "best": {
-      "channelId": "UCDUJnYPwF4Y523JAWBbWktw",
-      "title": "Simon Nwambeben",
-      "country": "FR",
-      "subscribers": 34,
+      "channelId": "UCE0t7NcXM3lx-2dEaLyt-FA",
+      "title": "Simon Nwambeben - Topic",
+      "country": null,
+      "subscribers": 140,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -5013,12 +5013,19 @@
     "aliases": [
       "Catherine Elolongue Mbango"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCJ9daQLBmq1stuU8QpdjMfQ",
+      "title": "Sissy Dipoko - Topic",
+      "country": null,
+      "subscribers": 976,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

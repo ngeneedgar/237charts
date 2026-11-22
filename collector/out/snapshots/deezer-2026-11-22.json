@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T14:07:57.907Z",
+  "takenAt": "2026-11-22T14:15:23.220Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -54,7 +54,7 @@
     "Q5085917": {
       "deezerId": 1243003,
       "name": "Charlotte Dipanda",
-      "fans": 39780
+      "fans": 39781
     },
     "Q50801147": {
       "deezerId": 1221316,
@@ -79,7 +79,7 @@
     "Q109816323": {
       "deezerId": 85191712,
       "name": "Darina Victry",
-      "fans": 2354
+      "fans": 2355
     },
     "Q112112989": {
       "deezerId": 1380092,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121159
+      "fans": 1121160
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -4610,7 +4610,7 @@
       "wikidata": "Q1893336",
       "artist": "Prince Nico Mbarga",
       "title": "Aki Special",
-      "rank": 98689,
+      "rank": 68272,
       "albumId": 185822922,
       "link": "https://www.deezer.com/track/1139730042"
     },
@@ -6162,7 +6162,7 @@
       "wikidata": "Q30596023",
       "artist": "Vagabon",
       "title": "Autobahn",
-      "rank": 51181,
+      "rank": 118935,
       "albumId": 450293685,
       "link": "https://www.deezer.com/track/2317690945"
     },
