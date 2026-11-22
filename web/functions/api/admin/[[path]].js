@@ -166,6 +166,44 @@ export async function onRequest({ request, env, params }) {
       return json({ ok: true });
     }
 
+    // ---------- artist requests (Cloudflare KV, binding REQUESTS) ----------
+    if (route === 'requests' && request.method === 'GET') {
+      if (!env.REQUESTS) return fail(503, 'Request storage is not set up yet (KV binding REQUESTS missing).');
+      const keys = [];
+      let cursor;
+      do { const page = await env.REQUESTS.list({ prefix: 'req:', cursor }); keys.push(...page.keys); cursor = page.list_complete ? null : page.cursor; } while (cursor);
+      const items = (await Promise.all(keys.map((k) => env.REQUESTS.get(k.name, 'json')))).filter(Boolean);
+      // Privacy: handled requests are deleted 180 days after they were closed
+      const cutoff = Date.now() - 180 * 86400e3;
+      const keep = [];
+      for (const r of items) {
+        if (r.status === 'done' && r.closed && new Date(r.closed).getTime() < cutoff) await env.REQUESTS.delete(`req:${r.id}`);
+        else keep.push(r);
+      }
+      keep.sort((a, b) => b.created.localeCompare(a.created));
+      return json({ items: keep });
+    }
+    const m = route.match(/^requests\/([\w-]+)$/);
+    if (m && request.method === 'PUT') {
+      if (!env.REQUESTS) return fail(503, 'Request storage is not set up yet.');
+      if (!can('editor')) return fail(403, 'Viewers cannot change requests.');
+      const key = `req:${m[1]}`;
+      const r = await env.REQUESTS.get(key, 'json');
+      if (!r) return fail(404, 'Request not found.');
+      const b = await request.json();
+      const now = new Date().toISOString();
+      if (['new', 'progress', 'done'].includes(b.status) && b.status !== r.status) {
+        r.notes.push({ at: now, by: user.name, text: `Status: ${r.status} → ${b.status}` });
+        r.status = b.status;
+        r.closed = b.status === 'done' ? now : null;
+      }
+      if (b.take) r.assignee = user.name;
+      if (typeof b.note === 'string' && b.note.trim()) r.notes.push({ at: now, by: user.name, text: b.note.trim().slice(0, 2000) });
+      if (env.DRY_WRITES === '1') return json({ dry: true, item: r });
+      await env.REQUESTS.put(key, JSON.stringify(r));
+      return json({ ok: true, item: r });
+    }
+
     return fail(404, 'Unknown admin route.');
   } catch (e) {
     return fail(502, `Couldn't reach GitHub: ${e.message}`);

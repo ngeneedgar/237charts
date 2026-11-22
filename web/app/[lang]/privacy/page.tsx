@@ -3,7 +3,7 @@ import { LegalPage } from "../legal";
 const docs = {
   en: {
     title: "Privacy policy",
-    updated: "Last updated: 22 November 2026",
+    updated: "Last updated: 22 November 2026 (request form added)",
     intro: "237 Charts is a free public music chart. You can use it without an account, and we do not collect your name, email address or any other personal details.",
     sections: [
       { h: "What we store on your device", p: [
@@ -20,13 +20,14 @@ const docs = {
         { href: "https://policies.google.com/privacy", text: "Google Privacy Policy" },
       ] },
       { h: "When you contact us", p: [
+        "If you send a request with the form on the For artists page, we store what you wrote and the contact details you gave (email or phone number) on Cloudflare, where only the 237 Charts team can read them. We use them only to answer and correct the chart, and we delete the request 180 days after it is handled. To prevent spam, a scrambled form of your connection address is kept for one hour.",
         "If you email us or message us on WhatsApp (for example to report an error), we use your message only to answer and correct the chart, and we delete it when it is no longer needed.",
       ] },
     ],
   },
   fr: {
     title: "Politique de confidentialité",
-    updated: "Dernière mise à jour : 22 novembre 2026",
+    updated: "Dernière mise à jour : 22 novembre 2026 (formulaire de demande ajouté)",
     intro: "237 Charts est un classement musical public et gratuit. Vous pouvez l'utiliser sans compte, et nous ne collectons ni votre nom, ni votre adresse e-mail, ni aucune autre donnée personnelle.",
     sections: [
       { h: "Ce qui est enregistré sur votre appareil", p: [
@@ -43,6 +44,7 @@ const docs = {
         { href: "https://policies.google.com/privacy?hl=fr", text: "Règles de confidentialité de Google" },
       ] },
       { h: "Quand vous nous contactez", p: [
+        "Si vous envoyez une demande avec le formulaire de la page Pour les artistes, nous conservons ce que vous avez écrit et les coordonnées données (e-mail ou numéro de téléphone) chez Cloudflare, où seule l'équipe 237 Charts peut les lire. Nous les utilisons uniquement pour vous répondre et corriger le classement, et nous supprimons la demande 180 jours après son traitement. Pour éviter le spam, une forme brouillée de votre adresse de connexion est gardée une heure.",
         "Si vous nous écrivez par e-mail ou sur WhatsApp (par exemple pour signaler une erreur), nous utilisons votre message uniquement pour vous répondre et corriger le classement, et nous le supprimons lorsqu'il n'est plus utile.",
       ] },
     ],

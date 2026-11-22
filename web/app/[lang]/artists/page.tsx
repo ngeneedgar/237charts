@@ -36,6 +36,9 @@ const copy = {
       sendEmail: "Send by email", sendWhatsApp: "Send on WhatsApp",
       noContact: "Sending opens at launch. Copy your message and keep it until then.",
       required: "Fill in the artist name, what should change, and how to reach you.",
+      send: "Send request", sending: "Sending…", sent: "Request sent. We'll reply within 7 days. Your reference:",
+      sendFail: "Couldn't send right now. Use WhatsApp or email below instead.", tooMany: "Too many requests from this connection. Try again in an hour, or use WhatsApp or email.", or: "Or send it yourself:",
+      privacy: "Your contact details are only used to answer this request.",
     },
   },
   fr: {
@@ -67,6 +70,9 @@ const copy = {
       sendEmail: "Envoyer par e-mail", sendWhatsApp: "Envoyer sur WhatsApp",
       noContact: "L'envoi ouvre au lancement. Copiez votre message et gardez-le d'ici là.",
       required: "Indiquez le nom d'artiste, ce qu'il faut changer et comment vous joindre.",
+      send: "Envoyer la demande", sending: "Envoi…", sent: "Demande envoyée. Nous répondons sous 7 jours. Votre référence :",
+      sendFail: "Envoi impossible pour le moment. Utilisez WhatsApp ou l'e-mail ci-dessous.", tooMany: "Trop de demandes depuis cette connexion. Réessayez dans une heure, ou utilisez WhatsApp ou l'e-mail.", or: "Ou envoyez-la vous-même :",
+      privacy: "Vos coordonnées servent uniquement à répondre à cette demande.",
     },
   },
 };
@@ -95,7 +101,7 @@ export default async function Artists({ params }: PageProps<"/[lang]/artists">) 
         <section>
           <div className={s.sectionHead}><h2 className={s.sectionTitle}>{c.formH}</h2></div>
           <div className={s.prose}>
-            <RequestForm c={c.form} email={CONTACT.email} whatsapp={CONTACT.whatsapp} />
+            <RequestForm c={c.form} lang={lang} email={CONTACT.email} whatsapp={CONTACT.whatsapp} />
           </div>
         </section>
         <Footer t={t} lang={lang} />

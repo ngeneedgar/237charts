@@ -16,7 +16,7 @@ const NAV: { href: string; label: string; ready: boolean }[] = [
   { href: "/admin/channels/", label: "Channels", ready: true },
   { href: "/admin/charts/", label: "Charts", ready: true },
   { href: "/admin/corrections/", label: "Corrections", ready: true },
-  { href: "/admin/requests/", label: "Requests", ready: false },
+  { href: "/admin/requests/", label: "Requests", ready: true },
 ];
 
 function RunStatus() {
