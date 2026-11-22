@@ -166,24 +166,6 @@
     ]
   },
   {
-    "wikidata": "X-kratos-le-dieu-de-la-guerre",
-    "name": "Kratos le Dieu de la guerre",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Conduis Moi"
-    ]
-  },
-  {
     "wikidata": "X-tim-storm",
     "name": "Tim Storm",
     "basis": [
@@ -274,24 +256,6 @@
     ]
   },
   {
-    "wikidata": "X-petit-pays-rabbi",
-    "name": "Petit Pays Rabbi",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Loba"
-    ]
-  },
-  {
     "wikidata": "X-tsimi-toro",
     "name": "Tsimi Toro",
     "basis": [
@@ -379,6 +343,42 @@
     ],
     "songs": [
       "CONTINGENT 2022"
+    ]
+  },
+  {
+    "wikidata": "X-kratos-le-dieu-de-la-guerre",
+    "name": "Kratos le Dieu de la guerre",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "not an artist name: too many words for an artist name"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "shazam-cm"
+    ],
+    "songs": [
+      "Conduis Moi"
+    ]
+  },
+  {
+    "wikidata": "X-petit-pays-rabbi",
+    "name": "Petit Pays Rabbi",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "not an artist name: known artist “Petit-Pays” followed by other words (probably a song title)"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "shazam-cm"
+    ],
+    "songs": [
+      "Loba"
     ]
   }
 ]

@@ -4706,12 +4706,19 @@
     "aliases": [
       "Saint Bruno"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UChUt67EVuY9Hp3iJVZ2xz1A",
+      "title": "Saint Bruno - Topic",
+      "country": null,
+      "subscribers": 1020,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
