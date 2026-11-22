@@ -37,6 +37,12 @@ export async function loadRoster() {
     return true;
   }).map((a) => ({ ...a, youtube: [...(a.youtube ?? [])] }));
 
+  // Stage names (admin/artist-names.csv: legal or Wikidata name, name shown on the chart). The old name stays as an alias.
+  for (const [from, to] of await csv('admin/artist-names.csv')) {
+    const a = roster.find((x) => norm(x.name) === norm(from));
+    if (a && to) { a.aliases = [...new Set([...(a.aliases ?? []), a.name])]; a.name = to; }
+  }
+
   for (const [artist, channelId] of await csv('admin/channels.csv')) {
     const a = roster.find((x) => [x.name, ...(x.aliases ?? [])].some((n) => norm(n) === norm(artist)));
     if (a && channelId && !a.youtube.includes(channelId)) a.youtube.push(channelId);
