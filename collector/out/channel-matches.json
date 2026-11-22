@@ -2687,12 +2687,19 @@
   "Q124984259": {
     "name": "Joyce Babatunde",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCSVgm2LzXPBoQd-gGxvFutg",
+      "title": "Joyce Babatunde - Topic",
+      "country": null,
+      "subscribers": 0,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2719,30 +2726,37 @@
     "name": "Junior Eyango",
     "aliases": [],
     "best": {
-      "channelId": "UCMFDbkbv6Ythj8Rni3M58wg",
-      "title": "Junior Eyango",
+      "channelId": "UCgLOgryRoXFtZPPyrcs7fZw",
+      "title": "Junior Eyango - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 26,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q66828207": {
     "name": "Justine Nibala",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCgBYihF0ZfobOrQsh0F7cJA",
+      "title": "Nabila Justine",
+      "country": null,
+      "subscribers": 0,
+      "similarity": 0.5,
+      "confidence": 0.35
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2771,12 +2785,19 @@
   "Q1718073": {
     "name": "K-Tino",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCdcMGDzE_X2s-zHTL0bsoSw",
+      "title": "K-TINO - Topic",
+      "country": null,
+      "subscribers": 9200,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2790,18 +2811,18 @@
       "Sylvie Marie-Claude Doumbé"
     ],
     "best": {
-      "channelId": "UCjyU1b9AhQF88HRTXvyeFgQ",
-      "title": "Kaissa🌸",
-      "country": null,
-      "subscribers": 3,
+      "channelId": "UCdMlJ_jFIfFSWavMHexc1JQ",
+      "title": "KAISSA",
+      "country": "VN",
+      "subscribers": 1250,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.75
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2827,12 +2848,19 @@
   "Q125149181": {
     "name": "Kamille Abongo",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCvVooEujm4GOPWxGtOW-woA",
+      "title": "Kamille Abongo - Topic",
+      "country": null,
+      "subscribers": 12,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2856,12 +2884,19 @@
   "Q20851352": {
     "name": "Killamel",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCEvBo5yXbzGcLe28H4wB5Fw",
+      "title": "Killa-Mel - Topic",
+      "country": null,
+      "subscribers": 137,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2889,12 +2924,19 @@
   "Q30728506": {
     "name": "Koko Ateba",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UC0DyEfxnrIuNdLKE3fgyaTA",
+      "title": "Koko Ateba - Topic",
+      "country": null,
+      "subscribers": 177,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2905,18 +2947,18 @@
       "Patrice Minko’o"
     ],
     "best": {
-      "channelId": "UCDc0OSHT-CgVXweS9LI4uQw",
-      "title": "koppo",
-      "country": null,
-      "subscribers": 0,
+      "channelId": "UCF2iFxUkY2vv_yyGwN2TozQ",
+      "title": "KOPPO",
+      "country": "FR",
+      "subscribers": 3840,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.85
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2965,12 +3007,19 @@
     "aliases": [
       "Megne Noubissi Christelle"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCyoYP4DbEl-5EqW1KtYB0pg",
+      "title": "Krys M - Topic",
+      "country": null,
+      "subscribers": 5270,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2978,18 +3027,18 @@
     "name": "Lady B",
     "aliases": [],
     "best": {
-      "channelId": "UCkx9dWHjhwGKVD8dyrP2VNw",
+      "channelId": "UCFufVq3gb8Nxs1CkjDZMPZg",
       "title": "Lady B",
       "country": null,
-      "subscribers": 3,
+      "subscribers": 3720,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.75
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3000,12 +3049,19 @@
       "Lapiro de Mbanga",
       "Sandjo Lapiro"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCeP4XMvKEkU_k0OQhJELEQg",
+      "title": "MBOKOLANGUAGE OFFICIEL ",
+      "country": null,
+      "subscribers": 17,
+      "similarity": 0,
+      "confidence": 0.1
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3031,12 +3087,19 @@
   "Q109890549": {
     "name": "Letis Diva",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCN5psFs0FqPi4pQ1HgbMjQA",
+      "title": "Letis Diva - Topic",
+      "country": null,
+      "subscribers": 1,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3046,18 +3109,18 @@
       "Effa ndomo Simon"
     ],
     "best": {
-      "channelId": "UCWpjOLffqK1HVVs7Zp5eaOA",
-      "title": "Lil Smooke",
+      "channelId": "UCRhcEbixAo9vzpvjtsZw7pQ",
+      "title": "lil smooke - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 34,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3100,12 +3163,19 @@
     "aliases": [
       "Copees"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCkn20IqOf0QXvnJVjW5v81Q",
+      "title": "Copees",
+      "country": "FR",
+      "subscribers": 42,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3114,12 +3184,19 @@
     "aliases": [
       "Ayissi Le Duc"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UC879N2CwZ8W39oEup5AVUlg",
+      "title": "Ayissi Le Duc - Topic",
+      "country": null,
+      "subscribers": 1,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3176,12 +3253,19 @@
   "Q65131531": {
     "name": "Maahlox le vibeur",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCP0Rqya2ownv2hdlRHxBJ6g",
+      "title": "Maahlox Le vibeur - Topic",
+      "country": null,
+      "subscribers": 52,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3209,12 +3293,19 @@
     "aliases": [
       "Ayi Bekono Balbine Sylvette Majoie"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UC_KGLEow0S8akQXUlzovFyA",
+      "title": "Majoie Ayi - Topic",
+      "country": null,
+      "subscribers": 545,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3240,12 +3331,19 @@
   "Q6745312": {
     "name": "Mama Ohandja",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCZLvHeC2zoJYa44ZMxtNwTA",
+      "title": "Mama Ohandja - Topic",
+      "country": null,
+      "subscribers": 21,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3303,31 +3401,45 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q112181199": {
     "name": "Marole Tchamba",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCLewC9m79E9UcsPVx11bpXA",
+      "title": "Marole TCHAMBA - Topic",
+      "country": null,
+      "subscribers": 319,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q4990878": {
     "name": "Marthe Zambo",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCodse9BA35P2mvVQEdvMCkQ",
+      "title": "Marthe Zambo - Topic",
+      "country": null,
+      "subscribers": 2580,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3352,18 +3464,18 @@
     "name": "Melcube",
     "aliases": [],
     "best": {
-      "channelId": "UCQs8RQs6P2pt_xtmVKFEKMQ",
-      "title": "Mel Cube",
+      "channelId": "UCzyJBw-thD1GKQMMT_EL8Gw",
+      "title": "Melcube - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 1,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3389,12 +3501,19 @@
   "Q3307040": {
     "name": "Messi Martin",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCaUDL4oSF7j2ZIYza3V9iKw",
+      "title": "Messi Martin - Topic",
+      "country": null,
+      "subscribers": 527,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3404,12 +3523,19 @@
       "Michael Epaka",
       "Mike Epacka"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UC06EEz-dcN8BmluhSpknQbw",
+      "title": "michael epaka",
+      "country": null,
+      "subscribers": 2,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

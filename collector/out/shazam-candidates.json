@@ -60,7 +60,7 @@
     "bestRank": 4,
     "songs": [
       "INFERNO (#4)",
-      "Nakupenda (feat. Al Xapo & Zlatan) (#179)"
+      "Nakupenda (feat. Al Xapo & Zlatan) (#172)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -75,70 +75,51 @@
     "confidence": 0.7
   },
   {
-    "name": "Mauvais Djo",
+    "name": "Didi B",
     "bestRank": 6,
     "songs": [
-      "4 (#6)",
-      "Wagyu (#27)",
-      "12 (#55)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Didi B",
-    "bestRank": 7,
-    "songs": [
-      "ADIOS (#7)",
-      "PARTY (#77)"
+      "ADIOS (#6)",
+      "PARTY (#70)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Qing Madi",
-    "bestRank": 7,
+    "bestRank": 6,
     "songs": [
-      "ADIOS (#7)"
+      "ADIOS (#6)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "VANITY FAIR",
-    "bestRank": 9,
+    "name": "Mauvais Djo",
+    "bestRank": 7,
     "songs": [
-      "Ma’a Philo (#9)"
+      "4 (#7)",
+      "Wagyu (#30)",
+      "12 (#61)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Fally Ipupa",
-    "bestRank": 10,
-    "songs": [
-      "Je n’aime que toi (#10)",
-      "Deux êtres (#18)",
-      "Pépélé (#26)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "la mélo du quartier",
     "bestRank": 12,
     "songs": [
-      "Moui de mamouai (#12)",
-      "Mon berger (feat. Le Roy Tsala & Iza muan) (#123)"
+      "Je n’aime que toi (#12)",
+      "Deux êtres (#17)",
+      "Pépélé (#23)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Mr. Hustle",
+    "name": "Hervouete",
     "bestRank": 13,
     "songs": [
-      "Loaded Gun (#13)"
+      "Mawu Afa Ako Nami (feat. ROSLINE) (#13)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -153,66 +134,66 @@
     "confidence": 0.7
   },
   {
-    "name": "Henry Emmanuels",
+    "name": "Terry Apala",
     "bestRank": 15,
     "songs": [
-      "Unlimited Praise 2 (#15)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Ayra Starr",
-    "bestRank": 16,
-    "songs": [
-      "Heaven Baby (feat. ZAYN) (#16)",
-      "Colorado (#183)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Khaly",
-    "bestRank": 17,
-    "songs": [
-      "CONTRADICTION (#17)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Jiova Jiova",
-    "bestRank": 19,
-    "songs": [
-      "Je t'avais dit (feat. El bat & BRSMUSIC) (#19)"
+      "Mushin (#15)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Sel de la Terre Studios",
+    "bestRank": 16,
+    "songs": [
+      "Je Termine l'Année Victorieuse (#16)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Ayra Starr",
+    "bestRank": 18,
+    "songs": [
+      "Heaven Baby (feat. ZAYN) (#18)",
+      "Colorado (#192)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Henry Emmanuels",
+    "bestRank": 19,
+    "songs": [
+      "Unlimited Praise 2 (#19)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Jiova Jiova",
     "bestRank": 20,
     "songs": [
-      "Je Termine l'Année Victorieuse (#20)"
+      "Je t'avais dit (feat. El bat & BRSMUSIC) (#20)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Hervouete",
+    "name": "Khaly",
     "bestRank": 21,
     "songs": [
-      "Mawu Afa Ako Nami (feat. ROSLINE) (#21)"
+      "CONTRADICTION (#21)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "bk creates",
+    "name": "Guy2Bezbar",
     "bestRank": 23,
     "songs": [
-      "colo2 (#23)",
-      "colo3 (#57)"
+      "Pépélé (#23)",
+      "Champagne (feat. Genezio) (#115)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -236,111 +217,83 @@
     "confidence": 0.7
   },
   {
-    "name": "Hotkid",
+    "name": "Black fuy",
     "bestRank": 25,
     "songs": [
-      "Baba (feat. Zlatan) (#25)"
+      "Let Us Dance (#25)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Guy2Bezbar",
+    "name": "Hotkid",
     "bestRank": 26,
     "songs": [
-      "Pépélé (#26)",
-      "Champagne (feat. Genezio) (#105)"
+      "Baba (feat. Zlatan) (#26)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Premium Emf",
-    "bestRank": 28,
+    "name": "Joeboy",
+    "bestRank": 27,
     "songs": [
-      "Chairman (#28)",
-      "One Round (#154)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Zaho",
-    "bestRank": 31,
-    "songs": [
-      "Ma chérie (feat. Amadou & Mariam) (#31)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Victony",
-    "bestRank": 32,
-    "songs": [
-      "SLICK (#32)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Faouzia",
-    "bestRank": 33,
-    "songs": [
-      "UNETHICAL (#33)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "La Santinelle",
-    "bestRank": 34,
-    "songs": [
-      "1,2,3 tremble (#34)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Vanco",
-    "bestRank": 35,
-    "songs": [
-      "Adullam (#35)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Sharon Umola Amana",
-    "bestRank": 35,
-    "songs": [
-      "Adullam (#35)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Dydyfat",
-    "bestRank": 36,
-    "songs": [
-      "A nos victoires (#36)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Tim Duzit",
-    "bestRank": 37,
-    "songs": [
-      "Kat Slater (Native Remedies Remix) (#37)"
+      "Pretty Girls (#27)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Elsia Mwadi",
+    "bestRank": 28,
+    "songs": [
+      "MA LOUANGE (#28)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Premium Emf",
+    "bestRank": 29,
+    "songs": [
+      "Chairman (#29)",
+      "One Round (#148)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "CONGO WORLDWIDE",
+    "bestRank": 34,
+    "songs": [
+      "BNN (feat. MJ Dollar) (#34)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Victony",
+    "bestRank": 37,
+    "songs": [
+      "SLICK (#37)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Tim Duzit",
+    "bestRank": 38,
+    "songs": [
+      "Kat Slater (Native Remedies Remix) (#38)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Faouzia",
     "bestRank": 39,
     "songs": [
-      "MA LOUANGE (#39)"
+      "UNETHICAL (#39)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -355,175 +308,193 @@
     "confidence": 0.7
   },
   {
-    "name": "Doz",
-    "bestRank": 42,
+    "name": "Vanco",
+    "bestRank": 41,
     "songs": [
-      "TU N’ES PLUS LÀ (#42)"
+      "Adullam (#41)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Sharon Umola Amana",
+    "bestRank": 41,
+    "songs": [
+      "Adullam (#41)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Rema",
-    "bestRank": 43,
+    "bestRank": 42,
     "songs": [
-      "Oh No (#43)",
-      "Wine (#63)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "CONGO WORLDWIDE",
-    "bestRank": 44,
-    "songs": [
-      "BNN (feat. MJ Dollar) (#44)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Joeboy",
-    "bestRank": 46,
-    "songs": [
-      "Pretty Girls (#46)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Toje",
-    "bestRank": 48,
-    "songs": [
-      "Kaya (#48)"
+      "Oh No (#42)",
+      "Wine (#66)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "SDM",
+    "bestRank": 45,
+    "songs": [
+      "ÇA CHAUFFE (#45)",
+      "Ma diva (#136)",
+      "BANTU MENTALITÉ (#144)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Dydyfat",
+    "bestRank": 46,
+    "songs": [
+      "A nos victoires (#46)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Doz",
+    "bestRank": 48,
+    "songs": [
+      "TU N’ES PLUS LÀ (#48)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Zaho",
     "bestRank": 49,
     "songs": [
-      "ÇA CHAUFFE (#49)",
-      "BANTU MENTALITÉ (#89)",
-      "Ma diva (#137)"
+      "Ma chérie (feat. Amadou & Mariam) (#49)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Chief Priest",
-    "bestRank": 50,
-    "songs": [
-      "Go Hard or Go Home (#50)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Evado",
-    "bestRank": 50,
-    "songs": [
-      "Go Hard or Go Home (#50)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "SSD STUDIO",
+    "name": "Toje",
     "bestRank": 51,
     "songs": [
-      "Korook Achien Yor by Kuac yiel (#51)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "MIK",
-    "bestRank": 54,
-    "songs": [
-      "Loketo (#54)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Tabaski",
-    "bestRank": 56,
-    "songs": [
-      "We Di Drink (#56)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "AsapJo",
-    "bestRank": 58,
-    "songs": [
-      "BIRDMAN & WEEZY (feat. Himra) (#58)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Akon",
-    "bestRank": 59,
-    "songs": [
-      "Lonely (Dirty) [Old Version] (#59)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Ayzan",
-    "bestRank": 60,
-    "songs": [
-      "Dime (#60)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "MORIOX KIDS",
-    "bestRank": 61,
-    "songs": [
-      "Il n’a jamais été surpris (#61)"
+      "Kaya (#51)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Warren Saada",
-    "bestRank": 62,
+    "bestRank": 52,
     "songs": [
-      "Sors de ma life (#62)"
+      "Sors de ma life (#52)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "JEUDI",
-    "bestRank": 62,
+    "bestRank": 52,
     "songs": [
-      "Sors de ma life (#62)"
+      "Sors de ma life (#52)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Yseult",
-    "bestRank": 63,
+    "name": "Soukous Stars",
+    "bestRank": 53,
     "songs": [
-      "Wine (#63)"
+      "Marcory Gazoil (#53)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Akon",
+    "bestRank": 54,
+    "songs": [
+      "Lonely (Dirty) [Old Version] (#54)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Chief Priest",
+    "bestRank": 55,
+    "songs": [
+      "Go Hard or Go Home (#55)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Evado",
+    "bestRank": 55,
+    "songs": [
+      "Go Hard or Go Home (#55)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "SKB",
-    "bestRank": 64,
+    "bestRank": 56,
     "songs": [
-      "Elle veut revenir (#64)"
+      "Elle veut revenir (#56)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "MIK",
+    "bestRank": 57,
+    "songs": [
+      "Loketo (#57)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Ayzan",
+    "bestRank": 58,
+    "songs": [
+      "Dime (#58)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "AsapJo",
+    "bestRank": 59,
+    "songs": [
+      "BIRDMAN & WEEZY (feat. Himra) (#59)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Kidd Carder",
+    "bestRank": 60,
+    "songs": [
+      "Oh My (feat. BNXN) (#60)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "SSD STUDIO",
+    "bestRank": 62,
+    "songs": [
+      "Korook Achien Yor by Kuac yiel (#62)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "bk creates",
+    "bestRank": 63,
+    "songs": [
+      "colo3 (#63)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -538,271 +509,221 @@
     "confidence": 0.7
   },
   {
-    "name": "SKEY DADDY Officiel",
+    "name": "Yseult",
     "bestRank": 66,
     "songs": [
-      "Larme Cachée (#66)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Kidd Carder",
-    "bestRank": 68,
-    "songs": [
-      "Oh My (feat. BNXN) (#68)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Viva Música",
-    "bestRank": 69,
-    "songs": [
-      "Amour Éternel (fally x koffi) (#69)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Terry G",
-    "bestRank": 70,
-    "songs": [
-      "AkpakO Bum Bum (#70)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "O.B.I",
-    "bestRank": 71,
-    "songs": [
-      "Nakupenda (feat. Incredible jj) (#71)",
-      "All Over You (#107)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Soukous Stars",
-    "bestRank": 72,
-    "songs": [
-      "Marcory Gazoil (#72)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "SOPEKA DIAMANT",
-    "bestRank": 73,
-    "songs": [
-      "Mission compliqué (#73)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "AURORA",
-    "bestRank": 74,
-    "songs": [
-      "Runaway (#74)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Seyi Vibez",
-    "bestRank": 76,
-    "songs": [
-      "Back 2 U (#76)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Davido",
-    "bestRank": 77,
-    "songs": [
-      "PARTY (#77)",
-      "B4 B4 (#163)",
-      "Nakupenda (feat. Al Xapo & Zlatan) (#179)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Ikardi Le Monument",
-    "bestRank": 78,
-    "songs": [
-      "Vieux têtu bandit de la nuit (#78)",
-      "Le destin (#99)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Asake",
-    "bestRank": 79,
-    "songs": [
-      "Gratitude (#79)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Vanister Enama",
-    "bestRank": 80,
-    "songs": [
-      "Conduis Moi (#80)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Kratos le Dieu de la guerre",
-    "bestRank": 80,
-    "songs": [
-      "Conduis Moi (#80)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Looze Cannon",
-    "bestRank": 81,
-    "songs": [
-      "Big Michael Michael (#81)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Joé Dwèt Filé",
-    "bestRank": 82,
-    "songs": [
-      "Doucement (#82)",
-      "4 Kampé (#174)"
+      "Wine (#66)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Fanny",
-    "bestRank": 83,
+    "bestRank": 68,
     "songs": [
-      "Ancree a Ton Port (#83)"
+      "Ancree a Ton Port (#68)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "SKEY DADDY Officiel",
+    "bestRank": 69,
+    "songs": [
+      "Larme Cachée (#69)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Davido",
+    "bestRank": 70,
+    "songs": [
+      "PARTY (#70)",
+      "With You (feat. Omah Lay) (#169)",
+      "B4 B4 (#170)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Terry G",
+    "bestRank": 72,
+    "songs": [
+      "AkpakO Bum Bum (#72)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Viva Música",
+    "bestRank": 73,
+    "songs": [
+      "Amour Éternel (fally x koffi) (#73)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "MORIOX KIDS",
+    "bestRank": 77,
+    "songs": [
+      "Il n’a jamais été surpris (#77)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "O.B.I",
+    "bestRank": 78,
+    "songs": [
+      "Nakupenda (feat. Incredible jj) (#78)",
+      "All Over You (#118)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "AURORA",
+    "bestRank": 79,
+    "songs": [
+      "Runaway (#79)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Asake",
+    "bestRank": 80,
+    "songs": [
+      "Gratitude (#80)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Seyi Vibez",
+    "bestRank": 81,
+    "songs": [
+      "Back 2 U (#81)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Sunvera Scott",
-    "bestRank": 84,
+    "bestRank": 82,
     "songs": [
-      "PRAY FOR ME (#84)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Petit Axel",
-    "bestRank": 85,
-    "songs": [
-      "Tata mimi (#85)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "P-Square",
-    "bestRank": 86,
-    "songs": [
-      "Bunieya Enu (#86)",
-      "Beautiful Onyinye (#193)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Indila",
-    "bestRank": 87,
-    "songs": [
-      "Love Story (#87)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Maroon 5",
-    "bestRank": 88,
-    "songs": [
-      "Girls Like You (feat. Cardi B) (#88)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Ninho",
-    "bestRank": 89,
-    "songs": [
-      "BANTU MENTALITÉ (#89)",
-      "Dernier Étage (#98)",
-      "DES PIGES (#122)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "JAŸ-Z",
-    "bestRank": 90,
-    "songs": [
-      "03' Bonnie & Clyde (feat. Beyoncé Knowles) (#90)"
+      "PRAY FOR ME (#82)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Brick",
-    "bestRank": 91,
+    "bestRank": 83,
     "songs": [
-      "Love Is Wicked (#91)"
+      "Love Is Wicked (#83)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Lace",
-    "bestRank": 91,
+    "bestRank": 83,
     "songs": [
-      "Love Is Wicked (#91)"
+      "Love Is Wicked (#83)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "MAGIC SYSTEM",
-    "bestRank": 93,
+    "name": "Bismark music",
+    "bestRank": 84,
     "songs": [
-      "Poisson d'avril (#93)",
-      "1er Gaou (#195)"
+      "Who Is Your God (#84)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Joé Dwèt Filé",
+    "bestRank": 85,
+    "songs": [
+      "Doucement (#85)",
+      "4 Kampé (#162)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Maroon 5",
+    "bestRank": 86,
+    "songs": [
+      "Girls Like You (feat. Cardi B) (#86)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "JAŸ-Z",
+    "bestRank": 87,
+    "songs": [
+      "03' Bonnie & Clyde (feat. Beyoncé Knowles) (#87)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Looze Cannon",
+    "bestRank": 89,
+    "songs": [
+      "Big Michael Michael (#89)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "SLK",
-    "bestRank": 94,
+    "bestRank": 90,
     "songs": [
-      "Couper-court (feat. Bolémvn) (#94)"
+      "Couper-court (feat. Bolémvn) (#90)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Obim1",
+    "name": "Ruthee",
+    "bestRank": 92,
+    "songs": [
+      "Zoblazo (#92)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Niska",
+    "bestRank": 93,
+    "songs": [
+      "Macronie (#93)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Blaqbonez",
     "bestRank": 95,
     "songs": [
-      "Sheck your body (#95)"
+      "IKEBE 3000 (feat. Asake) (#95)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Indila",
+    "bestRank": 96,
+    "songs": [
+      "Love Story (#96)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -817,813 +738,671 @@
     "confidence": 0.7
   },
   {
-    "name": "Yaro",
+    "name": "Justin Timberlake",
     "bestRank": 98,
     "songs": [
-      "Dernier Étage (#98)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Ruthee",
-    "bestRank": 100,
-    "songs": [
-      "Zoblazo (#100)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Bismark music",
-    "bestRank": 101,
-    "songs": [
-      "Who Is Your God (#101)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Theodora",
-    "bestRank": 102,
-    "songs": [
-      "La Nocturne (#102)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Tim Storm",
-    "bestRank": 103,
-    "songs": [
-      "SUSPENDU (GOSPEL) (#103)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Mayo",
-    "bestRank": 105,
-    "songs": [
-      "Champagne (feat. Genezio) (#105)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Momo Punchline",
-    "bestRank": 106,
-    "songs": [
-      "Je n'ai pas d'ex (#106)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Justin Timberlake",
-    "bestRank": 108,
-    "songs": [
-      "Mirrors (#108)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Blaqbonez",
-    "bestRank": 109,
-    "songs": [
-      "IKEBE 3000 (feat. Asake) (#109)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Young Jonn",
-    "bestRank": 110,
-    "songs": [
-      "Elumelu (#110)",
-      "Colorado (#183)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Magic Wacho",
-    "bestRank": 111,
-    "songs": [
-      "Kure-Kure (Ndinonzwa nani) (#111)"
+      "Mirrors (#98)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Sis. Agatha Moses",
-    "bestRank": 112,
+    "bestRank": 99,
     "songs": [
-      "Oh Lord (#112)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "LES FRANGINS PONGO",
-    "bestRank": 113,
-    "songs": [
-      "La Nouvelle Danse Des Frangins (feat. Consty Edem's & Olive MBENDE & NTONE Moise) (#113)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Chidi Solomon",
-    "bestRank": 114,
-    "songs": [
-      "Gaining (#114)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Sound Of Salem",
-    "bestRank": 114,
-    "songs": [
-      "Gaining (#114)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Christiana Gabriella",
-    "bestRank": 114,
-    "songs": [
-      "Gaining (#114)"
+      "Oh Lord (#99)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Wiz Khalifa",
-    "bestRank": 115,
+    "bestRank": 100,
     "songs": [
-      "See You Again (feat. Charlie Puth) [From Furious 7] (#115)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Les Freres Temi",
-    "bestRank": 116,
-    "songs": [
-      "Il n'a jamais été surpris par un événement (#116)"
+      "See You Again (feat. Charlie Puth) [From Furious 7] (#100)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "P!nk",
-    "bestRank": 117,
+    "bestRank": 101,
     "songs": [
-      "Just Give Me a Reason (feat. Nate Ruess) (#117)"
+      "Just Give Me a Reason (feat. Nate Ruess) (#101)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Niska",
-    "bestRank": 118,
+    "name": "Obim1",
+    "bestRank": 102,
     "songs": [
-      "Macronie (#118)"
+      "Sheck your body (#102)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "FOLA",
-    "bestRank": 120,
+    "name": "Magic Wacho",
+    "bestRank": 104,
     "songs": [
-      "waf (#120)",
-      "miss u ii (nriri) (#125)",
-      "B4 B4 (#163)"
+      "Kure-Kure (Ndinonzwa nani) (#104)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Oudy 1er",
-    "bestRank": 121,
+    "name": "P-Square",
+    "bestRank": 105,
     "songs": [
-      "Zintinpinhoun (feat. Team Paiya & Ste Milano) (#121)"
+      "Bunieya Enu (#105)",
+      "Possibility (feat. 2Baba) (#176)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Young Jonn",
+    "bestRank": 106,
+    "songs": [
+      "Elumelu (#106)",
+      "Colorado (#192)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Theodora",
+    "bestRank": 107,
+    "songs": [
+      "La Nocturne (#107)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Momo Punchline",
+    "bestRank": 109,
+    "songs": [
+      "Je n'ai pas d'ex (#109)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "MAGIC SYSTEM",
+    "bestRank": 112,
+    "songs": [
+      "Poisson d'avril (#112)",
+      "1er Gaou (#193)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Jeady Jay",
-    "bestRank": 124,
+    "bestRank": 113,
     "songs": [
-      "ATWA (#124)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Franck Ngouma",
-    "bestRank": 127,
-    "songs": [
-      "Manè ma nkag (#127)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Sokeb Beatz",
-    "bestRank": 128,
-    "songs": [
-      "Faut toucher (feat. Tsimi Toro, Kill RB & LITH) (#128)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Vacra",
-    "bestRank": 129,
-    "songs": [
-      "Fille à Papa (#129)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "La Rvfleuze",
-    "bestRank": 129,
-    "songs": [
-      "Fille à Papa (#129)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "LE DUO MAGIQUE",
-    "bestRank": 130,
-    "songs": [
-      "Viens danser (#130)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Dj diabolos tasmanie",
-    "bestRank": 131,
-    "songs": [
-      "Retour de la magie (#131)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Leto",
-    "bestRank": 132,
-    "songs": [
-      "Pineapple (#132)",
-      "Quotidien du bendo (#147)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Solaya",
-    "bestRank": 133,
-    "songs": [
-      "Pran mwen (Harleyqueen) (#133)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "EGNXMUSIC",
-    "bestRank": 134,
-    "songs": [
-      "TRY (DRILL) (#134)"
+      "ATWA (#113)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "EMIN",
-    "bestRank": 135,
+    "bestRank": 114,
     "songs": [
-      "Камин (#135)"
+      "Камин (#114)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "JONY",
-    "bestRank": 135,
+    "bestRank": 114,
     "songs": [
-      "Камин (#135)"
+      "Камин (#114)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Dadju",
-    "bestRank": 136,
+    "name": "Mayo",
+    "bestRank": 115,
     "songs": [
-      "Pourquoi (#136)"
+      "Champagne (feat. Genezio) (#115)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Tayc",
-    "bestRank": 136,
+    "name": "DaBaby",
+    "bestRank": 116,
     "songs": [
-      "Pourquoi (#136)",
-      "Merci (#171)"
+      "ROCKSTAR (feat. Roddy Ricch) (#116)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Gyakie",
-    "bestRank": 138,
+    "name": "Ninho",
+    "bestRank": 117,
     "songs": [
-      "Sor Mi Mu (feat. Bisa Kdei) (#138)",
-      "Forever (Remix) (#169)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "King Reynold",
-    "bestRank": 140,
-    "songs": [
-      "Dance to the Beat (#140)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Ronisia",
-    "bestRank": 142,
-    "songs": [
-      "Champagne (#142)",
-      "Suis-moi (feat. Ninho) (#188)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "DJ Maphorisa",
-    "bestRank": 143,
-    "songs": [
-      "MONEY CONSTANT (#143)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "DJ Tunez",
-    "bestRank": 143,
-    "songs": [
-      "MONEY CONSTANT (#143)",
-      "PAMI (feat. Wizkid, Adekunle Gold & Omah Lay) (#172)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Wizkid",
-    "bestRank": 143,
-    "songs": [
-      "MONEY CONSTANT (#143)",
-      "Ojuelegba (#170)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Mavo",
-    "bestRank": 143,
-    "songs": [
-      "MONEY CONSTANT (#143)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Kedjevara",
-    "bestRank": 145,
-    "songs": [
-      "Ça fait mal (#145)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Alec Benjamin",
-    "bestRank": 146,
-    "songs": [
-      "Let Me Down Slowly (#146)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "OMAH LAY",
-    "bestRank": 148,
-    "songs": [
-      "TAKE (feat. Tiakola) (#148)",
-      "Forever (Remix) (#169)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "GIMS",
-    "bestRank": 149,
-    "songs": [
-      "MUGANGA (#149)",
-      "Dis-moi tout (#186)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "EWOLO MINGA",
-    "bestRank": 150,
-    "songs": [
-      "LA TERRE EST SALE 2 (#150)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Koutchoua Mbada",
-    "bestRank": 151,
-    "songs": [
-      "Swega Menzui (#151)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Cœurde de Noël",
-    "bestRank": 152,
-    "songs": [
-      "Suger Baby (#152)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "BoyPee",
-    "bestRank": 154,
-    "songs": [
-      "One Round (#154)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Lucien Marel",
-    "bestRank": 155,
-    "songs": [
-      "Cette chanson donne la chair de poule (#155)"
+      "DES PIGES (#117)",
+      "OCÉAN DE PROBLÈMES (#128)",
+      "BANTU MENTALITÉ (#144)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "TC Levrai",
-    "bestRank": 156,
+    "bestRank": 119,
     "songs": [
-      "L'homme change (#156)"
+      "L'homme change (#119)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Chidi Solomon",
+    "bestRank": 121,
+    "songs": [
+      "Gaining (#121)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Sound Of Salem",
+    "bestRank": 121,
+    "songs": [
+      "Gaining (#121)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Christiana Gabriella",
+    "bestRank": 121,
+    "songs": [
+      "Gaining (#121)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "EGNXMUSIC",
+    "bestRank": 123,
+    "songs": [
+      "TRY (DRILL) (#123)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "FOLA",
+    "bestRank": 127,
+    "songs": [
+      "miss u ii (nriri) (#127)",
+      "waf (#132)",
+      "B4 B4 (#170)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Oudy 1er",
+    "bestRank": 129,
+    "songs": [
+      "Zintinpinhoun (feat. Team Paiya & Ste Milano) (#129)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Vacra",
+    "bestRank": 131,
+    "songs": [
+      "Fille à Papa (#131)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "La Rvfleuze",
+    "bestRank": 131,
+    "songs": [
+      "Fille à Papa (#131)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Leto",
+    "bestRank": 133,
+    "songs": [
+      "Pineapple (#133)",
+      "Quotidien du bendo (#191)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Dj diabolos tasmanie",
+    "bestRank": 134,
+    "songs": [
+      "Retour de la magie (#134)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Kedjevara",
+    "bestRank": 137,
+    "songs": [
+      "Ça fait mal (#137)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Dadju",
+    "bestRank": 138,
+    "songs": [
+      "Pourquoi (#138)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Tayc",
+    "bestRank": 138,
+    "songs": [
+      "Pourquoi (#138)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Zavyre",
-    "bestRank": 158,
+    "bestRank": 140,
     "songs": [
-      "Don't Let Go (#158)"
+      "Don't Let Go (#140)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "David Jones David",
-    "bestRank": 160,
+    "name": "Alec Benjamin",
+    "bestRank": 141,
     "songs": [
-      "Eze yoyo (#160)"
+      "Let Me Down Slowly (#141)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Kiff No Beat",
-    "bestRank": 161,
+    "name": "DJ Maphorisa",
+    "bestRank": 142,
     "songs": [
-      "Étonné (#161)"
+      "MONEY CONSTANT (#142)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Mayorkun",
-    "bestRank": 163,
+    "name": "DJ Tunez",
+    "bestRank": 142,
     "songs": [
-      "B4 B4 (#163)"
+      "MONEY CONSTANT (#142)",
+      "PAMI (feat. Wizkid, Adekunle Gold & Omah Lay) (#195)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "DAIRO",
-    "bestRank": 165,
+    "name": "Wizkid",
+    "bestRank": 142,
     "songs": [
-      "Money (feat. Mboko Son & TaHbaX) (#165)"
+      "MONEY CONSTANT (#142)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Mavo",
+    "bestRank": 142,
+    "songs": [
+      "MONEY CONSTANT (#142)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "GIMS",
+    "bestRank": 143,
+    "songs": [
+      "MUGANGA (#143)",
+      "Dis-moi tout (#149)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Gyakie",
+    "bestRank": 147,
+    "songs": [
+      "Sor Mi Mu (feat. Bisa Kdei) (#147)",
+      "Forever (Remix) (#166)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "BoyPee",
+    "bestRank": 148,
+    "songs": [
+      "One Round (#148)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Lucien Marel",
+    "bestRank": 150,
+    "songs": [
+      "Cette chanson donne la chair de poule (#150)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "King Reynold",
+    "bestRank": 151,
+    "songs": [
+      "Dance to the Beat (#151)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Les Freres Temi",
+    "bestRank": 154,
+    "songs": [
+      "Il n'a jamais été surpris par un événement (#154)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Iyanya",
+    "bestRank": 155,
+    "songs": [
+      "One Side (#155)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Dami Drizzy",
+    "bestRank": 156,
+    "songs": [
+      "Heavenly Sound (#156)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Kiff No Beat",
+    "bestRank": 157,
+    "songs": [
+      "Étonné (#157)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "David Jones David",
+    "bestRank": 161,
+    "songs": [
+      "Eze yoyo (#161)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Ronisia",
+    "bestRank": 163,
+    "songs": [
+      "Champagne (#163)",
+      "Suis-moi (feat. Ninho) (#186)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "OMAH LAY",
     "bestRank": 166,
     "songs": [
-      "One Side (#166)"
+      "Forever (Remix) (#166)",
+      "TAKE (feat. Tiakola) (#174)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Christina Perri",
+    "name": "Cœurde de Noël",
     "bestRank": 167,
     "songs": [
-      "A Thousand Years (#167)"
+      "Suger Baby (#167)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Petit Pays Rabbi",
-    "bestRank": 173,
+    "name": "Yaro",
+    "bestRank": 168,
     "songs": [
-      "Loba (#173)"
+      "Dernier Étage (#168)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Runtown",
-    "bestRank": 175,
+    "name": "Mayorkun",
+    "bestRank": 170,
     "songs": [
-      "Mad over You (#175)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Issah",
-    "bestRank": 176,
-    "songs": [
-      "BADDIES IN BELGICA (#176)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Tsimi Toro",
-    "bestRank": 177,
-    "songs": [
-      "Oyili (#177)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Nupaï",
-    "bestRank": 178,
-    "songs": [
-      "Mosseba (#178)"
+      "B4 B4 (#170)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "TxC",
-    "bestRank": 179,
+    "bestRank": 172,
     "songs": [
-      "Nakupenda (feat. Al Xapo & Zlatan) (#179)"
+      "Nakupenda (feat. Al Xapo & Zlatan) (#172)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Scotts Maphuma",
-    "bestRank": 179,
+    "bestRank": 172,
     "songs": [
-      "Nakupenda (feat. Al Xapo & Zlatan) (#179)"
+      "Nakupenda (feat. Al Xapo & Zlatan) (#172)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Elang City",
-    "bestRank": 180,
+    "name": "Christina Perri",
+    "bestRank": 173,
     "songs": [
-      "Tchokorobo (#180)"
+      "A Thousand Years (#173)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Ifeanyi Mojay",
-    "bestRank": 181,
+    "bestRank": 175,
     "songs": [
-      "For Love (Speed Up) (#181)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Mellow",
-    "bestRank": 182,
-    "songs": [
-      "Christmas Present (#182)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Sleazy",
-    "bestRank": 182,
-    "songs": [
-      "Christmas Present (#182)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Gipa Entertainment",
-    "bestRank": 182,
-    "songs": [
-      "Christmas Present (#182)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Dadaman",
-    "bestRank": 182,
-    "songs": [
-      "Christmas Present (#182)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Johnny Drille",
-    "bestRank": 183,
-    "songs": [
-      "Colorado (#183)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "John Michael Howell",
-    "bestRank": 185,
-    "songs": [
-      "Fairy (#185)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Faceless",
-    "bestRank": 187,
-    "songs": [
-      "Venus (#187)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Serøtonin",
-    "bestRank": 187,
-    "songs": [
-      "Venus (#187)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "King OT",
-    "bestRank": 189,
-    "songs": [
-      "Shameful (#189)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "The Chainsmokers",
-    "bestRank": 190,
-    "songs": [
-      "Don't Let Me Down (feat. Daya) (#190)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Josey",
-    "bestRank": 191,
-    "songs": [
-      "Double jeu (#191)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Chily",
-    "bestRank": 192,
-    "songs": [
-      "Rebanav 126bpm (#192)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Dj Free Boy l'arrangeur",
-    "bestRank": 194,
-    "songs": [
-      "CONTINGENT 2022 (#194)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "KAROL G",
-    "bestRank": 196,
-    "songs": [
-      "BbY WOW (#196)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Judeline",
-    "bestRank": 196,
-    "songs": [
-      "BbY WOW (#196)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "rusowsky",
-    "bestRank": 196,
-    "songs": [
-      "BbY WOW (#196)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "B Y King Slum",
-    "bestRank": 197,
-    "songs": [
-      "6 Feet (feat. Rosè Mikey) (#197)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "MARCO DENON",
-    "bestRank": 198,
-    "songs": [
-      "SOUKINI (feat. Ha!) (#198)"
+      "For Love (Speed Up) (#175)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
     "name": "Cinek",
-    "bestRank": 199,
+    "bestRank": 177,
     "songs": [
-      "Our Song (Live Version) (#199)"
+      "Our Song (Live Version) (#177)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
   },
   {
-    "name": "Shania Twain",
-    "bestRank": 200,
+    "name": "Notch",
+    "bestRank": 178,
     "songs": [
-      "You're Still the One (#200)"
+      "Nuttin Nuh Go So (#178)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Runtown",
+    "bestRank": 179,
+    "songs": [
+      "Mad over You (#179)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "1da Banton",
+    "bestRank": 180,
+    "songs": [
+      "No Wahala (#180)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "King OT",
+    "bestRank": 183,
+    "songs": [
+      "Shameful (#183)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Faceless",
+    "bestRank": 184,
+    "songs": [
+      "Venus (#184)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Serøtonin",
+    "bestRank": 184,
+    "songs": [
+      "Venus (#184)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "DAIRO",
+    "bestRank": 185,
+    "songs": [
+      "Money (feat. Mboko Son & TaHbaX) (#185)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "John Michael Howell",
+    "bestRank": 187,
+    "songs": [
+      "Fairy (#187)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Tour 2 Garde",
+    "bestRank": 188,
+    "songs": [
+      "Touche moi (#188)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Espoir 2000",
+    "bestRank": 189,
+    "songs": [
+      "Je t'aime (#189)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "MARCO DENON",
+    "bestRank": 190,
+    "songs": [
+      "SOUKINI (feat. Ha!) (#190)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Johnny Drille",
+    "bestRank": 192,
+    "songs": [
+      "Colorado (#192)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Josey",
+    "bestRank": 194,
+    "songs": [
+      "Double jeu (#194)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Chily",
+    "bestRank": 197,
+    "songs": [
+      "Rebanav 126bpm (#197)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Rauf",
+    "bestRank": 198,
+    "songs": [
+      "Детство (#198)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Faik",
+    "bestRank": 198,
+    "songs": [
+      "Детство (#198)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7

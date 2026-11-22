@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T07:21:55.285Z",
+  "takenAt": "2026-11-22T08:31:07.658Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121136
+      "fans": 1121139
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -154,7 +154,7 @@
     "Q115790718": {
       "deezerId": 70757872,
       "name": "Libianca",
-      "fans": 25114
+      "fans": 25115
     },
     "Q47472775": {
       "deezerId": 200195,
@@ -219,7 +219,7 @@
     "Q25679": {
       "deezerId": 13921,
       "name": "Richard Bona",
-      "fans": 51372
+      "fans": 51373
     },
     "Q115790591": {
       "deezerId": 73012012,
@@ -264,12 +264,12 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145806
+      "fans": 145805
     },
     "Q221908": {
       "deezerId": 1801,
       "name": "Yannick Noah",
-      "fans": 174287
+      "fans": 174288
     },
     "Q16980116": {
       "deezerId": 584589,
@@ -334,7 +334,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Couleurs d'aimer",
-      "rank": 373360,
+      "rank": 426291,
       "albumId": 54607,
       "link": "https://www.deezer.com/track/365236"
     },
@@ -369,14 +369,6 @@
       "rank": 309408,
       "albumId": 74070,
       "link": "https://www.deezer.com/track/571325"
-    },
-    "571493": {
-      "wikidata": "Q221908",
-      "artist": "Yannick Noah",
-      "title": "Take Your Time (feat. Jimmy Cliff)",
-      "rank": 254915,
-      "albumId": 74070,
-      "link": "https://www.deezer.com/track/571493"
     },
     "615147": {
       "wikidata": "Q221908",
@@ -486,7 +478,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Jamafrica",
-      "rank": 347287,
+      "rank": 396206,
       "albumId": 98255,
       "link": "https://www.deezer.com/track/858941"
     },
@@ -566,7 +558,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Saga Africa (ambiance secousse)",
-      "rank": 584660,
+      "rank": 629931,
       "albumId": 101570,
       "link": "https://www.deezer.com/track/897928"
     },
@@ -590,7 +582,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "Happy",
-      "rank": 209190,
+      "rank": 250403,
       "albumId": 232495,
       "link": "https://www.deezer.com/track/2335338"
     },
@@ -598,7 +590,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "La mauvaise réputation",
-      "rank": 299028,
+      "rank": 316237,
       "albumId": 232495,
       "link": "https://www.deezer.com/track/2335341"
     },
@@ -742,7 +734,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Rap de Barbares",
-      "rank": 231644,
+      "rank": 190025,
       "albumId": 265562,
       "link": "https://www.deezer.com/track/2749027"
     },
@@ -758,7 +750,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Menuet",
-      "rank": 303244,
+      "rank": 361076,
       "albumId": 326687,
       "link": "https://www.deezer.com/track/3442465"
     },
@@ -774,7 +766,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Côté obscur connection",
-      "rank": 306359,
+      "rank": 364629,
       "albumId": 333307,
       "link": "https://www.deezer.com/track/3521926"
     },
@@ -810,6 +802,22 @@
       "albumId": 396019,
       "link": "https://www.deezer.com/track/4255600"
     },
+    "4255601": {
+      "wikidata": "Q25679",
+      "artist": "Richard Bona",
+      "title": "Kurumalete",
+      "rank": 17983,
+      "albumId": 396019,
+      "link": "https://www.deezer.com/track/4255601"
+    },
+    "4255604": {
+      "wikidata": "Q25679",
+      "artist": "Richard Bona",
+      "title": "Esukudu",
+      "rank": 29061,
+      "albumId": 396019,
+      "link": "https://www.deezer.com/track/4255604"
+    },
     "5100433": {
       "wikidata": "Q25679",
       "artist": "Richard Bona",
@@ -834,14 +842,6 @@
       "albumId": 467824,
       "link": "https://www.deezer.com/track/5100439"
     },
-    "5100443": {
-      "wikidata": "Q25679",
-      "artist": "Richard Bona",
-      "title": "Seven Beats",
-      "rank": 179183,
-      "albumId": 467824,
-      "link": "https://www.deezer.com/track/5100443"
-    },
     "6649180": {
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
@@ -862,7 +862,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Il est tard maintenant",
-      "rank": 249417,
+      "rank": 283007,
       "albumId": 614719,
       "link": "https://www.deezer.com/track/6649197"
     },
@@ -929,14 +929,6 @@
       "rank": 90802,
       "albumId": 1092075,
       "link": "https://www.deezer.com/track/11915158"
-    },
-    "14846536": {
-      "wikidata": "Q221908",
-      "artist": "Yannick Noah",
-      "title": "Simon Papa Tara",
-      "rank": 205684,
-      "albumId": 1368787,
-      "link": "https://www.deezer.com/track/14846536"
     },
     "15908469": {
       "wikidata": "Q439028",
@@ -1022,7 +1014,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "J'perds pas la main en solo",
-      "rank": 261710,
+      "rank": 314448,
       "albumId": 2080621,
       "link": "https://www.deezer.com/track/21726601"
     },
@@ -1030,7 +1022,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Trafic d'influence",
-      "rank": 268687,
+      "rank": 306836,
       "albumId": 2080621,
       "link": "https://www.deezer.com/track/21726611"
     },
@@ -1078,7 +1070,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Si j'étais",
-      "rank": 276755,
+      "rank": 307793,
       "albumId": 2080621,
       "link": "https://www.deezer.com/track/21726721"
     },
@@ -1102,7 +1094,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Enfants du ghetto",
-      "rank": 351809,
+      "rank": 367088,
       "albumId": 2187191,
       "link": "https://www.deezer.com/track/22798831"
     },
@@ -1113,14 +1105,6 @@
       "rank": 253938,
       "albumId": 2571741,
       "link": "https://www.deezer.com/track/27016511"
-    },
-    "27016521": {
-      "wikidata": "Q221908",
-      "artist": "Yannick Noah",
-      "title": "Easy Skanking",
-      "rank": 225752,
-      "albumId": 2571741,
-      "link": "https://www.deezer.com/track/27016521"
     },
     "27016531": {
       "wikidata": "Q221908",
@@ -1142,7 +1126,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "Like a Buffalo",
-      "rank": 168054,
+      "rank": 228413,
       "albumId": 5813371,
       "link": "https://www.deezer.com/track/59496901"
     },
@@ -1162,11 +1146,19 @@
       "albumId": 5813371,
       "link": "https://www.deezer.com/track/59496971"
     },
+    "62370620": {
+      "wikidata": "Q4760361",
+      "artist": "Andy Allo",
+      "title": "Superconductor",
+      "rank": 42772,
+      "albumId": 6120031,
+      "link": "https://www.deezer.com/track/62370620"
+    },
     "62370621": {
       "wikidata": "Q4760361",
       "artist": "Andy Allo",
       "title": "People Pleaser",
-      "rank": 200050,
+      "rank": 240427,
       "albumId": 6120031,
       "link": "https://www.deezer.com/track/62370621"
     },
@@ -1182,7 +1174,7 @@
       "wikidata": "Q4760361",
       "artist": "Andy Allo",
       "title": "Yellow Gold",
-      "rank": 238680,
+      "rank": 205935,
       "albumId": 6120031,
       "link": "https://www.deezer.com/track/62370624"
     },
@@ -1206,7 +1198,7 @@
       "wikidata": "Q1605812",
       "artist": "Henri Dikongué",
       "title": "Ndol'asu",
-      "rank": 198557,
+      "rank": 247291,
       "albumId": 6251779,
       "link": "https://www.deezer.com/track/63629339"
     },
@@ -1326,7 +1318,7 @@
       "wikidata": "Q4760361",
       "artist": "Andy Allo",
       "title": "Knew You At All",
-      "rank": 312423,
+      "rank": 277184,
       "albumId": 6642850,
       "link": "https://www.deezer.com/track/67848121"
     },
@@ -1334,9 +1326,17 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Mon Eldorado (du soleil)",
-      "rank": 338645,
+      "rank": 353493,
       "albumId": 6914439,
       "link": "https://www.deezer.com/track/70447524"
+    },
+    "71644217": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Le sud",
+      "rank": 306018,
+      "albumId": 7040331,
+      "link": "https://www.deezer.com/track/71644217"
     },
     "71644223": {
       "wikidata": "Q445829",
@@ -1374,7 +1374,7 @@
       "wikidata": "Q41672675",
       "artist": "David K",
       "title": "Meet You (Thomas Lizzara Remix)",
-      "rank": 397754,
+      "rank": 429280,
       "albumId": 7809443,
       "link": "https://www.deezer.com/track/78511855"
     },
@@ -1390,7 +1390,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Everything Comes and Goes",
-      "rank": 243037,
+      "rank": 199371,
       "albumId": 7832547,
       "link": "https://www.deezer.com/track/78754766"
     },
@@ -1398,7 +1398,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Le même sang",
-      "rank": 323992,
+      "rank": 293447,
       "albumId": 7834158,
       "link": "https://www.deezer.com/track/78768014"
     },
@@ -1454,7 +1454,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Elle n'a pas vu",
-      "rank": 278154,
+      "rank": 311798,
       "albumId": 9511008,
       "link": "https://www.deezer.com/track/93634448"
     },
@@ -1499,8 +1499,8 @@
       "link": "https://www.deezer.com/track/93659304"
     },
     "93659308": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
+      "wikidata": "Q5085917",
+      "artist": "Charlotte Dipanda",
       "title": "Plus jamais Ebola, pt. 2",
       "rank": 223601,
       "albumId": 9514168,
@@ -1530,19 +1530,11 @@
       "albumId": 9782298,
       "link": "https://www.deezer.com/track/96149648"
     },
-    "96149650": {
-      "wikidata": "Q3037333",
-      "artist": "Dosseh",
-      "title": "Bando",
-      "rank": 473832,
-      "albumId": 9782298,
-      "link": "https://www.deezer.com/track/96149650"
-    },
     "96488244": {
       "wikidata": "Q50801147",
       "artist": "Charlotte Mbango",
       "title": "Konkai makossa",
-      "rank": 262371,
+      "rank": 231268,
       "albumId": 9819202,
       "link": "https://www.deezer.com/track/96488244"
     },
@@ -1670,7 +1662,7 @@
       "wikidata": "Q2079842",
       "artist": "Petit-Pays",
       "title": "Muto",
-      "rank": 246987,
+      "rank": 306029,
       "albumId": 9908760,
       "link": "https://www.deezer.com/track/97329272"
     },
@@ -1894,7 +1886,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Wap Do Wap",
-      "rank": 342581,
+      "rank": 345404,
       "albumId": 10149690,
       "link": "https://www.deezer.com/track/99165670"
     },
@@ -1902,7 +1894,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Lon",
-      "rank": 264924,
+      "rank": 308598,
       "albumId": 10149690,
       "link": "https://www.deezer.com/track/99165672"
     },
@@ -2010,13 +2002,13 @@
       "albumId": 10548725,
       "link": "https://www.deezer.com/track/101616607"
     },
-    "113347328": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Loko Bobe (Extrait de la bande originale du film \"Comment faire l'amour avec un nègre sans se fatiguer)",
-      "rank": 125211,
-      "albumId": 11740722,
-      "link": "https://www.deezer.com/track/113347328"
+    "106427021": {
+      "wikidata": "Q3389313",
+      "artist": "Pit Baccardi",
+      "title": "On veut",
+      "rank": 78510,
+      "albumId": 10898311,
+      "link": "https://www.deezer.com/track/106427021"
     },
     "114154206": {
       "wikidata": "Q18351472",
@@ -2030,7 +2022,7 @@
       "wikidata": "Q24578963",
       "artist": "Franko",
       "title": "Coller la petite",
-      "rank": 584551,
+      "rank": 619739,
       "albumId": 11842190,
       "link": "https://www.deezer.com/track/114338794"
     },
@@ -2070,7 +2062,7 @@
       "wikidata": "Q28006763",
       "artist": "Reniss",
       "title": "La Sauce",
-      "rank": 321745,
+      "rank": 356137,
       "albumId": 13076880,
       "link": "https://www.deezer.com/track/124552288"
     },
@@ -2242,19 +2234,11 @@
       "albumId": 14466676,
       "link": "https://www.deezer.com/track/135438524"
     },
-    "135438526": {
-      "wikidata": "Q3037333",
-      "artist": "Dosseh",
-      "title": "Marriott Hotel",
-      "rank": 289480,
-      "albumId": 14466676,
-      "link": "https://www.deezer.com/track/135438526"
-    },
     "136214586": {
       "wikidata": "Q1893336",
       "artist": "Prince Nico Mbarga",
       "title": "Sweet Mother",
-      "rank": 200599,
+      "rank": 281426,
       "albumId": 14565166,
       "link": "https://www.deezer.com/track/136214586"
     },
@@ -2289,6 +2273,14 @@
       "rank": 214809,
       "albumId": 14971681,
       "link": "https://www.deezer.com/track/139282423"
+    },
+    "139282441": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Jingo (feat. King Sunny Ade)",
+      "rank": 87685,
+      "albumId": 14971681,
+      "link": "https://www.deezer.com/track/139282441"
     },
     "139460505": {
       "wikidata": "Q529942",
@@ -2398,7 +2390,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Take Five",
-      "rank": 157633,
+      "rank": 201044,
       "albumId": 40043531,
       "link": "https://www.deezer.com/track/350893821"
     },
@@ -2414,7 +2406,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "Change",
-      "rank": 223460,
+      "rank": 277755,
       "albumId": 41503761,
       "link": "https://www.deezer.com/track/361260431"
     },
@@ -2422,7 +2414,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "Fly",
-      "rank": 250819,
+      "rank": 310356,
       "albumId": 41503761,
       "link": "https://www.deezer.com/track/361260441"
     },
@@ -2446,7 +2438,7 @@
       "wikidata": "Q18351472",
       "artist": "Magasco",
       "title": "Love It",
-      "rank": 221593,
+      "rank": 251611,
       "albumId": 42069081,
       "link": "https://www.deezer.com/track/365434501"
     },
@@ -2486,7 +2478,7 @@
       "wikidata": "Q25679",
       "artist": "Richard Bona",
       "title": "Youwilé",
-      "rank": 302617,
+      "rank": 357161,
       "albumId": 49067502,
       "link": "https://www.deezer.com/track/412363722"
     },
@@ -2530,14 +2522,6 @@
       "albumId": 49067502,
       "link": "https://www.deezer.com/track/412363772"
     },
-    "412363802": {
-      "wikidata": "Q25679",
-      "artist": "Richard Bona",
-      "title": "Awo",
-      "rank": 142881,
-      "albumId": 49067502,
-      "link": "https://www.deezer.com/track/412363802"
-    },
     "430244462": {
       "wikidata": "Q18351472",
       "artist": "Magasco",
@@ -2558,9 +2542,17 @@
       "wikidata": "Q18351472",
       "artist": "Magasco",
       "title": "Sokoto",
-      "rank": 299667,
+      "rank": 310010,
       "albumId": 53896452,
       "link": "https://www.deezer.com/track/443760812"
+    },
+    "448255802": {
+      "wikidata": "Q3037333",
+      "artist": "Dosseh",
+      "title": "Tout est neuf",
+      "rank": 387583,
+      "albumId": 54716622,
+      "link": "https://www.deezer.com/track/448255802"
     },
     "451258432": {
       "wikidata": "Q28006763",
@@ -2590,7 +2582,7 @@
       "wikidata": "Q27062890",
       "artist": "Ndom’a Deccah Grace",
       "title": "Munyengue",
-      "rank": 302532,
+      "rank": 319146,
       "albumId": 58221032,
       "link": "https://www.deezer.com/track/468694952"
     },
@@ -2702,7 +2694,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Their Truth",
-      "rank": 271184,
+      "rank": 308513,
       "albumId": 71512222,
       "link": "https://www.deezer.com/track/545794522"
     },
@@ -2742,7 +2734,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "In Love with the Devil",
-      "rank": 189527,
+      "rank": 249267,
       "albumId": 71512222,
       "link": "https://www.deezer.com/track/545794572"
     },
@@ -2750,7 +2742,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Your Guide",
-      "rank": 290415,
+      "rank": 324581,
       "albumId": 71512222,
       "link": "https://www.deezer.com/track/545794582"
     },
@@ -2774,7 +2766,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Arum Lily",
-      "rank": 213021,
+      "rank": 267528,
       "albumId": 71512222,
       "link": "https://www.deezer.com/track/545794632"
     },
@@ -2790,7 +2782,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Letter to the Lord",
-      "rank": 218281,
+      "rank": 269946,
       "albumId": 71512222,
       "link": "https://www.deezer.com/track/545794652"
     },
@@ -2838,7 +2830,7 @@
       "wikidata": "Q2079842",
       "artist": "Petit-Pays",
       "title": "Eboki",
-      "rank": 231892,
+      "rank": 300824,
       "albumId": 72219082,
       "link": "https://www.deezer.com/track/549542392"
     },
@@ -2854,7 +2846,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Goro City",
-      "rank": 164675,
+      "rank": 271299,
       "albumId": 73758762,
       "link": "https://www.deezer.com/track/558028312"
     },
@@ -2870,7 +2862,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Bessoka",
-      "rank": 196834,
+      "rank": 222443,
       "albumId": 73918722,
       "link": "https://www.deezer.com/track/558817892"
     },
@@ -2881,14 +2873,6 @@
       "rank": 559323,
       "albumId": 74959382,
       "link": "https://www.deezer.com/track/564564462"
-    },
-    "564564472": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Dasiko",
-      "rank": 161338,
-      "albumId": 74959382,
-      "link": "https://www.deezer.com/track/564564472"
     },
     "564564492": {
       "wikidata": "Q445829",
@@ -2913,38 +2897,6 @@
       "rank": 129414,
       "albumId": 74959382,
       "link": "https://www.deezer.com/track/564564512"
-    },
-    "564564522": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Pepe Soup",
-      "rank": 139361,
-      "albumId": 74959382,
-      "link": "https://www.deezer.com/track/564564522"
-    },
-    "564564542": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Baobab Sunset",
-      "rank": 109837,
-      "albumId": 74959382,
-      "link": "https://www.deezer.com/track/564564542"
-    },
-    "564564552": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Mouvement ewondo",
-      "rank": 78573,
-      "albumId": 74959382,
-      "link": "https://www.deezer.com/track/564564552"
-    },
-    "564564562": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Na Selele",
-      "rank": 79068,
-      "albumId": 74959382,
-      "link": "https://www.deezer.com/track/564564562"
     },
     "564564592": {
       "wikidata": "Q445829",
@@ -2982,7 +2934,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Carnaval",
-      "rank": 368673,
+      "rank": 333915,
       "albumId": 75284522,
       "link": "https://www.deezer.com/track/566383672"
     },
@@ -2990,7 +2942,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Rumba Makossa",
-      "rank": 256807,
+      "rank": 225269,
       "albumId": 75284522,
       "link": "https://www.deezer.com/track/566383682"
     },
@@ -2998,7 +2950,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Son de la Loma",
-      "rank": 224237,
+      "rank": 262153,
       "albumId": 75284522,
       "link": "https://www.deezer.com/track/566383692"
     },
@@ -3030,7 +2982,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Promesa",
-      "rank": 286109,
+      "rank": 255174,
       "albumId": 75284522,
       "link": "https://www.deezer.com/track/566383732"
     },
@@ -3334,7 +3286,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "religion (u can lay your hands on me)",
-      "rank": 186392,
+      "rank": 195788,
       "albumId": 96072782,
       "link": "https://www.deezer.com/track/676287052"
     },
@@ -3418,6 +3370,14 @@
       "albumId": 98190922,
       "link": "https://www.deezer.com/track/685839112"
     },
+    "692763072": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Big Blow",
+      "rank": 124651,
+      "albumId": 99575262,
+      "link": "https://www.deezer.com/track/692763072"
+    },
     "693714902": {
       "wikidata": "Q30596023",
       "artist": "Vagabon",
@@ -3446,7 +3406,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "religion (u can lay your hands on me)",
-      "rank": 293854,
+      "rank": 244905,
       "albumId": 101697502,
       "link": "https://www.deezer.com/track/703419272"
     },
@@ -3510,7 +3470,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Lipém",
-      "rank": 263359,
+      "rank": 305864,
       "albumId": 104147882,
       "link": "https://www.deezer.com/track/714766892"
     },
@@ -3526,7 +3486,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Maqui",
-      "rank": 239392,
+      "rank": 287579,
       "albumId": 104147882,
       "link": "https://www.deezer.com/track/714766912"
     },
@@ -3534,7 +3494,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Pochë",
-      "rank": 196748,
+      "rank": 234288,
       "albumId": 104147882,
       "link": "https://www.deezer.com/track/714766922"
     },
@@ -3622,7 +3582,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Groovy Flute",
-      "rank": 470014,
+      "rank": 433777,
       "albumId": 110020622,
       "link": "https://www.deezer.com/track/747178722"
     },
@@ -3678,7 +3638,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Coconut",
-      "rank": 375999,
+      "rank": 321087,
       "albumId": 110020622,
       "link": "https://www.deezer.com/track/747178832"
     },
@@ -3694,7 +3654,7 @@
       "wikidata": "Q349703",
       "artist": "Wes",
       "title": "Alane",
-      "rank": 226243,
+      "rank": 257740,
       "albumId": 114606372,
       "link": "https://www.deezer.com/track/774344282"
     },
@@ -3718,7 +3678,7 @@
       "wikidata": "Q30596023",
       "artist": "Vagabon",
       "title": "In A Bind",
-      "rank": 172193,
+      "rank": 217007,
       "albumId": 114955172,
       "link": "https://www.deezer.com/track/775797362"
     },
@@ -3866,14 +3826,6 @@
       "albumId": 132283632,
       "link": "https://www.deezer.com/track/881105692"
     },
-    "881105712": {
-      "wikidata": "Q2079842",
-      "artist": "Petit-Pays",
-      "title": "Mon amour",
-      "rank": 116578,
-      "albumId": 132283632,
-      "link": "https://www.deezer.com/track/881105712"
-    },
     "881218692": {
       "wikidata": "Q3037333",
       "artist": "Dosseh",
@@ -3953,6 +3905,14 @@
       "rank": 107237,
       "albumId": 138437072,
       "link": "https://www.deezer.com/track/914508632"
+    },
+    "917141562": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Wouri",
+      "rank": 89970,
+      "albumId": 139019112,
+      "link": "https://www.deezer.com/track/917141562"
     },
     "917141572": {
       "wikidata": "Q445829",
@@ -4262,7 +4222,7 @@
       "wikidata": "Q109816323",
       "artist": "Darina Victry",
       "title": "Laisse moi t'aimer",
-      "rank": 309572,
+      "rank": 318659,
       "albumId": 160607312,
       "link": "https://www.deezer.com/track/1021039922"
     },
@@ -4310,7 +4270,7 @@
       "wikidata": "Q30728231",
       "artist": "Lydol",
       "title": "Le ndem",
-      "rank": 146457,
+      "rank": 108816,
       "albumId": 171760492,
       "link": "https://www.deezer.com/track/1072860252"
     },
@@ -4353,14 +4313,6 @@
       "rank": 75447,
       "albumId": 176600522,
       "link": "https://www.deezer.com/track/1095163172"
-    },
-    "1125370732": {
-      "wikidata": "Q25679",
-      "artist": "Richard Bona",
-      "title": "Afreekha",
-      "rank": 153332,
-      "albumId": 182908232,
-      "link": "https://www.deezer.com/track/1125370732"
     },
     "1136263112": {
       "wikidata": "Q19544251",
@@ -4446,17 +4398,9 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "The Panther",
-      "rank": 290372,
+      "rank": 321354,
       "albumId": 190067802,
       "link": "https://www.deezer.com/track/1161217842"
-    },
-    "1161217932": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Monkey Beat",
-      "rank": 74025,
-      "albumId": 190067802,
-      "link": "https://www.deezer.com/track/1161217932"
     },
     "1170240462": {
       "wikidata": "Q107491845",
@@ -4478,7 +4422,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Fly",
-      "rank": 380289,
+      "rank": 373715,
       "albumId": 192729742,
       "link": "https://www.deezer.com/track/1174677392"
     },
@@ -4518,7 +4462,7 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "Thank You",
-      "rank": 241384,
+      "rank": 253057,
       "albumId": 202597422,
       "link": "https://www.deezer.com/track/1220950862"
     },
@@ -4570,14 +4514,6 @@
       "albumId": 203566672,
       "link": "https://www.deezer.com/track/1225419322"
     },
-    "1232931012": {
-      "wikidata": "Q64667915",
-      "artist": "Blanche Bailly",
-      "title": "Jaloux (feat. Tzy Panchak)",
-      "rank": 133482,
-      "albumId": 205270522,
-      "link": "https://www.deezer.com/track/1232931012"
-    },
     "1236930402": {
       "wikidata": "Q112537827",
       "artist": "Tagne",
@@ -4618,14 +4554,6 @@
       "albumId": 210861262,
       "link": "https://www.deezer.com/track/1258291102"
     },
-    "1260347292": {
-      "wikidata": "Q3037333",
-      "artist": "Dosseh",
-      "title": "Cardio",
-      "rank": 423373,
-      "albumId": 211382552,
-      "link": "https://www.deezer.com/track/1260347292"
-    },
     "1264491792": {
       "wikidata": "Q136486889",
       "artist": "Shura",
@@ -4658,14 +4586,6 @@
       "albumId": 213667492,
       "link": "https://www.deezer.com/track/1270593072"
     },
-    "1272965992": {
-      "wikidata": "Q64667915",
-      "artist": "Blanche Bailly",
-      "title": "Ton Pied Mon Pied",
-      "rank": 131748,
-      "albumId": 214220732,
-      "link": "https://www.deezer.com/track/1272965992"
-    },
     "1272980022": {
       "wikidata": "Q64667915",
       "artist": "Blanche Bailly",
@@ -4678,7 +4598,7 @@
       "wikidata": "Q64667915",
       "artist": "Blanche Bailly",
       "title": "Mimbayeur (feat. Mink's)",
-      "rank": 218148,
+      "rank": 267571,
       "albumId": 214400822,
       "link": "https://www.deezer.com/track/1273700772"
     },
@@ -4730,14 +4650,6 @@
       "albumId": 233646302,
       "link": "https://www.deezer.com/track/1387332242"
     },
-    "1387332252": {
-      "wikidata": "Q123574342",
-      "artist": "Yamê",
-      "title": "Tracktopelle",
-      "rank": 389113,
-      "albumId": 233646302,
-      "link": "https://www.deezer.com/track/1387332252"
-    },
     "1387332262": {
       "wikidata": "Q123574342",
       "artist": "Yamê",
@@ -4750,7 +4662,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "RQPLM",
-      "rank": 315696,
+      "rank": 258976,
       "albumId": 233646302,
       "link": "https://www.deezer.com/track/1387332272"
     },
@@ -4862,7 +4774,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Sebyan",
-      "rank": 394212,
+      "rank": 308104,
       "albumId": 242378612,
       "link": "https://www.deezer.com/track/1425570852"
     },
@@ -4902,7 +4814,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "Eurydice",
-      "rank": 240221,
+      "rank": 202933,
       "albumId": 250816742,
       "link": "https://www.deezer.com/track/1460602132"
     },
@@ -5118,7 +5030,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Sharapova",
-      "rank": 236060,
+      "rank": 193675,
       "albumId": 300185687,
       "link": "https://www.deezer.com/track/1674501047"
     },
@@ -5129,14 +5041,6 @@
       "rank": 327918,
       "albumId": 301404567,
       "link": "https://www.deezer.com/track/1679763167"
-    },
-    "1702276137": {
-      "wikidata": "Q445829",
-      "artist": "Manu Dibango",
-      "title": "Tek Time",
-      "rank": 173661,
-      "albumId": 306787377,
-      "link": "https://www.deezer.com/track/1702276137"
     },
     "1722631357": {
       "wikidata": "Q25679",
@@ -5198,7 +5102,7 @@
       "wikidata": "Q64667915",
       "artist": "Blanche Bailly",
       "title": "Mine",
-      "rank": 210433,
+      "rank": 278399,
       "albumId": 326149687,
       "link": "https://www.deezer.com/track/1785911697"
     },
@@ -5326,7 +5230,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Qui vivra verra",
-      "rank": 244088,
+      "rank": 209494,
       "albumId": 360821857,
       "link": "https://www.deezer.com/track/1935031487"
     },
@@ -5334,7 +5238,7 @@
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
       "title": "Traces",
-      "rank": 273492,
+      "rank": 263609,
       "albumId": 360821857,
       "link": "https://www.deezer.com/track/1935031507"
     },
@@ -5502,7 +5406,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Bengue",
-      "rank": 290162,
+      "rank": 322740,
       "albumId": 413284617,
       "link": "https://www.deezer.com/track/2173199007"
     },
@@ -5510,7 +5414,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Ndomè",
-      "rank": 293519,
+      "rank": 240783,
       "albumId": 413284617,
       "link": "https://www.deezer.com/track/2173199027"
     },
@@ -5574,7 +5478,7 @@
       "wikidata": "Q27062952",
       "artist": "Coco Argentée",
       "title": "Coco carbure",
-      "rank": 259088,
+      "rank": 208783,
       "albumId": 422612727,
       "link": "https://www.deezer.com/track/2211481437"
     },
@@ -5590,7 +5494,7 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "People",
-      "rank": 334071,
+      "rank": 335991,
       "albumId": 423392377,
       "link": "https://www.deezer.com/track/2214746707"
     },
@@ -5606,7 +5510,7 @@
       "wikidata": "Q3471935",
       "artist": "Sandra Nkaké",
       "title": "Rising Up",
-      "rank": 261360,
+      "rank": 306621,
       "albumId": 424405387,
       "link": "https://www.deezer.com/track/2218571297"
     },
@@ -5678,7 +5582,7 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "People (feat. Becky G)",
-      "rank": 360152,
+      "rank": 320994,
       "albumId": 430048657,
       "link": "https://www.deezer.com/track/2239339857"
     },
@@ -5734,9 +5638,17 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "I Wish (feat. Libianca)",
-      "rank": 291781,
+      "rank": 324383,
       "albumId": 447470805,
       "link": "https://www.deezer.com/track/2303974025"
+    },
+    "2308797485": {
+      "wikidata": "Q115790718",
+      "artist": "Libianca",
+      "title": "Jah",
+      "rank": 337215,
+      "albumId": 448343955,
+      "link": "https://www.deezer.com/track/2308797485"
     },
     "2317690915": {
       "wikidata": "Q30596023",
@@ -5810,14 +5722,6 @@
       "albumId": 450524935,
       "link": "https://www.deezer.com/track/2318584015"
     },
-    "2320316045": {
-      "wikidata": "Q112537827",
-      "artist": "Tagne",
-      "title": "CV WLA CD",
-      "rank": 33260,
-      "albumId": 451025425,
-      "link": "https://www.deezer.com/track/2320316045"
-    },
     "2320316065": {
       "wikidata": "Q112537827",
       "artist": "Tagne",
@@ -5862,7 +5766,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Faut j'la quitte",
-      "rank": 195478,
+      "rank": 220579,
       "albumId": 455592295,
       "link": "https://www.deezer.com/track/2335319675"
     },
@@ -5870,7 +5774,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Parano",
-      "rank": 364705,
+      "rank": 366932,
       "albumId": 455592335,
       "link": "https://www.deezer.com/track/2335319715"
     },
@@ -5894,7 +5798,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Pygmy Love Song",
-      "rank": 344370,
+      "rank": 306181,
       "albumId": 459600795,
       "link": "https://www.deezer.com/track/2349940005"
     },
@@ -5910,7 +5814,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "The Coffee Cola Song",
-      "rank": 377994,
+      "rank": 342358,
       "albumId": 459600795,
       "link": "https://www.deezer.com/track/2349940055"
     },
@@ -5938,14 +5842,6 @@
       "albumId": 465811835,
       "link": "https://www.deezer.com/track/2372633465"
     },
-    "2374651775": {
-      "wikidata": "Q3037333",
-      "artist": "Dosseh",
-      "title": "Impliqués (feat. Dosseh)",
-      "rank": 265173,
-      "albumId": 466386435,
-      "link": "https://www.deezer.com/track/2374651775"
-    },
     "2390345825": {
       "wikidata": "Q117325000",
       "artist": "Sabrina",
@@ -5966,7 +5862,7 @@
       "wikidata": "Q109653690",
       "artist": "Indira",
       "title": "Tout Sauf La Honte",
-      "rank": 300925,
+      "rank": 202506,
       "albumId": 472880055,
       "link": "https://www.deezer.com/track/2398145025"
     },
@@ -5998,7 +5894,7 @@
       "wikidata": "Q3037333",
       "artist": "Dosseh",
       "title": "Dina Sanichar",
-      "rank": 354449,
+      "rank": 332763,
       "albumId": 487557965,
       "link": "https://www.deezer.com/track/2452720215"
     },
@@ -6086,7 +5982,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Bahwai (Enregistré à Paris)",
-      "rank": 377181,
+      "rank": 410819,
       "albumId": 501460521,
       "link": "https://www.deezer.com/track/2502838891"
     },
@@ -6158,7 +6054,7 @@
       "wikidata": "Q47472775",
       "artist": "Locko",
       "title": "SOS",
-      "rank": 243208,
+      "rank": 163665,
       "albumId": 509892781,
       "link": "https://www.deezer.com/track/2532592701"
     },
@@ -6166,7 +6062,7 @@
       "wikidata": "Q3037333",
       "artist": "Dosseh",
       "title": "RS-28",
-      "rank": 283625,
+      "rank": 267713,
       "albumId": 510883601,
       "link": "https://www.deezer.com/track/2536365791"
     },
@@ -6198,7 +6094,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Sanza Tristesse",
-      "rank": 260283,
+      "rank": 218320,
       "albumId": 512960921,
       "link": "https://www.deezer.com/track/2543691641"
     },
@@ -6294,7 +6190,7 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "angeldemon",
-      "rank": 212484,
+      "rank": 244128,
       "albumId": 517518622,
       "link": "https://www.deezer.com/track/2561649612"
     },
@@ -6302,7 +6198,7 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "W.O.M.S (Weight On My Shoulder)",
-      "rank": 182890,
+      "rank": 215130,
       "albumId": 517518622,
       "link": "https://www.deezer.com/track/2561649622"
     },
@@ -6310,17 +6206,9 @@
       "wikidata": "Q115790718",
       "artist": "Libianca",
       "title": "Mistaken",
-      "rank": 294106,
+      "rank": 254885,
       "albumId": 517518622,
       "link": "https://www.deezer.com/track/2561649632"
-    },
-    "2561649652": {
-      "wikidata": "Q115790718",
-      "artist": "Libianca",
-      "title": "Jah",
-      "rank": 78048,
-      "albumId": 517518622,
-      "link": "https://www.deezer.com/track/2561649652"
     },
     "2564129332": {
       "wikidata": "Q30728231",
@@ -6334,7 +6222,7 @@
       "wikidata": "Q2079842",
       "artist": "Petit-Pays",
       "title": "Ça Va Aller",
-      "rank": 202002,
+      "rank": 162863,
       "albumId": 520767032,
       "link": "https://www.deezer.com/track/2574467492"
     },
@@ -6353,6 +6241,14 @@
       "rank": 159844,
       "albumId": 520767032,
       "link": "https://www.deezer.com/track/2574467532"
+    },
+    "2586478742": {
+      "wikidata": "Q3037333",
+      "artist": "Dosseh",
+      "title": "À La Faveur De L'automne",
+      "rank": 436054,
+      "albumId": 524167322,
+      "link": "https://www.deezer.com/track/2586478742"
     },
     "2587126392": {
       "wikidata": "Q529942",
@@ -6458,6 +6354,14 @@
       "albumId": 554231722,
       "link": "https://www.deezer.com/track/2683136472"
     },
+    "2683388632": {
+      "wikidata": "Q529942",
+      "artist": "Francis Bebey",
+      "title": "Ouagadougou Soleil",
+      "rank": 27756,
+      "albumId": 554308032,
+      "link": "https://www.deezer.com/track/2683388632"
+    },
     "2683979722": {
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
@@ -6526,7 +6430,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Ma Nabni",
-      "rank": 286445,
+      "rank": 238869,
       "albumId": 565447332,
       "link": "https://www.deezer.com/track/2724173942"
     },
@@ -6582,7 +6486,7 @@
       "wikidata": "Q47472775",
       "artist": "Locko",
       "title": "O Bosso",
-      "rank": 221155,
+      "rank": 181943,
       "albumId": 589541092,
       "link": "https://www.deezer.com/track/2810626372"
     },
@@ -6617,6 +6521,14 @@
       "rank": 8999,
       "albumId": 591959762,
       "link": "https://www.deezer.com/track/2818008372"
+    },
+    "2853727862": {
+      "wikidata": "Q25679",
+      "artist": "Richard Bona",
+      "title": "Wuna Pack Kako",
+      "rank": 88637,
+      "albumId": 603679302,
+      "link": "https://www.deezer.com/track/2853727862"
     },
     "2930117581": {
       "wikidata": "Q123574342",
@@ -6902,7 +6814,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Gelato",
-      "rank": 368966,
+      "rank": 332018,
       "albumId": 683022751,
       "link": "https://www.deezer.com/track/3139694031"
     },
@@ -7134,7 +7046,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "Richardson",
-      "rank": 347285,
+      "rank": 386374,
       "albumId": 707305091,
       "link": "https://www.deezer.com/track/3215345131"
     },
@@ -7222,7 +7134,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Totem",
-      "rank": 709026,
+      "rank": 740912,
       "albumId": 724040761,
       "link": "https://www.deezer.com/track/3268364961"
     },
@@ -7262,7 +7174,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Bizarre",
-      "rank": 524677,
+      "rank": 562995,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749771"
     },
@@ -7270,7 +7182,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Problèmes",
-      "rank": 504028,
+      "rank": 539401,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749781"
     },
@@ -7286,7 +7198,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Méprise",
-      "rank": 516943,
+      "rank": 557564,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749801"
     },
@@ -7294,7 +7206,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Le Roi",
-      "rank": 496741,
+      "rank": 530037,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749811"
     },
@@ -7302,7 +7214,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Céline ",
-      "rank": 472578,
+      "rank": 504226,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749821"
     },
@@ -7366,7 +7278,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "CHIFFRES ROMAINS",
-      "rank": 386203,
+      "rank": 348697,
       "albumId": 756708221,
       "link": "https://www.deezer.com/track/3366843281"
     },
@@ -7498,14 +7410,6 @@
       "albumId": 771780051,
       "link": "https://www.deezer.com/track/3412342841"
     },
-    "3412342851": {
-      "wikidata": "Q3037333",
-      "artist": "Dosseh",
-      "title": "Rapstar",
-      "rank": 361751,
-      "albumId": 771780051,
-      "link": "https://www.deezer.com/track/3412342851"
-    },
     "3412342881": {
       "wikidata": "Q3037333",
       "artist": "Dosseh",
@@ -7598,7 +7502,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Hiya",
-      "rank": 303749,
+      "rank": 338552,
       "albumId": 800059001,
       "link": "https://www.deezer.com/track/3493929311"
     },
@@ -7734,7 +7638,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Me & my girlfriend",
-      "rank": 337602,
+      "rank": 347172,
       "albumId": 864739732,
       "link": "https://www.deezer.com/track/3680047232"
     },
@@ -7766,7 +7670,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Red Bull Spirale #01",
-      "rank": 407861,
+      "rank": 365416,
       "albumId": 873781262,
       "link": "https://www.deezer.com/track/3705163802"
     },
@@ -7878,7 +7782,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Douala Paris",
-      "rank": 428195,
+      "rank": 395113,
       "albumId": 880197122,
       "link": "https://www.deezer.com/track/3724910822"
     },
@@ -7886,7 +7790,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Mes failles",
-      "rank": 331898,
+      "rank": 327854,
       "albumId": 880197122,
       "link": "https://www.deezer.com/track/3724910852"
     },
@@ -7894,7 +7798,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "The Dawn",
-      "rank": 397774,
+      "rank": 397954,
       "albumId": 880198812,
       "link": "https://www.deezer.com/track/3724918842"
     },
@@ -8094,15 +7998,23 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "ROUTINE",
-      "rank": 217196,
+      "rank": 274013,
       "albumId": 931661021,
       "link": "https://www.deezer.com/track/3878937221"
+    },
+    "3878937281": {
+      "wikidata": "Q112537827",
+      "artist": "Tagne",
+      "title": "Thellaw",
+      "rank": 227870,
+      "albumId": 931661021,
+      "link": "https://www.deezer.com/track/3878937281"
     },
     "3878937291": {
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Hustler",
-      "rank": 182779,
+      "rank": 149939,
       "albumId": 931661021,
       "link": "https://www.deezer.com/track/3878937291"
     },
@@ -8110,7 +8022,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "KIKI",
-      "rank": 232020,
+      "rank": 235831,
       "albumId": 931661021,
       "link": "https://www.deezer.com/track/3878937311"
     },
@@ -8138,14 +8050,6 @@
       "albumId": 936673431,
       "link": "https://www.deezer.com/track/3892025291"
     },
-    "3892025381": {
-      "wikidata": "Q5085917",
-      "artist": "Charlotte Dipanda",
-      "title": "Ndjoum",
-      "rank": 69206,
-      "albumId": 936673431,
-      "link": "https://www.deezer.com/track/3892025381"
-    },
     "3910245151": {
       "wikidata": "Q439028",
       "artist": "Irma",
@@ -8162,6 +8066,14 @@
       "albumId": 944069501,
       "link": "https://www.deezer.com/track/3912745551"
     },
+    "3912745561": {
+      "wikidata": "Q3037333",
+      "artist": "Dosseh",
+      "title": "Mogadiscio",
+      "rank": 368525,
+      "albumId": 944069501,
+      "link": "https://www.deezer.com/track/3912745561"
+    },
     "3912745571": {
       "wikidata": "Q3037333",
       "artist": "Dosseh",
@@ -8169,6 +8081,14 @@
       "rank": 549994,
       "albumId": 944069501,
       "link": "https://www.deezer.com/track/3912745571"
+    },
+    "3912745581": {
+      "wikidata": "Q3037333",
+      "artist": "Dosseh",
+      "title": "Grand Line",
+      "rank": 334590,
+      "albumId": 944069501,
+      "link": "https://www.deezer.com/track/3912745581"
     },
     "3912745591": {
       "wikidata": "Q3037333",
@@ -8178,11 +8098,19 @@
       "albumId": 944069501,
       "link": "https://www.deezer.com/track/3912745591"
     },
+    "3912745601": {
+      "wikidata": "Q3037333",
+      "artist": "Dosseh",
+      "title": "Temps additionnel",
+      "rank": 688355,
+      "albumId": 944069501,
+      "link": "https://www.deezer.com/track/3912745601"
+    },
     "3912745611": {
       "wikidata": "Q3037333",
       "artist": "Dosseh",
       "title": "Les autres planètes",
-      "rank": 611121,
+      "rank": 579063,
       "albumId": 944069501,
       "link": "https://www.deezer.com/track/3912745611"
     },
@@ -8193,6 +8121,14 @@
       "rank": 443619,
       "albumId": 944069501,
       "link": "https://www.deezer.com/track/3912745621"
+    },
+    "3912745631": {
+      "wikidata": "Q3037333",
+      "artist": "Dosseh",
+      "title": "Les voies suprêmes",
+      "rank": 311527,
+      "albumId": 944069501,
+      "link": "https://www.deezer.com/track/3912745631"
     },
     "3935090111": {
       "wikidata": "Q27062952",
@@ -8458,6 +8394,14 @@
       "albumId": 1033741552,
       "link": "https://www.deezer.com/track/4165849482"
     },
+    "4165849492": {
+      "wikidata": "Q529942",
+      "artist": "Francis Bebey",
+      "title": "The Coffee Cola Song",
+      "rank": 22471,
+      "albumId": 1033741552,
+      "link": "https://www.deezer.com/track/4165849492"
+    },
     "4165849502": {
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
@@ -8473,6 +8417,14 @@
       "rank": 69924,
       "albumId": 1033741552,
       "link": "https://www.deezer.com/track/4165849512"
+    },
+    "4165849522": {
+      "wikidata": "Q529942",
+      "artist": "Francis Bebey",
+      "title": "Il N'y a Pas De Crocodiles a Cocody",
+      "rank": 6915,
+      "albumId": 1033741552,
+      "link": "https://www.deezer.com/track/4165849522"
     },
     "4172033942": {
       "wikidata": "Q24341755",
@@ -8505,6 +8457,14 @@
       "rank": 109567,
       "albumId": 1050707212,
       "link": "https://www.deezer.com/track/4214677822"
+    },
+    "4228384442": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "New Bell (Hard Pulsation)",
+      "rank": 104963,
+      "albumId": 1056148592,
+      "link": "https://www.deezer.com/track/4228384442"
     },
     "4233170242": {
       "wikidata": "Q123574342",
@@ -8650,6 +8610,22 @@
       "albumId": 1115301182,
       "link": "https://www.deezer.com/track/4332065172"
     },
+    "4361407491": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Qui Est Fou De Qui (Chouchou)",
+      "rank": 100000,
+      "albumId": 1126977131,
+      "link": "https://www.deezer.com/track/4361407491"
+    },
+    "4361407411": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Reggae Makossa",
+      "rank": 100000,
+      "albumId": 1126977131,
+      "link": "https://www.deezer.com/track/4361407411"
+    },
     "4351246972": {
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
@@ -8657,6 +8633,54 @@
       "rank": 599138,
       "albumId": 1122801422,
       "link": "https://www.deezer.com/track/4351246972"
+    },
+    "4361407511": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Reggae Makossa",
+      "rank": 100000,
+      "albumId": 1126977131,
+      "link": "https://www.deezer.com/track/4361407511"
+    },
+    "4361407451": {
+      "wikidata": "Q445829",
+      "artist": "Manu Dibango",
+      "title": "Aloko Party",
+      "rank": 100000,
+      "albumId": 1126977131,
+      "link": "https://www.deezer.com/track/4361407451"
+    },
+    "4410636931": {
+      "wikidata": "Q3389313",
+      "artist": "Pit Baccardi",
+      "title": "Sacrifices (feat. Fally Ipupa)",
+      "rank": 645632,
+      "albumId": 1145412051,
+      "link": "https://www.deezer.com/track/4410636931"
+    },
+    "4410636901": {
+      "wikidata": "Q3389313",
+      "artist": "Pit Baccardi",
+      "title": "Journal intime (feat. Kaïlyn Ryse)",
+      "rank": 435593,
+      "albumId": 1145412021,
+      "link": "https://www.deezer.com/track/4410636901"
+    },
+    "4410644621": {
+      "wikidata": "Q3389313",
+      "artist": "Pit Baccardi",
+      "title": "Mes affaires (feat. JEY BROWNIE)",
+      "rank": 625563,
+      "albumId": 1145414161,
+      "link": "https://www.deezer.com/track/4410644621"
+    },
+    "4402619541": {
+      "wikidata": "Q3389313",
+      "artist": "Pit Baccardi",
+      "title": "Hostel",
+      "rank": 604111,
+      "albumId": 1142479291,
+      "link": "https://www.deezer.com/track/4402619541"
     },
     "4382226961": {
       "wikidata": "Q3389313",
@@ -8666,13 +8690,13 @@
       "albumId": 1134978551,
       "link": "https://www.deezer.com/track/4382226961"
     },
-    "4405383451": {
-      "wikidata": "Q3389313",
-      "artist": "Pit Baccardi",
-      "title": "Hostel",
-      "rank": 485136,
-      "albumId": 1143380031,
-      "link": "https://www.deezer.com/track/4405383451"
+    "4410606281": {
+      "wikidata": "Q123574342",
+      "artist": "Yamê",
+      "title": "Mon monde",
+      "rank": 852081,
+      "albumId": 1145405371,
+      "link": "https://www.deezer.com/track/4410606281"
     }
   }
 }
