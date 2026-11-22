@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import s from "../home.module.css";
+import { Icon } from "../../admin/icons";
 
 type Prefs = { theme: "auto" | "light" | "dark"; explicit: "show" | "hide"; lang?: "fr" | "en" };
 const KEY = "237prefs";
@@ -47,7 +48,7 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
   return (
     <>
       <section className={s.setGroup}>
-        <h2 className={s.setTitle}>{c.language}</h2>
+        <h2 className={s.setTitle}><Icon name="globe" size={16} />{c.language}</h2>
         <div className={s.setCard}>
           <div className={s.setRow}>
             {seg("lang", lang, [["fr", "Français"], ["en", "English"]], (v) => {
@@ -60,7 +61,7 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
       </section>
 
       <section className={s.setGroup}>
-        <h2 className={s.setTitle}>{c.appearance}</h2>
+        <h2 className={s.setTitle}><Icon name="sun" size={16} />{c.appearance}</h2>
         <div className={s.setCard}>
           <div className={s.setRow}>
             {seg("theme", p.theme, [["auto", c.auto], ["light", c.light], ["dark", c.dark]], (v) => update({ theme: v as Prefs["theme"] }), c.theme)}
@@ -70,7 +71,7 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
       </section>
 
       <section className={s.setGroup}>
-        <h2 className={s.setTitle}>{c.content}</h2>
+        <h2 className={s.setTitle}><Icon name="eye" size={16} />{c.content}</h2>
         <div className={s.setCard}>
           <label className={s.setRow} htmlFor="set-explicit">
             <span>{c.hideExplicit}</span>
@@ -82,7 +83,7 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
       </section>
 
       <section className={s.setGroup}>
-        <h2 className={s.setTitle}>{c.notifications}</h2>
+        <h2 className={s.setTitle}><Icon name="bell" size={16} />{c.notifications}</h2>
         <div className={s.setCard}>
           <label className={`${s.setRow} ${s.setDisabled}`} htmlFor="set-newchart">
             <span><span className={s.setLabel}>{c.newChart}</span><span className={s.setSub}>{c.newChartNote}</span></span>
@@ -97,7 +98,7 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
       </section>
 
       <section className={s.setGroup}>
-        <h2 className={s.setTitle}>{c.about}</h2>
+        <h2 className={s.setTitle}><Icon name="info" size={16} />{c.about}</h2>
         <div className={s.setCard}>
           <Link className={s.setRow} href={`/${lang}/methodology/`}><span>{c.methodology}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <Link className={s.setRow} href={`/${lang}/artists/`}><span>{c.forArtists}</span><span className={s.chevron} aria-hidden="true">›</span></Link>

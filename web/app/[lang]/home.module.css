@@ -32,7 +32,7 @@
 .brandLogo :global(.logo-black) { display: block; }
 .brandText .week { font-size: 14px; line-height: 19px; }
 .brandBlock + .seg { flex: none; align-self: flex-start; margin-top: var(--s1); }
-.title { font-size: 34px; line-height: 41px; font-weight: 700; letter-spacing: 0.37px; margin: 0; }
+.title { font-size: 36px; line-height: 42px; font-weight: 300; letter-spacing: -0.2px; margin: 0; }
 .week { font-size: 15px; line-height: 20px; color: var(--label-2); margin: 0; }
 
 .seg { display: inline-flex; background: var(--fill); border-radius: 9px; padding: 2px; }
@@ -55,14 +55,14 @@
 .detailTitleLine { display: inline-flex; align-items: center; gap: 8px; justify-content: center; max-width: 100%; }
 .heroText { min-width: 0; display: grid; gap: var(--s1); }
 .eyebrow { font-size: 13px; line-height: 18px; color: var(--accent-text); font-weight: 600; }
-.heroTitle { font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: 0.35px; margin: 0; overflow-wrap: anywhere; }
+.heroTitle { font-size: 24px; line-height: 30px; font-weight: 500; letter-spacing: 0.35px; margin: 0; overflow-wrap: anywhere; }
 .heroArtist { font-size: 15px; line-height: 20px; color: var(--label-2); }
 .heroMeta { font-size: 13px; line-height: 18px; color: var(--label-3); }
 .heroListen { font-size: 17px; font-weight: 600; margin-top: 6px; justify-self: start; }
 
 /* Section headings: same style as shelf titles, with room under them */
 .sectionHead { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 var(--s4); }
-.sectionTitle { font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: 0.35px; color: var(--label); margin: 0; }
+.sectionTitle { font-size: 22px; line-height: 28px; font-weight: 500; letter-spacing: 0.35px; color: var(--label); margin: 0; }
 .sectionLink { font-size: 15px; font-weight: 600; }
 
 .list { list-style: none; margin: 0; padding: var(--s2) 0; background: var(--surface); border-radius: 16px; overflow: hidden; }
@@ -92,12 +92,12 @@
 .detailHero { display: grid; gap: var(--s5); justify-items: center; text-align: center; padding-top: var(--s2); }
 .detailArt { width: min(240px, 70vw); aspect-ratio: 1; height: auto; border-radius: 14px; background: var(--fill); object-fit: cover; display: grid; place-items: center; font-size: 56px; font-weight: 700; color: var(--label-2); box-shadow: 0 8px 24px rgba(0,0,0,.18); }
 .detailText { display: grid; gap: var(--s2); justify-items: center; }
-.detailTitle { font-size: 22px; line-height: 28px; font-weight: 700; margin: 0; overflow-wrap: anywhere; }
+.detailTitle { font-size: 26px; line-height: 32px; font-weight: 400; margin: 0; overflow-wrap: anywhere; }
 .detailSub { font-size: 17px; color: var(--accent-text); }
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--surface); border-radius: 16px; }
 .stat { display: grid; gap: var(--s1); justify-items: center; padding: var(--s5) var(--s1); }
 .stat + .stat { border-left: 0.5px solid var(--separator); }
-.statValue { font-size: 22px; line-height: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.statValue { font-size: 30px; line-height: 34px; font-weight: 200; font-variant-numeric: tabular-nums; }
 .statLabel { font-size: 12px; line-height: 16px; color: var(--label-2); text-align: center; }
 .info { list-style: none; margin: 0; padding: var(--s2) 0; background: var(--surface); border-radius: 16px; }
 .info li { display: flex; justify-content: space-between; gap: var(--s5); padding: var(--s4) var(--s5); min-height: 52px; }
@@ -110,7 +110,7 @@
 /* Chart shelves (home): rows of square chart covers */
 .shelf { display: grid; gap: var(--s4); }
 .shelfHead { display: flex; justify-content: space-between; align-items: baseline; }
-.shelfTitle { font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: 0.35px; margin: 0; }
+.shelfTitle { font-size: 22px; line-height: 28px; font-weight: 500; letter-spacing: 0.35px; margin: 0; }
 /* Three tiles per row; generous gaps so captions never touch the next row */
 .shelfRow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s6) var(--s4); }
 .tileArt { container-type: inline-size; }
@@ -188,7 +188,7 @@
 
 /* Settings (mirrors a native settings screen: grouped cards, notes under each group) */
 .setGroup { display: grid; gap: var(--s2); }
-.setTitle { font-size: 13px; line-height: 18px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; color: var(--label-2); margin: 0 var(--s4); }
+.setTitle { display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 18px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.4px; color: var(--label-2); margin: 0 var(--s4); }
 .setCard { background: var(--surface); border-radius: 16px; overflow: hidden; }
 .setRow {
   display: flex; align-items: center; justify-content: space-between; gap: var(--s4);
@@ -237,7 +237,7 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 
 /* Long text (methodology) */
 .prose { background: var(--surface); border-radius: 16px; padding: var(--s5); display: grid; gap: var(--s4); }
-.prose h2 { font-size: 17px; line-height: 22px; font-weight: 700; margin: var(--s4) 0 0; }
+.prose h2 { font-size: 18px; line-height: 24px; font-weight: 500; margin: var(--s4) 0 0; }
 .prose p, .prose li { font-size: 15px; line-height: 23px; color: var(--label); margin: 0; max-width: 65ch; }
 .prose ul { margin: 0; padding-left: 20px; display: grid; gap: var(--s3); }
 .prose code { font-size: 14px; background: var(--fill); padding: 1px 5px; border-radius: 5px; }
@@ -245,7 +245,7 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 .weight { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; font-size: 15px; }
 .weightBar { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--fill); overflow: hidden; }
 .weightBar i { display: block; height: 100%; background: var(--accent); }
-.rank { font-size: 17px; font-weight: 600; text-align: center; font-variant-numeric: tabular-nums; }
+.rank { font-size: 20px; font-weight: 300; text-align: center; font-variant-numeric: tabular-nums; }
 .rank1 { color: var(--accent-text); }
 .thumb { width: 48px; height: 48px; border-radius: 8px; background: var(--fill); display: grid; place-items: center; font-size: 15px; font-weight: 600; color: var(--label-2); object-fit: cover; }
 .rowText { min-width: 0; }
@@ -287,3 +287,6 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 .imageChoice img { border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.25); display: block; }
 .imageStory { width: 120px; height: 213px; object-fit: cover; }
 .imageSquare { width: 160px; height: 160px; object-fit: cover; }
+
+/* Footer links with icons (same set as the admin) */
+.footLink { display: inline-flex; align-items: center; gap: 8px; }

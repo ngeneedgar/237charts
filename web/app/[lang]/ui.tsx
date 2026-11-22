@@ -3,6 +3,7 @@ import type { Entry } from "./chart";
 import type { Locale, getDictionary } from "./dictionaries";
 import { BackLink } from "./back";
 import s from "./home.module.css";
+import { Icon } from "../admin/icons";
 
 type Dict = ReturnType<typeof getDictionary>;
 
@@ -85,10 +86,10 @@ export function Footer({ t, lang }: { t: Dict; lang: Locale }) {
     <footer className={s.footer}>
       <Logo height={32} />
       <span>{t.footer}</span>
-      <Link href={`/${lang}/methodology/`}>{t.methodology}</Link>
-      <Link href={`/${lang}/artists/`}>{t.forArtists}</Link>
-      <Link href={`/${lang}/privacy/`}>{t.privacy}</Link>
-      <Link href={`/${lang}/terms/`}>{t.terms}</Link>
+      <Link className={s.footLink} href={`/${lang}/methodology/`}><Icon name="charts" size={18} />{t.methodology}</Link>
+      <Link className={s.footLink} href={`/${lang}/artists/`}><Icon name="requests" size={18} />{t.forArtists}</Link>
+      <Link className={s.footLink} href={`/${lang}/privacy/`}><Icon name="shield" size={18} />{t.privacy}</Link>
+      <Link className={s.footLink} href={`/${lang}/terms/`}><Icon name="doc" size={18} />{t.terms}</Link>
     </footer>
   );
 }
@@ -109,7 +110,7 @@ export function TabBar({ t, lang, active }: { t: Dict; lang: Locale; active: key
     <nav className={s.tabbar} aria-label="Main">
       {TABS.map((k) => (
         <Link key={k} href={k === "charts" ? `/${lang}/` : `/${lang}/${k}/`} className={`${s.tab} ${k === active ? s.tabOn : ""}`} aria-current={k === active ? "page" : undefined}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{icons[k]}</svg>
+          <Icon name={k} size={26} />
           {t.tabs[k]}
         </Link>
       ))}
