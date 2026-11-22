@@ -114,3 +114,6 @@ select { cursor: pointer; }
 .cover-preview { position: relative; aspect-ratio: 1; border-radius: 12px; overflow: hidden; display: grid; place-items: center; }
 .cover-preview img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .cover-name { color: #fff; font-size: 26px; font-weight: 700; text-shadow: 0 1px 8px rgba(0,0,0,.3); }
+
+/* Dropdowns: readable on dark (native option lists otherwise show light-on-light) */
+select, select option, select optgroup { background-color: var(--surface); color: var(--label); }

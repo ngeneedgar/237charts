@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
     title: "237 Charts",
     description,
     applicationName: "237 Charts",
-    icons: { icon: [{ url: "/icons/favicon.svg", type: "image/svg+xml" }, { url: "/brand-icon/icon-192.png", sizes: "192x192", type: "image/png" }], apple: "/brand-icon/apple-touch-icon.png" },
+    icons: { icon: { url: "/icons/favicon.jpg", type: "image/jpeg" }, apple: "/icons/favicon.jpg" },
     openGraph: {
       siteName: "237 Charts", type: "website", locale: lang === "en" ? "en_GB" : "fr_CM",
       description, images: [{ url: "/icons/og-default.png", width: 1200, height: 630 }],
