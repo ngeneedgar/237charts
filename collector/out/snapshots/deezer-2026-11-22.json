@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T08:31:07.658Z",
+  "takenAt": "2026-11-22T08:35:35.317Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -295,6 +295,21 @@
       "deezerId": 1315980,
       "name": "Hoigen Ekwalla",
       "fans": 1516
+    },
+    "Q1718073": {
+      "deezerId": 4926438,
+      "name": "K-Tino",
+      "fans": 1482
+    },
+    "Q115452792": {
+      "deezerId": 14130817,
+      "name": "Krys M",
+      "fans": 2174
+    },
+    "Q65131531": {
+      "deezerId": 7400520,
+      "name": "Maahlox Le Vibeur",
+      "fans": 3471
     }
   },
   "tracks": {
@@ -1322,6 +1337,14 @@
       "albumId": 6642850,
       "link": "https://www.deezer.com/track/67848121"
     },
+    "68589724": {
+      "wikidata": "Q1718073",
+      "artist": "K-Tino",
+      "title": "Ekargator",
+      "rank": 227488,
+      "albumId": 6716764,
+      "link": "https://www.deezer.com/track/68589724"
+    },
     "70447524": {
       "wikidata": "Q221908",
       "artist": "Yannick Noah",
@@ -1678,7 +1701,7 @@
       "wikidata": "Q1279965",
       "artist": "Eboa Lotin",
       "title": "Bésombé (Les jeunes)",
-      "rank": 232687,
+      "rank": 253445,
       "albumId": 9920326,
       "link": "https://www.deezer.com/track/97425774"
     },
@@ -4782,7 +4805,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Cc Labass",
-      "rank": 152229,
+      "rank": 218096,
       "albumId": 242378612,
       "link": "https://www.deezer.com/track/1425570862"
     },
@@ -4790,7 +4813,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "3yan",
-      "rank": 220189,
+      "rank": 234763,
       "albumId": 242378612,
       "link": "https://www.deezer.com/track/1425570872"
     },
@@ -5050,6 +5073,54 @@
       "albumId": 311359637,
       "link": "https://www.deezer.com/track/1722631357"
     },
+    "1731540487": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "ça sort comme ça sort",
+      "rank": 347281,
+      "albumId": 313712187,
+      "link": "https://www.deezer.com/track/1731540487"
+    },
+    "1731540497": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "Tuer pour tuer",
+      "rank": 209928,
+      "albumId": 313712187,
+      "link": "https://www.deezer.com/track/1731540497"
+    },
+    "1731540517": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "Tu montes tu descends",
+      "rank": 133558,
+      "albumId": 313712187,
+      "link": "https://www.deezer.com/track/1731540517"
+    },
+    "1731540527": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "Secoue",
+      "rank": 146781,
+      "albumId": 313712187,
+      "link": "https://www.deezer.com/track/1731540527"
+    },
+    "1731540547": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "Toujours dedans",
+      "rank": 141758,
+      "albumId": 313712187,
+      "link": "https://www.deezer.com/track/1731540547"
+    },
+    "1731540557": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "Tu as combien",
+      "rank": 159585,
+      "albumId": 313712187,
+      "link": "https://www.deezer.com/track/1731540557"
+    },
     "1732954337": {
       "wikidata": "Q107491845",
       "artist": "Mimie",
@@ -5130,6 +5201,14 @@
       "albumId": 326469027,
       "link": "https://www.deezer.com/track/1787042957"
     },
+    "1808385817": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "On ne mets pas le coeur",
+      "rank": 203429,
+      "albumId": 331579957,
+      "link": "https://www.deezer.com/track/1808385817"
+    },
     "1820501117": {
       "wikidata": "Q109653690",
       "artist": "Indira",
@@ -5153,6 +5232,14 @@
       "rank": 131124,
       "albumId": 336387877,
       "link": "https://www.deezer.com/track/1827118797"
+    },
+    "1832684477": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "Voici alors la bosse",
+      "rank": 146790,
+      "albumId": 337866827,
+      "link": "https://www.deezer.com/track/1832684477"
     },
     "1840213857": {
       "wikidata": "Q115612717",
@@ -5201,6 +5288,14 @@
       "rank": 649929,
       "albumId": 355769327,
       "link": "https://www.deezer.com/track/1909450657"
+    },
+    "1912853537": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Chacun Sa Chance",
+      "rank": 338061,
+      "albumId": 356428977,
+      "link": "https://www.deezer.com/track/1912853537"
     },
     "1935031407": {
       "wikidata": "Q221908",
@@ -5290,6 +5385,38 @@
       "albumId": 363907657,
       "link": "https://www.deezer.com/track/1951824007"
     },
+    "2000279917": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "L'excès de nkang",
+      "rank": 123738,
+      "albumId": 372760797,
+      "link": "https://www.deezer.com/track/2000279917"
+    },
+    "2009687817": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Chacun Sa Chance",
+      "rank": 198008,
+      "albumId": 374361947,
+      "link": "https://www.deezer.com/track/2009687817"
+    },
+    "2030647107": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Chéri coco",
+      "rank": 122767,
+      "albumId": 378887577,
+      "link": "https://www.deezer.com/track/2030647107"
+    },
+    "2030647127": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "On fait comment",
+      "rank": 62122,
+      "albumId": 378887577,
+      "link": "https://www.deezer.com/track/2030647127"
+    },
     "2035382117": {
       "wikidata": "Q123574342",
       "artist": "Yamê",
@@ -5346,6 +5473,14 @@
       "albumId": 394383907,
       "link": "https://www.deezer.com/track/2100567567"
     },
+    "2109973867": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Qui Croira Verra",
+      "rank": 271969,
+      "albumId": 397058817,
+      "link": "https://www.deezer.com/track/2109973867"
+    },
     "2112980567": {
       "wikidata": "Q30728231",
       "artist": "Lydol",
@@ -5393,6 +5528,14 @@
       "rank": 207143,
       "albumId": 407912257,
       "link": "https://www.deezer.com/track/2150935877"
+    },
+    "2159391707": {
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
+      "title": "L'amitié",
+      "rank": 154050,
+      "albumId": 409938797,
+      "link": "https://www.deezer.com/track/2159391707"
     },
     "2161936707": {
       "wikidata": "Q112537827",
@@ -5862,7 +6005,7 @@
       "wikidata": "Q109653690",
       "artist": "Indira",
       "title": "Tout Sauf La Honte",
-      "rank": 202506,
+      "rank": 300925,
       "albumId": 472880055,
       "link": "https://www.deezer.com/track/2398145025"
     },
@@ -6094,7 +6237,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Sanza Tristesse",
-      "rank": 218320,
+      "rank": 260283,
       "albumId": 512960921,
       "link": "https://www.deezer.com/track/2543691641"
     },
@@ -6538,6 +6681,22 @@
       "albumId": 623816021,
       "link": "https://www.deezer.com/track/2930117581"
     },
+    "2949596241": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Il va donner pour moi",
+      "rank": 186606,
+      "albumId": 630079071,
+      "link": "https://www.deezer.com/track/2949596241"
+    },
+    "2949596271": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Merci",
+      "rank": 147679,
+      "albumId": 630079101,
+      "link": "https://www.deezer.com/track/2949596271"
+    },
     "2987674841": {
       "wikidata": "Q115452649",
       "artist": "Cysoul",
@@ -6569,6 +6728,14 @@
       "rank": 209447,
       "albumId": 644522371,
       "link": "https://www.deezer.com/track/2998952651"
+    },
+    "3000709641": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Ashuabi",
+      "rank": 149160,
+      "albumId": 645021681,
+      "link": "https://www.deezer.com/track/3000709641"
     },
     "3003252191": {
       "wikidata": "Q111470436",
@@ -6611,8 +6778,8 @@
       "link": "https://www.deezer.com/track/3039787061"
     },
     "3074329701": {
-      "wikidata": "Q18351472",
-      "artist": "Magasco",
+      "wikidata": "Q65131531",
+      "artist": "Maahlox le vibeur",
       "title": "Viviane (feat. Lili Anoma & Thérapie)",
       "rank": 245972,
       "albumId": 665534761,
@@ -6626,13 +6793,37 @@
       "albumId": 666575941,
       "link": "https://www.deezer.com/track/3078212331"
     },
+    "3081750231": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Happiness Matter",
+      "rank": 81701,
+      "albumId": 667380561,
+      "link": "https://www.deezer.com/track/3081750231"
+    },
+    "3081750251": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Je Pleure",
+      "rank": 157447,
+      "albumId": 667380561,
+      "link": "https://www.deezer.com/track/3081750251"
+    },
     "3081750261": {
-      "wikidata": "Q115452649",
-      "artist": "Cysoul",
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
       "title": "Me Kon Wu",
       "rank": 196098,
       "albumId": 667380561,
       "link": "https://www.deezer.com/track/3081750261"
+    },
+    "3081750271": {
+      "wikidata": "Q115452792",
+      "artist": "Krys M",
+      "title": "Mayiki",
+      "rank": 81701,
+      "albumId": 667380561,
+      "link": "https://www.deezer.com/track/3081750271"
     },
     "3087928181": {
       "wikidata": "Q115612717",
@@ -6814,7 +7005,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Gelato",
-      "rank": 332018,
+      "rank": 368966,
       "albumId": 683022751,
       "link": "https://www.deezer.com/track/3139694031"
     },
@@ -7174,7 +7365,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Bizarre",
-      "rank": 562995,
+      "rank": 524677,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749771"
     },
@@ -7526,7 +7717,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "AMBITION",
-      "rank": 332044,
+      "rank": 301560,
       "albumId": 812309261,
       "link": "https://www.deezer.com/track/3530504071"
     },
@@ -7865,6 +8056,22 @@
       "rank": 519270,
       "albumId": 889349332,
       "link": "https://www.deezer.com/track/3751803372"
+    },
+    "3759234082": {
+      "wikidata": "Q1718073",
+      "artist": "K-Tino",
+      "title": "Egalité oblige",
+      "rank": 162187,
+      "albumId": 892100942,
+      "link": "https://www.deezer.com/track/3759234082"
+    },
+    "3759234122": {
+      "wikidata": "Q1718073",
+      "artist": "K-Tino",
+      "title": "La queue de la chatte",
+      "rank": 99189,
+      "albumId": 892100942,
+      "link": "https://www.deezer.com/track/3759234122"
     },
     "3772032132": {
       "wikidata": "Q115790718",

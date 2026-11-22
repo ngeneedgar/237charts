@@ -3564,12 +3564,19 @@
       "Docteur Wesh",
       "Dr. Wesh"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UC28Sv70CTyrZVIeTaUBVwDw",
+      "title": "Wesh Docteur",
+      "country": null,
+      "subscribers": 7,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3577,18 +3584,18 @@
     "name": "Mihney",
     "aliases": [],
     "best": {
-      "channelId": "UCFo_1CU7cNURYQM7Qdh-soA",
-      "title": "Mihney",
+      "channelId": "UCOtfwdVFwsmQQGjNnSDN6eg",
+      "title": "Mihney - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 316,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3622,18 +3629,18 @@
       "Stéphane Franck Minkada"
     ],
     "best": {
-      "channelId": "UC8VWB2Cyg_u5L2FQggv6KCQ",
-      "title": "MinKs Music",
+      "channelId": "UCVrqCVPBIh0eYQrWS0lrQ3g",
+      "title": "Mink's - Topic",
       "country": null,
-      "subscribers": 3,
+      "subscribers": 2010,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3654,7 +3661,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3662,18 +3669,18 @@
     "name": "Mister Bibal",
     "aliases": [],
     "best": {
-      "channelId": "UCAMrEFOG0TolUxeUN9pF9kA",
-      "title": "misterbibal",
+      "channelId": "UC_hqOyDMtojzEWv4Qf8H0qA",
+      "title": "Mister Bibal - Topic",
       "country": null,
-      "subscribers": 1,
+      "subscribers": 14,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3687,7 +3694,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3696,24 +3703,38 @@
     "aliases": [
       "Moni Bile"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCFXwC2uR6_aIMBjW5u_ajiA",
+      "title": "Moni Bile - Topic",
+      "country": null,
+      "subscribers": 2810,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q122460818": {
     "name": "Mosayane 2 Claire",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCM3bS2hAhQk43BnkxnnyfwQ",
+      "title": "Mosayane 2 Claire - Topic",
+      "country": null,
+      "subscribers": 9,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3754,12 +3775,19 @@
     "aliases": [
       "Leumeni Kamcheu Muriel"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCWitG84eyFDN5xj8oLXwVhA",
+      "title": "Pakgne Official",
+      "country": null,
+      "subscribers": 275000,
+      "similarity": 0,
+      "confidence": 0.05
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3804,12 +3832,19 @@
     "aliases": [
       "Nadine Murielle"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCnFty3h7sypZ8Raxfuna_VA",
+      "title": "Nadine Murielle",
+      "country": null,
+      "subscribers": 176,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3817,18 +3852,18 @@
     "name": "Naomi Achu",
     "aliases": [],
     "best": {
-      "channelId": "UCNh3mbvMO8G6SPab4ZI1plQ",
-      "title": "Naomi Achu",
+      "channelId": "UCN_uIo6rY2rxLrvxP_EyyBQ",
+      "title": "Naomi Achu - Topic",
       "country": null,
-      "subscribers": 2,
+      "subscribers": 57,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3860,7 +3895,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3889,18 +3924,18 @@
       "Mpome Nicole Mara"
     ],
     "best": {
-      "channelId": "UCBlAOUhY6qPw0yjqfv6gc9A",
-      "title": "Nicole Mara",
+      "channelId": "UCdAu1HMpcBD8rf2D1KSaRXQ",
+      "title": "Nicole Mara - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 1690,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3908,18 +3943,18 @@
     "name": "Njacko Backo",
     "aliases": [],
     "best": {
-      "channelId": "UCuLl4tBTpwc05hfugCWlKyA",
-      "title": "NjackoBacko",
-      "country": null,
-      "subscribers": 0,
+      "channelId": "UCYo2HBBz2RFNBwthUefMclw",
+      "title": "Njacko Backo",
+      "country": "CA",
+      "subscribers": 319,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3930,12 +3965,19 @@
       "Si Tony",
       "Sitony"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCZ-n2us2guXN6VJAbhYfaUg",
+      "title": "Nkodo Sitony - Topic",
+      "country": null,
+      "subscribers": 409,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3949,19 +3991,26 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q2508675": {
     "name": "Ntone Edjabe",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCbgLG0pW_HWSj9T2peZPeAg",
+      "title": "Malik Ntone Edjabe",
+      "country": null,
+      "subscribers": 32,
+      "similarity": 0.67,
+      "confidence": 0.47
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3970,12 +4019,19 @@
     "aliases": [
       "Ntoumba Minka Jean Claude"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCHWeA3KB8f4JlMz6IDQ-kJQ",
+      "title": "Ntoumba - Topic",
+      "country": null,
+      "subscribers": 2300,
+      "similarity": 0.5,
+      "confidence": 0.5
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -3985,30 +4041,37 @@
       "Kiri Otty"
     ],
     "best": {
-      "channelId": "UCwGANLDxwCLZriI_ZLUZ4Cg",
-      "title": "Otitiekiri",
+      "channelId": "UCSfrgfUS34-pNNZYEDy44Yw",
+      "title": "Kiri Otty - Topic",
       "country": null,
-      "subscribers": 1,
+      "subscribers": 33,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q60832668": {
     "name": "Ottou Marcellin",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCatF_l0YeKmy3vU4BBFQ3Uw",
+      "title": "Ottou Marcellin",
+      "country": null,
+      "subscribers": 27,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4017,12 +4080,19 @@
     "aliases": [
       "Pablo symbol"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCd2CYli2qbcMdrXQxsQ2wvg",
+      "title": "Juan Pablo Lerman",
+      "country": "CO",
+      "subscribers": 848000,
+      "similarity": 0.33,
+      "confidence": 0.28
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4032,18 +4102,18 @@
       "Papy Mbanda Anza Patrick"
     ],
     "best": {
-      "channelId": "UCB3R59gQaH-C0n75O3tThIQ",
-      "title": "papy anza",
+      "channelId": "UC1T_UMloQ92_ndPSSopGmGQ",
+      "title": "Papy Anza - Topic",
       "country": null,
-      "subscribers": 32,
+      "subscribers": 53,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4067,12 +4137,19 @@
   "Q110122615": {
     "name": "Peka Tala Hermann",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCuv7Pgrun9qBBZtfnosi47Q",
+      "title": "Peka - Topic",
+      "country": null,
+      "subscribers": 21,
+      "similarity": 0.33,
+      "confidence": 0.43
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4104,18 +4181,18 @@
       "Petit Malo Malongo"
     ],
     "best": {
-      "channelId": "UCSpAUOLVV54RaFQ-YY3NWEg",
-      "title": "Petit Malo",
+      "channelId": "UC8DSYMXMsGgOwteZKSYc28g",
+      "title": "Petit Malo - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 306,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4146,18 +4223,18 @@
       "Séraphin Ebodé"
     ],
     "best": {
-      "channelId": "UCoCqnT7WMPRrjdpIUMtinFQ",
-      "title": "Séraphine BODE",
-      "country": null,
-      "subscribers": 0,
+      "channelId": "UCQjgl4b0PyZusH3axxh-B5A",
+      "title": "Phatal EBODÉ",
+      "country": "SN",
+      "subscribers": 965,
       "similarity": 1,
       "confidence": 0.7
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

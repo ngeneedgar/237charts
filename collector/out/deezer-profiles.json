@@ -1266,5 +1266,86 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q1718073": {
+    "artist": "K-Tino",
+    "id": 4926438,
+    "name": "K-Tino",
+    "fans": 1482,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q20851352": {
+    "artist": "Killamel",
+    "id": 7163622,
+    "name": "Killamel",
+    "fans": 23,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q30728506": {
+    "artist": "Koko Ateba",
+    "id": 1221317,
+    "name": "Koko Ateba",
+    "fans": 55,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115452792": {
+    "artist": "Krys M",
+    "id": 14130817,
+    "name": "Krys M",
+    "fans": 2174,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q65131531": {
+    "artist": "Maahlox le vibeur",
+    "id": 7400520,
+    "name": "Maahlox Le Vibeur",
+    "fans": 3471,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q112199223": {
+    "artist": "Majoie Ayi",
+    "id": 5630892,
+    "name": "Majoie Ayi",
+    "fans": 237,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q112181199": {
+    "artist": "Marole Tchamba",
+    "id": 10938556,
+    "name": "Marole Tchamba",
+    "fans": 20,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q4990878": {
+    "artist": "Marthe Zambo",
+    "id": 166237,
+    "name": "Marthe zambo",
+    "fans": 170,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3307040": {
+    "artist": "Messi Martin",
+    "id": 7578902,
+    "name": "Messi Martin",
+    "fans": 38,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }
