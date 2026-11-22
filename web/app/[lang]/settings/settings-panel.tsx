@@ -101,7 +101,6 @@ export function SettingsPanel({ c, lang }: { c: Copy; lang: "fr" | "en" }) {
         <div className={s.setCard}>
           <Link className={s.setRow} href={`/${lang}/methodology/`}><span>{c.methodology}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <Link className={s.setRow} href={`/${lang}/artists/`}><span>{c.forArtists}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
-          <Link className={s.setRow} href={`/${lang}/archive/`}><span>{c.archive}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <Link className={s.setRow} href={`/${lang}/embed/`}><span>{c.embed}</span><span className={s.chevron} aria-hidden="true">›</span></Link>
           <div className={s.setRow}><span>{c.version}</span><span className={s.setValue}>{c.versionValue}</span></div>
         </div>

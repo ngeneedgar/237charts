@@ -86,7 +86,6 @@ export function Footer({ t, lang }: { t: Dict; lang: Locale }) {
       <Logo height={32} />
       <span>{t.footer}</span>
       <Link href={`/${lang}/methodology/`}>{t.methodology}</Link>
-      <Link href={`/${lang}/archive/`}>{t.archiveTitle}</Link>
       <Link href={`/${lang}/artists/`}>{t.forArtists}</Link>
     </footer>
   );

@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { getChart } from "../chart";
 import { Footer, NavBar, Preview, TabBar } from "../ui";
+import { ChartActions } from "../chart-actions";
+import { chartActionsProps } from "../chart-info";
 import s from "../home.module.css";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/viral">): Promise<Metadata> {
@@ -20,6 +22,7 @@ export default async function Viral({ params }: PageProps<"/[lang]/viral">) {
     <>
       <main className={s.page}>
         <NavBar t={t} lang={lang} path="viral/" title={t.viral} back={{ href: `/${lang}/`, label: t.back }} />
+        <ChartActions {...chartActionsProps(lang, "viral", "viral/")} />
         <Preview t={t} show={getChart().preview} />
         <article className={s.prose}>
           <p>{t.viralIntro}</p>

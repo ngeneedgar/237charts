@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const genres = chart.genres as { slug: string; entries: E[] }[];
   const entries = [...new Map([...(chart.entries as E[]), ...genres.flatMap((g) => g.entries)].map((e) => [e.slug, e])).values()];
   const paths = [
-    "", "top-50/", "viral/", "search/", "archive/", "methodology/", "artists/",
+    "", "top-20/", "top-50/", "viral/", "search/", "settings/", "methodology/", "artists/", "embed/",
     ...genres.map((g) => `genre/${g.slug}/`),
     ...entries.map((e) => `song/${e.slug}/`),
     ...[...new Set(entries.map((e) => e.artistSlug))].map((a) => `artist/${a}/`),
