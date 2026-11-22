@@ -8,7 +8,7 @@ type Dict = ReturnType<typeof getDictionary>;
 type Genre = { slug: string; en: string; fr: string; entries: Entry[] };
 
 export const genreShort = (g: Genre, lang: Locale) =>
-  g.slug === "afro" ? "Afro" : g.slug === "hiphop" ? (lang === "fr" ? "Hip-hop" : "Hip Hop") : g[lang];
+  g[lang];
 
 const cleanTitle = (t: string) => t.replace(/\s*[([](feat|ft)\.?[^)\]]*[)\]]/gi, "");
 

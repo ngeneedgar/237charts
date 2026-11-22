@@ -33,7 +33,8 @@ test('genres: from titles and Wikidata, most specific wins', () => {
   assert.equal(genreFromTitle('Best Makosa Mix'), null);        // misspelling isn't guessed
   assert.equal(genreFromTitle('Mboko Freestyle'), 'mboko');
   assert.equal(genreFromWikidata(['pop music', 'makossa']), 'makossa');
-  assert.equal(genreFromWikidata(['hip hop music']), 'hiphop');
+  assert.equal(genreFromWikidata(['hip hop music']), 'rap');
+  assert.equal(genreFromWikidata(['reggae']), 'dancehall');
   assert.equal(genreFromWikidata(['jazz']), null);
 });
 

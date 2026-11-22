@@ -15,7 +15,8 @@ export const TILE_BG: Record<string, string> = {
   mbole: "radial-gradient(110% 110% at 85% 15%, #FF5F6D 0%, #B21F1F 50%, #3D0C11 100%)", // street red
   njang: "linear-gradient(120deg, #A8C256 0%, #4C8C2B 45%, #1B3A1A 100%)",               // grassfields
   afro: "linear-gradient(225deg, #FF7EB3 0%, #E0218A 45%, #7A0B3D 100%)",                // hot pink → wine (no purple)
-  hiphop: "linear-gradient(170deg, #434343 0%, #1F1F1F 60%, #000000 100%), radial-gradient(80% 60% at 80% 90%, rgba(255,214,10,.35), transparent 70%)", // asphalt + streetlight
+  rap: "linear-gradient(170deg, #434343 0%, #1F1F1F 60%, #000000 100%), radial-gradient(80% 60% at 80% 90%, rgba(255,214,10,.35), transparent 70%)", // asphalt + streetlight
+  dancehall: "linear-gradient(140deg, #00B4A0 0%, #F7C948 55%, #D7263D 100%)",              // island sound-system
   mboko: "linear-gradient(160deg, #9D4EDD 0%, #5A189A 50%, #240046 100%)",               // royal purple (Afro is pink, never purple)
   gospel: "radial-gradient(120% 120% at 50% 0%, #FFE8A3 0%, #E0A526 40%, #7A4A06 100%)",    // morning light gold
 };

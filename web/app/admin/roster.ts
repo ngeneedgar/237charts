@@ -60,11 +60,12 @@ export async function loadRoster(): Promise<{ artists: Artist[]; files: RosterFi
   return { artists, files: { genres, channels, add, remove } };
 }
 
-export const GENRES: { slug: string; label: string; color: string }[] = [
+export const GENRES: { slug: string; label: string; color: string; priority?: boolean }[] = [
+  { slug: "mbole", label: "Mbolé", color: "#FF5F6D", priority: true }, { slug: "mboko", label: "Mboko", color: "#9D4EDD", priority: true },
+  { slug: "njang", label: "Njang", color: "#A8C256", priority: true }, { slug: "afro", label: "Afro", color: "#FF7EB3", priority: true },
   { slug: "makossa", label: "Makossa", color: "#11998E" }, { slug: "bikutsi", label: "Bikutsi", color: "#F7B733" },
-  { slug: "mbole", label: "Mbolé", color: "#FF5F6D" }, { slug: "njang", label: "Njang", color: "#A8C256" },
-  { slug: "afro", label: "Afrobeats & Afropop", color: "#FF7EB3" }, { slug: "hiphop", label: "Hip Hop & Dancehall", color: "#9AA0A6" },
-  { slug: "mboko", label: "Mboko", color: "#9D4EDD" }, { slug: "gospel", label: "Gospel", color: "#E0A526" },
+  { slug: "rap", label: "Rap", color: "#9AA0A6" }, { slug: "dancehall", label: "Dancehall", color: "#F7C948" },
+  { slug: "gospel", label: "Gospel", color: "#E0A526" },
 ];
 export const genreLabel = (slug: string | null) => GENRES.find((g) => g.slug === slug)?.label ?? "Not set";
 

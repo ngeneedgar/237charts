@@ -21,7 +21,7 @@ const copy = {
       "Songs can chart for 104 weeks after release. After 52 weeks they are recurrent and stay on the Top 50 only while in the top 25.",
     ],
     genreH: "Genre charts",
-    genre: "There are eight genre charts of 20 songs each: Makossa, Bikutsi, Mbolé, Njang, Afrobeats & Afropop, Hip Hop & Dancehall, Mboko, and Gospel. Each artist has a main genre, and a song keeps it unless its title or the 237 Charts team places it in another. Genre charts use the same scores as the Top 50.",
+    genre: "There are nine genre charts of 20 songs each: Mbolé, Mboko, Njang and Afro (our four priority genres), then Makossa, Bikutsi, Rap, Dancehall and Gospel. Each artist has a main genre, and a song keeps it unless its title or the 237 Charts team places it in another. Genre charts use the same scores as the Top 50.",
     viralH: "Viral chart",
     viral: [
       "The Viral 20 shows new songs that are taking off, not the biggest songs.",
@@ -49,7 +49,7 @@ const copy = {
       "Un titre peut être classé pendant 104 semaines après sa sortie. Après 52 semaines il devient récurrent et ne reste au Top 50 que s'il est dans le top 25.",
     ],
     genreH: "Classements par genre",
-    genre: "Il existe huit classements par genre de 20 titres : Makossa, Bikutsi, Mbolé, Njang, Afrobeats & Afropop, Hip-hop & Dancehall, Mboko et Gospel. Chaque artiste a un genre principal, qu'un titre conserve sauf si son intitulé ou l'équipe 237 Charts le classe ailleurs. Les classements par genre utilisent les mêmes scores que le Top 50.",
+    genre: "Il existe neuf classements par genre de 20 titres : Mbolé, Mboko, Njang et Afro (nos quatre genres prioritaires), puis Makossa, Bikutsi, Rap, Dancehall et Gospel. Chaque artiste a un genre principal, qu'un titre conserve sauf si son intitulé ou l'équipe 237 Charts le classe ailleurs. Les classements par genre utilisent les mêmes scores que le Top 50.",
     viralH: "Classement viral",
     viral: [
       "Le Viral 20 montre les nouveaux titres qui décollent, pas les plus gros titres.",

@@ -17,7 +17,7 @@ If a value contains a comma, put it in "double quotes".
 | `song-fixes.csv` | Fix one song: `title`, `genre`, `hide`, `merge` (value = song to keep), `date` — easiest from the admin dashboard (Songs) | `Q123::koulos lyrics,merge,Q123::koulos,duplicate lyric video` |
 | `contact.json` | Where artist requests go (email, WhatsApp in international format) | `"whatsapp": "237681372757"` |
 
-**Genre codes:** `makossa` · `bikutsi` · `mbole` · `njang` · `afro` · `hiphop` · `mboko` · `gospel`
+**Genre codes:** `mbole` · `mboko` · `njang` · `afro` (priority genres) · `makossa` · `bikutsi` · `rap` · `dancehall` · `gospel`
 
 **Finding a channel ID:** open the channel on YouTube → **About** / **More** → **Share channel** → **Copy channel ID**.
 
