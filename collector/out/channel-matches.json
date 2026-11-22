@@ -4645,12 +4645,19 @@
   "Q106637610": {
     "name": "Roméo Dika",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UC2ByHU4D40-iLS4AFPSJYrg",
+      "title": "Roméo Dika - Topic",
+      "country": null,
+      "subscribers": 54,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4671,7 +4678,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

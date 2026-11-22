@@ -1464,5 +1464,32 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q113530409": {
+    "artist": "Rachel Mimbo",
+    "id": 385041101,
+    "name": "Rachel MIMBO",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q26997121": {
+    "artist": "Roger Bekono",
+    "id": 197457387,
+    "name": "Roger Bekono",
+    "fans": 36,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3440269": {
+    "artist": "Roland Tchakounté",
+    "id": 170935,
+    "name": "Roland Tchakounte",
+    "fans": 334,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }
