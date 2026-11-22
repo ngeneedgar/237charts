@@ -4784,18 +4784,18 @@
       "Sam Mbende Ebobisse"
     ],
     "best": {
-      "channelId": "UCBzCndc2NDdiQLZ66zeR5Vg",
-      "title": "Sam Mbende Mbende",
+      "channelId": "UCfPw4zBiAuQILZFtEK9pdeA",
+      "title": "SAM MBENDE - Topic",
       "country": null,
-      "subscribers": 7,
+      "subscribers": 81,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
