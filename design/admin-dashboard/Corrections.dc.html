@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Corrections log</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.e{display:grid;grid-template-columns:130px 1fr auto;gap:16px;padding:16px 20px;border-top:1px solid #1A3224;font-size:14px}
+.k{font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;background:#153022;color:#DCEFE3;white-space:nowrap}
+.diff{display:inline-block;font-family:ui-monospace,monospace;font-size:13px;border-radius:6px;padding:2px 6px}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:8px 14px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+select{font:inherit;font-size:14px;border:1px solid #2E5040;border-radius:10px;padding:10px;min-height:44px;background:#0A1E13}
+@media (max-width:800px){.side{display:none!important}.e{grid-template-columns:1fr!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1000px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px"><div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div><div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div></div>
+<a class="nav" href="#">Overview</a><a class="nav" href="#">Review <span class="cnt">12</span></a><a class="nav" href="#">Artists</a><a class="nav" href="#">Songs</a><a class="nav" href="#">Channels <span class="cnt">7</span></a><a class="nav" href="#">Charts</a><a class="nav on" href="#">Corrections</a><a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div><a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+<div><h1 style="margin: 0; font-size: 26px; font-weight: 800">Corrections log</h1><div style="font-size: 14px; color: #9DB3A5; margin-top: 4px">Every manual change, with who, when and why. Published automatically on the Methodology page.</div></div>
+<a href="#" style="font-size: 14px; font-weight: 600">View public version →</a>
+</div>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<label><span style="position: absolute; left: -9999px">Type</span><select><option>All changes</option><option>Eligibility</option><option>Song fixes</option><option>Genres</option><option>Channels</option><option>Publish</option></select></label>
+<label><span style="position: absolute; left: -9999px">Who</span><select><option>Everyone</option><option>Edgar</option><option>Mireille</option></select></label>
+<label><span style="position: absolute; left: -9999px">When</span><select><option>Last 4 weeks</option><option>All time</option></select></label>
+</div>
+<section style="background: #0A1E13; border: 1px solid #1F3A2A; border-radius: 16px; overflow: hidden">
+<div style="padding: 12px 20px; background: #0F2418; font-size: 12px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: #9DB3A5">Week of 22 Nov</div>
+<div class="e" style="border-top: 0"><div style="color: #9DB3A5">Sun 06:12<br>Mireille</div><div><span class="k">Eligibility</span> <strong>Tabaski</strong> marked Cameroonian<div style="color: #9DB3A5; margin-top: 4px">Why: interview with CRTV, born in Douala</div></div><div style="display: flex; gap: 8px"><a href="#" style="font-size: 14px">Commit</a><button class="btn">Undo…</button></div></div>
+<div class="e"><div style="color: #9DB3A5">Sat 16:38<br>Edgar</div><div><span class="k">Song fix</span> Merged 2 versions of <strong>Koulos</strong><div style="color: #9DB3A5; margin-top: 4px">Why: duplicate lyric video on the same official channel</div></div><div style="display: flex; gap: 8px"><a href="#" style="font-size: 14px">Commit</a><button class="btn">Undo…</button></div></div>
+<div class="e"><div style="color: #9DB3A5">Sat 11:05<br>Mireille</div><div><span class="k">Genre</span> <strong>Ma'a Philo</strong> · <span class="diff" style="background: #2E1214; color: #FF8A80">Afro</span> → <span class="diff" style="background: #1C3A29; color: #A6E3B3">Mbolé</span><div style="color: #9DB3A5; margin-top: 4px">Why: artist request #14</div></div><div style="display: flex; gap: 8px"><a href="#" style="font-size: 14px">Commit</a><button class="btn">Undo…</button></div></div>
+<div style="padding: 12px 20px; background: #0F2418; font-size: 12px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: #9DB3A5; border-top: 1px solid #1A3224">Week of 15 Nov</div>
+<div class="e" style="border-top: 0"><div style="color: #9DB3A5">Thu 09:20<br>Edgar</div><div><span class="k">Channel</span> Added label channel <strong>[Label]</strong><div style="color: #9DB3A5; margin-top: 4px">Why: official label for Vanity Fair</div></div><div style="display: flex; gap: 8px"><a href="#" style="font-size: 14px">Commit</a><button class="btn">Undo…</button></div></div>
+</section>
+<div style="font-size: 13px; color: #9DB3A5">Undo creates a new commit that reverses the change. It also asks for a reason and is logged.</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

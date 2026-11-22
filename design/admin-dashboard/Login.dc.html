@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign in</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.btn{font:inherit;font-size:15px;font-weight:600;border-radius:12px;padding:12px 16px;min-height:48px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer;width:100%}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+input{font:inherit;font-size:15px;border:1px solid #2E5040;border-radius:12px;padding:12px 14px;min-height:48px;box-sizing:border-box;width:100%;background:#0A1E13;color:#F2FBF5}
+</style>
+</helmet>
+<div style="min-height: 900px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5; display: flex; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box">
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; align-items: center; gap: 12px; justify-content: center">
+<div style="width: 44px; height: 44px; border-radius: 11px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center">237</div>
+<div><div style="font-weight: 800; font-size: 20px">237 Charts</div><div style="font-size: 13px; color: #9DB3A5">Team admin</div></div>
+</div>
+<section style="background: #0A1E13; border: 1px solid #1F3A2A; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<h1 style="margin: 0; font-size: 22px; font-weight: 800">Sign in</h1>
+<p style="margin: 0; font-size: 14px; color: #9DB3A5; line-height: 1.5">Only team members can open the dashboard. We'll email you a one-time code.</p>
+<button class="btn">Continue with Google</button>
+<div style="display: flex; align-items: center; gap: 12px; font-size: 13px; color: #9DB3A5"><span style="flex: 1; height: 1px; background: #1F3A2A"></span>or<span style="flex: 1; height: 1px; background: #1F3A2A"></span></div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Work email<input type="email" placeholder="you@237charts.com"></label>
+<button class="btn pri">Send code</button>
+</section>
+<div style="background: #0A1E13; border: 1px solid #5A2526; border-radius: 14px; padding: 14px 16px; font-size: 14px; line-height: 1.5"><strong style="color: #FF8A80">Not on the team list</strong><div style="color: #9DB3A5">This email can't open the admin. Ask the owner to invite you from Settings.</div></div>
+<p style="margin: 0; text-align: center; font-size: 13px; color: #9DB3A5">Protected by Cloudflare Access · <a href="#">Back to 237charts.com</a></p>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

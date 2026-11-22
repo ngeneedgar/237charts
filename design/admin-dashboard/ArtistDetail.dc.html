@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Artist detail</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.card{background:#0A1E13;border:1px solid #1F3A2A;border-radius:16px;padding:20px}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:10px 16px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.btn.neg{color:#FF6B6B;border-color:#5A2526}
+.pill{font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.ok{background:#1C3A29;color:#A6E3B3}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;background:#153022;border-radius:999px;padding:6px 12px}
+.f{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+input,select,textarea{font:inherit;font-size:14px;font-weight:400;border:1px solid #2E5040;border-radius:10px;padding:10px 12px;min-height:44px;box-sizing:border-box;width:100%;background:#0A1E13;color:#F2FBF5}
+.r{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid #1A3224;font-size:14px}
+@media (max-width:800px){.side{display:none!important}.grid2{grid-template-columns:1fr!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1100px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px">
+<div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div>
+<div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div>
+</div>
+<a class="nav" href="#">Overview</a>
+<a class="nav" href="#">Review <span class="cnt">12</span></a>
+<a class="nav on" href="#">Artists</a>
+<a class="nav" href="#">Songs</a>
+<a class="nav" href="#">Channels <span class="cnt">7</span></a>
+<a class="nav" href="#">Charts</a>
+<a class="nav" href="#">Corrections</a>
+<a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div>
+<a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; padding: 28px 32px 120px; display: flex; flex-direction: column; gap: 20px; position: relative">
+<a href="#" style="font-size: 14px; font-weight: 600">← Artists</a>
+<div style="display: flex; align-items: center; gap: 18px; flex-wrap: wrap">
+<div style="width: 80px; height: 80px; border-radius: 50%; background: #1C3A29; color: #A6E3B3; font-size: 30px; font-weight: 800; display: flex; align-items: center; justify-content: center">S</div>
+<div style="flex: 1"><h1 style="margin: 0; font-size: 30px; font-weight: 800">Sabrina</h1>
+<div style="display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap"><span class="pill ok">Cameroonian</span><span class="pill ok">Official channel</span><span class="pill" style="background: #153022; color: #DCEFE3">3 songs charting · best #2</span></div></div>
+<button class="btn neg">Remove artist…</button>
+</div>
+<div class="grid2" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px">
+<section class="card" style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 17px">Details</h2>
+<label class="f">Genre<select><option>Afro</option><option>Makossa</option><option>Bikutsi</option></select></label>
+<div class="f">Stage names & spellings
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span class="chip">Sabrina Kemayou <button aria-label="Remove alias" style="border: 0; background: none; cursor: pointer; font-size: 15px; color: #9DB3A5; padding: 0">×</button></span><span class="chip">SABRINA <button aria-label="Remove alias" style="border: 0; background: none; cursor: pointer; font-size: 15px; color: #9DB3A5; padding: 0">×</button></span><button class="btn" style="min-height: 34px; padding: 4px 12px; font-size: 13px">+ Add</button></div></div>
+<div class="f">Channels
+<div class="r" style="border-top: 0; padding-top: 0"><span>Sabrina — Official · <span style="color: #9DB3A5">artist</span></span><a href="#">Open on YouTube</a></div>
+<div class="r"><span>[Label channel] · <span style="color: #9DB3A5">label</span></span><a href="#">Open on YouTube</a></div>
+<label style="font-weight: 400"><span style="position: absolute; left: -9999px">Paste a YouTube URL</span><input placeholder="Paste a YouTube channel or video URL to add a channel"></label></div>
+</section>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">Nationality evidence</h2>
+<div class="r"><span>Wikidata · citizenship</span><strong>Cameroon</strong></div>
+<div class="r"><span>Editor note · Mireille</span><a href="#">Interview link</a></div>
+<p style="margin: 8px 0 0; font-size: 13px; color: #9DB3A5">Hard rule: Cameroonian nationals only, no dual nationals. Editors can add evidence, not override it.</p>
+</section>
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">Songs this week</h2>
+<div class="r"><span><strong>Faraway</strong></span><span>#2 · NEW</span></div>
+<div class="r"><span><strong>On Djah</strong> <span style="color: #9DB3A5">with Martin's</span></span><span>#3 · NEW</span></div>
+<div class="r"><span><strong>Alone</strong></span><span>#13 · NEW</span></div>
+</section>
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">History</h2>
+<div class="r" style="display: block"><div>Alias “SABRINA” added by <strong>Edgar</strong></div><div style="font-size: 13px; color: #9DB3A5">ALL-CAPS Shazam credit · 12 Nov</div></div>
+</section>
+</div>
+</div>
+<div style="position: absolute; left: 32px; right: 32px; bottom: 24px; background: #F2FBF5; color:#03100A; border-radius: 14px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap">
+<span style="font-size: 14px; font-weight: 600">1 unsaved change · Genre Afro → Makossa</span>
+<label style="flex: 1; min-width: 220px"><span style="position: absolute; left: -9999px">Reason</span><input placeholder="Reason (required, public in corrections log)" style="background: #DCEFE3; border-color: #DCEFE3; color:#03100A"></label>
+<button class="btn" style="background: transparent; color:#03100A; border-color: #DCEFE3">Discard</button>
+<button class="btn pri">Save & commit</button>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1100}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

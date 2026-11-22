@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Artists</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:10px 16px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.tab{font:inherit;font-size:14px;font-weight:600;border:0;background:transparent;color:#9DB3A5;padding:8px 12px;border-radius:8px;min-height:40px;cursor:pointer}
+.tab.on{background:#0A1E13;color:#F2FBF5;box-shadow:0 1px 2px rgba(0,0,0,.45)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:#9DB3A5;padding:12px 16px;border-bottom:1px solid #1F3A2A;background:#0F2418}
+td{padding:12px 16px;border-bottom:1px solid #1A3224;vertical-align:middle}
+tr:hover td{background:#0F2418}
+.pill{font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.ok{background:#1C3A29;color:#A6E3B3}
+.warn{background:#2A1C0E;color:#FFB86B}
+.bad{background:#2E1214;color:#FF8A80}
+input,select{font:inherit;font-size:14px;border:1px solid #2E5040;border-radius:10px;padding:10px 12px;min-height:44px;box-sizing:border-box;background:#0A1E13;color:#F2FBF5}
+@media (max-width:800px){.side{display:none!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1000px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px">
+<div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div>
+<div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div>
+</div>
+<a class="nav" href="#">Overview</a>
+<a class="nav" href="#">Review <span class="cnt">12</span></a>
+<a class="nav on" href="#">Artists</a>
+<a class="nav" href="#">Songs</a>
+<a class="nav" href="#">Channels <span class="cnt">7</span></a>
+<a class="nav" href="#">Charts</a>
+<a class="nav" href="#">Corrections</a>
+<a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div>
+<a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+<div><h1 style="margin: 0; font-size: 26px; font-weight: 800">Artists</h1><div style="font-size: 14px; color: #9DB3A5; margin-top: 4px">[N] artists in the roster</div></div>
+<button class="btn pri">+ Add artist</button>
+</div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center">
+<label style="flex: 1; min-width: 240px"><span style="position: absolute; left: -9999px">Search artists</span><input type="search" placeholder="Search by name or stage name…" style="width: 100%"></label>
+<div style="display: flex; gap: 4px; background: #1F3A2A; border-radius: 10px; padding: 4px">
+<button class="tab on">All</button><button class="tab">No channel</button><button class="tab">No genre</button><button class="tab">Excluded</button>
+</div>
+<label><span style="position: absolute; left: -9999px">Genre</span><select><option>All genres</option><option>Makossa</option><option>Bikutsi</option><option>Mbolé</option></select></label>
+</div>
+<div style="background: #0A1E13; border: 1px solid #1F3A2A; border-radius: 16px; overflow-x: auto">
+<table>
+<thead><tr><th>Artist</th><th>Also known as</th><th>Genre</th><th>Nationality</th><th>Channel</th><th style="text-align: right">Charting songs</th></tr></thead>
+<tbody>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Kocee</a></td><td style="color: #9DB3A5">—</td><td>Afro</td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill ok">Official</span></td><td style="text-align: right">3</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Sabrina</a></td><td style="color: #9DB3A5">Sabrina Kemayou</td><td>Afro</td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill ok">Official</span></td><td style="text-align: right">3</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Krys M</a></td><td style="color: #9DB3A5">—</td><td>Afro</td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill ok">Official</span></td><td style="text-align: right">3</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Cysoul</a></td><td style="color: #9DB3A5">—</td><td>Bikutsi</td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill ok">Official</span></td><td style="text-align: right">2</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Vanity Fair</a></td><td style="color: #9DB3A5">—</td><td>Mbolé</td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill warn">Label only</span></td><td style="text-align: right">1</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Tabaski</a></td><td style="color: #9DB3A5">—</td><td>Hip Hop</td><td><span class="pill warn">In review</span></td><td><span class="pill bad">None</span></td><td style="text-align: right">2</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Vanister Enama</a></td><td style="color: #9DB3A5">VANISTER ENAMA</td><td><span style="color: #FFB86B; font-weight: 600">Not set</span></td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill bad">None</span></td><td style="text-align: right">2</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Shapat</a></td><td style="color: #9DB3A5">—</td><td>Hip Hop</td><td><span class="pill ok">Cameroonian</span></td><td><span class="pill ok">Official</span></td><td style="text-align: right">1</td></tr>
+<tr><td><a href="#" style="font-weight: 600; color: #F2FBF5">Adekunle Gold</a></td><td style="color: #9DB3A5">—</td><td>—</td><td><span class="pill bad">Excluded · Nigerian</span></td><td style="color: #9DB3A5">—</td><td style="text-align: right; color: #9DB3A5">feature only</td></tr>
+</tbody>
+</table>
+</div>
+<div style="font-size: 13px; color: #9DB3A5">Featured foreign artists stay on the credit line but don't make a song eligible. Exclusions come from the hard rule and can't be changed here.</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

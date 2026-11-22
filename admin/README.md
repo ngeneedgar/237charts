@@ -16,7 +16,7 @@ If a value contains a comma, put it in "double quotes".
 | `channels.csv` | An artist's official YouTube channel (the ID starts with `UC`) | `Jovi,UCSG0CS2umjnuMeOYyoow5QA,@JoviLeMonstre` |
 | `contact.json` | Where artist requests go (email, WhatsApp in international format) | `"whatsapp": "237681372757"` |
 
-**Genre codes:** `makossa` · `bikutsi` · `mbole` · `njang` · `afro` · `hiphop` · `mboko`
+**Genre codes:** `makossa` · `bikutsi` · `mbole` · `njang` · `afro` · `hiphop` · `mboko` · `gospel`
 
 **Finding a channel ID:** open the channel on YouTube → **About** / **More** → **Share channel** → **Copy channel ID**.
 

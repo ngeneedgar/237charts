@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Merge songs</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:10px 16px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.v{display:flex;gap:14px;align-items:center;padding:14px;border:1px solid #1F3A2A;border-radius:12px;font-size:14px}
+.v.on{border-color:#A6E3B3;background:#0F2418}
+.art{width:44px;height:44px;border-radius:8px;background:#1C3A29;flex:none}
+.r{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid #1A3224;font-size:14px}
+textarea{font:inherit;font-size:14px;border:1px solid #2E5040;border-radius:10px;padding:10px 12px;box-sizing:border-box;width:100%;background:#0A1E13}
+</style>
+</helmet>
+<div style="min-height: 1000px; background: #010805; font-family: Inter, system-ui, sans-serif; color: #F2FBF5; display: flex; align-items: center; justify-content: center; padding: 32px; box-sizing: border-box">
+<section role="dialog" aria-modal="true" aria-labelledby="mt" style="width: 100%; max-width: 640px; background: #0A1E13; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 24px 60px rgba(0,0,0,.65)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px"><div><h2 id="mt" style="margin: 0; font-size: 22px; font-weight: 800">Merge 2 songs</h2><div style="font-size: 14px; color: #9DB3A5; margin-top: 4px">Their plays add up into one song. You can split them again later.</div></div><button class="btn" aria-label="Close" style="width: 44px; padding: 0">×</button></div>
+<div style="font-size: 14px; font-weight: 600">Keep the title and artwork from</div>
+<label class="v on"><input type="radio" name="keep" checked><span class="art"></span><span style="flex: 1"><strong>Koulos</strong><div style="color: #9DB3A5">Official video · Cysoul · #4 this week</div></span></label>
+<label class="v"><input type="radio" name="keep"><span class="art"></span><span style="flex: 1"><strong>Koulos (Lyrics)</strong><div style="color: #9DB3A5">Lyric video · Cysoul · not charting</div></span></label>
+<div style="background: #0F2418; border-radius: 12px; padding: 4px 16px 8px">
+<div class="r" style="border-top: 0"><strong>Effect on this week's draft</strong><span></span></div>
+<div class="r"><span>Koulos</span><span><strong>#4 → #3</strong></span></div>
+<div class="r"><span>Faraway</span><span>#3 → #4</span></div>
+<div class="r"><span>Capped for irregular activity</span><span>Still applies</span></div>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Reason (required, public)<textarea rows="2">Lyric video of the same song on the artist's official channel.</textarea></label>
+<div style="display: flex; justify-content: flex-end; gap: 10px"><button class="btn">Cancel</button><button class="btn pri">Merge &amp; commit</button></div>
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

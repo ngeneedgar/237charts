@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Review queue</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.card{background:#0A1E13;border:1px solid #1F3A2A;border-radius:16px;padding:20px}
+.lbl{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#9DB3A5}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:10px 16px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.btn.neg{color:#FF6B6B;border-color:#5A2526}
+.chip{font-size:13px;font-weight:500;background:#153022;border-radius:999px;padding:4px 10px}
+.fact{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid #1A3224;font-size:14px}
+.qi{display:block;padding:12px 14px;border-radius:12px;text-decoration:none;color:#F2FBF5;font-size:14px}
+.qi:hover{background:#153022}
+.qi.on{background:#1C3A29}
+input,textarea{font:inherit;font-size:14px;border:1px solid #2E5040;border-radius:10px;padding:10px 12px;width:100%;box-sizing:border-box;background:#0A1E13;color:#F2FBF5}
+@media (max-width:800px){.side,.list{display:none!important}.grid2{grid-template-columns:1fr!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1000px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px">
+<div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div>
+<div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div>
+</div>
+<a class="nav" href="#">Overview</a>
+<a class="nav on" href="#">Review <span class="cnt">12</span></a>
+<a class="nav" href="#">Artists</a>
+<a class="nav" href="#">Songs</a>
+<a class="nav" href="#">Channels <span class="cnt">7</span></a>
+<a class="nav" href="#">Charts</a>
+<a class="nav" href="#">Corrections</a>
+<a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div>
+<a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; display: flex; flex-direction: column">
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 16px 32px; background: #0A1E13; border-bottom: 1px solid #1F3A2A">
+<div style="display: flex; align-items: baseline; gap: 12px"><h1 style="margin: 0; font-size: 22px; font-weight: 800">Review queue</h1><span style="font-size: 14px; color: #9DB3A5">12 new names from Shazam, Deezer and YouTube</span></div>
+<div style="font-size: 14px; color: #9DB3A5">Keys: <strong>C</strong> Cameroonian · <strong>N</strong> Not eligible · <strong>S</strong> Skip</div>
+</header>
+<div style="flex: 1; display: flex; min-height: 0">
+<nav class="list" aria-label="Candidates" style="width: 280px; flex: none; border-right: 1px solid #1F3A2A; padding: 16px; display: flex; flex-direction: column; gap: 4px; background: #0F2418">
+<a class="qi on" href="#"><strong>Tabaski</strong><div style="color: #9DB3A5; font-size: 13px">2 songs · #14 Top 50</div></a>
+<a class="qi" href="#"><strong>Ikardi Le Monument</strong><div style="color: #9DB3A5; font-size: 13px">1 song · #19 Top 50</div></a>
+<a class="qi" href="#"><strong>la mélo du quartier</strong><div style="color: #9DB3A5; font-size: 13px">1 song · #8 Top 50</div></a>
+<a class="qi" href="#"><strong>Lady Ponce</strong><div style="color: #9DB3A5; font-size: 13px">1 song · #21 Top 50</div></a>
+<a class="qi" href="#"><strong>SOPEKA DIAMANT</strong><div style="color: #9DB3A5; font-size: 13px">1 song · #18 Top 50</div></a>
+<a class="qi" href="#"><strong>Kratos le Dieu de la guerre</strong><div style="color: #9DB3A5; font-size: 13px">feature · #20 Top 50</div></a>
+<div style="font-size: 13px; color: #9DB3A5; padding: 10px 14px">+ 6 more</div>
+</nav>
+<div style="flex: 1; min-width: 0; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px; max-width: 920px">
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="width: 64px; height: 64px; border-radius: 14px; background: #1C3A29; color: #A6E3B3; font-size: 24px; font-weight: 800; display: flex; align-items: center; justify-content: center">T</div>
+<div style="flex: 1"><div class="lbl">Candidate 1 of 12</div><h2 style="margin: 4px 0 0; font-size: 26px; font-weight: 800">Tabaski</h2></div>
+<span class="chip" style="background: #2A1C0E; color: #FFB86B">Nationality unknown</span>
+</div>
+<div class="grid2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px">
+<section class="card">
+<h3 style="margin: 0 0 8px; font-size: 15px">Songs & chart ranks</h3>
+<div class="fact"><span><strong>We Di Drink</strong></span><span>#14 Top 50 · #1 Hip Hop</span></div>
+<div class="fact"><span><strong>Na Wa</strong></span><span>Viral #33</span></div>
+<h3 style="margin: 16px 0 8px; font-size: 15px">Charts in</h3>
+<div style="display: flex; gap: 6px; flex-wrap: wrap"><span class="chip">Cameroon</span><span class="chip">Nigeria</span><span class="chip">Gabon</span></div>
+</section>
+<section class="card">
+<h3 style="margin: 0 0 8px; font-size: 15px">What the data says</h3>
+<div class="fact"><span style="color: #9DB3A5">Wikidata</span><span>No entry found</span></div>
+<div class="fact"><span style="color: #9DB3A5">MusicBrainz</span><span>Area: Douala, Cameroon</span></div>
+<div class="fact"><span style="color: #9DB3A5">Deezer</span><span>Profile, 2 releases</span></div>
+<div class="fact"><span style="color: #9DB3A5">YouTube</span><span>No official channel yet</span></div>
+<div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 12px; font-size: 14px; font-weight: 600"><a href="#">Search the web</a><a href="#">Instagram</a><a href="#">MusicBrainz</a></div>
+</section>
+</div>
+<section class="card" style="display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 15px">Your decision</h3>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Source (link or note) — required<input type="text" value="https://www.crtv.cm/… interview, born in Douala"></label>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<button class="btn pri">Cameroonian</button>
+<button class="btn neg">Not eligible</button>
+<button class="btn">Skip for now</button>
+</div>
+<p style="margin: 0; font-size: 13px; color: #9DB3A5">Saved to <code>admin/eligibility.csv</code> as a commit by you. If data shows another citizenship too, the hard rule excludes the artist whatever you choose.</p>
+</section>
+</div>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

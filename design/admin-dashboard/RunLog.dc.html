@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Run log</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.card{background:#0A1E13;border:1px solid #1F3A2A;border-radius:16px;padding:20px}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:10px 16px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.st{display:grid;grid-template-columns:28px 1fr 80px;gap:12px;align-items:center;padding:12px 0;border-top:1px solid #1A3224;font-size:14px}
+.n{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700}
+.okn{background:#1C3A29;color:#A6E3B3}
+.badn{background:#FF6B6B;color:#03100A}
+.skn{background:#153022;color:#9DB3A5}
+pre{margin:0;background:#F2FBF5;color:#1C3A29;border-radius:12px;padding:16px;font-size:13px;line-height:1.6;overflow-x:auto;white-space:pre-wrap}
+@media (max-width:800px){.side{display:none!important}.g2{grid-template-columns:1fr!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1000px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px"><div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div><div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div></div>
+<a class="nav" href="#">Overview</a><a class="nav" href="#">Review <span class="cnt">12</span></a><a class="nav" href="#">Artists</a><a class="nav" href="#">Songs</a><a class="nav" href="#">Channels <span class="cnt">7</span></a><a class="nav on" href="#">Charts</a><a class="nav" href="#">Corrections</a><a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div><a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px">
+<a href="#" style="font-size: 14px; font-weight: 600">← Publish &amp; runs</a>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+<div><div style="font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #FF6B6B">Failed</div><h1 style="margin: 4px 0 0; font-size: 26px; font-weight: 800">Run · Sat 21 Nov, 04:01 WAT</h1><div style="font-size: 14px; color: #9DB3A5; margin-top: 4px">Scheduled · stopped after 3 min</div></div>
+<div style="display: flex; gap: 10px"><a class="btn" href="#" style="text-decoration: none; display: inline-flex; align-items: center">Open in GitHub</a><button class="btn pri">Re-run now</button></div>
+</div>
+<section class="card" style="border-color: #5A2526; background: #2E1214">
+<h2 style="margin: 0 0 6px; font-size: 17px">What went wrong</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.5">YouTube didn't answer in time. YouTube views are half of every score, so the run stops without them (if Shazam or Deezer fail, the run carries on and the other weights are rescaled). Nothing was published and no data was changed. This is usually temporary: re-running normally fixes it.</p>
+</section>
+<div class="g2" style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 16px; align-items: start">
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">Steps</h2>
+<div class="st"><span class="n okn">✓</span><span>Read admin files</span><span style="color: #9DB3A5; text-align: right">2 s</span></div>
+<div class="st"><span class="n badn">!</span><strong>YouTube views</strong><span style="color: #FF6B6B; text-align: right; font-weight: 600">timeout</span></div>
+<div class="st"><span class="n okn">✓</span><span>Shazam chart</span><span style="color: #9DB3A5; text-align: right">12 s</span></div>
+<div class="st"><span class="n okn">✓</span><span>Deezer matches</span><span style="color: #9DB3A5; text-align: right">40 s</span></div>
+<div class="st"><span class="n skn">–</span><span style="color: #9DB3A5">Build charts</span><span style="color: #9DB3A5; text-align: right">skipped</span></div>
+<div class="st"><span class="n skn">–</span><span style="color: #9DB3A5">Save preview</span><span style="color: #9DB3A5; text-align: right">skipped</span></div>
+</section>
+<section class="card">
+<h2 style="margin: 0 0 10px; font-size: 17px">Technical log</h2>
+<pre>04:03:52  youtube: fetching weekly views
+04:04:22  youtube: request timed out after 30 s
+04:04:22  youtube: retry 1/3 … timed out
+04:04:52  youtube: retry 3/3 … timed out
+04:04:52  run stopped: youtube step failed (required)</pre>
+<div style="font-size: 13px; color: #9DB3A5; margin-top: 10px">Full log: <code>last-run.log</code></div>
+</section>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

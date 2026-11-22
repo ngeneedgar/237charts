@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Channels</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.card{background:#0A1E13;border:1px solid #1F3A2A;border-radius:16px;padding:20px}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:8px 14px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.tab{font:inherit;font-size:14px;font-weight:600;border:0;background:transparent;color:#9DB3A5;padding:8px 12px;border-radius:8px;min-height:40px;cursor:pointer}
+.tab.on{background:#0A1E13;color:#F2FBF5;box-shadow:0 1px 2px rgba(0,0,0,.45)}
+.m{display:grid;grid-template-columns:180px 1fr 90px auto;align-items:center;gap:16px;padding:14px 0;border-top:1px solid #1A3224;font-size:14px}
+.conf{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px;text-align:center}
+input{font:inherit;font-size:14px;border:1px solid #2E5040;border-radius:10px;padding:10px 12px;min-height:44px;box-sizing:border-box;width:100%;background:#0A1E13}
+@media (max-width:800px){.side{display:none!important}.grid2{grid-template-columns:1fr!important}.m{grid-template-columns:1fr!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1000px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px"><div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div><div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div></div>
+<a class="nav" href="#">Overview</a><a class="nav" href="#">Review <span class="cnt">12</span></a><a class="nav" href="#">Artists</a><a class="nav" href="#">Songs</a><a class="nav on" href="#">Channels <span class="cnt">7</span></a><a class="nav" href="#">Charts</a><a class="nav" href="#">Corrections</a><a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div><a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+<div><h1 style="margin: 0; font-size: 26px; font-weight: 800">Channels &amp; labels</h1><div style="font-size: 14px; color: #9DB3A5; margin-top: 4px">7 artists have no official channel</div></div>
+<div style="display: flex; gap: 4px; background: #1F3A2A; border-radius: 10px; padding: 4px"><button class="tab on">Artist channels</button><button class="tab">Label channels</button></div>
+</div>
+<section class="card" style="display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap">
+<label style="flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Paste any YouTube link — we'll find the channel ID<input placeholder="https://youtube.com/@… or a video link"></label>
+<label style="width: 240px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">For artist<input placeholder="Search artist…"></label>
+<button class="btn pri">Find channel</button>
+</section>
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">Suggested matches</h2>
+<div style="font-size: 13px; color: #9DB3A5">From <code>channel-matches.json</code> after the last run</div>
+<div class="m"><strong>Tabaski</strong><div>Tabaski Official · <span style="color: #9DB3A5">[subs] subscribers · 14 videos</span></div><span class="conf" style="background: #1C3A29; color: #A6E3B3">High</span><div style="display: flex; gap: 8px"><button class="btn">Reject</button><button class="btn pri">Accept</button></div></div>
+<div class="m"><strong>Vanister Enama</strong><div>VANISTER ENAMA TV · <span style="color: #9DB3A5">[subs] subscribers · 31 videos</span></div><span class="conf" style="background: #2A1C0E; color: #FFB86B">Medium</span><div style="display: flex; gap: 8px"><button class="btn">Reject</button><button class="btn pri">Accept</button></div></div>
+<div class="m"><strong>Ikardi Le Monument</strong><div>Ikardi Music · <span style="color: #9DB3A5">[subs] subscribers · 6 videos</span></div><span class="conf" style="background: #2A1C0E; color: #FFB86B">Medium</span><div style="display: flex; gap: 8px"><button class="btn">Reject</button><button class="btn pri">Accept</button></div></div>
+<div class="m"><strong>Lady Ponce</strong><div style="color: #9DB3A5">No match found</div><span></span><div><button class="btn">Paste link</button></div></div>
+</section>
+<div style="font-size: 13px; color: #9DB3A5">Accepting writes to <code>admin/channels.csv</code>. Label channels live in <code>admin/labels.csv</code>: songs from them count as official.</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

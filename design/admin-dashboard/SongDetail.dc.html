@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Song detail</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#03100A;color-scheme:dark}
+a{color:#A6E3B3}a:hover{color:#A6E3B3}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-radius:10px;color:#DCEFE3;text-decoration:none;font-size:14px;font-weight:500}
+.nav:hover{background:#153022;color:#F2FBF5}
+.nav.on{background:#1C3A29;color:#A6E3B3;font-weight:600}
+.cnt{font-size:12px;font-weight:600;background:#A6E3B3;color:#03100A;border-radius:999px;padding:2px 8px}
+.card{background:#0A1E13;border:1px solid #1F3A2A;border-radius:16px;padding:20px}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:10px;padding:10px 16px;min-height:44px;border:1px solid #2E5040;background:#0A1E13;color:#F2FBF5;cursor:pointer}
+.btn.pri{background:#A6E3B3;border-color:#A6E3B3;color:#03100A}
+.btn.neg{color:#FF6B6B;border-color:#5A2526}
+.f{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+input,select,textarea{font:inherit;font-size:14px;font-weight:400;border:1px solid #2E5040;border-radius:10px;padding:10px 12px;min-height:44px;box-sizing:border-box;width:100%;background:#0A1E13;color:#F2FBF5}
+.r{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid #1A3224;font-size:14px}
+.pill{font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.warn{background:#2A1C0E;color:#FFB86B}
+.ok{background:#1C3A29;color:#A6E3B3}
+@media (max-width:800px){.side{display:none!important}.grid2{grid-template-columns:1fr!important}}
+</style>
+</helmet>
+<div style="display: flex; min-height: 1100px; background: #03100A; font-family: Inter, system-ui, sans-serif; color: #F2FBF5">
+<aside class="side" style="width: 240px; flex: none; background: #0A1E13; border-right: 1px solid #1F3A2A; padding: 20px 12px; display: flex; flex-direction: column; gap: 2px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 4px 12px 20px"><div style="width: 34px; height: 34px; border-radius: 9px; background: #A6E3B3; color:#03100A; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center">237</div><div><div style="font-weight: 700; font-size: 15px">237 Charts</div><div style="font-size: 12px; color: #9DB3A5">Admin</div></div></div>
+<a class="nav" href="#">Overview</a><a class="nav" href="#">Review <span class="cnt">12</span></a><a class="nav" href="#">Artists</a><a class="nav on" href="#">Songs</a><a class="nav" href="#">Channels <span class="cnt">7</span></a><a class="nav" href="#">Charts</a><a class="nav" href="#">Corrections</a><a class="nav" href="#">Requests <span class="cnt">3</span></a>
+<div style="flex: 1"></div><a class="nav" href="#">Settings</a>
+</aside>
+<main style="flex: 1; min-width: 0; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px">
+<a href="#" style="font-size: 14px; font-weight: 600">← Chart preview</a>
+<div style="display: flex; align-items: center; gap: 18px; flex-wrap: wrap">
+<div style="width: 88px; height: 88px; border-radius: 12px; background: #1C3A29"></div>
+<div style="flex: 1; min-width: 260px"><div style="font-size: 13px; color: #9DB3A5">Uploaded title</div><h1 style="margin: 2px 0 0; font-size: 22px; font-weight: 800">Vanister Enama Je Ne Suis Pas Jesus Chakap By Adren…</h1>
+<div style="display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap"><span class="pill ok">#7 Top 50 · ▲9</span><span class="pill warn">Unverified channel</span><span class="pill warn">Messy title</span></div></div>
+</div>
+<div class="grid2" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px; align-items: start">
+<section class="card" style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 17px">Fix this song</h2>
+<label class="f">Display title<input value="Je ne suis pas Jésus"></label>
+<label class="f">Artists (credit line)<input value="Vanister Enama"></label>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px">
+<label class="f">Release date<input type="date" value="2026-10-30"></label>
+<label class="f">Genre override<select><option>Use artist genre (not set)</option><option>Gospel</option><option>Makossa</option></select></label>
+</div>
+<div class="f">Versions merged into this song
+<div class="r" style="border-top: 0"><span>Official video · YouTube <span style="color: #9DB3A5">· unverified channel</span></span><button class="btn" style="min-height: 34px; padding: 4px 12px; font-size: 13px">Split out</button></div>
+<div class="r"><span>Deezer track · ISRC [ISRC]</span><button class="btn" style="min-height: 34px; padding: 4px 12px; font-size: 13px">Split out</button></div>
+<button class="btn" style="align-self: flex-start">+ Merge a duplicate…</button></div>
+<label class="f">Reason (required, public in corrections log)<textarea rows="2">Uploader's title included promo text; official title from Deezer.</textarea></label>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: space-between">
+<button class="btn neg">Hide: not a song…</button>
+<div style="display: flex; gap: 10px"><button class="btn">Cancel</button><button class="btn pri">Save &amp; commit</button></div>
+</div>
+</section>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">Score this week</h2>
+<div class="r"><span>YouTube views</span><strong>[value]</strong></div>
+<div class="r"><span>Shazam</span><strong>[value]</strong></div>
+<div class="r"><span>Deezer</span><strong>[value]</strong></div>
+<div class="r"><span>Weights are the published methodology</span><a href="#">Methodology</a></div>
+</section>
+<section class="card">
+<h2 style="margin: 0 0 4px; font-size: 17px">Corrections on this song</h2>
+<div style="font-size: 14px; color: #9DB3A5; padding-top: 8px">None yet. Your fix will appear here and on the public Methodology page.</div>
+</section>
+</div>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1100}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

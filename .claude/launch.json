@@ -12,6 +12,18 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["--yes", "serve@14.2.4", "web/out", "-l", "3107"],
       "port": 3107
+    },
+    {
+      "name": "admin-designs",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve@14.2.4", "design/admin-dashboard", "-l", "3108"],
+      "port": 3108
+    },
+    {
+      "name": "admin-local",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "web", "run", "admin:dev"],
+      "port": 8788
     }
   ]
 }
