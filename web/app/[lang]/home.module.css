@@ -81,6 +81,31 @@
 .links { display: grid; gap: 8px; }
 .note { font-size: 13px; line-height: 18px; color: var(--label-3); margin: 0 16px; }
 
+/* Chart shelves (home): horizontally scrolling rows of square chart covers */
+.shelf { display: grid; gap: 10px; }
+.shelfHead { display: flex; justify-content: space-between; align-items: baseline; }
+.shelfTitle { font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: 0.35px; margin: 0; }
+/* Three tiles per row at every width */
+.shelfRow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px 10px; }
+.tileArt { container-type: inline-size; }
+.tile { display: grid; gap: 4px; scroll-snap-align: start; color: var(--label); min-width: 0; -webkit-tap-highlight-color: transparent; }
+.tile:hover { text-decoration: none; }
+.tileArt {
+  position: relative; aspect-ratio: 1; max-width: 100%; border-radius: 8px; overflow: hidden;
+  display: grid; place-content: center; justify-items: center; gap: 0; padding: 8%;
+  color: #fff; text-align: center; box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s var(--ease);
+}
+.tile:active .tileArt { transform: scale(0.97); transition: none; }
+/* Sizes scale with the tile itself (container units), so 3-across fits a 375px phone and a desktop alike */
+.tileMark { position: absolute; top: 6cqw; left: 7cqw; font-size: max(9px, 9cqw); font-weight: 800; letter-spacing: -0.3px; opacity: 0.85; }
+.tileTitle { font-size: 22cqw; line-height: 1; font-weight: 800; letter-spacing: -0.04em; white-space: nowrap; }
+.tileRule { width: 56%; height: 1px; background: rgba(255, 255, 255, 0.55); margin: 7cqw 0; }
+.tileLabel { font-size: max(7px, 7.5cqw); line-height: 1.25; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.95; max-width: 100%; }
+.tileCaption { font-size: 13px; line-height: 17px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+.tileSub { font-size: 12px; line-height: 16px; color: var(--label-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (min-width: 560px) { .tileCaption { font-size: 15px; line-height: 20px; } .tileSub { font-size: 13px; } }
+
 /* Genres list (home) + genre switcher */
 .genreRow { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; min-height: 44px; padding: 11px 16px; color: var(--label); position: relative; }
 .genreRow:hover { text-decoration: none; background: color-mix(in srgb, var(--fill) 50%, transparent); }

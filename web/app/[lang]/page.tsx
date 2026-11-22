@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { getChart, weekLabel } from "./chart";
 import { Art, ChartRow, Footer, Preview, TabBar } from "./ui";
+import { ChartTile } from "./chart-tile";
 import s from "./home.module.css";
 
 const year = (d: string | null) => (d ? d.slice(0, 4) : null);
@@ -31,6 +32,28 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
         <Preview t={t} show={chart.preview} />
 
+        {/* Chart shelves: main charts first (3 across), genre charts below */}
+        <section className={s.shelf} aria-label={t.mainCharts}>
+          <div className={s.shelfRow}>
+            <ChartTile kind="top-50" href={`/${lang}/top-20/`} title="Top 20" label={t.country}
+              caption={t.top20Title} sub={no1 ? `${no1.title} · ${no1.primaryArtist}` : ""} />
+            <ChartTile kind="top-50" href={`/${lang}/top-50/`} title="Top 50" label={t.country}
+              caption={t.top50Title} sub={no1 ? `${no1.title} · ${no1.primaryArtist}` : ""} />
+            <ChartTile kind="viral" href={`/${lang}/viral/`} title="Viral 20" label={t.country}
+              caption={t.viral} sub={lang === "fr" ? "Nouveaux titres qui décollent" : "New songs taking off"} />
+          </div>
+        </section>
+
+        <section className={s.shelf}>
+          <div className={s.shelfHead}><h2 className={s.shelfTitle}>{t.genres}</h2></div>
+          <div className={s.shelfRow}>
+            {chart.genres.map((g) => (
+              <ChartTile key={g.slug} kind={g.slug} href={`/${lang}/genre/${g.slug}/`} title="Top 20" label={g[lang]}
+                caption={g[lang]} sub={g.entries[0] ? `${g.entries[0].title} · ${g.entries[0].primaryArtist}` : "—"} />
+            ))}
+          </div>
+        </section>
+
         {no1 && (
           <section className={s.hero} aria-label={t.no1}>
             <Link href={`/${lang}/song/${no1.slug}/`} aria-label={no1.title}><Art e={no1} size="big" className={s.art} /></Link>
@@ -57,28 +80,6 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <ol className={s.list}>
             {top10.map((e) => <ChartRow key={e.slug} e={e} t={t} lang={lang} />)}
           </ol>
-        </section>
-
-        <section>
-          <div className={s.sectionHead}><h2 className={s.sectionTitle}>{t.genres}</h2></div>
-          <ul className={s.list}>
-            {chart.genres.map((g) => (
-              <li key={g.slug}>
-                <Link className={s.genreRow} href={`/${lang}/genre/${g.slug}/`}>
-                  <span>{g[lang]}</span>
-                  <span className={s.genreNo1}>{g.entries[0] ? `${g.entries[0].title} · ${g.entries[0].primaryArtist}` : "—"}</span>
-                  <span className={s.chevron} aria-hidden="true">›</span>
-                </Link>
-              </li>
-            ))}
-            <li>
-              <Link className={s.genreRow} href={`/${lang}/viral/`}>
-                <span>{t.viral}</span>
-                <span className={s.genreNo1}>{lang === "fr" ? "Nouveaux titres qui décollent" : "New songs taking off"}</span>
-                <span className={s.chevron} aria-hidden="true">›</span>
-              </Link>
-            </li>
-          </ul>
         </section>
 
         <a className={s.primary} href="#share">{t.share}</a>

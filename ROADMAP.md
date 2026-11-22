@@ -53,7 +53,9 @@
 - [x] 1.6 Scoring engine: `Score = 10,000 × Σ w_p × share`, weights 50/30/20 or 60/40 (`collector/lib/scoring.mjs`, 7 tests passing)
 - [x] 1.7 Eligibility rules: 104-week window; recurrent (> 52 wks) songs stay on Overall only while in top 25 *(approved)*
 - [x] 1.8 Anti-manipulation: spike > 5× the song's 4-week median (and ≥ 5,000) is capped at 3× and flagged "Adjusted for irregular activity" *(approved)*
-- [ ] 1.9 Weekly publish job on GitHub Actions (schedule)
+- [x] 1.9 **Weekly automation on GitHub Actions** — every Monday 07:00 UTC (08:00 WAT) + on admin/code changes. Verified: run 44941163335 succeeded end-to-end (collect → build → tests → site → Cloudflare) in 112 s. Log saved to `collector/out/last-run.log`
+  - [ ] Tidy: rename GitHub secret `CLOUDFLARE_API_TOKE` → `CLOUDFLARE_API_TOKEN` (workflow accepts both for now)
+- [x] **Team admin without Claude:** `admin/` folder (eligibility, genres, add/remove artists, channels, contact) editable on github.com; edits trigger a run automatically
 - [ ] 1.10 Public JSON feed: current chart, genre charts, song, artist, archive
 - [ ] 1.11 Admin page: approve artists, merges, overrides (with public log)
 - [ ] 1.12 Dry run: generate first internal chart week and sanity-check it
