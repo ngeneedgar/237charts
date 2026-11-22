@@ -6,6 +6,9 @@ import { ImageResponse } from "next/og";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import chart from "@/data/chart.json";
+import { SITE_URL } from "../../../site";
+// Team-uploaded covers are site-relative (/cover/…); the image renderer needs absolute URLs
+const absolute = (u: string) => (u.startsWith("/") ? SITE_URL + u : u);
 // Brand theme: very dark green background, light green accents (same as the site)
 const LIGHT = "#A6E3B3";
 
@@ -46,7 +49,7 @@ function Row({ e, s }: { e: E; s: number }) {
       <div style={{ width: 52 * s, fontSize: 34 * s, fontWeight: 800, color: "#fff", display: "flex", justifyContent: "center" }}>{e.rank}</div>
       {e.artworkSmall
         // eslint-disable-next-line @next/next/no-img-element
-        ? <img src={e.artworkSmall} width={64 * s} height={64 * s} style={{ borderRadius: 10 * s, objectFit: "cover" }} alt="" />
+        ? <img src={absolute(e.artworkSmall)} width={64 * s} height={64 * s} style={{ borderRadius: 10 * s, objectFit: "cover" }} alt="" />
         : <div style={{ width: 64 * s, height: 64 * s, borderRadius: 10 * s, background: "rgba(255,255,255,.15)", display: "flex" }} />}
       <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
         <div style={{ fontSize: 28 * s, fontWeight: 700, color: "#fff", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{e.title.replace(/\s*[([](feat|ft)\.?[^)\]]*[)\]]/gi, "")}</div>
