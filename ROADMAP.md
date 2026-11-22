@@ -42,7 +42,7 @@
   - [ ] Known issue: a few channels post non-music videos tagged "Music" (e.g. Aurélien Bollevis Saniko) → needs artist-level review
   - [x] Merge versions of one song (clip, visualizer, lyric, audio) into one chart entry — 883 videos → 738 songs; stage names shown (Lady Ponce); 11/11 tests pass
   - [ ] Polish: ALL-CAPS titles ("KIDNAPPE" → "Kidnappé"); spot-check re-uploads of compilations
-- [~] 1.5 Audiomack collector (`collect-audiomack.mjs`): built on the official Data API (profile matching + weekly plays). **Waiting on API access** (you: no self-serve sign-up — must request from Audiomack). Docs show no lifetime play count on songs, only short-window metrics → play-data field to confirm with Audiomack; collector may need adapting
+- [~] 1.5 Audiomack collector (`collect-audiomack.mjs`): built on the official Data API (profile matching + weekly plays). **Waiting on API access** — request emailed to support@audiomack.com on 2026-11-22 (follow up ~2 Dec if no reply). Docs show no lifetime play count on songs, only short-window metrics → play-data field to confirm with Audiomack; collector may need adapting
   - [ ] Add Audiomack plays to `build-week.mjs` (match songs to YouTube songs by artist + title)
   - [x] Fallback: scoring handles YouTube-only data (12/12 tests pass)
 - [x] 1.5b **Shazam Cameroon Top 200** (`collect-shazam.mjs`): official public CSV, past 7 days, measured *inside Cameroon*. Tested: 200 entries, 10 by known artists, 177 new candidate artists → review

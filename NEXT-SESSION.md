@@ -19,4 +19,5 @@ Includes: 23 researched + 143 sourced eligibility decisions (Tabaski & VANITY FA
 4. Share images polish (suggested, not confirmed): use Google Sans Flex in images, less empty space in Story, highlight No. 1.
 5. ~37 obscure names left in the review queue with no public source (see admin Review).
 6. After Monday's run: check Jovi via New Bell Music, Gospel chart fills, Yamê gone from charts.
-7. YouTube API quota extension form (privacy page exists now); domain (user buying).
+7. Audiomack Data API requested by email 2026-11-22 (support@audiomack.com) — when keys arrive: add AUDIOMACK_CONSUMER_KEY / _SECRET as GitHub secrets, test collect-audiomack.mjs, weights 40/25/20/15. Follow up ~2 Dec.
+8. YouTube API quota extension form (privacy page exists now); domain (user buying).
