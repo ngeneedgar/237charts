@@ -4,7 +4,7 @@ import "./admin.css";
 export const metadata: Metadata = {
   title: "237 Charts Admin",
   robots: { index: false, follow: false },
-  icons: { icon: "/icons/icon-192.png" },
+  icons: { icon: [{ url: "/icons/favicon.svg", type: "image/svg+xml" }, { url: "/brand-icon/icon-192.png", sizes: "192x192", type: "image/png" }], apple: "/brand-icon/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = { themeColor: "#03100A" };
