@@ -4253,12 +4253,19 @@
       "Diyani",
       "Shabamuzik"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCcO4KbsMTY_BM_hsuzi7vxw",
+      "title": "Dianne Reeves - Topic",
+      "country": null,
+      "subscribers": 22800,
+      "similarity": 0,
+      "confidence": 0.25
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4279,31 +4286,45 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q110047594": {
     "name": "Pierre de Moussy",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCbg9dvWHTlHB425TaceM_yQ",
+      "title": "Pierre De Moussy - Topic",
+      "country": null,
+      "subscribers": 2990,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q97122096": {
     "name": "Pierre Didy Tchakounté",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCjgc0CFWkvPNiHS3kLqOpeg",
+      "title": "Pierre Didy Tchakounté - Topic",
+      "country": null,
+      "subscribers": 885,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4332,18 +4353,18 @@
     "name": "Pierre Tchana",
     "aliases": [],
     "best": {
-      "channelId": "UC2Q_-yIo2Qjeqi0yZ2eIxJg",
-      "title": "Pierre Tchana",
+      "channelId": "UCp4Ipg51Agy9y1B7FpCnssA",
+      "title": "Tchana Pierre - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 3140,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },

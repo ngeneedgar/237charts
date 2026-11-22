@@ -1347,5 +1347,77 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q109771840": {
+    "artist": "Mihney",
+    "id": 14289669,
+    "name": "Mihney",
+    "fans": 20,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q107315146": {
+    "artist": "Mink's",
+    "id": 9913986,
+    "name": "Mink's",
+    "fans": 16740,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q6899840": {
+    "artist": "Moni Bilé",
+    "id": 1243669,
+    "name": "Moni Bile",
+    "fans": 1214,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q16001617": {
+    "artist": "Naomi Achu",
+    "id": 1430918,
+    "name": "Naomi Achu",
+    "fans": 888,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q124798539": {
+    "artist": "Nicole Mara",
+    "id": 1202638,
+    "name": "Nicole Mara",
+    "fans": 305,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q66736561": {
+    "artist": "Nkodo Sitony",
+    "id": 4530048,
+    "name": "Nkodo Si Tony",
+    "fans": 16,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q107522183": {
+    "artist": "Papy Anza",
+    "id": 6939329,
+    "name": "Papy Anza",
+    "fans": 48,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115612593": {
+    "artist": "Petit Malo",
+    "id": 11171958,
+    "name": "Petit Malo",
+    "fans": 255,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T08:35:35.317Z",
+  "takenAt": "2026-11-22T08:42:35.447Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -310,6 +310,21 @@
       "deezerId": 7400520,
       "name": "Maahlox Le Vibeur",
       "fans": 3471
+    },
+    "Q107315146": {
+      "deezerId": 9913986,
+      "name": "Mink's",
+      "fans": 16740
+    },
+    "Q6899840": {
+      "deezerId": 1243669,
+      "name": "Moni Bile",
+      "fans": 1214
+    },
+    "Q16001617": {
+      "deezerId": 1430918,
+      "name": "Naomi Achu",
+      "fans": 888
     }
   },
   "tracks": {
@@ -1517,7 +1532,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Plus jamais Ebola",
-      "rank": 158297,
+      "rank": 193841,
       "albumId": 9514168,
       "link": "https://www.deezer.com/track/93659304"
     },
@@ -1725,7 +1740,7 @@
       "wikidata": "Q1279965",
       "artist": "Eboa Lotin",
       "title": "Ja' alé (Allons-nous en)",
-      "rank": 197122,
+      "rank": 235741,
       "albumId": 9920326,
       "link": "https://www.deezer.com/track/97425780"
     },
@@ -1882,8 +1897,8 @@
       "link": "https://www.deezer.com/track/98970320"
     },
     "98970330": {
-      "wikidata": "Q115849403",
-      "artist": "Hoïgen Ekwalla",
+      "wikidata": "Q6899840",
+      "artist": "Moni Bilé",
       "title": "Bouger bouger",
       "rank": 208158,
       "albumId": 10126984,
@@ -1976,6 +1991,22 @@
       "rank": 209679,
       "albumId": 10173748,
       "link": "https://www.deezer.com/track/99380556"
+    },
+    "99420644": {
+      "wikidata": "Q6899840",
+      "artist": "Moni Bilé",
+      "title": "Osi tapa lambo lam",
+      "rank": 184950,
+      "albumId": 10178682,
+      "link": "https://www.deezer.com/track/99420644"
+    },
+    "99420648": {
+      "wikidata": "Q6899840",
+      "artist": "Moni Bilé",
+      "title": "Bijou",
+      "rank": 125175,
+      "albumId": 10178682,
+      "link": "https://www.deezer.com/track/99420648"
     },
     "99436582": {
       "wikidata": "Q115849403",
@@ -2205,7 +2236,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "One By One (feat. Magasco)",
-      "rank": 75273,
+      "rank": 129141,
       "albumId": 14465810,
       "link": "https://www.deezer.com/track/135431794"
     },
@@ -2546,8 +2577,8 @@
       "link": "https://www.deezer.com/track/412363772"
     },
     "430244462": {
-      "wikidata": "Q18351472",
-      "artist": "Magasco",
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
       "title": "Power",
       "rank": 246768,
       "albumId": 51873482,
@@ -2586,8 +2617,8 @@
       "link": "https://www.deezer.com/track/451258432"
     },
     "467497522": {
-      "wikidata": "Q107491845",
-      "artist": "Mimie",
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
       "title": "Donner Donner (Power 2)",
       "rank": 215410,
       "albumId": 58012592,
@@ -2632,6 +2663,14 @@
       "rank": 111673,
       "albumId": 65075512,
       "link": "https://www.deezer.com/track/508622382"
+    },
+    "516885392": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Couper l'appétit",
+      "rank": 163885,
+      "albumId": 66384642,
+      "link": "https://www.deezer.com/track/516885392"
     },
     "522622402": {
       "wikidata": "Q3037333",
@@ -3137,6 +3176,14 @@
       "albumId": 78552092,
       "link": "https://www.deezer.com/track/585208592"
     },
+    "585622932": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Le dehors est sucré",
+      "rank": 73035,
+      "albumId": 78632702,
+      "link": "https://www.deezer.com/track/585622932"
+    },
     "588274302": {
       "wikidata": "Q47472775",
       "artist": "Locko",
@@ -3317,7 +3364,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "the stage",
-      "rank": 139484,
+      "rank": 157765,
       "albumId": 96072782,
       "link": "https://www.deezer.com/track/676287062"
     },
@@ -3469,7 +3516,7 @@
       "wikidata": "Q25873680",
       "artist": "Blick Bassy",
       "title": "Kundè",
-      "rank": 221448,
+      "rank": 258348,
       "albumId": 104147882,
       "link": "https://www.deezer.com/track/714766862"
     },
@@ -4072,6 +4119,22 @@
       "rank": 174815,
       "albumId": 141450742,
       "link": "https://www.deezer.com/track/928531692"
+    },
+    "933922342": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Sponsor",
+      "rank": 41173,
+      "albumId": 142575552,
+      "link": "https://www.deezer.com/track/933922342"
+    },
+    "933922382": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Le gards la est laid",
+      "rank": 175256,
+      "albumId": 142575552,
+      "link": "https://www.deezer.com/track/933922382"
     },
     "936969002": {
       "wikidata": "Q4875441",
@@ -5453,7 +5516,7 @@
       "wikidata": "Q30596023",
       "artist": "Vagabon",
       "title": "Carpenter",
-      "rank": 146354,
+      "rank": 197915,
       "albumId": 386417347,
       "link": "https://www.deezer.com/track/2068890857"
     },
@@ -6005,7 +6068,7 @@
       "wikidata": "Q109653690",
       "artist": "Indira",
       "title": "Tout Sauf La Honte",
-      "rank": 300925,
+      "rank": 202506,
       "albumId": 472880055,
       "link": "https://www.deezer.com/track/2398145025"
     },
@@ -6120,6 +6183,14 @@
       "rank": 192806,
       "albumId": 498842631,
       "link": "https://www.deezer.com/track/2493923721"
+    },
+    "2496582391": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Ton comportement",
+      "rank": 132928,
+      "albumId": 499558461,
+      "link": "https://www.deezer.com/track/2496582391"
     },
     "2502838891": {
       "wikidata": "Q123574342",
@@ -6237,7 +6308,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Sanza Tristesse",
-      "rank": 260283,
+      "rank": 218320,
       "albumId": 512960921,
       "link": "https://www.deezer.com/track/2543691641"
     },
@@ -6365,7 +6436,7 @@
       "wikidata": "Q2079842",
       "artist": "Petit-Pays",
       "title": "Ça Va Aller",
-      "rank": 162863,
+      "rank": 202002,
       "albumId": 520767032,
       "link": "https://www.deezer.com/track/2574467492"
     },
@@ -6776,6 +6847,14 @@
       "rank": 38691,
       "albumId": 654925191,
       "link": "https://www.deezer.com/track/3039787061"
+    },
+    "3042436361": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Sans caleçon",
+      "rank": 195751,
+      "albumId": 655665521,
+      "link": "https://www.deezer.com/track/3042436361"
     },
     "3074329701": {
       "wikidata": "Q65131531",
@@ -7365,7 +7444,7 @@
       "wikidata": "Q123574342",
       "artist": "Yamê",
       "title": "Bizarre",
-      "rank": 524677,
+      "rank": 562995,
       "albumId": 743836711,
       "link": "https://www.deezer.com/track/3328749771"
     },
@@ -7493,7 +7572,7 @@
       "wikidata": "Q115452649",
       "artist": "Cysoul",
       "title": "WÉTAM",
-      "rank": 172267,
+      "rank": 224214,
       "albumId": 759820381,
       "link": "https://www.deezer.com/track/3375888121"
     },
@@ -7762,8 +7841,8 @@
       "link": "https://www.deezer.com/track/3621040272"
     },
     "3623495212": {
-      "wikidata": "Q64667915",
-      "artist": "Blanche Bailly",
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
       "title": "Chargé",
       "rank": 188974,
       "albumId": 845333472,
@@ -8221,7 +8300,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Hustler",
-      "rank": 149939,
+      "rank": 182779,
       "albumId": 931661021,
       "link": "https://www.deezer.com/track/3878937291"
     },
@@ -8561,6 +8640,14 @@
       "albumId": 1032222522,
       "link": "https://www.deezer.com/track/4162096632"
     },
+    "4162400402": {
+      "wikidata": "Q6899840",
+      "artist": "Moni Bilé",
+      "title": "Chagrin D'amour",
+      "rank": 21375,
+      "albumId": 1032355322,
+      "link": "https://www.deezer.com/track/4162400402"
+    },
     "4165849392": {
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
@@ -8736,6 +8823,14 @@
       "rank": 157245,
       "albumId": 1078708552,
       "link": "https://www.deezer.com/track/4286047522"
+    },
+    "4286493942": {
+      "wikidata": "Q107315146",
+      "artist": "Mink's",
+      "title": "Maillot jaune",
+      "rank": 33292,
+      "albumId": 1078904962,
+      "link": "https://www.deezer.com/track/4286493942"
     },
     "4290257572": {
       "wikidata": "Q445829",
