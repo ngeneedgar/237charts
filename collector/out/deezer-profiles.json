@@ -2506,5 +2506,355 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q99773246": {
+    "artist": "Solo Muna",
+    "id": 5131182,
+    "name": "Solo Muna",
+    "fans": 21,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-adango-addicted": {
+    "artist": "Adango-Addicted",
+    "status": "none"
+  },
+  "X-jack-anzouer": {
+    "artist": "Jack Anzouer",
+    "id": 70234802,
+    "name": "Jack Anzouer",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-muutu": {
+    "artist": "MUUTU.",
+    "id": 88560,
+    "name": "Mulatu Astatke",
+    "fans": 58449,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-dex-willy-change-my-life": {
+    "artist": "Dex Willy Change My Life",
+    "status": "none"
+  },
+  "X-zitalight": {
+    "artist": "Zitalight",
+    "id": 13715543,
+    "name": "Zita Light",
+    "fans": 6,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-tai-p": {
+    "artist": "TAI P",
+    "id": 14726,
+    "name": "Taï Phong",
+    "fans": 2415,
+    "similarity": 0.5,
+    "confidence": 0.53,
+    "status": "none"
+  },
+  "X-mea-show": {
+    "artist": "MEA SHOW",
+    "id": 997154,
+    "name": "Mashrou' Leila",
+    "fans": 49852,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-bashiru": {
+    "artist": "BASHIRU",
+    "id": 11054,
+    "name": "Bathory",
+    "fans": 75295,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-tino-mbarga": {
+    "artist": "Tino MBARGA",
+    "id": 79467,
+    "name": "Maria Tipo",
+    "fans": 751,
+    "similarity": 0,
+    "confidence": 0.1,
+    "status": "none"
+  },
+  "X-vegah": {
+    "artist": "Vegah",
+    "id": 214943345,
+    "name": "Vegah milanoh za",
+    "fans": 7,
+    "similarity": 0.33,
+    "confidence": 0.28,
+    "status": "none"
+  },
+  "X-mamiso": {
+    "artist": "Mamiso",
+    "id": 5570252,
+    "name": "Mamiso",
+    "fans": 34,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-dyonce": {
+    "artist": "Dyonce",
+    "id": 166430,
+    "name": "Choice",
+    "fans": 161978,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-chindo": {
+    "artist": "Chindo",
+    "id": 6830713,
+    "name": "Chandler Moore",
+    "fans": 23416,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-ewube": {
+    "artist": "Ewube",
+    "id": 7028383,
+    "name": "Ewube",
+    "fans": 59,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-l-or": {
+    "artist": "L'or",
+    "id": 54493,
+    "name": "L'or",
+    "fans": 30,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-yung-meagan": {
+    "artist": "Yung meagan",
+    "id": 12415662,
+    "name": "Yung Meagan",
+    "fans": 106,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-germoh-group": {
+    "artist": "Germoh Group",
+    "id": 384745771,
+    "name": "Germoh Group",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-blueprint-hakeem": {
+    "artist": "Blueprint Hakeem",
+    "id": 13113495,
+    "name": "Blueprint Hakeem",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-herve-slim": {
+    "artist": "Herve Slim",
+    "id": 313101,
+    "name": "Herve Samb",
+    "fans": 695,
+    "similarity": 0.5,
+    "confidence": 0.53,
+    "status": "none"
+  },
+  "X-kupbu": {
+    "artist": "Kupbu",
+    "id": 388789191,
+    "name": "Kuplung",
+    "fans": 19,
+    "similarity": 0,
+    "confidence": 0,
+    "status": "none"
+  },
+  "X-leera-gd": {
+    "artist": "Leera GD",
+    "id": 144228682,
+    "name": "Keeqaid",
+    "fans": 32143,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-spido": {
+    "artist": "Spido",
+    "id": 6983835,
+    "name": "Spido",
+    "fans": 120,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-fly-habit": {
+    "artist": "Fly Habit",
+    "id": 51813502,
+    "name": "Fly Habit",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-md-lyonga": {
+    "artist": "MD Lyonga",
+    "id": 13811159,
+    "name": "Md Lyonga",
+    "fans": 13,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-m-lynn": {
+    "artist": "M'lynn",
+    "id": 13875697,
+    "name": "M'lynn",
+    "fans": 191,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-edel-koulla": {
+    "artist": "EDEL KOULLA",
+    "id": 5211787,
+    "name": "Edel Koulla",
+    "fans": 12,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-dj-kessy": {
+    "artist": "DJ KESSY",
+    "id": 10096938,
+    "name": "DJ KESSY",
+    "fans": 13,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-la-diktatur": {
+    "artist": "La Diktatur",
+    "id": 12418480,
+    "name": "La Dictadura",
+    "fans": 34,
+    "similarity": 0.5,
+    "confidence": 0.42,
+    "status": "none"
+  },
+  "X-styfler90": {
+    "artist": "styfler90",
+    "id": 141711242,
+    "name": "Styfler90",
+    "fans": 27,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-samy-only": {
+    "artist": "SAMY ONLY",
+    "id": 181023237,
+    "name": "Samy Only",
+    "fans": 14,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-cdak": {
+    "artist": "CDAK",
+    "id": 428,
+    "name": "CAKE",
+    "fans": 104687,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-over-flow": {
+    "artist": "OVER FLOW",
+    "id": 92771,
+    "name": "Overflow",
+    "fans": 1873,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "X-joe-pro": {
+    "artist": "Joe Pro",
+    "id": 136971452,
+    "name": "Joepro",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-n-b-o": {
+    "artist": "N.B.O",
+    "id": 2237,
+    "name": "J.B.O.",
+    "fans": 27942,
+    "similarity": 0.67,
+    "confidence": 0.72,
+    "status": "review"
+  },
+  "X-groovie-selecta": {
+    "artist": "Groovie Selecta",
+    "id": 69153652,
+    "name": "Groovie Selecta",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-ketia-anzouer": {
+    "artist": "Ketia Anzouer",
+    "id": 194376657,
+    "name": "Ketia Anzouer",
+    "fans": 3,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-mic-monsta": {
+    "artist": "Mic Monsta",
+    "id": 9954590,
+    "name": "Mic Monsta",
+    "fans": 187,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-ketidy": {
+    "artist": "Ketidy",
+    "id": 148782,
+    "name": "Kénédy",
+    "fans": 18222,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-bluejay-kings": {
+    "artist": "Bluejay Kings",
+    "id": 319186141,
+    "name": "BlueJay Kings",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

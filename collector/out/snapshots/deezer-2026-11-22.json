@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T18:21:48.382Z",
+  "takenAt": "2026-11-22T18:36:24.233Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -44,7 +44,7 @@
     "Q25873680": {
       "deezerId": 259211,
       "name": "Blick Bassy",
-      "fans": 18973
+      "fans": 18972
     },
     "Q54652991": {
       "deezerId": 200195,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121175
+      "fans": 1121177
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -169,7 +169,7 @@
     "Q18351472": {
       "deezerId": 5812261,
       "name": "Magasco",
-      "fans": 14436
+      "fans": 14437
     },
     "Q27062995": {
       "deezerId": 7441728,
@@ -179,7 +179,7 @@
     "Q445829": {
       "deezerId": 4929,
       "name": "Manu Dibango",
-      "fans": 69386
+      "fans": 69387
     },
     "Q107491845": {
       "deezerId": 10153532,
@@ -239,7 +239,7 @@
     "Q136486889": {
       "deezerId": 304572,
       "name": "Shura",
-      "fans": 20681
+      "fans": 20682
     },
     "Q112537827": {
       "deezerId": 14235001,
@@ -264,7 +264,7 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145835
+      "fans": 145837
     },
     "Q221908": {
       "deezerId": 1801,
@@ -435,6 +435,11 @@
       "deezerId": 9645074,
       "name": "Patricia Essong",
       "fans": 522
+    },
+    "X-over-flow": {
+      "deezerId": 92771,
+      "name": "Overflow",
+      "fans": 1873
     }
   },
   "tracks": {
@@ -2942,6 +2947,22 @@
       "albumId": 51873482,
       "link": "https://www.deezer.com/track/430244462"
     },
+    "442071672": {
+      "wikidata": "X-over-flow",
+      "artist": "OVER FLOW",
+      "title": "This World Can't Give Me Nothing",
+      "rank": 63560,
+      "albumId": 53637412,
+      "link": "https://www.deezer.com/track/442071672"
+    },
+    "442071682": {
+      "wikidata": "X-over-flow",
+      "artist": "OVER FLOW",
+      "title": "Give God Praise",
+      "rank": 6915,
+      "albumId": 53637412,
+      "link": "https://www.deezer.com/track/442071682"
+    },
     "443074892": {
       "wikidata": "Q27062995",
       "artist": "Mani Bella",
@@ -4546,7 +4567,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Kénè so",
-      "rank": 109754,
+      "rank": 73857,
       "albumId": 140924122,
       "link": "https://www.deezer.com/track/926421832"
     },
@@ -4946,7 +4967,7 @@
       "wikidata": "Q109653690",
       "artist": "Indira",
       "title": "Je Veux Te Louer",
-      "rank": 71881,
+      "rank": 115268,
       "albumId": 186805572,
       "link": "https://www.deezer.com/track/1144498982"
     },
@@ -7914,7 +7935,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "Bad Kid (feat. Becca Mancari)",
-      "rank": 127560,
+      "rank": 94775,
       "albumId": 673016701,
       "link": "https://www.deezer.com/track/3102796871"
     },
