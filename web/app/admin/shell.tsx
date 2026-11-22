@@ -11,10 +11,10 @@ const NAV: { href: string; label: string; ready: boolean }[] = [
   { href: "/admin/", label: "Overview", ready: true },
   { href: "/admin/review/", label: "Review", ready: true },
   { href: "/admin/nationality/", label: "Nationality", ready: true },
-  { href: "/admin/artists/", label: "Artists", ready: false },
+  { href: "/admin/artists/", label: "Artists", ready: true },
   { href: "/admin/songs/", label: "Songs", ready: false },
-  { href: "/admin/channels/", label: "Channels", ready: false },
-  { href: "/admin/charts/", label: "Charts", ready: false },
+  { href: "/admin/channels/", label: "Channels", ready: true },
+  { href: "/admin/charts/", label: "Charts", ready: true },
   { href: "/admin/corrections/", label: "Corrections", ready: true },
   { href: "/admin/requests/", label: "Requests", ready: false },
 ];
