@@ -4,6 +4,11 @@
     "genre": "bikutsi",
     "source": "237 Charts team"
   },
+  "Q116847170": {
+    "name": "AkuBai",
+    "genre": "gospel",
+    "source": "Wikidata: gospel music"
+  },
   "Q19544251": {
     "name": "Ben Decca",
     "genre": "makossa",
@@ -119,6 +124,11 @@
     "genre": "afro",
     "source": "237 Charts team"
   },
+  "Q115773779": {
+    "name": "Lab’l",
+    "genre": "gospel",
+    "source": "Wikidata: gospel music, world music"
+  },
   "Q47472775": {
     "name": "Locko",
     "genre": "afro",
@@ -211,7 +221,7 @@
   },
   "Q133539324": {
     "name": "Queen Eteme",
-    "genre": "makossa",
+    "genre": "gospel",
     "source": "Wikidata: jazz, blues, soul"
   },
   "Q28006763": {
@@ -259,15 +269,25 @@
     "genre": "makossa",
     "source": "Wikidata: world music, Afrobeat, bend-skin"
   },
+  "Q54862866": {
+    "name": "Tubuo Evaristus",
+    "genre": "gospel",
+    "source": "Wikidata: gospel music, traditional folk music"
+  },
   "Q138603502": {
     "name": "Vadisco",
     "genre": "afro",
     "source": "Wikidata: Afrobeat"
   },
+  "Q138030984": {
+    "name": "Prisca Benita",
+    "genre": "gospel",
+    "source": "237 Charts team"
+  },
   "Q130530315": {
     "name": "Zenobia Germoh",
-    "genre": "makossa",
-    "source": "4 song titles say \"makossa\""
+    "genre": "gospel",
+    "source": "237 Charts team"
   },
   "Q5085917": {
     "name": "Charlotte Dipanda",
@@ -317,6 +337,11 @@
   "Q16980116": {
     "name": "Jovi",
     "genre": "mboko",
+    "source": "237 Charts team"
+  },
+  "Q130530235": {
+    "name": "Prosper Germoh",
+    "genre": "gospel",
     "source": "237 Charts team"
   }
 }

@@ -24,6 +24,7 @@ tryRun('Collaborations', 'node collector/discover-collabs.mjs');
 tryRun('Classifier', 'node collector/classify-candidates.mjs');
 tryRun('Channel matching', 'node collector/match-channels.mjs 25');
 tryRun('Genres', 'node collector/tag-genres.mjs');
+tryRun('Nationality', 'node collector/check-nationality.mjs'); // hard rule: Cameroonian nationals only
 
 log('3/7 Build chart, then complete song data until stable');
 const build = `node collector/build-week.mjs${DRY ? ' --dry' : ''}`;

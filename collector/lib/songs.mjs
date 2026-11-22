@@ -24,6 +24,24 @@ export function songTitle(rawTitle, artistNames = []) {
     .trim();
 }
 
+const SMALL = new Set(['a', 'à', 'au', 'aux', 'de', 'des', 'du', 'en', 'et', 'la', 'le', 'les', 'ou', 'pour', 'sur', 'un', 'une', 'the', 'of', 'and', 'in', 'on', 'to', 'for', 'my', 'your', 'me']);
+/** "KIDNAPPE" → "Kidnappe": title-case a title written in ALL CAPS (mixed-case titles are left alone). */
+export function fixCaps(title) {
+  if (!title) return title;
+  title = title.normalize('NFC'); // "PLANÈTES" may arrive as E + combining accent
+  if (/\p{Ll}/u.test(title) || /^[\p{Lu}\p{N}]{1,4}$/u.test(title.trim())) return title; // mixed case, or an acronym like "PDG"
+  return title.toLocaleLowerCase('fr').replace(/[\p{L}\p{N}'’]+/gu, (w, i) =>
+    (i > 0 && SMALL.has(w) ? w : w[0].toLocaleUpperCase('fr') + w.slice(1)));
+}
+
+/** Display title: Deezer's spelling when it is the same title (it restores accents: Kidnappé), else fixCaps. */
+export function bestTitle(title, deezerTitle) {
+  const fold = (s) => (s ?? '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+  if (fixCaps(title) === title?.normalize('NFC')) return title; // not ALL CAPS (or an acronym): keep the artist's spelling
+  if (deezerTitle && fold(deezerTitle) === fold(title)) return fixCaps(deezerTitle);
+  return fixCaps(title);
+}
+
 export function songKey(artistId, rawTitle, artistNames = []) {
   const t = norm(songTitle(rawTitle, artistNames));
   return t ? `${artistId}::${t}` : null;
@@ -63,7 +81,7 @@ export function mergeVersions(videos) {
   }
   for (const s of songs.values()) {
     s.sources.sort((a, b) => a.rank - b.rank || b.weekly - a.weekly);
-    s.title = songTitle(s.sources[0].title, s.names) || s.sources[0].title;
+    s.title = fixCaps(songTitle(s.sources[0].title, s.names) || s.sources[0].title);
     s.releaseDate = s.releaseDate.slice(0, 10);
     delete s.names;
   }

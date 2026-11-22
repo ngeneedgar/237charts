@@ -42,6 +42,8 @@ const fr = {
   viralWaiting: "Le Viral 20 mesure la croissance d'une semaine à l'autre. Il apparaîtra dès que trois semaines de données auront été collectées.",
   forArtists: "Pour les artistes : signaler une erreur",
   artistIssue: "C'est vous ? Une erreur sur cette page ? Signalez-la",
+  privacy: "Confidentialité",
+  terms: "Conditions d'utilisation",
 };
 const en: typeof fr = {
   charts: "Charts",
@@ -86,6 +88,8 @@ const en: typeof fr = {
   viralWaiting: "The Viral 20 measures growth from one week to the next. It appears once three weeks of data have been collected.",
   forArtists: "For artists: report a problem",
   artistIssue: "Is this you? Something wrong on this page? Tell us",
+  privacy: "Privacy",
+  terms: "Terms of use",
 };
 
 export const dictionaries = { fr, en };

@@ -30,7 +30,13 @@ let looked = 0, matched = 0;
 // Every song shown anywhere: Top 50 + genre charts
 const allEntries = [...new Map([...chart.entries, ...Object.values(chart.genreCharts ?? {}).flat()].map((e) => [e.songId, e])).values()];
 for (const e of allEntries) {
-  if (meta[e.songId]?.checked) continue;
+  const old = meta[e.songId];
+  if (old?.deezerId && !('deezerTitle' in old)) { // backfill: Deezer's spelling of the title
+    const t = await dz(`track/${old.deezerId}`);
+    old.deezerTitle = t?.title_short ?? t?.title ?? null;
+    await writeFile(META, JSON.stringify(meta, null, 2));
+  }
+  if (old?.checked) continue;
   looked++;
   const cleanTitle = e.title.replace(/\s*[([].*$/, '').trim();
   const artistMain = e.artist.split(/\s*(?:,|&|\bx\b|\bfeat\.?)\s*/i)[0];
@@ -50,6 +56,7 @@ for (const e of allEntries) {
     Object.assign(m, {
       deezerId: best.t.id,
       deezer: best.t.link,
+      deezerTitle: best.t.title_short ?? best.t.title ?? null,
       artwork: album?.cover_xl ?? album?.cover_big ?? null,
       artworkSmall: album?.cover_medium ?? null,
       album: album?.title ?? null,

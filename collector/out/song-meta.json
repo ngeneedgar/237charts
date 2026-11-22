@@ -15,7 +15,8 @@
       "Ks Bloom"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Stranger"
   },
   "Q117325000::faraway": {
     "checked": "2026-11-21T16:03:59.793Z",
@@ -32,7 +33,8 @@
       "Sabrina"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Faraway"
   },
   "Q117325000::on djah": {
     "checked": "2026-11-21T16:04:01.774Z",
@@ -50,7 +52,8 @@
       "Martin's"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "ON DJAH"
   },
   "Q117325000::pullover": {
     "checked": "2026-11-21T16:04:03.908Z",
@@ -85,7 +88,8 @@
       "Cysoul"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Koulos"
   },
   "Q111470436::go na go": {
     "checked": "2026-11-21T16:04:07.748Z",
@@ -102,7 +106,8 @@
       "Kocee"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Go Na Go"
   },
   "Q123574342::on my mind": {
     "checked": "2026-11-21T16:04:09.664Z",
@@ -120,7 +125,8 @@
       "Adekunle Gold"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "On my mind"
   },
   "X-vanity-fair::ma a philo": {
     "checked": "2026-11-21T16:04:11.740Z",
@@ -137,7 +143,8 @@
       "Vanity Fair"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ma’a Philo"
   },
   "X-la-melo-du-quartier::moui de mamouai": {
     "checked": "2026-11-21T16:04:13.634Z",
@@ -154,7 +161,8 @@
       "la mélo du quartier"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Moui de mamouai"
   },
   "Q115452792::ma moitie": {
     "checked": "2026-11-21T16:04:15.709Z",
@@ -172,7 +180,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ma Moitié"
   },
   "Q61653325::ensemble": {
     "checked": "2026-11-21T16:04:17.554Z",
@@ -193,7 +202,8 @@
       "BlueJay Kings"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ensemble"
   },
   "X-la-santinelle::1 2 3 tremble": {
     "checked": "2026-11-21T16:04:20.061Z",
@@ -210,7 +220,8 @@
       "La Santinelle"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "1,2,3 tremble"
   },
   "Q117325000::alone": {
     "checked": "2026-11-21T16:04:22.048Z",
@@ -227,7 +238,8 @@
       "Sabrina"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Alone"
   },
   "Q117805141::this trick is genius": {
     "checked": "2026-11-21T16:04:23.978Z",
@@ -249,7 +261,8 @@
       "La DIKTATUR"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Appelez les"
   },
   "Q123574342::shoot": {
     "checked": "2026-11-21T16:04:27.370Z",
@@ -266,7 +279,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Shoot"
   },
   "X-tabaski::we di drink": {
     "checked": "2026-11-21T16:04:29.329Z",
@@ -287,7 +301,8 @@
       "Kocee"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Pdg"
   },
   "X-sopeka-diamant::mission complique": {
     "checked": "2026-11-21T16:04:32.800Z",
@@ -304,7 +319,8 @@
       "SOPEKA DIAMANT"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Mission compliqué"
   },
   "Q24341755::je veux danser": {
     "checked": "2026-11-21T16:04:34.841Z",
@@ -321,7 +337,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Je veux danser"
   },
   "X-ikardi-le-monument::vieux tetu bandit de la nuit": {
     "checked": "2026-11-21T16:04:36.918Z",
@@ -343,7 +360,8 @@
       "Kratos le Dieu de la guerre"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Conduis Moi"
   },
   "Q123574342::dans 10 ans": {
     "checked": "2026-11-21T16:04:40.275Z",
@@ -360,7 +378,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Dans 10 ans"
   },
   "X-petit-axel::tata mimi": {
     "checked": "2026-11-21T16:04:42.050Z",
@@ -377,7 +396,8 @@
       "Petit Axel"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Tata mimi"
   },
   "Q123574342::solo": {
     "checked": "2026-11-21T16:04:43.964Z",
@@ -394,7 +414,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Solo"
   },
   "Q115452649::kidnappe": {
     "checked": "2026-11-21T16:04:45.934Z",
@@ -412,7 +433,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Kidnappé"
   },
   "Q47371377::money": {
     "checked": "2026-11-21T16:04:47.999Z",
@@ -430,7 +452,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Money"
   },
   "X-ikardi-le-monument::le destin": {
     "checked": "2026-11-21T16:04:49.810Z",
@@ -447,7 +470,8 @@
       "Ikardi Le Monument"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Le destin"
   },
   "X-tim-storm::suspendu": {
     "checked": "2026-11-21T16:04:51.984Z",
@@ -481,7 +505,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ne reviens pas"
   },
   "Q3037333::temps additionnel": {
     "checked": "2026-11-21T16:04:56.007Z",
@@ -499,7 +524,8 @@
       "KLN"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Temps additionnel"
   },
   "Q27062890::johnny": {
     "checked": "2026-11-21T16:04:58.087Z",
@@ -516,7 +542,8 @@
       "Grace Decca"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Johnny"
   },
   "X-les-frangins-pongo::la nouvelle danse des frangins": {
     "checked": "2026-11-21T16:05:00.065Z",
@@ -541,7 +568,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Les autres planètes"
   },
   "X-la-melo-du-quartier::mon berger": {
     "checked": "2026-11-21T16:05:05.058Z",
@@ -560,7 +588,8 @@
       "Iza muan"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Mon berger"
   },
   "Q111470436::securiser": {
     "checked": "2026-11-21T16:05:08.715Z",
@@ -578,7 +607,8 @@
       "Sindika"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Securiser"
   },
   "Q221908::saga africa": {
     "checked": "2026-11-21T16:05:10.794Z",
@@ -604,7 +634,8 @@
       "Armand Biyag"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Manè ma nkag"
   },
   "Q3037333::tranchees": {
     "checked": "2026-11-21T16:05:15.745Z",
@@ -622,7 +653,8 @@
       "JRK 19"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Tranchées"
   },
   "X-sokeb-beatz::faut toucher": {
     "checked": "2026-11-21T16:05:18.524Z",
@@ -642,7 +674,8 @@
       "Lith"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Faut toucher"
   },
   "X-le-duo-magique::viens danser": {
     "checked": "2026-11-21T16:05:20.713Z",
@@ -663,7 +696,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Appels manqués"
   },
   "Q27062952::coco carbure": {
     "checked": "2026-11-21T16:05:24.724Z",
@@ -697,7 +731,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "CHER OU ILLÉGAL"
   },
   "Q111470436::jigi": {
     "checked": "2026-11-21T16:05:28.614Z",
@@ -714,7 +749,8 @@
       "Kocee"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "JIGI"
   },
   "Q3037333::oswald": {
     "checked": "2026-11-21T16:05:30.528Z",
@@ -731,7 +767,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Oswald"
   },
   "Q7243974::you must calculer": {
     "checked": "2026-11-21T16:05:32.524Z",
@@ -765,7 +802,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Soldat à terre"
   },
   "Q439028::douala paris": {
     "checked": "2026-11-21T16:10:18.331Z",
@@ -811,7 +849,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "JE N'AI PAS LE TEMPS"
   },
   "Q130530315::what a beautiful name holy forever goodness of god hillsong worship germoh group cece winans": {
     "checked": "2026-11-21T16:10:27.826Z",
@@ -832,7 +871,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Andale"
   },
   "Q107315146::bonne a rien": {
     "checked": "2026-11-21T17:23:17.187Z",
@@ -868,7 +908,8 @@
       "ZEEBOY"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "I Know"
   },
   "Q115452649::oxymore": {
     "checked": "2026-11-21T17:23:31.077Z",
@@ -885,7 +926,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Oxymore"
   },
   "Q115452649::depuis ton love": {
     "checked": "2026-11-21T17:23:33.168Z",
@@ -902,7 +944,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Depuis Ton Love"
   },
   "Q124152431::vanister enama je ne suis pas jesus chakap by adrenaline": {
     "checked": "2026-11-21T17:26:44.714Z",
@@ -931,7 +974,8 @@
       "Ulanda"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ta Fémme"
   },
   "Q2079842::petit pays machine ma bossinga": {
     "checked": "2026-11-21T17:30:04.882Z",
@@ -960,7 +1004,8 @@
       "Ulanda"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ma Ba Nze"
   },
   "Q115627805::one day ii": {
     "checked": "2026-11-21T17:30:13.557Z",
@@ -978,7 +1023,8 @@
       "Ben Decca"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "One Day II"
   },
   "Q2079842::wooooooh by raza": {
     "checked": "2026-11-21T17:30:15.503Z",
@@ -1023,7 +1069,8 @@
       "Ulanda"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Na Wety Be Man"
   },
   "Q112113310::epouke epouke aka papa yeye": {
     "checked": "2026-11-21T17:30:27.375Z",
@@ -1044,7 +1091,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "WÉTAM"
   },
   "Q115452649::pique": {
     "checked": "2026-11-21T17:30:30.648Z",
@@ -1078,7 +1126,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ngbakan"
   },
   "Q115452649::zambe": {
     "checked": "2026-11-21T17:30:34.488Z",
@@ -1095,7 +1144,8 @@
       "Cysoul"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Zambe"
   },
   "Q24341755::ma vie": {
     "checked": "2026-11-21T17:30:37.009Z",
@@ -1112,7 +1162,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ma vie"
   },
   "Q115452649::bebe na bebe": {
     "checked": "2026-11-21T17:30:39.055Z",
@@ -1129,7 +1180,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "BÉBÉ NA BÉBÉ"
   },
   "Q115452649::malia": {
     "checked": "2026-11-21T17:30:41.489Z",
@@ -1146,7 +1198,8 @@
       "Cysoul"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Malia"
   },
   "Q115452649::my way": {
     "checked": "2026-11-21T17:30:43.856Z",
@@ -1163,7 +1216,8 @@
       "Cysoul"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "MY WAY"
   },
   "Q24341755::traditions": {
     "checked": "2026-11-21T17:30:46.048Z",
@@ -1180,7 +1234,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Traditions"
   },
   "Q115452649::bikut5": {
     "checked": "2026-11-21T17:30:47.919Z",
@@ -1198,7 +1253,8 @@
       "Tenor"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "BIKUT5"
   },
   "Q24341755::nnem y aboum": {
     "checked": "2026-11-21T17:30:49.797Z",
@@ -1215,7 +1271,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Nnem y aboum"
   },
   "X-la-santinelle::la sentinelle c est monte": {
     "checked": "2026-11-21T17:30:51.810Z",
@@ -1257,7 +1314,8 @@
       "Ottou Marcelin"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ne Cours Pas"
   },
   "Q115612717::mon nom": {
     "checked": "2026-11-21T17:31:04.330Z",
@@ -1291,7 +1349,8 @@
       "Vernyuy Tina"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Verloni"
   },
   "Q109814231::woman": {
     "checked": "2026-11-21T17:31:08.626Z",
@@ -1344,7 +1403,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Insensé"
   },
   "Q123574342::comme on le vit a deux": {
     "checked": "2026-11-21T17:31:23.058Z",
@@ -1361,7 +1421,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Comme on le vit à deux"
   },
   "Q123574342::moto": {
     "checked": "2026-11-21T17:31:25.418Z",
@@ -1378,7 +1439,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Moto"
   },
   "Q123574342::le mur": {
     "checked": "2026-11-21T17:31:27.381Z",
@@ -1399,7 +1461,8 @@
       "Yamê"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Le Roi"
   },
   "Q3037333::guwop freestyle": {
     "checked": "2026-11-21T17:31:30.592Z",
@@ -1416,7 +1479,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "GUWOP FREESTYLE"
   },
   "Q3037333::ce qui restera": {
     "checked": "2026-11-21T17:31:32.656Z",
@@ -1433,7 +1497,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Ce qui restera"
   },
   "Q3037333::pardon et merci": {
     "checked": "2026-11-21T17:31:35.519Z",
@@ -1450,7 +1515,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Pardon et merci"
   },
   "Q3037333::adn": {
     "checked": "2026-11-21T17:31:37.465Z",
@@ -1468,7 +1534,8 @@
       "Zequin"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "ADN"
   },
   "Q18351472::XUQPZlixKso": {
     "checked": "2026-11-21T17:31:39.412Z",
@@ -1501,7 +1568,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "À votre santé"
   },
   "Q18351472::creme de la creme 2": {
     "checked": "2026-11-21T17:31:49.902Z",
@@ -1518,7 +1586,8 @@
       "Magasco"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "crème de la crème 2"
   },
   "Q3037333::victor newman": {
     "checked": "2026-11-21T17:31:53.868Z",
@@ -1535,7 +1604,8 @@
       "Dosseh"
     ],
     "explicit": true,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Victor Newman"
   },
   "Q3037333::dieu donne j utilise part 2": {
     "checked": "2026-11-21T17:31:56.704Z",
@@ -1556,7 +1626,8 @@
       "Jovi"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "BIG PAPA"
   },
   "Q16980116::big bitch 2": {
     "checked": "2026-11-21T17:32:00.430Z",
@@ -1585,7 +1656,8 @@
       "Lady Ponce"
     ],
     "explicit": false,
-    "matchScore": 1
+    "matchScore": 1,
+    "deezerTitle": "Original"
   },
   "Q124152431::vanister enama officiel par fabien nguemo": {
     "checked": "2026-11-21T17:32:13.622Z",

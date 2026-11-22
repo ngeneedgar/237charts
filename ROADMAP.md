@@ -102,7 +102,7 @@
 - [~] 2.14 SEO: page titles, descriptions, share previews (song pages use the official cover), sitemap.xml (172 URLs, FR/EN alternates), robots.txt, site address 237charts.com
   - [ ] Structured data (schema.org MusicRecording) — not done
 - [~] 2.15 Installable app: manifest, app icons (192/512/maskable/Apple), theme colors. Offline mode not done
-- [ ] 2.16 Privacy policy + Terms pages (FR/EN)
+- [x] 2.16 Privacy policy + Terms pages (FR/EN) — /privacy, /terms, linked in footer + sitemap
 - [x] 2.17 **Deployed: https://237charts.pages.dev** (Cloudflare Pages, 364 pages / 1,831 files). Checked live: home, Top 50, song, genre, widget, robots, manifest = 200; unknown page = 404; no console errors on phone. Hidden from Google while preview data is shown
 - [ ] 2.18 Connect purchased domain
 - [ ] 2.19 **Web launch (soft)**

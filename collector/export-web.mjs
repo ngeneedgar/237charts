@@ -4,6 +4,7 @@
 // Usage: node collector/export-web.mjs
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { GENRES } from './lib/genres.mjs';
+import { bestTitle } from './lib/songs.mjs';
 
 const dir = 'collector/out';
 const real = (await readdir(dir)).filter((f) => /^chart-\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().at(-1);
@@ -18,7 +19,7 @@ function entry(e) {
   const primary = e.artist.split(/\s*(?:,|&|\bx\b|\bfeat\.?)\s*/i)[0].trim();
   return {
     slug: `${slug(primary)}-${slug(e.title)}`, artistSlug: slug(primary), primaryArtist: primary, genre: e.genre ?? null,
-    rank: e.rank, title: e.title, artist: e.artist, lastWeek: e.lastWeek ?? null, peak: e.peak,
+    rank: e.rank, title: bestTitle(e.title, m.deezerTitle), artist: e.artist, lastWeek: e.lastWeek ?? null, peak: e.peak,
     weeks: e.weeksOnChart, movement: e.movement, delta: e.delta ?? null, adjusted: !!e.adjusted,
     // Official release artwork (Deezer); otherwise the official video thumbnail; otherwise none
     artwork: m.artwork ?? m.youtubeThumb ?? null,

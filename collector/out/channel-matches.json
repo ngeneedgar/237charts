@@ -2557,18 +2557,18 @@
       "Lionel Obam"
     ],
     "best": {
-      "channelId": "UCKVUeNzraAJCUBTY0snHpnA",
-      "title": "Jeune Lio ",
+      "channelId": "UCy23NfXQjLVW-EZbN3Je3GA",
+      "title": "Lionel Obam",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 3,
       "similarity": 1,
       "confidence": 0.7
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -2648,18 +2648,18 @@
     "name": "Jojo Kuo",
     "aliases": [],
     "best": {
-      "channelId": "UCL2F4qzNuQCRo4AyMMVaLQQ",
-      "title": "郭珈嘉（Jojo Kuo）",
+      "channelId": "UCdVfhKoFxD8dEHzR4pu9foA",
+      "title": "Jojo Kuo - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 50,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
