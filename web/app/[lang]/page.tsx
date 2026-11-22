@@ -58,19 +58,30 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </section>
 
         {no1 && (
+          // No. 1 hero: always the brand dark green (same in light and dark mode), artwork blurred behind.
+          // Layout follows the card's own width (container query), so it also works inside the apps.
           <section className={s.hero} aria-label={t.no1}>
-            <Link href={`/${lang}/song/${no1.slug}/`} aria-label={no1.title}><Art e={no1} size="big" className={s.art} /></Link>
-            <div className={s.heroText}>
-              <span className={s.eyebrow}>{t.no1}</span>
-              <h2 className={s.heroTitle}><Link href={`/${lang}/song/${no1.slug}/`} style={{ color: "inherit" }}>{no1.title}</Link></h2>
-              <span className={s.heroArtist}>{no1.artists.join(", ")}</span>
-              <span className={s.heroMeta}>
-                {[no1.album !== no1.title ? no1.album : null, year(no1.releaseDate), `${t.peak} ${no1.peak}`, `${no1.weeks} ${t.wks}`].filter(Boolean).join(" · ")}
-              </span>
-              <span className={s.heroLinks}>
-                {no1.youtube && <a href={no1.youtube} target="_blank" rel="noopener">YouTube</a>}
-                {no1.deezer && <a href={no1.deezer} target="_blank" rel="noopener">Deezer</a>}
-              </span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            {no1.artwork && <img className={s.heroBlur} src={no1.artwork} alt="" aria-hidden="true" />}
+            <div className={s.heroInner}>
+              <Link className={s.heroArtLink} href={`/${lang}/song/${no1.slug}/`} aria-label={no1.title}>
+                <Art e={no1} size="big" className={s.heroArt} />
+              </Link>
+              <div className={s.heroText}>
+                <span className={s.heroBadge}><span className={s.heroOne} aria-hidden="true">1</span>{t.no1}</span>
+                <h2 className={s.heroTitle}><Link href={`/${lang}/song/${no1.slug}/`}>{no1.title}</Link></h2>
+                <span className={s.heroArtist}>{no1.artists.join(", ")}</span>
+                <span className={s.heroChips}>
+                  <span className={s.heroChip}>{no1.movement === "new" ? t.movement.new : no1.movement === "up" ? `▲ ${no1.delta}` : no1.movement === "down" ? `▼ ${Math.abs(no1.delta ?? 0)}` : no1.movement === "re" ? t.movement.re : "="}</span>
+                  <span className={s.heroChip}>{t.peak} {no1.peak}</span>
+                  <span className={s.heroChip}>{no1.weeks} {t.wks}</span>
+                  {year(no1.releaseDate) && <span className={s.heroChip}>{year(no1.releaseDate)}</span>}
+                </span>
+                <span className={s.heroActions}>
+                  {no1.youtube && <a className={s.heroPrimary} href={no1.youtube} target="_blank" rel="noopener">{t.listenOn("YouTube")}</a>}
+                  {no1.deezer && <a className={s.heroGhost} href={no1.deezer} target="_blank" rel="noopener">Deezer</a>}
+                </span>
+              </div>
             </div>
           </section>
         )}

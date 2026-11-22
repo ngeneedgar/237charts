@@ -42,9 +42,7 @@
 
 .preview { font-size: 13px; line-height: 19px; color: var(--label-2); background: var(--fill); border-radius: 12px; padding: var(--s3) var(--s4); margin: calc(-1 * var(--s5)) 0 0; }
 
-.hero { background: var(--surface); border-radius: 16px; padding: var(--s5); display: grid; grid-template-columns: 96px 1fr; gap: var(--s5); align-items: center; }
 .art { width: 96px; height: 96px; max-width: 100%; border-radius: 8px; background: var(--fill); display: grid; place-items: center; color: var(--label-2); font-size: 28px; font-weight: 700; object-fit: cover; }
-.heroLinks { display: flex; gap: var(--s5); margin-top: var(--s2); font-size: 17px; font-weight: 600; }
 /* Explicit badge: fixed square, centred by its flex parent (no baseline nudging) */
 .explicit {
   flex: none; display: inline-flex; align-items: center; justify-content: center;
@@ -53,12 +51,7 @@
   font-size: 10px; line-height: 1; font-weight: 700; letter-spacing: 0;
 }
 .detailTitleLine { display: inline-flex; align-items: center; gap: 8px; justify-content: center; max-width: 100%; }
-.heroText { min-width: 0; display: grid; gap: var(--s1); }
 .eyebrow { font-size: 13px; line-height: 18px; color: var(--accent-text); font-weight: 600; }
-.heroTitle { font-size: 24px; line-height: 30px; font-weight: 500; letter-spacing: 0.35px; margin: 0; overflow-wrap: anywhere; }
-.heroArtist { font-size: 15px; line-height: 20px; color: var(--label-2); }
-.heroMeta { font-size: 13px; line-height: 18px; color: var(--label-3); }
-.heroListen { font-size: 17px; font-weight: 600; margin-top: 6px; justify-self: start; }
 
 /* Section headings: same style as shelf titles, with room under them */
 .sectionHead { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 var(--s4); }
@@ -290,3 +283,35 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 
 /* Footer links with icons (same set as the admin) */
 .footLink { display: inline-flex; align-items: center; gap: 8px; }
+
+/* ---------- No. 1 hero card (brand dark green in every theme; adapts to its own width) ---------- */
+.hero { position: relative; overflow: hidden; border-radius: 24px; background: #03100A; color: #F2FBF5; container-type: inline-size; isolation: isolate;
+  box-shadow: 0 12px 32px rgba(3,16,10,.28); }
+.heroBlur { position: absolute; inset: -20%; width: 140%; height: 140%; object-fit: cover; filter: blur(40px) saturate(1.2); opacity: .45; z-index: -2; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: -1;
+  background: radial-gradient(80% 70% at 90% 0%, rgba(166,227,179,.20), transparent 70%), linear-gradient(165deg, rgba(14,45,27,.70) 0%, rgba(6,32,18,.88) 50%, #03100A 100%); }
+.heroInner { display: grid; gap: 20px; padding: 24px; grid-template-columns: 1fr; justify-items: center; text-align: center; }
+.heroArtLink { display: block; width: min(220px, 62cqw); }
+.heroArt { width: 100%; aspect-ratio: 1; height: auto; border-radius: 16px; object-fit: cover; display: grid; place-items: center; background: rgba(166,227,179,.12);
+  color: #A6E3B3; font-size: 48px; font-weight: 300; box-shadow: 0 16px 40px rgba(0,0,0,.45); }
+.heroText { min-width: 0; display: grid; gap: 8px; justify-items: center; }
+.heroBadge { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; line-height: 18px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: #A6E3B3; }
+.heroOne { font-size: 34px; line-height: 1; font-weight: 700; color: transparent; -webkit-text-stroke: 1.5px #A6E3B3; }
+.heroTitle { margin: 0; font-size: clamp(26px, 7cqw, 40px); line-height: 1.12; font-weight: 300; letter-spacing: -0.01em; overflow-wrap: anywhere; }
+.heroTitle a { color: #FFFFFF; }
+.heroArtist { font-size: 17px; line-height: 22px; color: #A6E3B3; font-weight: 400; }
+.heroChips { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 4px; }
+.heroChip { font-size: 13px; line-height: 18px; font-weight: 500; color: #DCEFE3; background: rgba(166,227,179,.12); border: 1px solid rgba(166,227,179,.22); border-radius: 999px; padding: 4px 10px; font-variant-numeric: tabular-nums; }
+.heroActions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 10px; width: 100%; }
+.heroPrimary, .heroGhost { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 999px; font-size: 16px; font-weight: 600; }
+.heroPrimary { background: #237A40; color: #FFFFFF; flex: 1 1 auto; }
+.heroGhost { color: #F2FBF5; border: 1px solid rgba(166,227,179,.45); }
+.heroPrimary:hover, .heroGhost:hover { text-decoration: none; filter: brightness(1.08); }
+/* Wider card: artwork left, text right */
+@container (min-width: 560px) {
+  .heroInner { grid-template-columns: auto 1fr; justify-items: start; text-align: left; padding: 32px; gap: 32px; align-items: center; }
+  .heroArtLink { width: clamp(180px, 34cqw, 280px); }
+  .heroText, .heroChips, .heroActions { justify-items: start; justify-content: flex-start; }
+  .heroPrimary { flex: 0 1 auto; }
+}
+@media (prefers-reduced-motion: no-preference) { .heroArt { transition: transform .3s var(--ease); } .heroArtLink:hover .heroArt { transform: scale(1.02); } }
