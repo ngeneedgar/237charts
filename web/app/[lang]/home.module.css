@@ -329,4 +329,5 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 .genreTrack:hover .rowTitle { text-decoration: underline; }
 .genreRank { font-size: 22px; line-height: 1; font-weight: 300; font-variant-numeric: tabular-nums; color: var(--accent-text); text-align: center; }
 .tileCustom { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.genreTrack .rowTitle, .genreTrack .rowArtist { display: block; }
+.genreTrack .rowText { display: block; min-width: 0; overflow: hidden; }
+.genreTrack .rowTitle, .genreTrack .rowArtist { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

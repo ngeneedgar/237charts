@@ -87,7 +87,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                     <Link href={`/${lang}/song/${e.slug}/`} className={s.genreTrack}>
                       <span className={s.genreRank}>{e.rank}</span>
                       <span className={s.rowText}>
-                        <span className={s.rowTitle}>{e.title}</span>
+                        <span className={s.rowTitle}>{e.title.replace(/\s*[([](feat|ft)\.?[^)\]]*[)\]]/gi, "")}</span>
                         <span className={s.rowArtist}>{e.artists.join(", ")}</span>
                       </span>
                     </Link>
