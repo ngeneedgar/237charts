@@ -62,4 +62,9 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add collector/out admin web/data
           git diff --cached --quiet || git commit -m "Weekly run $(date -u +%Y-%m-%d)"
-          git push
+          # Someone may have pushed (e.g. an admin save) while this run was going: rebase onto it, retry a few times
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main || { git rebase --abort; git pull --no-rebase -X ours origin main; }
+          done
+          exit 1
