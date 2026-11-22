@@ -32,7 +32,7 @@ const copy = {
     antiH: "Irregular activity",
     anti: "If a song's weekly count is more than 5× its usual level (its median over the last 4 weeks, and at least 5,000), the count is capped at 3× and the song is marked \"Adjusted for irregular activity\".",
     logH: "Corrections log",
-    log: "Every manual correction is listed here with its date and reason. No corrections yet.",
+    log: "Ranks come from the listening data. In rare cases the 237 Charts team can correct a position by hand (for example when a data error put a song in the wrong place); this never happens because an artist asked. Every manual correction, including a changed position, is listed here with its date and reason. No corrections yet.",
   },
   fr: {
     intro: "237 Charts classe chaque semaine la musique camerounaise à partir de données d'écoute publiques. Chaque chiffre cite sa source. La méthode est versionnée : tout changement est d'abord publié ici.",
@@ -60,7 +60,7 @@ const copy = {
     antiH: "Activité irrégulière",
     anti: "Si le total hebdomadaire d'un titre dépasse 5× son niveau habituel (sa médiane des 4 dernières semaines, et au moins 5 000), il est plafonné à 3× et le titre est marqué « Ajusté pour activité irrégulière ».",
     logH: "Journal des corrections",
-    log: "Chaque correction manuelle est listée ici avec sa date et sa raison. Aucune correction pour l'instant.",
+    log: "Les rangs viennent des données d’écoute. Dans de rares cas, l’équipe 237 Charts peut corriger une position à la main (par exemple quand une erreur de données a mal placé un titre) ; cela ne se fait jamais parce qu’un artiste l’a demandé. Chaque correction manuelle, y compris un changement de position, est listée ici avec sa date et sa raison. Aucune correction pour l’instant.",
   },
 };
 

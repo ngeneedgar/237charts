@@ -135,22 +135,41 @@ export function scoreWeek(songs, weekEnd, m = METHODOLOGY_V1) {
  * @param {object} prev  map songId -> { lastRank (null if not on last week's chart), peak, weeks, everCharted }
  * @param {'overall'|string} chart  'overall' or a genre slug
  */
-export function rankChart(rows, prev = {}, chart = 'overall', m = METHODOLOGY_V1) {
+export function rankChart(rows, prev = {}, chart = 'overall', m = METHODOLOGY_V1, pins = {}) {
   const size = chart === 'overall' ? m.chartSizes.overall : m.chartSizes.genre;
   const pool = rows
     .filter((r) => r.eligible && r.score > 0 && (chart === 'overall' || r.genre === chart))
     .sort((a, b) => b.score - a.score || a.songId.localeCompare(b.songId)); // deterministic ties
 
-  const entries = [];
+  // 1. Normal selection by score
+  let picked = [];
   for (const r of pool) {
-    const rank = entries.length + 1;
-    if (rank > size) break;
+    if (picked.length >= size) break;
     // Recurrent songs leave the Overall chart once they fall below the cutoff
-    if (chart === 'overall' && r.recurrent && rank > m.recurrentMinRank) continue;
+    if (chart === 'overall' && r.recurrent && picked.length + 1 > m.recurrentMinRank) continue;
+    picked.push(r);
+  }
+  // 2. Manual positions set by the team (admin/chart-overrides.csv), applied in rank order.
+  //    A pinned song must still be eligible this week; the others keep their order around it.
+  const pinList = Object.entries(pins).map(([id, rank]) => [pool.find((r) => r.songId === id), Math.max(1, Math.round(rank))])
+    .filter(([r]) => r).sort((a, b) => a[1] - b[1]);
+  if (pinList.length) {
+    const pinned = new Set(pinList.map(([r]) => r.songId));
+    const rest = picked.filter((r) => !pinned.has(r.songId));
+    picked = [];
+    for (const [r, rank] of pinList) { while (picked.length < rank - 1 && rest.length) picked.push(rest.shift()); picked.push(r); }
+    picked.push(...rest);
+    picked = picked.slice(0, size);
+  }
+
+  const entries = [];
+  for (const r of picked) {
+    const rank = entries.length + 1;
     const p = prev[r.songId] ?? {};
     const lw = p.lastRank ?? null;
     entries.push({
       rank, songId: r.songId, score: r.score, adjusted: r.adjusted,
+      ...(r.songId in pins ? { manual: true } : {}),
       lastWeek: lw,
       peak: Math.min(rank, p.peak ?? Infinity),
       weeksOnChart: (p.weeks ?? 0) + 1,

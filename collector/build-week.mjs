@@ -8,6 +8,7 @@ import { mergeVersions, songKey } from './lib/songs.mjs';
 import { norm } from './lib/names.mjs';
 import { GENRES, genreFromTitle } from './lib/genres.mjs';
 import { applySongFixes, loadSongFixes } from './lib/song-fixes.mjs';
+import { loadChartPins } from './lib/chart-overrides.mjs';
 import { loadRoster } from './lib/roster.mjs';
 
 const dir = 'collector/out/snapshots';
@@ -134,7 +135,10 @@ function history(pick) {
   });
   return prev;
 }
-const chart = rankChart(rows, history((c) => c.entries));
+// Manual positions set by the team (admin/chart-overrides.csv), public in the corrections log
+const pins = await loadChartPins();
+if (Object.keys(pins).length) console.log(`Manual positions: ${Object.entries(pins).map(([c, p]) => `${c} ${Object.keys(p).length}`).join(' · ')}`);
+const chart = rankChart(rows, history((c) => c.entries), 'overall', undefined, pins['top-50']);
 const meta = Object.fromEntries(songs.map((s) => [s.songId, s.meta]));
 const genreOf = Object.fromEntries(songs.map((s) => [s.songId, s.genre]));
 const withMeta = (e) => ({
@@ -143,7 +147,7 @@ const withMeta = (e) => ({
 });
 const out = chart.map(withMeta);
 // Genre Top 20s (same scores, filtered by genre)
-const genreCharts = Object.fromEntries(GENRES.map((g) => [g.slug, rankChart(rows, history((c) => c.genreCharts?.[g.slug]), g.slug).map(withMeta)]));
+const genreCharts = Object.fromEntries(GENRES.map((g) => [g.slug, rankChart(rows, history((c) => c.genreCharts?.[g.slug]), g.slug, undefined, pins[g.slug]).map(withMeta)]));
 console.log(`${videos.length} videos merged into ${merged.length} songs`);
 console.log(`Genre coverage — Top 50: ${out.filter((e) => e.genre).length}/50 tagged · genre charts: ` +
   GENRES.map((g) => `${g.en} ${genreCharts[g.slug].length}`).join(' · '));

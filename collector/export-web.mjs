@@ -20,7 +20,7 @@ function entry(e) {
   return {
     slug: `${slug(primary)}-${slug(e.title)}`, artistSlug: slug(primary), primaryArtist: primary, genre: e.genre ?? null,
     rank: e.rank, title: bestTitle(e.title, m.deezerTitle), artist: e.artist, lastWeek: e.lastWeek ?? null, peak: e.peak,
-    weeks: e.weeksOnChart, movement: e.movement, delta: e.delta ?? null, adjusted: !!e.adjusted,
+    weeks: e.weeksOnChart, movement: e.movement, delta: e.delta ?? null, adjusted: !!e.adjusted, manual: !!e.manual,
     // Official release artwork (Deezer); otherwise the official video thumbnail; otherwise none
     artwork: m.artwork ?? m.youtubeThumb ?? null,
     artworkSmall: m.artworkSmall ?? m.youtubeThumb ?? null,

@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { Shell } from "../shell";
-import { api } from "../lib";
+import { Shell, Toast, useMe } from "../shell";
+import { api, canEdit } from "../lib";
+import { EditOrder } from "./edit-order";
 import { GENRES, genreLabel } from "../roster";
 import { GenreDot } from "../ui";
 import { Icon } from "../icons";
@@ -33,6 +34,10 @@ function Charts() {
   const [err, setErr] = useState<string | null>(null);
   const [tab, setTab] = useState("top50");
   const [onlyFlags, setOnlyFlags] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [toast, setToast] = useState<{ kind: "ok" | "bad"; text: string; link?: string } | null>(null);
+  const me = useMe();
+  useEffect(() => setEditing(false), [tab]);
 
   useEffect(() => {
     api.json<Chart>("web/data/chart.json").then(setChart).catch((e) => setErr(e.message));
@@ -54,9 +59,14 @@ function Charts() {
           <div className="lbl">{chart ? `${chart.preview ? "Preview · test data" : "Published"} · week ending ${chart.weekEnd}` : "Loading…"}</div>
           <h1>Charts</h1>
         </div>
-        <a className="btn" href="/en/top-50/" target="_blank" rel="noopener"><Icon name="external" />Open on the site</a>
+        <div style={{ display: "flex", gap: 10 }}>
+          {tab !== "top20" && !editing && <button className="btn" disabled={!canEdit(me)} onClick={() => setEditing(true)}><Icon name="charts" />Edit order</button>}
+          <a className="btn" href="/en/top-50/" target="_blank" rel="noopener"><Icon name="external" />Open on the site</a>
+        </div>
       </div>
       {err && <div className="notice bad">Couldn&apos;t load the chart: {err}</div>}
+      {editing && <EditOrder chart={tab === "top50" ? "top-50" : tab} onClose={() => setEditing(false)} onSaved={(text, link) => setToast({ kind: "ok", text, link })} />}
+      <Toast msg={toast} onClose={() => setToast(null)} />
 
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
         {[["top50", "Top 50"], ["top20", "Top 20"], ...GENRES.map((g) => [g.slug, g.label])].map(([k, l]) => (
