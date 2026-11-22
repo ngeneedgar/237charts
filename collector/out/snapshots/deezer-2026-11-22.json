@@ -1,10 +1,10 @@
 {
-  "takenAt": "2026-11-22T16:38:11.294Z",
+  "takenAt": "2026-11-22T18:21:48.382Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
       "name": "Lady Ponce",
-      "fans": 19813
+      "fans": 19814
     },
     "Q2847091": {
       "deezerId": 1229357,
@@ -39,12 +39,12 @@
     "Q64667915": {
       "deezerId": 12773361,
       "name": "Blanche Bailly",
-      "fans": 9484
+      "fans": 9485
     },
     "Q25873680": {
       "deezerId": 259211,
       "name": "Blick Bassy",
-      "fans": 18972
+      "fans": 18973
     },
     "Q54652991": {
       "deezerId": 200195,
@@ -54,7 +54,7 @@
     "Q5085917": {
       "deezerId": 1243003,
       "name": "Charlotte Dipanda",
-      "fans": 39781
+      "fans": 39782
     },
     "Q50801147": {
       "deezerId": 1221316,
@@ -79,17 +79,17 @@
     "Q109816323": {
       "deezerId": 85191712,
       "name": "Darina Victry",
-      "fans": 2355
+      "fans": 2356
     },
     "Q112112989": {
       "deezerId": 1380092,
       "name": "Dina Bell",
-      "fans": 5077
+      "fans": 5078
     },
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121171
+      "fans": 1121175
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -134,12 +134,12 @@
     "Q109653690": {
       "deezerId": 289128,
       "name": "Indira",
-      "fans": 1484
+      "fans": 1485
     },
     "Q439028": {
       "deezerId": 264933,
       "name": "Irma",
-      "fans": 169832
+      "fans": 169834
     },
     "Q140841663": {
       "deezerId": 1624186,
@@ -154,7 +154,7 @@
     "Q115790718": {
       "deezerId": 70757872,
       "name": "Libianca",
-      "fans": 25116
+      "fans": 25117
     },
     "Q47472775": {
       "deezerId": 200195,
@@ -219,7 +219,7 @@
     "Q25679": {
       "deezerId": 13921,
       "name": "Richard Bona",
-      "fans": 51376
+      "fans": 51377
     },
     "Q115790591": {
       "deezerId": 73012012,
@@ -239,7 +239,7 @@
     "Q136486889": {
       "deezerId": 304572,
       "name": "Shura",
-      "fans": 20680
+      "fans": 20681
     },
     "Q112537827": {
       "deezerId": 14235001,
@@ -249,7 +249,7 @@
     "Q30596023": {
       "deezerId": 401410,
       "name": "VAGABON",
-      "fans": 3096
+      "fans": 3097
     },
     "Q109814231": {
       "deezerId": 391272,
@@ -264,12 +264,12 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145824
+      "fans": 145835
     },
     "Q221908": {
       "deezerId": 1801,
       "name": "Yannick Noah",
-      "fans": 174299
+      "fans": 174302
     },
     "Q16980116": {
       "deezerId": 584589,
@@ -304,7 +304,7 @@
     "Q115452792": {
       "deezerId": 14130817,
       "name": "Krys M",
-      "fans": 2174
+      "fans": 2175
     },
     "Q65131531": {
       "deezerId": 7400520,
@@ -400,6 +400,41 @@
       "deezerId": 12093648,
       "name": "Tzy Panchak",
       "fans": 961
+    },
+    "Q122472900": {
+      "deezerId": 1141696,
+      "name": "Joëlle Esso",
+      "fans": 867
+    },
+    "Q106977880": {
+      "deezerId": 90910,
+      "name": "Kameni",
+      "fans": 6652
+    },
+    "Q17350586": {
+      "deezerId": 508053,
+      "name": "KAREYCE FOTSO",
+      "fans": 1550
+    },
+    "Q16653052": {
+      "deezerId": 170609,
+      "name": "Lady B",
+      "fans": 665
+    },
+    "Q3286490": {
+      "deezerId": 6323962,
+      "name": "Manou Bolomik",
+      "fans": 1423
+    },
+    "Q47035383": {
+      "deezerId": 6404458,
+      "name": "Mr Leo",
+      "fans": 31133
+    },
+    "Q124798520": {
+      "deezerId": 9645074,
+      "name": "Patricia Essong",
+      "fans": 522
     }
   },
   "tracks": {
@@ -791,7 +826,7 @@
       "wikidata": "Q25679",
       "artist": "Richard Bona",
       "title": "Please Don't Stop",
-      "rank": 341017,
+      "rank": 348948,
       "albumId": 247997,
       "link": "https://www.deezer.com/track/2530149"
     },
@@ -799,7 +834,7 @@
       "wikidata": "Q25679",
       "artist": "Richard Bona",
       "title": "Dipama",
-      "rank": 225989,
+      "rank": 194220,
       "albumId": 247997,
       "link": "https://www.deezer.com/track/2530150"
     },
@@ -831,7 +866,7 @@
       "wikidata": "Q25679",
       "artist": "Richard Bona",
       "title": "Ba Senge",
-      "rank": 122337,
+      "rank": 162464,
       "albumId": 247997,
       "link": "https://www.deezer.com/track/2530158"
     },
@@ -1098,6 +1133,14 @@
       "rank": 31050,
       "albumId": 1521205,
       "link": "https://www.deezer.com/track/16304355"
+    },
+    "16448327": {
+      "wikidata": "Q17350586",
+      "artist": "Kareyce Fotso",
+      "title": "SO'A",
+      "rank": 11456,
+      "albumId": 1537441,
+      "link": "https://www.deezer.com/track/16448327"
     },
     "17146973": {
       "wikidata": "Q25873680",
@@ -1447,7 +1490,7 @@
       "wikidata": "Q3470485",
       "artist": "Sam Fan Thomas",
       "title": "Sitcha",
-      "rank": 67573,
+      "rank": 101872,
       "albumId": 6541383,
       "link": "https://www.deezer.com/track/66884492"
     },
@@ -1535,7 +1578,7 @@
       "wikidata": "Q41672675",
       "artist": "David K",
       "title": "Open Eyes",
-      "rank": 70465,
+      "rank": 40022,
       "albumId": 7399819,
       "link": "https://www.deezer.com/track/74859905"
     },
@@ -1587,6 +1630,30 @@
       "albumId": 7834158,
       "link": "https://www.deezer.com/track/78768027"
     },
+    "79146447": {
+      "wikidata": "Q17350586",
+      "artist": "Kareyce Fotso",
+      "title": "Ndolo comment ca va",
+      "rank": 117459,
+      "albumId": 7869991,
+      "link": "https://www.deezer.com/track/79146447"
+    },
+    "79146459": {
+      "wikidata": "Q17350586",
+      "artist": "Kareyce Fotso",
+      "title": "Messa",
+      "rank": 42052,
+      "albumId": 7869991,
+      "link": "https://www.deezer.com/track/79146459"
+    },
+    "85779245": {
+      "wikidata": "Q17350586",
+      "artist": "Kareyce Fotso",
+      "title": "Manke",
+      "rank": 15922,
+      "albumId": 8651411,
+      "link": "https://www.deezer.com/track/85779245"
+    },
     "87359699": {
       "wikidata": "Q4760361",
       "artist": "Andy Allo",
@@ -1599,7 +1666,7 @@
       "wikidata": "Q115849403",
       "artist": "Hoïgen Ekwalla",
       "title": "Il faut supporter",
-      "rank": 69678,
+      "rank": 37817,
       "albumId": 9155321,
       "link": "https://www.deezer.com/track/90332729"
     },
@@ -3551,7 +3618,7 @@
       "wikidata": "Q19544251",
       "artist": "Ben Decca",
       "title": "Wamse timba",
-      "rank": 142205,
+      "rank": 108741,
       "albumId": 82629512,
       "link": "https://www.deezer.com/track/608729572"
     },
@@ -3674,6 +3741,14 @@
       "rank": 278639,
       "albumId": 93034892,
       "link": "https://www.deezer.com/track/662424832"
+    },
+    "667219912": {
+      "wikidata": "Q106977880",
+      "artist": "Kameni",
+      "title": "Boss",
+      "rank": 211943,
+      "albumId": 94009212,
+      "link": "https://www.deezer.com/track/667219912"
     },
     "673000462": {
       "wikidata": "Q3037333",
@@ -4063,7 +4138,7 @@
       "wikidata": "Q445829",
       "artist": "Manu Dibango",
       "title": "Zoom 2000",
-      "rank": 362133,
+      "rank": 304381,
       "albumId": 110020622,
       "link": "https://www.deezer.com/track/747178782"
     },
@@ -4391,7 +4466,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Toma me",
-      "rank": 116767,
+      "rank": 128613,
       "albumId": 140906432,
       "link": "https://www.deezer.com/track/926353332"
     },
@@ -4706,6 +4781,22 @@
       "rank": 318659,
       "albumId": 160607312,
       "link": "https://www.deezer.com/track/1021039922"
+    },
+    "1022614812": {
+      "wikidata": "Q16653052",
+      "artist": "Lady B",
+      "title": "Cruising Around Motor City",
+      "rank": 107295,
+      "albumId": 160971922,
+      "link": "https://www.deezer.com/track/1022614812"
+    },
+    "1022687082": {
+      "wikidata": "Q16653052",
+      "artist": "Lady B",
+      "title": "Cruising Around Motor City",
+      "rank": 18195,
+      "albumId": 160988692,
+      "link": "https://www.deezer.com/track/1022687082"
     },
     "1033704362": {
       "wikidata": "Q47472775",
@@ -5403,6 +5494,14 @@
       "albumId": 268047002,
       "link": "https://www.deezer.com/track/1532358702"
     },
+    "1537068752": {
+      "wikidata": "Q16653052",
+      "artist": "Lady B",
+      "title": "On est là",
+      "rank": 18571,
+      "albumId": 269173502,
+      "link": "https://www.deezer.com/track/1537068752"
+    },
     "1538106602": {
       "wikidata": "Q115612717",
       "artist": "Petit Bozard",
@@ -5607,7 +5706,7 @@
       "wikidata": "Q107491845",
       "artist": "Mimie",
       "title": "Petite Soeur",
-      "rank": 143532,
+      "rank": 173917,
       "albumId": 314101397,
       "link": "https://www.deezer.com/track/1732954337"
     },
@@ -6075,6 +6174,14 @@
       "albumId": 398656547,
       "link": "https://www.deezer.com/track/2116321357"
     },
+    "2124762227": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Ayele",
+      "rank": 239882,
+      "albumId": 400703897,
+      "link": "https://www.deezer.com/track/2124762227"
+    },
     "2139941867": {
       "wikidata": "Q111470436",
       "artist": "Kocee",
@@ -6347,6 +6454,14 @@
       "albumId": 432014247,
       "link": "https://www.deezer.com/track/2246600007"
     },
+    "2253493227": {
+      "wikidata": "Q106977880",
+      "artist": "Kameni",
+      "title": "Ghetto",
+      "rank": 180882,
+      "albumId": 433758757,
+      "link": "https://www.deezer.com/track/2253493227"
+    },
     "2276021667": {
       "wikidata": "Q107491845",
       "artist": "Mimie",
@@ -6354,6 +6469,14 @@
       "rank": 80709,
       "albumId": 439329607,
       "link": "https://www.deezer.com/track/2276021667"
+    },
+    "2280344477": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Chop Life",
+      "rank": 190668,
+      "albumId": 440529737,
+      "link": "https://www.deezer.com/track/2280344477"
     },
     "2289446395": {
       "wikidata": "Q123574342",
@@ -6610,6 +6733,14 @@
       "rank": 77938,
       "albumId": 465811835,
       "link": "https://www.deezer.com/track/2372633465"
+    },
+    "2379468925": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Patronne",
+      "rank": 167582,
+      "albumId": 467600595,
+      "link": "https://www.deezer.com/track/2379468925"
     },
     "2390345825": {
       "wikidata": "Q117325000",
@@ -6975,7 +7106,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Ngoma Likembe",
-      "rank": 42150,
+      "rank": 81965,
       "albumId": 512960921,
       "link": "https://www.deezer.com/track/2543691711"
     },
@@ -7179,6 +7310,14 @@
       "albumId": 546135392,
       "link": "https://www.deezer.com/track/2657201892"
     },
+    "2661739362": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Unconditional love",
+      "rank": 59289,
+      "albumId": 547597142,
+      "link": "https://www.deezer.com/track/2661739362"
+    },
     "2671686292": {
       "wikidata": "X-tata",
       "artist": "TATA",
@@ -7223,7 +7362,7 @@
       "wikidata": "Q529942",
       "artist": "Francis Bebey",
       "title": "Je Vous Aime Zaime Zaime",
-      "rank": 28683,
+      "rank": 82289,
       "albumId": 554231722,
       "link": "https://www.deezer.com/track/2683136472"
     },
@@ -7418,6 +7557,54 @@
       "rank": 8999,
       "albumId": 591959762,
       "link": "https://www.deezer.com/track/2818008372"
+    },
+    "2830967802": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Jamais Jamais",
+      "rank": 284894,
+      "albumId": 596451502,
+      "link": "https://www.deezer.com/track/2830967802"
+    },
+    "2830967832": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "C'est Faux",
+      "rank": 177750,
+      "albumId": 596451502,
+      "link": "https://www.deezer.com/track/2830967832"
+    },
+    "2830967842": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "E Go Better",
+      "rank": 181132,
+      "albumId": 596451502,
+      "link": "https://www.deezer.com/track/2830967842"
+    },
+    "2830967862": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Kemayo",
+      "rank": 114907,
+      "albumId": 596451502,
+      "link": "https://www.deezer.com/track/2830967862"
+    },
+    "2830967872": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Je T'aime",
+      "rank": 195381,
+      "albumId": 596451502,
+      "link": "https://www.deezer.com/track/2830967872"
+    },
+    "2830967902": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Je Suis Moi Comme Ca",
+      "rank": 128605,
+      "albumId": 596451502,
+      "link": "https://www.deezer.com/track/2830967902"
     },
     "2851518052": {
       "wikidata": "Q61653325",
@@ -7987,6 +8174,14 @@
       "albumId": 689375971,
       "link": "https://www.deezer.com/track/3160949881"
     },
+    "3174199971": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "C'est la vie",
+      "rank": 101486,
+      "albumId": 694157121,
+      "link": "https://www.deezer.com/track/3174199971"
+    },
     "3177097031": {
       "wikidata": "Q111470436",
       "artist": "Kocee",
@@ -8130,6 +8325,14 @@
       "rank": 105078,
       "albumId": 713525871,
       "link": "https://www.deezer.com/track/3235105701"
+    },
+    "3249628511": {
+      "wikidata": "Q3286490",
+      "artist": "Manou Bolomik",
+      "title": "LE LAIT ET LE MIEL",
+      "rank": 189546,
+      "albumId": 718322891,
+      "link": "https://www.deezer.com/track/3249628511"
     },
     "3260496701": {
       "wikidata": "Q54650941",
@@ -8727,7 +8930,7 @@
       "wikidata": "X-tata",
       "artist": "TATA",
       "title": "Freakquent",
-      "rank": 56853,
+      "rank": 24632,
       "albumId": 849711742,
       "link": "https://www.deezer.com/track/3636376782"
     },
@@ -8778,6 +8981,14 @@
       "rank": 962,
       "albumId": 855974412,
       "link": "https://www.deezer.com/track/3654287372"
+    },
+    "3665773662": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Need It",
+      "rank": 127200,
+      "albumId": 859815642,
+      "link": "https://www.deezer.com/track/3665773662"
     },
     "3670743912": {
       "wikidata": "Q111470436",
@@ -9083,6 +9294,14 @@
       "albumId": 892889802,
       "link": "https://www.deezer.com/track/3761398682"
     },
+    "3767820872": {
+      "wikidata": "Q47035383",
+      "artist": "Mr Leo",
+      "title": "Capitaine",
+      "rank": 168287,
+      "albumId": 895378282,
+      "link": "https://www.deezer.com/track/3767820872"
+    },
     "3772032132": {
       "wikidata": "Q115790718",
       "artist": "Libianca",
@@ -9371,6 +9590,14 @@
       "albumId": 936673431,
       "link": "https://www.deezer.com/track/3892025291"
     },
+    "3908259461": {
+      "wikidata": "Q17350586",
+      "artist": "Kareyce Fotso",
+      "title": "Power",
+      "rank": 84608,
+      "albumId": 942442951,
+      "link": "https://www.deezer.com/track/3908259461"
+    },
     "3910055851": {
       "wikidata": "X-tata",
       "artist": "TATA",
@@ -9586,6 +9813,14 @@
       "rank": 717947,
       "albumId": 971201611,
       "link": "https://www.deezer.com/track/3989540221"
+    },
+    "4021096531": {
+      "wikidata": "Q3286490",
+      "artist": "Manou Bolomik",
+      "title": "ON AIME ÇA",
+      "rank": 91869,
+      "albumId": 982585891,
+      "link": "https://www.deezer.com/track/4021096531"
     },
     "4024199371": {
       "wikidata": "Q112112912",

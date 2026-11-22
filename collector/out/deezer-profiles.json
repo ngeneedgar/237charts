@@ -1998,5 +1998,513 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q53767211": {
+    "artist": "Danielle Eog Makedah",
+    "id": 69995932,
+    "name": "Danielle Eog Makedah",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q97277937": {
+    "artist": "Duc-Z",
+    "id": 4515931,
+    "name": "Duc-Z",
+    "fans": 147,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q23688166": {
+    "artist": "Émile Kangue",
+    "id": 5131178,
+    "name": "Emile Kangue",
+    "fans": 398,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q30727779": {
+    "artist": "Florent Mbia",
+    "id": 365071,
+    "name": "Florent Mothe",
+    "fans": 48736,
+    "similarity": 0.5,
+    "confidence": 0.58,
+    "status": "none"
+  },
+  "Q5481494": {
+    "artist": "Francis Jocky",
+    "id": 209479,
+    "name": "Francis Jocky",
+    "fans": 74,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115812447": {
+    "artist": "Frédérique Ottou",
+    "id": 11957589,
+    "name": "Frédérique Ottou",
+    "fans": 4,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q108507140": {
+    "artist": "Gaëlle Wondje",
+    "id": 6412588,
+    "name": "Gaelle Wondje",
+    "fans": 35,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q136905418": {
+    "artist": "Guy Bilong",
+    "id": 5480326,
+    "name": "Guy Bilong",
+    "fans": 8,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3147944": {
+    "artist": "Idy Oulo",
+    "id": 3539481,
+    "name": "Idy Oulo",
+    "fans": 230,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q124750947": {
+    "artist": "Inna Money",
+    "id": 7821360,
+    "name": "Inna Money",
+    "fans": 79,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q117039083": {
+    "artist": "Joël P",
+    "id": 10650311,
+    "name": "Joel P",
+    "fans": 6,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q122472900": {
+    "artist": "Joëlle Esso",
+    "id": 1141696,
+    "name": "Joëlle Esso",
+    "fans": 867,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q108862368": {
+    "artist": "K Master K",
+    "id": 1282931,
+    "name": "Kezzy",
+    "fans": 89,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q106977880": {
+    "artist": "Kameni",
+    "id": 90910,
+    "name": "Kameni",
+    "fans": 6652,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q17350586": {
+    "artist": "Kareyce Fotso",
+    "id": 508053,
+    "name": "KAREYCE FOTSO",
+    "fans": 1550,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q56318476": {
+    "artist": "Koppo",
+    "id": 1580935,
+    "name": "Koppo",
+    "fans": 421,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q16653052": {
+    "artist": "Lady B",
+    "id": 170609,
+    "name": "Lady B",
+    "fans": 665,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q117105656": {
+    "artist": "lornoar",
+    "id": 9508690,
+    "name": "Lornoar",
+    "fans": 39,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q30728641": {
+    "artist": "Lynda Raymonde",
+    "id": 13649201,
+    "name": "Lynda Raymonde",
+    "fans": 15,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q126370160": {
+    "artist": "Makon",
+    "id": 7131887,
+    "name": "Makon",
+    "fans": 25,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3286490": {
+    "artist": "Manou Bolomik",
+    "id": 6323962,
+    "name": "Manou Bolomik",
+    "fans": 1423,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q117218443": {
+    "artist": "Maybelle Boma",
+    "status": "none"
+  },
+  "Q141713656": {
+    "artist": "Prosper Menko",
+    "id": 49066361,
+    "name": "Prosper Menko",
+    "fans": 13,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q19631078": {
+    "artist": "Michael Kiessou",
+    "id": 5990988,
+    "name": "Michael Kiessou",
+    "fans": 231,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q47035383": {
+    "artist": "Mr Leo",
+    "id": 6404458,
+    "name": "Mr Leo",
+    "fans": 31133,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q56307727": {
+    "artist": "Nar6 Pryze",
+    "id": 15176053,
+    "name": "Nar6 Pryze",
+    "fans": 31,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q124798520": {
+    "artist": "Patricia Essong",
+    "id": 9645074,
+    "name": "Patricia Essong",
+    "fans": 522,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q140836101": {
+    "artist": "Phatal Ebodé",
+    "id": 13350873,
+    "name": "Phatal ebode",
+    "fans": 3,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q115608998": {
+    "artist": "Ruben Binam",
+    "id": 8458930,
+    "name": "Ruben Binam",
+    "fans": 56,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q109044498": {
+    "artist": "Simon Ngaka",
+    "id": 129369282,
+    "name": "Simon Ngaka",
+    "fans": 4,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q133503094": {
+    "artist": "Yang Mad",
+    "id": 397978,
+    "name": "Hangar",
+    "fans": 19513,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-dj-chuucs": {
+    "artist": "DJ Chuucs",
+    "id": 172995,
+    "name": "Dj Chus",
+    "fans": 2596,
+    "similarity": 0.5,
+    "confidence": 0.53,
+    "status": "none"
+  },
+  "X-lady-fi": {
+    "artist": "Lady Fi",
+    "id": 75491,
+    "name": "Lady Gaga",
+    "fans": 9371821,
+    "similarity": 0.5,
+    "confidence": 0.58,
+    "status": "none"
+  },
+  "X-otaku-black": {
+    "artist": "Otaku Black",
+    "id": 12243230,
+    "name": "Otaku Black",
+    "fans": 122,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-phil-b": {
+    "artist": "PHIL.B",
+    "id": 186,
+    "name": "Phil Collins",
+    "fans": 2864943,
+    "similarity": 0.5,
+    "confidence": 0.58,
+    "status": "none"
+  },
+  "X-maxxy-dready": {
+    "artist": "Maxxy Dready",
+    "id": 3470071,
+    "name": "Maxxy Dready",
+    "fans": 354,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-a-mpacko": {
+    "artist": "A. Mpacko",
+    "id": 135145202,
+    "name": "A.Mackk",
+    "fans": 6,
+    "similarity": 0.5,
+    "confidence": 0.42,
+    "status": "none"
+  },
+  "X-gifto-la-russe": {
+    "artist": "Gifto La Russe",
+    "id": 291338741,
+    "name": "Gifto La Russe",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-watto-de-souza": {
+    "artist": "Watto de Souza",
+    "id": 113670332,
+    "name": "Watto De Souza",
+    "fans": 408,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-lili-anoma": {
+    "artist": "Lili Anoma",
+    "id": 199369797,
+    "name": "Lili Anoma",
+    "fans": 3,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-h-campbell": {
+    "artist": "H-Campbell",
+    "id": 51096222,
+    "name": "H-Campbell",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-jeff-fotso": {
+    "artist": "Jeff Fotso",
+    "id": 7735,
+    "name": "Jeff Foxworthy",
+    "fans": 1223,
+    "similarity": 0.5,
+    "confidence": 0.53,
+    "status": "none"
+  },
+  "X-kennel": {
+    "artist": "Kennel",
+    "id": 5218181,
+    "name": "Kennel",
+    "fans": 3,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-fadil-le-sorcier": {
+    "artist": "Fadil Le Sorcier",
+    "id": 190134417,
+    "name": "Fadil le sorcier",
+    "fans": 271,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-polio-le-vent": {
+    "artist": "Polio Le Vent",
+    "id": 116991962,
+    "name": "Polio Le Vent",
+    "fans": 2,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-gbc-the-yemba": {
+    "artist": "GBC the yemba",
+    "id": 164104727,
+    "name": "GBC the Yemba",
+    "fans": 7,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-marco-bi": {
+    "artist": "marco bi",
+    "id": 13657,
+    "name": "Marco Borsato",
+    "fans": 112768,
+    "similarity": 0.5,
+    "confidence": 0.58,
+    "status": "none"
+  },
+  "X-lifka": {
+    "artist": "LiFkA",
+    "id": 14115733,
+    "name": "Lifka",
+    "fans": 161,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-kill-b-psycatra": {
+    "artist": "Kill B Psycatra",
+    "id": 14614407,
+    "name": "Kill B Psycatra",
+    "fans": 21,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-yvan-ango": {
+    "artist": "Yvan Ango",
+    "id": 276093541,
+    "name": "yvan vanko",
+    "fans": 5,
+    "similarity": 0.5,
+    "confidence": 0.42,
+    "status": "none"
+  },
+  "X-cleo-grae": {
+    "artist": "Cleo Grae",
+    "id": 67481722,
+    "name": "Cleo Grae",
+    "fans": 53,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-banye": {
+    "artist": "Banye",
+    "id": 5594859,
+    "name": "Soso Maness",
+    "fans": 615756,
+    "similarity": 0,
+    "confidence": 0.15,
+    "status": "none"
+  },
+  "X-kking-kum": {
+    "artist": "Kking Kum",
+    "id": 251079,
+    "name": "KING KUDURO",
+    "fans": 2549,
+    "similarity": 0,
+    "confidence": 0.1,
+    "status": "none"
+  },
+  "X-le-talent": {
+    "artist": "LE TALENT",
+    "id": 2830,
+    "name": "Billy Talent",
+    "fans": 419748,
+    "similarity": 0.5,
+    "confidence": 0.58,
+    "status": "none"
+  },
+  "X-al-k": {
+    "artist": "AL-K",
+    "id": 8725464,
+    "name": "AL-K-TRAZZ",
+    "fans": 17,
+    "similarity": 0.67,
+    "confidence": 0.57,
+    "status": "none"
+  },
+  "X-ivee": {
+    "artist": "IVEE",
+    "id": 1697709,
+    "name": "Ivee",
+    "fans": 246,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-amatula": {
+    "artist": "AMATULA",
+    "id": 48968681,
+    "name": "Amatula",
+    "fans": 15,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

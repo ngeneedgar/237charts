@@ -3109,5 +3109,28 @@
   "Q130530315::unbelievable new worship songs": {
     "checked": "2026-11-22T16:48:29.627Z",
     "youtubeThumb": "https://i.ytimg.com/vi/QhRS478Z5ig/hqdefault.jpg"
+  },
+  "Q47035383::capitaine": {
+    "checked": "2026-11-22T18:30:27.203Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/umkhsLFXZdM/hqdefault.jpg",
+    "deezerId": 3767820872,
+    "deezer": "https://www.deezer.com/track/3767820872",
+    "deezerTitle": "Capitaine",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/c966a6a28edf73ff615d9accfb7018ab/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/c966a6a28edf73ff615d9accfb7018ab/250x250-000000-80-0-0.jpg",
+    "album": "Capitaine",
+    "releaseDate": "2026-02-06",
+    "durationSec": 229,
+    "isrc": "US6R22595055",
+    "artists": [
+      "Mr Leo",
+      "Noon Dave"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q97277937::tegue 2026 newmusic afrobeats drill": {
+    "checked": "2026-11-22T18:30:28.334Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/sAfPeERMROg/hqdefault.jpg"
   }
 }
