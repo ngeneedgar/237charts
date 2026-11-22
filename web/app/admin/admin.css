@@ -117,3 +117,15 @@ select { cursor: pointer; }
 
 /* Dropdowns: readable on dark (native option lists otherwise show light-on-light) */
 select, select option, select optgroup { background-color: var(--surface); color: var(--label); }
+
+/* Drawn dropdown (Chrome/Edge 135+): no OS blue highlight; brand colours */
+select { accent-color: var(--accent); }
+@supports (appearance: base-select) {
+  select, ::picker(select) { appearance: base-select; }
+  ::picker(select) { background: var(--surface); color: var(--label); border: 1px solid var(--line-strong); border-radius: 10px; padding: 4px; }
+  option { padding: 8px 10px; border-radius: 6px; background: transparent; color: var(--label); }
+  option:hover, option:focus-visible { background: var(--fill); }
+  option:checked { background: var(--fill-on); font-weight: 600; }
+  option::checkmark { color: var(--accent); }
+  optgroup { color: var(--muted); font-weight: 500; }
+}
