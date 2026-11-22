@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Shell } from "../shell";
 import { api, fold } from "../lib";
+import { Icon } from "../icons";
 
 type Country = { id: string; name: string };
 const CAMEROON = "Q1009";
@@ -32,7 +33,7 @@ function Nationality() {
         <h1>Nationality exclusions</h1>
         <p className="muted" style={{ margin: "6px 0 0" }}>Artists the hard rule keeps off the chart. Read-only.</p>
       </div>
-      <div className="notice"><strong>Cameroonian nationals only. Dual nationals are excluded.</strong> No role can override this. If the data is wrong, correct it at the source (Wikidata) and the next run picks it up.</div>
+      <div className="notice" style={{ display: "flex", gap: 10, alignItems: "flex-start" }}><Icon name="shield" /><span><strong>Cameroonian nationals only. Dual nationals are excluded.</strong> No role can override this. If the data is wrong, correct it at the source (Wikidata) and the next run picks it up.</span></div>
       {err && <div className="notice bad">Couldn&apos;t load the list: {err}</div>}
       <input placeholder="Search excluded artists…" value={q} onChange={(e) => setQ(e.target.value)} style={{ maxWidth: 360 }} aria-label="Search excluded artists" />
       <div className="card" style={{ padding: 0, overflowX: "auto" }}>

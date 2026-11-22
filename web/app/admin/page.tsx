@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Shell, Toast, useMe } from "./shell";
 import { ago, api, canEdit, fold, parseCsv, wat, type Run } from "./lib";
 import { reviewQueue, type Candidate } from "./review/queue";
+import { Icon } from "./icons";
 
 type History = Awaited<ReturnType<typeof api.history>>["items"];
 
@@ -21,10 +22,10 @@ function countdown(to: Date) {
   return d ? `${d}d ${h}h` : `${h}h ${m % 60}m`;
 }
 
-function Stat({ label, value, href, link }: { label: string; value: number | string | null; href: string; link: string }) {
+function Stat({ label, value, href, link, icon }: { label: string; value: number | string | null; href: string; link: string; icon: string }) {
   return (
     <div className="card">
-      <div className="lbl">{label}</div>
+      <div className="lbl" style={{ display: "flex", alignItems: "center", gap: 8 }}><Icon name={icon} size={16} />{label}</div>
       <div className="big">{value ?? <span className="skeleton" style={{ display: "block", width: 48, height: 36 }} />}</div>
       <Link href={href} style={{ fontSize: 14, fontWeight: 600 }}>{link} →</Link>
     </div>
@@ -51,8 +52,8 @@ function Overview() {
       .then((m) => setNoChannel(Object.values(m).filter((x) => x.status !== "auto").length)).catch(err("Channels"));
     api.json<Record<string, { id: string }[]>>("collector/out/nationality.json")
       .then((n) => setExcluded(Object.values(n).filter((c) => c.some((x) => x.id !== "Q1009")).length)).catch(err("Nationality"));
-    api.runs().then((r) => setRuns(r.runs)).catch(err("Runs"));
-    api.history().then((h) => setHistory(h.items)).catch(err("Changes"));
+    api.runs().then((r) => setRuns(r.runs)).catch((e) => { setRuns([]); err("Runs")(e); });
+    api.history().then((h) => setHistory(h.items)).catch((e) => { setHistory([]); err("Changes")(e); });
   }, []);
 
   async function startRun() {
@@ -76,8 +77,8 @@ function Overview() {
           <h1>{greet}{me ? `, ${me.name}` : ""}</h1>
         </div>
         <div style={{ display: "flex", gap: 10 }}>
-          <button className="btn" onClick={startRun} disabled={!canEdit(me) || starting}>{starting ? "Starting…" : "Re-run now"}</button>
-          <a className="btn pri" href="/en/top-50/" target="_blank" rel="noopener">Open live chart ↗</a>
+          <button className="btn" onClick={startRun} disabled={!canEdit(me) || starting}><Icon name="run" />{starting ? "Starting…" : "Re-run now"}</button>
+          <a className="btn pri" href="/en/top-50/" target="_blank" rel="noopener"><Icon name="external" />Open live chart</a>
         </div>
       </div>
 
@@ -85,7 +86,7 @@ function Overview() {
 
       <div className="card" style={{ borderLeft: "4px solid var(--accent)", display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
         <div>
-          <div className="lbl">Next publish</div>
+          <div className="lbl" style={{ display: "flex", alignItems: "center", gap: 8 }}><Icon name="clock" size={16} />Next publish</div>
           <div style={{ fontSize: 44, fontWeight: 200, letterSpacing: "-.02em" }}>{countdown(pub)}</div>
           <div className="muted" style={{ fontSize: 14 }}>Runs and publishes automatically every Monday, 08:00 WAT</div>
         </div>
@@ -97,10 +98,10 @@ function Overview() {
       </div>
 
       <div className="grid4">
-        <Stat label="Waiting for review" value={queue?.length ?? null} href="/admin/review/" link="Open queue" />
-        <Stat label="Artists without channel" value={noChannel} href="/admin/channels/" link="Match channels" />
-        <Stat label="Excluded by the hard rule" value={excluded} href="/admin/nationality/" link="See list" />
-        <Stat label="Admin changes (recent)" value={history?.length ?? null} href="/admin/corrections/" link="Corrections log" />
+        <Stat label="Waiting for review" value={queue?.length ?? null} href="/admin/review/" link="Open queue" icon="review" />
+        <Stat label="Artists without channel" value={noChannel} href="/admin/channels/" link="Match channels" icon="channels" />
+        <Stat label="Excluded by the hard rule" value={excluded} href="/admin/nationality/" link="See list" icon="nationality" />
+        <Stat label="Admin changes (recent)" value={history?.length ?? null} href="/admin/corrections/" link="Corrections log" icon="corrections" />
       </div>
 
       <div className="grid2">

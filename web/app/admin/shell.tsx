@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { createContext, useContext, useEffect, useState } from "react";
 import { api, wat, type Me, type Run } from "./lib";
+import { Icon } from "./icons";
 
 const MeContext = createContext<Me | null>(null);
 export const useMe = () => useContext(MeContext);
@@ -54,9 +55,9 @@ export function Shell({ active, badges = {}, children }: { active: string; badge
 
   const links = NAV.map((n) => n.ready ? (
     <Link key={n.href} href={n.href} className={`nav${active === n.label ? " on" : ""}`}>
-      {n.label}{badges[n.label] ? <span className="cnt">{badges[n.label]}</span> : null}
+      <span className="nav-l"><Icon name={n.label.toLowerCase()} />{n.label}</span>{badges[n.label] ? <span className="cnt">{badges[n.label]}</span> : null}
     </Link>
-  ) : <span key={n.href} className="nav soon" aria-disabled="true">{n.label}</span>);
+  ) : <span key={n.href} className="nav soon" aria-disabled="true"><span className="nav-l"><Icon name={n.label.toLowerCase()} />{n.label}</span></span>);
 
   return (
     <MeContext.Provider value={me}>
@@ -69,7 +70,7 @@ export function Shell({ active, badges = {}, children }: { active: string; badge
           </Link>
           {links}
           <div style={{ flex: 1 }} />
-          <a className="nav" href="/" target="_blank" rel="noopener">Public site ↗</a>
+          <a className="nav" href="/" target="_blank" rel="noopener"><span className="nav-l"><Icon name="external" />Public site</span></a>
         </aside>
         <div className="main">
           <header className="top">

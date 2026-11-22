@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Shell, Toast, useMe } from "../shell";
 import { api, appendRow, canEdit, parseCsv, type FileData } from "../lib";
 import { reviewQueue, type Candidate } from "./queue";
+import { Icon } from "../icons";
 
 const ELIG = "admin/eligibility.csv";
 const SOURCE_LABEL: Record<string, string> = { "shazam-cm": "Shazam Cameroon", collab: "Featured with a charting artist", youtube: "YouTube", deezer: "Deezer", wikidata: "Wikidata" };
@@ -125,9 +126,9 @@ function Review() {
             <input value={source} onChange={(e) => setSource(e.target.value)} placeholder="e.g. https://… interview, born in Douala" disabled={!editable} />
           </label>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-            <button className="btn pri" disabled={!editable || saving || !source.trim()} onClick={() => decide("yes")}>Cameroonian</button>
-            <button className="btn neg" disabled={!editable || saving || !source.trim()} onClick={() => decide("no")}>Not eligible</button>
-            <button className="btn" onClick={() => setSkipped((s) => new Set(s).add(cur.name))}>Skip for now</button>
+            <button className="btn pri" disabled={!editable || saving || !source.trim()} onClick={() => decide("yes")}><Icon name="check" />Cameroonian</button>
+            <button className="btn neg" disabled={!editable || saving || !source.trim()} onClick={() => decide("no")}><Icon name="x" />Not eligible</button>
+            <button className="btn" onClick={() => setSkipped((s) => new Set(s).add(cur.name))}><Icon name="skip" />Skip for now</button>
           </div>
           <p className="muted" style={{ margin: 0, fontSize: 13 }}>
             {editable ? <>Saved to <code>admin/eligibility.csv</code> as a commit with your name. </> : <>You can look but not decide (your role: {me?.role ?? "…"}). </>}
