@@ -11,6 +11,8 @@
 // Usage: node collector/classify-candidates.mjs
 import { readFile, writeFile } from 'node:fs/promises';
 import { norm, similarity } from './lib/names.mjs';
+import { junkReason } from './lib/candidate-name.mjs';
+import { loadRoster } from './lib/roster.mjs';
 
 const UA = { 'User-Agent': '237Charts-discovery/0.1 (music chart research bot)', Accept: 'application/json' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -155,8 +157,12 @@ const cache = JSON.parse(await readFile(CACHE, 'utf8').catch(() => '{}'));
 const results = [];
 let i = 0;
 const t0 = Date.now();
+const knownNames = (await loadRoster().catch(() => [])).flatMap((a) => [a.name, ...(a.aliases ?? [])]);
 for (const [k, c] of cands) {
   i++;
+  // 0. Pieces of video titles ("Magasco TROMPER", "audio officiel", handles) are not artists: reject, no lookups
+  const junk = junkReason(c.name, knownNames);
+  if (junk) { results.push({ ...c, confidence: 0, status: 'reject', reasons: [`not an artist name: ${junk}`], youtube: [] }); continue; }
   // 1. Raw signals (network lookups) — cached; old cache entries are converted, not re-fetched
   let sig = cache[k]?.sig ?? (cache[k] ? sigFromReasons(cache[k]) : null);
   if (!sig) {

@@ -83,8 +83,8 @@ Local testing: `web/.dev.vars` (not committed) signs you in as a test owner with
 - [~] **C5 Corrections log** — admin page done (`/admin/corrections/`); public Methodology version not yet: generated from the audit trail and published automatically on the Methodology page (replaces the hand-written text)
 
 ## Phase D — Artists & growth (weeks 5–6)
-- [ ] **D1 Artist requests inbox**: requests from the "For artists" page (wrong song, missing channel, wrong genre) in one list with status (new → in progress → done) and reply template
-- [ ] **D2 Request form on the site** that feeds D1 (replaces email/WhatsApp only)
+- [x] **D1 Artist requests inbox** (`/admin/requests/`, Cloudflare KV `237charts-requests` bound as REQUESTS; deleted 180 days after done): requests from the "For artists" page (wrong song, missing channel, wrong genre) in one list with status (new → in progress → done) and reply template
+- [x] **D2 Request form on the site** (Send button on For artists; WhatsApp/email kept as fallback) that feeds D1 (replaces email/WhatsApp only)
 - [ ] **D3 Data health**: Deezer/Shazam match rates, sources down this week, quota trends
 - [ ] **D4 Revisit Supabase** if there are >5 editors or the app needs live data
 
