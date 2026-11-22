@@ -1419,5 +1419,32 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q110047594": {
+    "artist": "Pierre de Moussy",
+    "id": 1315979,
+    "name": "Pierre De Moussy",
+    "fans": 264,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q97122096": {
+    "artist": "Pierre Didy Tchakounté",
+    "id": 5131161,
+    "name": "Pierre Didy Tchakounté",
+    "fans": 117,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q97121056": {
+    "artist": "Pierre Tchana",
+    "id": 10070486,
+    "name": "Pierre Tchana",
+    "fans": 63,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

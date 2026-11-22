@@ -4394,12 +4394,19 @@
       "Prince Yerima Afo-Akom",
       "Tamdjon"
     ],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCl2Jt4HgZrvgCX9-ESwenDA",
+      "title": "Bobe Yerima Afo-Akom - Topic",
+      "country": null,
+      "subscribers": 93,
+      "similarity": 0.75,
+      "confidence": 0.72
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4408,12 +4415,19 @@
     "aliases": [
       "KING MOUAN NKUM, Le Roi Des Montages"
     ],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCMHatJ5uj8PSCWp2WLiT7Uw",
+      "title": "Prince Eyango - Topic",
+      "country": null,
+      "subscribers": 5800,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4457,24 +4471,38 @@
   "Q130530235": {
     "name": "Prosper Germoh",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UC3bY_QZbGGlDEUprzWcaD8g",
+      "title": "Prosper Germoh - Topic",
+      "country": null,
+      "subscribers": 6,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q133539324": {
     "name": "Queen Eteme",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UC28VPHSlANcr5zlEMVH981A",
+      "title": "Queen Etémé - Topic",
+      "country": null,
+      "subscribers": 249,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
