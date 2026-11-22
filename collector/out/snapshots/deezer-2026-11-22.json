@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T08:46:06.378Z",
+  "takenAt": "2026-11-22T08:53:17.807Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -204,7 +204,7 @@
     "Q3389313": {
       "deezerId": 5224,
       "name": "Pit Baccardi",
-      "fans": 32336
+      "fans": 32337
     },
     "Q1893336": {
       "deezerId": 1453568,
@@ -325,6 +325,11 @@
       "deezerId": 1430918,
       "name": "Naomi Achu",
       "fans": 888
+    },
+    "Q7243974": {
+      "deezerId": 616977,
+      "name": "Prince Eyango",
+      "fans": 2919
     }
   },
   "tracks": {
@@ -1392,6 +1397,22 @@
       "albumId": 7040331,
       "link": "https://www.deezer.com/track/71644226"
     },
+    "73908219": {
+      "wikidata": "Q7243974",
+      "artist": "Prince Eyango",
+      "title": "Kene Mi",
+      "rank": 31472,
+      "albumId": 7290123,
+      "link": "https://www.deezer.com/track/73908219"
+    },
+    "73908224": {
+      "wikidata": "Q7243974",
+      "artist": "Prince Eyango",
+      "title": "On Tourne La Page",
+      "rank": 74526,
+      "albumId": 7290123,
+      "link": "https://www.deezer.com/track/73908224"
+    },
     "74859905": {
       "wikidata": "Q41672675",
       "artist": "David K",
@@ -1532,7 +1553,7 @@
       "wikidata": "Q5085917",
       "artist": "Charlotte Dipanda",
       "title": "Plus jamais Ebola",
-      "rank": 193841,
+      "rank": 158297,
       "albumId": 9514168,
       "link": "https://www.deezer.com/track/93659304"
     },
@@ -1680,6 +1701,22 @@
       "albumId": 9873948,
       "link": "https://www.deezer.com/track/97001034"
     },
+    "97216548": {
+      "wikidata": "Q7243974",
+      "artist": "Prince Eyango",
+      "title": "You must calculer",
+      "rank": 326979,
+      "albumId": 9898022,
+      "link": "https://www.deezer.com/track/97216548"
+    },
+    "97216550": {
+      "wikidata": "Q7243974",
+      "artist": "Prince Eyango",
+      "title": "Les problèmes",
+      "rank": 203810,
+      "albumId": 9898022,
+      "link": "https://www.deezer.com/track/97216550"
+    },
     "97329262": {
       "wikidata": "Q2079842",
       "artist": "Petit-Pays",
@@ -1711,6 +1748,14 @@
       "rank": 208763,
       "albumId": 9908804,
       "link": "https://www.deezer.com/track/97329904"
+    },
+    "97330054": {
+      "wikidata": "Q7243974",
+      "artist": "Prince Eyango",
+      "title": "Service libre",
+      "rank": 53206,
+      "albumId": 9908818,
+      "link": "https://www.deezer.com/track/97330054"
     },
     "97425774": {
       "wikidata": "Q1279965",
@@ -2068,7 +2113,7 @@
       "wikidata": "Q18351472",
       "artist": "Magasco",
       "title": "Wule Bang Bang",
-      "rank": 128808,
+      "rank": 95703,
       "albumId": 11823500,
       "link": "https://www.deezer.com/track/114154206"
     },
@@ -3404,7 +3449,7 @@
       "wikidata": "Q136486889",
       "artist": "Shura",
       "title": "skyline, be mine",
-      "rank": 187481,
+      "rank": 189636,
       "albumId": 96072782,
       "link": "https://www.deezer.com/track/676287132"
     },
@@ -4708,7 +4753,7 @@
       "wikidata": "Q30728231",
       "artist": "Lydol",
       "title": "Bango bango",
-      "rank": 163663,
+      "rank": 131060,
       "albumId": 222360622,
       "link": "https://www.deezer.com/track/1341211762"
     },
@@ -4812,7 +4857,7 @@
       "wikidata": "Q112537827",
       "artist": "Tagne",
       "title": "Movie",
-      "rank": 176779,
+      "rank": 136517,
       "albumId": 242378612,
       "link": "https://www.deezer.com/track/1425570782"
     },
@@ -7735,6 +7780,14 @@
       "rank": 522152,
       "albumId": 775441391,
       "link": "https://www.deezer.com/track/3423065681"
+    },
+    "3425909321": {
+      "wikidata": "Q7243974",
+      "artist": "Prince Eyango",
+      "title": "2.0 you must calculer",
+      "rank": 110637,
+      "albumId": 776545991,
+      "link": "https://www.deezer.com/track/3425909321"
     },
     "3438290961": {
       "wikidata": "Q111470436",

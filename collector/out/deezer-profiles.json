@@ -1446,5 +1446,23 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q7243974": {
+    "artist": "Prince Eyango",
+    "id": 616977,
+    "name": "Prince Eyango",
+    "fans": 2919,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q133539324": {
+    "artist": "Queen Eteme",
+    "id": 387226,
+    "name": "Queen Etémé",
+    "fans": 43,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

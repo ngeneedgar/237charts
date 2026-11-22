@@ -4510,18 +4510,18 @@
     "name": "Rachel Mimbo",
     "aliases": [],
     "best": {
-      "channelId": "UCb7Ojfrn5c5ZhaXlhgCk4Dw",
-      "title": "Rachel Mimbo",
+      "channelId": "UCuc5F8qDtK78Vs41PZWH5Tg",
+      "title": "Rachel MIMBO - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 52,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4540,7 +4540,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4587,30 +4587,37 @@
     "name": "Roger Bekono",
     "aliases": [],
     "best": {
-      "channelId": "UCyLPjw0zX2zRFGqrLLslx4A",
-      "title": "Roger Bekono",
+      "channelId": "UCEuz1gLrK221p4iNdi35MwA",
+      "title": "Roger Bekono - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 677,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
   "Q112874981": {
     "name": "Roger Nkembe Pesauk",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCZxbexwgGQsSij3hJvE_kWQ",
+      "title": "NKEMBE PESAUK - Topic",
+      "country": null,
+      "subscribers": 0,
+      "similarity": 0.67,
+      "confidence": 0.67
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4620,18 +4627,18 @@
       "Roland Tchakounte"
     ],
     "best": {
-      "channelId": "UCsFtZhaTciruUmEqPjFCmlQ",
-      "title": "ROLANDTCHAKOUNTE",
+      "channelId": "UCZ5pUsLk5aduhdjt_x_TN-g",
+      "title": "Roland Tchakounte - Topic",
       "country": null,
-      "subscribers": 23,
+      "subscribers": 75,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
