@@ -257,7 +257,7 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 .new { color: var(--new); }
 .same { color: var(--label-3); }
 
-.primary { display: grid; place-items: center; height: 54px; border-radius: 14px; background: var(--accent); color: var(--on-accent); font-size: 17px; font-weight: 600; border: 0; }
+.primary { display: grid; place-items: center; height: 54px; border-radius: 14px; background: #237A40; color: #FFFFFF; font-size: 17px; font-weight: 600; border: 0; }
 .primary:hover { text-decoration: none; filter: brightness(1.05); }
 .textBtn { justify-self: center; font-size: 17px; }
 

@@ -6,7 +6,8 @@ import { ImageResponse } from "next/og";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import chart from "@/data/chart.json";
-import { TILE_BG } from "../../../[lang]/chart-tile";
+// Brand theme: very dark green background, light green accents (same as the site)
+const LIGHT = "#A6E3B3";
 
 export const dynamic = "force-static";
 
@@ -37,11 +38,11 @@ const fontsP = Promise.all([fontFile(400), fontFile(700), fontFile(800)]);
 // Same date as the chart pages: the first day of the chart week
 const week = new Date(new Date(chart.weekEnd + "T00:00:00Z").getTime() - 6 * 864e5).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const move = (e: E) => (e.movement === "new" ? "NEW" : e.movement === "re" ? "RE" : !e.delta ? "=" : e.delta > 0 ? `▲${e.delta}` : `▼${-e.delta}`);
-const moveColor = (e: E) => (e.movement === "new" ? "#A6E3B3" : !e.delta ? "rgba(255,255,255,.6)" : e.delta > 0 ? "#7CF0A6" : "#FF8A8A");
+const moveColor = (e: E) => (e.movement === "new" ? "#A6E3B3" : !e.delta ? "rgba(255,255,255,.6)" : e.delta > 0 ? LIGHT : "#FF8A8A");
 
 function Row({ e, s }: { e: E; s: number }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 20 * s, padding: `${8 * s}px ${14 * s}px`, borderRadius: 16 * s, background: "rgba(0,0,0,.28)" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: 20 * s, padding: `${8 * s}px ${14 * s}px`, borderRadius: 16 * s, background: "rgba(166,227,179,.08)", border: "1px solid rgba(166,227,179,.16)" }}>
       <div style={{ width: 52 * s, fontSize: 34 * s, fontWeight: 800, color: "#fff", display: "flex", justifyContent: "center" }}>{e.rank}</div>
       {e.artworkSmall
         // eslint-disable-next-line @next/next/no-img-element
@@ -60,7 +61,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ chart: 
   const { chart: slug, size } = await params;
   const c = CHARTS[slug] ?? CHARTS["top-50"];
   const [W, H] = SIZES[(size in SIZES ? size : "og.png") as Size];
-  const bg = `linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), ${TILE_BG[slug] ?? TILE_BG["top-50"]}`;
+  const bg = "radial-gradient(90% 60% at 85% 0%, rgba(166,227,179,.22) 0%, rgba(166,227,179,0) 70%), linear-gradient(165deg, #0E2D1B 0%, #062012 45%, #03100A 100%)";
   const og = size === "og.png";
   const story = size === "story.png";
   const n = og ? 5 : 10;
@@ -74,11 +75,11 @@ export async function GET(_req: Request, { params }: { params: Promise<{ chart: 
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={LOGO} height={og ? 64 : square ? 70 : 90 * s} width={(og ? 64 : square ? 70 : 90 * s) * 724 / 774} alt="" />
       <div style={{ fontSize: og ? 66 : square ? 76 : 120, fontWeight: 800, color: "#fff", lineHeight: 1, letterSpacing: -2 }}>{c.title}</div>
-      <div style={{ fontSize: 24 * s, fontWeight: 700, letterSpacing: 6 * s, color: "rgba(255,255,255,.85)" }}>{c.label}</div>
+      <div style={{ fontSize: 24 * s, fontWeight: 700, letterSpacing: 6 * s, color: LIGHT }}>{c.label}</div>
       <div style={{ fontSize: 24 * s, color: "rgba(255,255,255,.85)", display: "flex" }}>{`Week of ${week}${chart.preview ? " · preview" : ""}`}</div>
     </div>
   );
-  const footer = <div style={{ fontSize: 24 * s, fontWeight: 700, color: "rgba(255,255,255,.9)", display: "flex" }}>237charts.pages.dev</div>;
+  const footer = <div style={{ fontSize: 24 * s, fontWeight: 700, color: LIGHT, display: "flex" }}>237charts.pages.dev</div>;
 
   return new ImageResponse(
     og ? (
