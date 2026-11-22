@@ -4809,7 +4809,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4817,18 +4817,18 @@
     "name": "Samy Manga",
     "aliases": [],
     "best": {
-      "channelId": "UCGNCuxnQEjqrjD1RCDWvPug",
-      "title": "Samy Manga",
+      "channelId": "UC0ZV9g1Wec_IvMjHFEN74-Q",
+      "title": "Samy Manga - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 3,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4855,12 +4855,19 @@
   "Q109771617": {
     "name": "Sandrine Nnanga",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCGudQff9rm9aeGfGRQBJybQ",
+      "title": "Sandrine Nnanga - Topic",
+      "country": null,
+      "subscribers": 381,
+      "similarity": 1,
+      "confidence": 0.99
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4868,18 +4875,18 @@
     "name": "Sanzy Viany",
     "aliases": [],
     "best": {
-      "channelId": "UCaHRceQ2jXpNaob95inMCVg",
-      "title": "sanzyviany",
+      "channelId": "UC9WZPNdmdxMd5Ex9zPdNVaA",
+      "title": "Sanzy Viany - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 207,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -5933,6 +5940,49 @@
       "confidence": 0.7
     },
     "method": "handle",
+    "status": "none",
+    "triedMusicbrainz": true,
+    "triedHandles": true,
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
+  },
+  "X-martin-s": {
+    "name": "Martin's",
+    "aliases": [],
+    "best": null,
+    "method": null,
+    "status": "none",
+    "triedMusicbrainz": true,
+    "triedHandles": true,
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
+  },
+  "X-kikoh": {
+    "name": "Kikoh",
+    "aliases": [],
+    "best": {
+      "channelId": "UC0nbXfk9rMQ9foLpebzesmA",
+      "title": "Kikoh Music",
+      "country": null,
+      "subscribers": 0,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "handle",
+    "status": "none",
+    "triedMusicbrainz": true,
+    "triedHandles": true,
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
+  },
+  "X-yanicko-la-star-du-flow": {
+    "name": "Yanicko la star du Flow",
+    "aliases": [],
+    "best": null,
+    "method": null,
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,

@@ -1509,5 +1509,41 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q54650941": {
+    "artist": "Salatiel Livenja Bessong",
+    "id": 9913990,
+    "name": "Salatiel",
+    "fans": 13122,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "Q3470485": {
+    "artist": "Sam Fan Thomas",
+    "id": 127280,
+    "name": "Sam Fan Thomas",
+    "fans": 2511,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
+  },
+  "Q115850639": {
+    "artist": "Sam Mbende",
+    "id": 81580362,
+    "name": "Sam Mbende",
+    "fans": 86,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-tata": {
+    "artist": "TATA",
+    "id": 562503,
+    "name": "tata",
+    "fans": 3890,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
   }
 }
