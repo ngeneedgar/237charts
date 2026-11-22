@@ -31,5 +31,21 @@
     "songs": [
       "Suger Baby"
     ]
+  },
+  {
+    "wikidata": "X-tata",
+    "name": "TATA",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Jovi"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
   }
 ]

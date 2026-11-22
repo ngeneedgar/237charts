@@ -4729,18 +4729,18 @@
       "Hi like @6ix9ine"
     ],
     "best": {
-      "channelId": "UC7dQG5PqO9G9O9NWRuDG86Q",
-      "title": "salatiel",
+      "channelId": "UCfdOm14yIreX_we-E11cnRw",
+      "title": "Salatiel - Topic",
       "country": null,
-      "subscribers": 15,
+      "subscribers": 6070,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -4761,12 +4761,19 @@
   "Q3470485": {
     "name": "Sam Fan Thomas",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCHaFRbY_Pvd6gVpqGG7j-Lg",
+      "title": "Sam Fan Thomas - Topic",
+      "country": null,
+      "subscribers": 19100,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": []
   },
@@ -5901,6 +5908,25 @@
     "best": {
       "channelId": "UCSTSNODze4wUzFR1Eu0A9hA",
       "title": "Ishaku",
+      "country": null,
+      "subscribers": 0,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "handle",
+    "status": "none",
+    "triedMusicbrainz": true,
+    "triedHandles": true,
+    "triedSearch": false,
+    "triedSongSearch": false,
+    "blocked": []
+  },
+  "X-tata": {
+    "name": "TATA",
+    "aliases": [],
+    "best": {
+      "channelId": "UCoAuohhLstxxES8_S1PI1_A",
+      "title": "TATA Officiel",
       "country": null,
       "subscribers": 0,
       "similarity": 1,
