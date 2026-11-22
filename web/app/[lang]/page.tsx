@@ -21,14 +21,19 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <main className={s.page}>
         <header className={s.nav}>
           <div className={s.navRow}>
-            <Link href={`/${lang}/`} aria-label="237 Charts"><Logo height={44} /></Link>
+            {/* Logo beside the title and week, as one brand block */}
+            <div className={s.brandBlock}>
+              <Link href={`/${lang}/`} aria-label="237 Charts" className={s.brandLogo}><Logo height={56} /></Link>
+              <div className={s.brandText}>
+                <h1 className={s.title}>{t.charts}</h1>
+                <p className={s.week}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
+              </div>
+            </div>
             <nav className={s.seg} aria-label="Language">
               <Link href="/en/" aria-current={lang === "en"} hrefLang="en">EN</Link>
               <Link href="/fr/" aria-current={lang === "fr"} hrefLang="fr">FR</Link>
             </nav>
           </div>
-          <h1 className={s.title} style={{ marginTop: "var(--s4)" }}>{t.charts}</h1>
-          <p className={s.week}>{t.weekOf} {weekLabel(chart.weekEnd, lang)}</p>
         </header>
 
         <Preview t={t} show={chart.preview} />
