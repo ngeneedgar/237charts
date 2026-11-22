@@ -1,22 +1,22 @@
-# 237 Charts — hand-off for the next session (2026-11-22, evening)
+# 237 Charts — hand-off for the next session (2026-11-22, late)
 
-Read ROADMAP.md, README.md and admin/README.md first. Live: https://237charts.pages.dev · repo: github.com/ngeneedgar/237charts
-Weekly automation: GitHub Actions every Monday 07:00 UTC + on admin/code pushes. First real chart: Mon 30 Nov 2026.
-Push with: `C:\Program Files\Git\cmd\git.exe` (+ `$env:GCM_INTERACTIVE='always'`). Don't poll the GitHub API repeatedly (60/h anonymous limit) — check the live site instead.
-Edit files with the Edit tool, never PowerShell Get/Set-Content (it corrupted UTF-8 once); `node -e` with quotes fails in PowerShell — write a script file instead.
-The user batches work: commit + push ONCE at the end of a session. The user is designing an admin dashboard in another chat — don't touch admin UI files.
-Preview the static build with launch config `web-static` (port 3107, serves web/out after `npx next build`); port 3000 may be another chat's dev server.
+Read ROADMAP.md, ADMIN-ROADMAP.md, README.md and admin/README.md first. Live: https://237charts.pages.dev · admin: https://237charts.pages.dev/admin/ (Cloudflare Access, team cold-sky-c44b) · repo: github.com/ngeneedgar/237charts
+Push with: `C:\Program Files\Git\cmd\git.exe` (+ `$env:GCM_INTERACTIVE='always'`).
 
-## Done this session
-- Hard rule wired in: `check-nationality.mjs` runs in `run-week.mjs`; user confirmed all 31 exclusions; methodology (site + seed.sql) says dual nationals are not eligible.
-- 7 "not sure" artists → all `no` in `admin/eligibility.csv` (Dydyfat Ivorian, Obim1 likely Nigerian, 5 unconfirmed — can be flipped to yes if someone confirms they're Cameroonian).
-- Gospel = 8th genre (genres.mjs, gold tile, seed.sql, methodology). Tagged: Tim Storm, Prosper & Zenobia Germoh, Prisca Benita (team) + AkuBai, Lab'l, Tubuo Evaristus, Queen Eteme (Wikidata; Queen Eteme is doubtful). Prisca Benita: one 2025 article calls her "from Canada" — nationality worth checking.
-- ALL-CAPS titles: `fixCaps` / `bestTitle` in `lib/songs.mjs`; Deezer's spelling preferred when the YouTube title is ALL CAPS (`deezerTitle` in song-meta.json, backfilled). Tests in `collector/test/titles.test.mjs`.
-- Privacy + Terms pages (`/privacy`, `/terms`, FR/EN, shared `legal.tsx`), in footer + sitemap. Unblocks ROADMAP 2.20 (YouTube quota extension).
+## Rules from the user (important)
+- **Do NOT push until the user says "push".** Commit locally; every push triggers the weekly-run Action + deploy (GitHub limits). Before pushing: `git fetch; git rebase origin/main` (the bot commits "Weekly run" data).
+- Cameroonian nationals only (hard rule). Research artist nationality yourself (web search) before asking the user; record decisions with a source in `admin/eligibility.csv`.
+- Admin UI: neutral dark greys, green only for actions/status; font Google Sans Flex (Open Sans fallback), light weights. Public site uses the same font, weights and icon set (`web/app/admin/icons.tsx`).
+- Edit files with Edit/Write tools; shell heredocs eat backslashes/template strings — write scripts to the scratchpad with the Write tool instead.
+
+## State: 9 local commits NOT pushed (ahead 9, behind 1)
+Includes: 23 researched + 143 sourced eligibility decisions (Tabaski & VANITY FAIR confirmed Cameroonian by the user; Cœurde de Noël → no) · public site font/icons · white text on green buttons (#237A40) · share images in brand dark green · No. 1 hero card · home order (hero → Top 10 → Top 20/50/Viral tiles → all 8 genres as cover + Top 3, per user sketch) · dedicated /genres page (Top 5 each) + Genres tab (4 tabs) · custom chart covers via Cloudflare R2.
 
 ## To do next
-1. After Monday's run: check Jovi charts via New Bell Music; Gospel chart is filled; titles look right.
-2. Channels for the 21 new artists: only La Santinelle (auto) + Ikardi Le Monument (review) so far. YouTube search quota hit 429 on 2026-11-22 — the weekly run does 25 searches; or find them by hand on YouTube and add to `admin/channels.csv`.
-3. Share images (1200×630, 1080×1080, 1080×1920) — ROADMAP 2.12.
-4. Apply for YouTube API quota extension (2.20) now that the privacy policy exists.
-5. Domain (user buying it).
+1. **Push when the user says so** (rebase first).
+2. **R2 bucket for covers (user must do in Cloudflare, may ask for a card):** create bucket `237charts-covers`, then Pages → 237charts → Settings → Bindings → R2 bucket, variable `COVERS`. Code is ready: `web/functions/cover/[name].js` (public /cover/<chart>.jpg, transparent pixel when none), admin API `covers` routes, admin screen /admin/covers/ (crops to 1:1, 1080px). Until bound, site shows gradient covers.
+3. **Open question to the user:** "manually update a chart" = (a) re-run now (exists on admin Overview; maybe add to Charts screen) or (b) edit positions by hand (conflicts with published methodology "never move a song on request").
+4. Share images polish (suggested, not confirmed): use Google Sans Flex in images, less empty space in Story, highlight No. 1.
+5. ~37 obscure names left in the review queue with no public source (see admin Review).
+6. After Monday's run: check Jovi via New Bell Music, Gospel chart fills, Yamê gone from charts.
+7. YouTube API quota extension form (privacy page exists now); domain (user buying).
