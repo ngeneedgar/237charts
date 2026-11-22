@@ -96,6 +96,7 @@ export function Footer({ t, lang }: { t: Dict; lang: Locale }) {
 
 const icons = {
   charts: <path d="M5 20V10M10 20V4M15 20v-8M20 20v-5" />,
+  genres: <path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" />,
   search: <><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5 21 21" /></>,
   archive: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
   embed: <path d="m8 7-5 5 5 5M16 7l5 5-5 5" />,
@@ -103,7 +104,7 @@ const icons = {
 };
 
 // Clean navigation: only the three main places. Archive and Embed live in Settings and the footer.
-const TABS = ["charts", "search", "settings"] as const;
+const TABS = ["charts", "genres", "search", "settings"] as const;
 
 export function TabBar({ t, lang, active }: { t: Dict; lang: Locale; active: keyof typeof icons }) {
   return (

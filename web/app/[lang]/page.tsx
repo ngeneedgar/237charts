@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { getChart, weekLabel } from "./chart";
 import { Art, ChartRow, Footer, Logo, Preview, TabBar } from "./ui";
-import { ChartTile, CoverArt } from "./chart-tile";
+import { ChartTile } from "./chart-tile";
+import { GenreRows } from "./genre-rows";
 import s from "./home.module.css";
 
 const year = (d: string | null) => (d ? d.slice(0, 4) : null);
@@ -73,31 +74,6 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </ol>
         </section>
 
-        {/* Then every genre: Top 3 each */}
-        {/* Layout from the team's sketch: no heading; each genre = its square cover on the left, top 3 tracks on the right */}
-        <section className={s.genreGrid} aria-label={t.genres}>
-          {chart.genres.filter((g) => g.entries.length).map((g) => (
-            <section key={g.slug} className={s.genreBlock} aria-label={g[lang]}>
-              <Link href={`/${lang}/genre/${g.slug}/`} className={s.genreCover} aria-label={`${g[lang]} Top 20`}>
-                <CoverArt kind={g.slug} long title={g.slug === "afro" ? "Afro" : g.slug === "hiphop" ? (lang === "fr" ? "Hip-hop" : "Hip Hop") : g[lang]} label="Top 20" />
-              </Link>
-              <ol className={s.genreTracks}>
-                {g.entries.slice(0, 3).map((e) => (
-                  <li key={e.slug} data-explicit={e.explicit ? "true" : undefined}>
-                    <Link href={`/${lang}/song/${e.slug}/`} className={s.genreTrack}>
-                      <span className={s.genreRank}>{e.rank}</span>
-                      <span className={s.rowText}>
-                        <span className={s.rowTitle}>{e.title.replace(/\s*[([](feat|ft)\.?[^)\]]*[)\]]/gi, "")}</span>
-                        <span className={s.rowArtist}>{e.artists.join(", ")}</span>
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ol>
-            </section>
-          ))}
-        </section>
-
         {/* Chart shelves: main charts first (3 across), genre charts below */}
         <section className={s.shelf} aria-label={t.mainCharts}>
           <div className={s.shelfRow}>
@@ -108,6 +84,15 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             <ChartTile kind="viral" href={`/${lang}/viral/`} title="Viral" label={t.country}
               caption="Viral 20" sub={lang === "fr" ? "Titres qui décollent" : "Songs taking off"} />
           </div>
+        </section>
+
+        {/* Then every genre chart (all of them, last one Gospel), Top 3 each */}
+        <section aria-label={t.genres} style={{ display: "grid", gap: "var(--s4)" }}>
+          <div className={s.sectionHead}>
+            <h2 className={s.sectionTitle}>{t.genres}</h2>
+            <Link className={s.sectionLink} href={`/${lang}/genres/`}>{t.seeAll}</Link>
+          </div>
+          <GenreRows genres={chart.genres} t={t} lang={lang} />
         </section>
 
         <div className={s.actions}>
