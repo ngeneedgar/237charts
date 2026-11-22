@@ -10,7 +10,8 @@ import s from "../home.module.css";
 // Top 20 = the first 20 places of the Top 50 (same scores, shorter list).
 export async function generateMetadata({ params }: PageProps<"/[lang]/top-20">): Promise<Metadata> {
   const { lang } = await params;
-  return { title: `${hasLocale(lang) ? getDictionary(lang).top20Title : "Top 20"} · 237 Charts` };
+  const title = `${hasLocale(lang) ? getDictionary(lang).top20Title : "Top 20"} · 237 Charts`;
+  return { title: title, openGraph: { title: title, siteName: "237 Charts", type: "website", images: [{ url: "/share/top-20/og.png", width: 1200, height: 630 }] }, twitter: { card: "summary_large_image", images: ["/share/top-20/og.png"] } };
 }
 
 export default async function Top20({ params }: PageProps<"/[lang]/top-20">) {

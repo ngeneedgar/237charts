@@ -280,3 +280,10 @@ button.textBtn { background: none; border: 0; color: var(--accent-text); font: 1
 .tab svg { transition: transform 0.15s var(--ease); }
 .tab svg { width: 24px; height: 24px; }
 .tabOn { color: var(--accent-text); }
+
+/* Share as image sheet */
+.imageChoices { display: flex; gap: var(--s4); justify-content: center; align-items: flex-end; padding: var(--s3) 0; }
+.imageChoice { display: flex; flex-direction: column; align-items: center; gap: var(--s2); background: none; border: 0; color: var(--label); font: inherit; font-size: 15px; cursor: pointer; padding: 0; }
+.imageChoice img { border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.25); display: block; }
+.imageStory { width: 120px; height: 213px; object-fit: cover; }
+.imageSquare { width: 160px; height: 160px; object-fit: cover; }

@@ -5,16 +5,17 @@ import { useEffect, useRef, useState } from "react";
 import s from "./home.module.css";
 
 export type Week = { id: string; label: string; href: string; current: boolean };
-type Sheet = null | "weeks" | "info" | "share";
+type Sheet = null | "weeks" | "info" | "share" | "image";
 
 /** Chart action bar (under the page title): 📅 choose week · ℹ about this chart · ⤴ share.
  *  Calendar and info open a bottom sheet; share uses the phone's share menu, or copies the link. */
-export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels }: {
+export function ChartActions({ weeks, info, methodologyHref, shareTitle, image, labels }: {
   weeks: Week[];
   info: { title: string; paragraphs: string[] };
   methodologyHref: string;
   shareTitle: string;
-  labels: { weeks: string; info: string; share: string; close: string; methodology: string; copied: string; copyFail: string; onlyWeek: string; current: string; copyLink: string };
+  image: string | null;
+  labels: { weeks: string; info: string; share: string; close: string; methodology: string; copied: string; copyFail: string; onlyWeek: string; current: string; copyLink: string; image: string; story: string; post: string; imageHint: string; downloaded: string };
 }) {
   const [sheet, setSheet] = useState<Sheet>(null);
   const [toast, setToast] = useState("");
@@ -37,6 +38,25 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
       catch (e) { if ((e as Error)?.name === "AbortError") return; /* other errors → our sheet */ }
     }
     setSheet("share");
+  }
+
+  // Image: share the PNG itself where the phone allows (WhatsApp Status, Instagram…), else download it
+  async function shareImage(kind: "story" | "square") {
+    if (!image) return;
+    const src = `/share/${image}/${kind}.png`;
+    const name = `237charts-${image}-${kind}.png`;
+    try {
+      const blob = await (await fetch(src)).blob();
+      const file = new File([blob], name, { type: "image/png" });
+      if (typeof navigator.canShare === "function" && navigator.canShare({ files: [file] })) {
+        await navigator.share({ files: [file], title: shareTitle, text: `${shareTitle} ${window.location.href}` });
+      } else {
+        const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+        setToast(labels.downloaded);
+      }
+      setSheet(null);
+    } catch (e) { if ((e as Error)?.name !== "AbortError") setToast(labels.copyFail); }
   }
 
   async function copyLink() {
@@ -70,6 +90,11 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
         <button type="button" className={s.actionBtn} onClick={() => setSheet("info")} aria-label={labels.info} title={labels.info}>
           {icon(<><circle cx="12" cy="12" r="9" /><path d="M12 11v6" /><circle cx="12" cy="7.6" r=".6" fill="currentColor" /></>)}
         </button>
+        {image && (
+          <button type="button" className={s.actionBtn} onClick={() => setSheet("image")} aria-label={labels.image} title={labels.image}>
+            {icon(<><rect x="3.5" y="4.5" width="17" height="15" rx="3" /><circle cx="9" cy="10" r="1.8" /><path d="M20.5 16l-5-5-8.5 8.5" /></>)}
+          </button>
+        )}
         <button type="button" className={s.actionBtn} onClick={share} aria-label={labels.share} title={labels.share}>
           {icon(<><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5" /><path d="M6 11H5a1.5 1.5 0 0 0-1.5 1.5v6A1.5 1.5 0 0 0 5 20h14a1.5 1.5 0 0 0 1.5-1.5v-6A1.5 1.5 0 0 0 19 11h-1" /></>)}
         </button>
@@ -80,7 +105,7 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
         <div className={s.sheetInner}>
           <div className={s.sheetHead}>
             <span className={s.sheetGrab} aria-hidden="true" />
-            <h2 className={s.sheetTitle}>{sheet === "weeks" ? labels.weeks : sheet === "share" ? labels.share : info.title}</h2>
+            <h2 className={s.sheetTitle}>{sheet === "weeks" ? labels.weeks : sheet === "share" ? labels.share : sheet === "image" ? labels.image : info.title}</h2>
             <button type="button" className={s.sheetClose} onClick={() => setSheet(null)}>{labels.close}</button>
           </div>
 
@@ -115,6 +140,21 @@ export function ChartActions({ weeks, info, methodologyHref, shareTitle, labels 
                 {labels.copyLink}
               </button>
             </div>
+          )}
+
+          {sheet === "image" && image && (
+            <>
+              <p className={s.note}>{labels.imageHint}</p>
+              <div className={s.imageChoices}>
+                {(["story", "square"] as const).map((k) => (
+                  <button key={k} type="button" className={s.imageChoice} onClick={() => shareImage(k)}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={`/share/${image}/${k}.png`} alt="" loading="lazy" className={k === "story" ? s.imageStory : s.imageSquare} />
+                    <span>{k === "story" ? labels.story : labels.post}</span>
+                  </button>
+                ))}
+              </div>
+            </>
           )}
 
           {sheet === "info" && (

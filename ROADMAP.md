@@ -95,7 +95,7 @@
   - [ ] **After buying 237charts.com:** set up free email forwarding (Cloudflare Email Routing) so corrections@237charts.com reaches your inbox — until then only WhatsApp works
 - [x] 2.10 Settings page (language, theme, hide explicit, app notification placeholders, about) + chart info sheets
 - [ ] 2.11 Empty, loading and error states
-- [~] 2.12 Share: native share menu + fallback sheet ✔ · auto share images (1200×630, 1080×1080, 1080×1920) not done
+- [x] 2.12 Share: native share menu + fallback sheet ✔ · share images built every week (/share/<chart>/og|square|story.png), link previews per chart, "Share as image" button
 - [x] 2.13 **Embed**: builder page (`/fr/embed/`: chart = Top 50 or any genre, Top 5/10, light/dark, FR/EN, live preview, copy code) + widget pages (`/fr/widget/<chart>/?n=&theme=`). Tested inside an outside test page (different origin): works. Every row links back to 237 Charts
   - [ ] WordPress shortcode needs a WordPress plugin — iframe code already works in WordPress "Custom HTML" block
   - [ ] Top 20/50 widgets, custom colours = Pro (Phase 4)

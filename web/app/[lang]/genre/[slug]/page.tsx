@@ -16,7 +16,10 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/genre/[slu
   const { lang, slug } = await params;
   const g = getGenre(slug);
   if (!g || !hasLocale(lang)) return {};
-  return { title: `${getDictionary(lang).genreTop(g[lang])} · 237 Charts` };
+  const title = `${getDictionary(lang).genreTop(g[lang])} · 237 Charts`;
+  return g.entries.length
+    ? { title, openGraph: { title, siteName: "237 Charts", type: "website", images: [{ url: `/share/${slug}/og.png`, width: 1200, height: 630 }] }, twitter: { card: "summary_large_image", images: [`/share/${slug}/og.png`] } }
+    : { title };
 }
 
 export default async function Genre({ params }: PageProps<"/[lang]/genre/[slug]">) {

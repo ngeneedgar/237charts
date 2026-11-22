@@ -11,6 +11,7 @@ const L = {
     methodology: "Méthodologie complète", copied: "Lien copié", copyFail: "Impossible de partager. Copiez l'adresse de la page.",
     onlyWeek: "Les semaines précédentes apparaîtront ici dès le premier classement officiel (lundi 30 novembre 2026).",
     current: "Cette semaine", copyLink: "Copier le lien",
+    image: "Partager en image", story: "Story · Statut", post: "Publication", imageHint: "Le Top 10 de cette semaine, prêt pour WhatsApp, Instagram ou Facebook.", downloaded: "Image téléchargée",
     sources: "Calculé chaque semaine à partir des vues YouTube (50 %), de la position dans le Top 200 Shazam Cameroun (25 %) et de la popularité Deezer (25 %). Artistes camerounais uniquement, chaînes officielles uniquement.",
   },
   en: {
@@ -18,9 +19,17 @@ const L = {
     methodology: "Full methodology", copied: "Link copied", copyFail: "Couldn't share. Copy the page address instead.",
     onlyWeek: "Earlier weeks will appear here from the first official chart (Monday 30 November 2026).",
     current: "This week", copyLink: "Copy link",
+    image: "Share as image", story: "Story · Status", post: "Post", imageHint: "This week's Top 10, ready for WhatsApp, Instagram or Facebook.", downloaded: "Image downloaded",
     sources: "Calculated every week from YouTube views (50%), position in Shazam's Cameroon Top 200 (25%) and Deezer popularity (25%). Cameroonian artists only, official channels only.",
   },
 };
+
+/** Folder of this chart's share images (/share/<slug>/…), or null when there is none (Viral, empty genre). */
+export function shareImageSlug(kind: Kind): string | null {
+  if (kind === "viral") return null;
+  if (typeof kind === "string") return kind;
+  return (getGenre(kind.genre)?.entries.length ?? 0) > 0 ? kind.genre : null;
+}
 
 export function chartActionsProps(lang: Locale, kind: Kind, path: string) {
   const l = L[lang];
@@ -61,7 +70,7 @@ export function chartActionsProps(lang: Locale, kind: Kind, path: string) {
   shareTitle = `${title} · 237 Charts`;
 
   return {
-    weeks, info: { title, paragraphs }, methodologyHref: `/${lang}/methodology/`, shareTitle,
-    labels: { weeks: l.weeks, info: l.info, share: l.share, close: l.close, methodology: l.methodology, copied: l.copied, copyFail: l.copyFail, onlyWeek: l.onlyWeek, current: l.current, copyLink: l.copyLink },
+    weeks, info: { title, paragraphs }, methodologyHref: `/${lang}/methodology/`, shareTitle, image: shareImageSlug(kind),
+    labels: { weeks: l.weeks, info: l.info, share: l.share, close: l.close, methodology: l.methodology, copied: l.copied, copyFail: l.copyFail, onlyWeek: l.onlyWeek, current: l.current, copyLink: l.copyLink, image: l.image, story: l.story, post: l.post, imageHint: l.imageHint, downloaded: l.downloaded },
   };
 }

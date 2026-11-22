@@ -9,7 +9,8 @@ import s from "../home.module.css";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/top-50">): Promise<Metadata> {
   const { lang } = await params;
-  return { title: `${hasLocale(lang) ? getDictionary(lang).top50Title : "Top 50"} · 237 Charts` };
+  const title = `${hasLocale(lang) ? getDictionary(lang).top50Title : "Top 50"} · 237 Charts`;
+  return { title: title, openGraph: { title: title, siteName: "237 Charts", type: "website", images: [{ url: "/share/top-50/og.png", width: 1200, height: 630 }] }, twitter: { card: "summary_large_image", images: ["/share/top-50/og.png"] } };
 }
 
 export default async function Top50({ params }: PageProps<"/[lang]/top-50">) {
