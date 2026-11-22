@@ -1491,5 +1491,14 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q106637610": {
+    "artist": "Roméo Dika",
+    "id": 1354420,
+    "name": "Roméo Dika",
+    "fans": 24,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }
