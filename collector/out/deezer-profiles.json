@@ -2856,5 +2856,111 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "X-le-roy-tsala": {
+    "artist": "le roy Tsala",
+    "id": 159485912,
+    "name": "Le Roy Tsala",
+    "fans": 7,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-iza-muan": {
+    "artist": "iza muan",
+    "id": 301681021,
+    "name": "Iza muan",
+    "fans": 31,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-kiriku-dj-akiribo": {
+    "artist": "Kiriku dj -Akiribo",
+    "status": "none"
+  },
+  "X-machine-1er": {
+    "artist": "machine 1er",
+    "id": 134862702,
+    "name": "machine 1er",
+    "fans": 15,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-la-team-mballe-act-2": {
+    "artist": "la team mballe act 2",
+    "status": "none"
+  },
+  "X-tchakala-vip-mon-annee": {
+    "artist": "TCHAKALA VIP MON ANNEE",
+    "status": "none"
+  },
+  "X-mh-centro": {
+    "artist": "MH Centro",
+    "id": 177173587,
+    "name": "MH Centro",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-kaiena": {
+    "artist": "Kaiena",
+    "id": 106448592,
+    "name": "KAIENA",
+    "fans": 4,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-ady-kakandu": {
+    "artist": "ADY KAKANDU",
+    "id": 287437181,
+    "name": "Ady Kakandu",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-rachida-jolie": {
+    "artist": "Rachida Jolie",
+    "id": 71084132,
+    "name": "Rachida Jolie",
+    "fans": 6,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-arouna-tresor": {
+    "artist": "AROUNA trésor",
+    "id": 269251382,
+    "name": "AROUNA TRESOR",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "X-zepe-kior-le-warr": {
+    "artist": "Zépé kior_Le Warr_",
+    "status": "none"
+  },
+  "X-aveirodjess": {
+    "artist": "AveiroDjess",
+    "id": 59874192,
+    "name": "Aveiro Djess",
+    "fans": 5114,
+    "similarity": 1,
+    "confidence": 0.99,
+    "status": "auto"
+  },
+  "X-lor": {
+    "artist": "LoR",
+    "id": 339576481,
+    "name": "Lor",
+    "fans": 1,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
   }
 }

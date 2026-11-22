@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-22T18:36:24.233Z",
+  "takenAt": "2026-11-22T18:42:25.121Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121177
+      "fans": 1121179
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -219,7 +219,7 @@
     "Q25679": {
       "deezerId": 13921,
       "name": "Richard Bona",
-      "fans": 51377
+      "fans": 51378
     },
     "Q115790591": {
       "deezerId": 73012012,
@@ -440,6 +440,11 @@
       "deezerId": 92771,
       "name": "Overflow",
       "fans": 1873
+    },
+    "X-aveirodjess": {
+      "deezerId": 59874192,
+      "name": "Aveiro Djess",
+      "fans": 5114
     }
   },
   "tracks": {
@@ -4835,6 +4840,14 @@
       "albumId": 163546412,
       "link": "https://www.deezer.com/track/1035354702"
     },
+    "1041116732": {
+      "wikidata": "X-aveirodjess",
+      "artist": "AveiroDjess",
+      "title": "Afro Degamme",
+      "rank": 52892,
+      "albumId": 164809462,
+      "link": "https://www.deezer.com/track/1041116732"
+    },
     "1047232802": {
       "wikidata": "Q115612717",
       "artist": "Petit Bozard",
@@ -4906,6 +4919,14 @@
       "rank": 75447,
       "albumId": 176600522,
       "link": "https://www.deezer.com/track/1095163172"
+    },
+    "1136254662": {
+      "wikidata": "X-aveirodjess",
+      "artist": "AveiroDjess",
+      "title": "Le nyama",
+      "rank": 249016,
+      "albumId": 185106532,
+      "link": "https://www.deezer.com/track/1136254662"
     },
     "1136263112": {
       "wikidata": "Q19544251",
@@ -7244,8 +7265,8 @@
       "link": "https://www.deezer.com/track/2574467532"
     },
     "2582487982": {
-      "wikidata": "Q48774408",
-      "artist": "Tenor",
+      "wikidata": "X-aveirodjess",
+      "artist": "AveiroDjess",
       "title": "Ohlala",
       "rank": 161291,
       "albumId": 523004702,
@@ -7938,6 +7959,14 @@
       "rank": 94775,
       "albumId": 673016701,
       "link": "https://www.deezer.com/track/3102796871"
+    },
+    "3106127941": {
+      "wikidata": "X-aveirodjess",
+      "artist": "AveiroDjess",
+      "title": "WAAAH PAPA",
+      "rank": 220737,
+      "albumId": 673852641,
+      "link": "https://www.deezer.com/track/3106127941"
     },
     "3113030711": {
       "wikidata": "Q136486889",
@@ -8810,6 +8839,14 @@
       "rank": 339565,
       "albumId": 786251601,
       "link": "https://www.deezer.com/track/3454477561"
+    },
+    "3463709191": {
+      "wikidata": "X-aveirodjess",
+      "artist": "AveiroDjess",
+      "title": "Yayato",
+      "rank": 121246,
+      "albumId": 789165981,
+      "link": "https://www.deezer.com/track/3463709191"
     },
     "3487615811": {
       "wikidata": "X-tata",

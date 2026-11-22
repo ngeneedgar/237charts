@@ -5359,7 +5359,7 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-22"
