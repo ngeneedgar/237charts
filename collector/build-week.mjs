@@ -23,14 +23,15 @@ if (files.length < 2 && !(DRY && files.length)) {
 // (e.g. after an admin edit) must not shorten the chart week.
 const day = (f) => new Date(f.match(/(\d{4}-\d{2}-\d{2})/)[1] + 'T00:00:00Z');
 const curFile = files.at(-1);
-const prevFile = DRY ? '__empty__' : [...files].reverse().find((f) => (day(curFile) - day(f)) / 864e5 >= 6) ?? files.at(-2);
+const FIRST = !(await readdir('collector/out')).some((f) => /^chart-\d{4}-\d{2}-\d{2}\.json$/.test(f)); // first official chart (23 Nov 2026): short window allowed, oldest snapshot
+const prevFile = DRY ? '__empty__' : [...files].reverse().find((f) => (day(curFile) - day(f)) / 864e5 >= 6) ?? (FIRST ? files[0] : files.at(-2));
 const [prev, cur] = await Promise.all([prevFile, curFile].map(async (f) => f === '__empty__' ? null : JSON.parse(await readFile(`${dir}/${f}`, 'utf8'))));
 if (DRY) Object.assign(prev ?? {}, {});
 const prevSnap = prev ?? { takenAt: new Date(new Date(cur.takenAt) - 7 * 864e5).toISOString(), videos: {} };
 const days = (new Date(cur.takenAt) - new Date(prevSnap.takenAt)) / 864e5;
 const scale = 7 / days;
 // A real chart needs (close to) a full week between snapshots — never publish a 3-day "week".
-if (!DRY && days < 6) {
+if (!DRY && days < (FIRST ? 1 : 6)) {
   console.log(`Snapshots are only ${days.toFixed(1)} days apart — no chart built. The next weekly run will build it.`);
   process.exit(0);
 }
