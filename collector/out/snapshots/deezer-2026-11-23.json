@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-23T09:20:46.287Z",
+  "takenAt": "2026-11-23T09:48:15.369Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -119,7 +119,7 @@
     "Q529942": {
       "deezerId": 376157,
       "name": "Francis Bebey",
-      "fans": 4991
+      "fans": 4992
     },
     "Q24578963": {
       "deezerId": 439931,
@@ -139,7 +139,7 @@
     "Q439028": {
       "deezerId": 264933,
       "name": "Irma",
-      "fans": 169841
+      "fans": 169842
     },
     "Q140841663": {
       "deezerId": 1624186,
@@ -264,7 +264,7 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145864
+      "fans": 145865
     },
     "Q221908": {
       "deezerId": 1801,
@@ -9241,7 +9241,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "The sound of what we are",
-      "rank": 175096,
+      "rank": 143375,
       "albumId": 880066502,
       "link": "https://www.deezer.com/track/3724476462"
     },

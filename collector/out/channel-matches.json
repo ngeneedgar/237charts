@@ -6338,18 +6338,18 @@
     "name": "Kikoh",
     "aliases": [],
     "best": {
-      "channelId": "UC0nbXfk9rMQ9foLpebzesmA",
-      "title": "Kikoh Music",
+      "channelId": "UC4xHa05nqx6_OB5kinSxX6w",
+      "title": "Kikoh - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 88,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6357,12 +6357,19 @@
   "X-yanicko-la-star-du-flow": {
     "name": "Yanicko la star du Flow",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UC-d9LuvbmUEv8i4ur--i8Cw",
+      "title": "Yanicko la star du flow - Topic",
+      "country": null,
+      "subscribers": 8,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6650,12 +6657,19 @@
   "X-gbc-the-yemba": {
     "name": "GBC the yemba",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCPbrguG4hveKopGaNMoLiKw",
+      "title": "The Yemba",
+      "country": "FR",
+      "subscribers": 716,
+      "similarity": 0.67,
+      "confidence": 0.47
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6664,18 +6678,18 @@
     "name": "marco bi",
     "aliases": [],
     "best": {
-      "channelId": "UCeKLqsdgkVRHEym2R62P0Dw",
-      "title": "Marco Bi",
+      "channelId": "UCRnIq5pQv13V0j_UG47RB9Q",
+      "title": "Marco-bi - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 11,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6684,18 +6698,18 @@
     "name": "LiFkA",
     "aliases": [],
     "best": {
-      "channelId": "UCdwqWLU-z75dfD_w9jcXF0w",
-      "title": "LIFKA OFFICIEL",
+      "channelId": "UCJ-BJqPp6QWicWV6G_6rDlg",
+      "title": "LiFkA - Topic",
       "country": null,
-      "subscribers": 4,
+      "subscribers": 1,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6724,18 +6738,18 @@
     "name": "Yvan Ango",
     "aliases": [],
     "best": {
-      "channelId": "UCYR7MKtmrPAATqp03FDZ8Ag",
-      "title": "Yvana Ngo",
+      "channelId": "UCrBdlJndb4ub9ZS8Ic0CHoQ",
+      "title": "Ango yvan",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 12,
       "similarity": 1,
       "confidence": 0.7
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6744,18 +6758,18 @@
     "name": "Cleo Grae",
     "aliases": [],
     "best": {
-      "channelId": "UCIiJNQ5pxMeSLn3RFniWIoQ",
-      "title": "Cleo Grae",
+      "channelId": "UC1kHAaIMnwsY-PeU4rDc7aw",
+      "title": "Cleo Grae - Topic",
       "country": null,
-      "subscribers": 3,
+      "subscribers": 191,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6763,12 +6777,19 @@
   "X-banye": {
     "name": "Banye",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCi2tVQRncO6iCmeufaFdnIg",
+      "title": "BANYE - Topic",
+      "country": null,
+      "subscribers": 58,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6776,12 +6797,19 @@
   "X-kking-kum": {
     "name": "Kking Kum",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCXUF53Ez1oyK9QfBdGmexqA",
+      "title": "KKing Kum - Topic",
+      "country": null,
+      "subscribers": 1300,
+      "similarity": 1,
+      "confidence": 0.95
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6810,18 +6838,18 @@
     "name": "AL-K",
     "aliases": [],
     "best": {
-      "channelId": "UCkNwpTKDpoTpA4hVpQtjCsA",
-      "title": "A L K OFFICIEL",
+      "channelId": "UCrhMj7xZ01HusY8jM_5_58w",
+      "title": "Al-K - Topic",
       "country": null,
-      "subscribers": 8,
+      "subscribers": 9,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6830,18 +6858,18 @@
     "name": "IVEE",
     "aliases": [],
     "best": {
-      "channelId": "UCgS9hc78oBJEufHgjDNo-Rw",
-      "title": "Ivee TV",
-      "country": null,
-      "subscribers": 0,
+      "channelId": "UCWUUsfFqWqFah5IgAr56HoQ",
+      "title": "IVEE Officiel",
+      "country": "FR",
+      "subscribers": 5920,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.75
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -6849,12 +6877,19 @@
   "X-amatula": {
     "name": "AMATULA",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCmtfBLGVsnpDw8RJf6TMe-A",
+      "title": "Amatula - Topic",
+      "country": null,
+      "subscribers": 18,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
