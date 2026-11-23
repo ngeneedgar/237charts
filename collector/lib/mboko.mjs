@@ -60,13 +60,19 @@ const coreSet = new Set(CORE_ARTISTS.map(fold)), adjSet = new Set(ADJACENT_ARTIS
 const labelList = CORE_LABELS.map(fold).map((l) => ({ l, c: l.replace(/[^a-z0-9]/g, '') }));
 const kwRes = KEYWORDS.map((k) => new RegExp(`(^|[^a-z0-9])${fold(k).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^a-z0-9]|$)`));
 
-export const creditedArtists = (artist) => (artist ?? '').split(/\s*(?:,|&|\bx\b|\bfeat\.?|\bft\.?|\bavec\b)\s*/i).map(fold).filter(Boolean);
+const SPLIT = /\s*(?:,|&|×|\bx\b|\bfeat\.?|\bft\.?|\bavec\b)\s*/i;
+export const creditedArtists = (artist, title = '') => [
+  ...(artist ?? '').split(SPLIT),
+  // artists featured in the video title: "ENJR feat JOVI - BAHEBECK", "(ft. X)"
+  ...[...(title ?? '').matchAll(/\b(?:feat\.?|ft\.?|avec)\s+([^-–(\[|]+)/gi)].flatMap((m) => m[1].split(SPLIT)),
+].map(fold).filter(Boolean);
 
 /** @param {{artist, title, label?, teamGenre?}} song  teamGenre: genre set by the team for this artist/song (null if none) */
 export function mbokoConfidence(song, m = MBOKO_V1) {
   if (song.teamGenre === 'mboko') return { confidence: 1, why: 'team' };
-  if (song.teamGenre) return { confidence: 0, why: 'team-other-genre' };
-  const names = creditedArtists(song.artist);
+  const names = creditedArtists(song.artist, song.title);
+  // The team's genre for the main artist does not veto a song that credits a core Mboko artist (e.g. "ENJR feat JOVI").
+  if (song.teamGenre && !names.some((n) => coreSet.has(n))) return { confidence: 0, why: 'team-other-genre' };
   let score = 0; const why = [];
   if (names.some((n) => coreSet.has(n))) { score += m.artistScore; why.push('artist'); }
   else if (names.some((n) => adjSet.has(n))) { score += m.adjacentScore; why.push('adjacent-artist'); }
@@ -116,7 +122,9 @@ export function mbokoRows({ rows, songs, artistGenres, channelTitles, videos, we
     const x = byId[r.songId], qid = x.songId.split('::')[0], ag = artistGenres[qid];
     const age = x.releaseDate ? weeksBetween(x.releaseDate, weekEnd) : null;
     const teamGenre = x.genre === 'mboko' ? 'mboko' : ag?.source === '237 Charts team' ? ag.genre : null;
-    return { songId: r.songId, artist: x.meta.artist, title: x.meta.title, teamGenre, ageWeeks: age, counts: r.counts,
+    // the cleaned title drops "feat. X", so classify on the original video titles too
+    const rawTitles = (x.meta.sources ?? []).map((v) => videos[v.videoId]?.title).filter(Boolean);
+    return { songId: r.songId, artist: x.meta.artist, title: [x.meta.title, ...rawTitles].join(' | '), teamGenre, ageWeeks: age, counts: r.counts,
       label: channelTitles[videos[x.meta.sources?.[0]?.videoId]?.channelId] ?? '',
       prevTotal: age != null && age < 1 ? 0 : null }; // released this week → last week was zero
   });
