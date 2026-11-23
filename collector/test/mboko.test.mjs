@@ -13,7 +13,12 @@ test('adjacent artists need a second signal', () => {
 });
 test('team genre decisions win both ways', () => {
   assert.equal(mbokoConfidence({ artist: 'Nobody', title: 'x', teamGenre: 'mboko' }).confidence, 1);
-  assert.equal(mbokoConfidence({ artist: 'Jovi', title: 'x', teamGenre: 'rap' }).confidence, 0);
+  assert.equal(mbokoConfidence({ artist: 'Somebody', title: 'x', teamGenre: 'rap' }).confidence, 0);
+});
+test('a featured core artist counts, even when the main artist is tagged another genre', () => {
+  const r = mbokoConfidence({ artist: 'Enjr', title: 'ENJR feat JOVI - BAHEBECK (Clip Officiel)', teamGenre: 'rap' });
+  assert.ok(r.confidence >= 0.45);
+  assert.equal(mbokoConfidence({ artist: 'Enjr', title: 'ENJR - N°1 (Freestyle)', teamGenre: 'rap' }).confidence, 0);
 });
 test('time decay: a 2-week-old song beats a year-old one with the same numbers', () => {
   assert.ok(timeDecay(2) > 10 * timeDecay(52));
