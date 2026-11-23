@@ -6216,13 +6216,20 @@
   "X-petit-pays-rabbi": {
     "name": "Petit Pays Rabbi",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCatylqxtuJoTOJbYcD2Y1zw",
+      "title": "Petit Pays - Topic",
+      "country": null,
+      "subscribers": 10400,
+      "similarity": 0.67,
+      "confidence": 0.82
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
-    "triedSongSearch": false,
+    "triedSearch": true,
+    "triedSongSearch": true,
     "blocked": [],
     "checkedAt": "2026-11-23"
   },

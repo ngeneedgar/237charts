@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-23T10:59:59.275Z",
+  "takenAt": "2026-11-23T11:27:21.005Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121212
+      "fans": 1121214
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -239,7 +239,7 @@
     "Q136486889": {
       "deezerId": 304572,
       "name": "Shura",
-      "fans": 20684
+      "fans": 20685
     },
     "Q112537827": {
       "deezerId": 14235001,
@@ -8633,7 +8633,7 @@
       "wikidata": "Q48774408",
       "artist": "Tenor",
       "title": "S'Aimer Bien",
-      "rank": 152605,
+      "rank": 178496,
       "albumId": 753458951,
       "link": "https://www.deezer.com/track/3357108831"
     },
@@ -9569,7 +9569,7 @@
       "wikidata": "Q112112912",
       "artist": "Sergeo Polo",
       "title": "Ngon'a oli",
-      "rank": 10102,
+      "rank": 42517,
       "albumId": 926588901,
       "link": "https://www.deezer.com/track/3865257101"
     },
@@ -10089,7 +10089,7 @@
       "wikidata": "Q115790591",
       "artist": "Rinyu",
       "title": "Na Mala",
-      "rank": 75669,
+      "rank": 157346,
       "albumId": 1022391721,
       "link": "https://www.deezer.com/track/4135873101"
     },

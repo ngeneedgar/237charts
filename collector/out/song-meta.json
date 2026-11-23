@@ -3765,5 +3765,33 @@
   "Q130530235::best 2026 worship songs with": {
     "checked": "2026-11-23T11:01:29.203Z",
     "youtubeThumb": "https://i.ytimg.com/vi/-AvmK8ome6g/hqdefault.jpg"
+  },
+  "Q18351472::casamigos": {
+    "checked": "2026-11-23T11:28:46.930Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/UK0BhQ29YDg/hqdefault.jpg"
+  },
+  "Q19631078::comment danses tu": {
+    "checked": "2026-11-23T11:28:47.674Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/HJtd5hBHpjs/hqdefault.jpg",
+    "deezerId": 4347531142,
+    "deezer": "https://www.deezer.com/track/4347531142",
+    "deezerTitle": "Comment danses-tu ?",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/37d49b02ed72cfea156516c05566ffa3/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/37d49b02ed72cfea156516c05566ffa3/250x250-000000-80-0-0.jpg",
+    "album": "Back To Business",
+    "releaseDate": "2026-10-16",
+    "durationSec": 226,
+    "isrc": "QMFMF2623368",
+    "artists": [
+      "Michael Kiessou",
+      "Happy D'efoulan",
+      "Yvich"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q111470436::jigi w akumba studios x pinorich hotel": {
+    "checked": "2026-11-23T11:28:48.797Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/erk6L8A5l9Q/hqdefault.jpg"
   }
 }
