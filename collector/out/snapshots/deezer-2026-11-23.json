@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-23T08:42:41.169Z",
+  "takenAt": "2026-11-23T09:16:18.714Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -139,7 +139,7 @@
     "Q439028": {
       "deezerId": 264933,
       "name": "Irma",
-      "fans": 169840
+      "fans": 169841
     },
     "Q140841663": {
       "deezerId": 1624186,
@@ -264,12 +264,12 @@
     "Q123574342": {
       "deezerId": 107030802,
       "name": "Yamê",
-      "fans": 145863
+      "fans": 145864
     },
     "Q221908": {
       "deezerId": 1801,
       "name": "Yannick Noah",
-      "fans": 174310
+      "fans": 174311
     },
     "Q16980116": {
       "deezerId": 584589,
@@ -445,6 +445,11 @@
       "deezerId": 59874192,
       "name": "Aveiro Djess",
       "fans": 5114
+    },
+    "Q3055673": {
+      "deezerId": 5362,
+      "name": "Zanzibar",
+      "fans": 4765
     }
   },
   "tracks": {
@@ -9004,7 +9009,7 @@
       "wikidata": "Q3389313",
       "artist": "Pit Baccardi",
       "title": "Veni, Vidi, Vici",
-      "rank": 105869,
+      "rank": 147841,
       "albumId": 844424412,
       "link": "https://www.deezer.com/track/3621040272"
     },
@@ -9188,7 +9193,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Heaven in the Dark",
-      "rank": 275218,
+      "rank": 223166,
       "albumId": 880066352,
       "link": "https://www.deezer.com/track/3724475822"
     },
@@ -9228,7 +9233,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "New Day",
-      "rank": 213484,
+      "rank": 147967,
       "albumId": 880066502,
       "link": "https://www.deezer.com/track/3724476432"
     },
@@ -9460,7 +9465,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "House of Cards",
-      "rank": 289283,
+      "rank": 296060,
       "albumId": 905902412,
       "link": "https://www.deezer.com/track/3805302362"
     },

@@ -2962,5 +2962,41 @@
     "similarity": 1,
     "confidence": 0.85,
     "status": "review"
+  },
+  "Q54862866": {
+    "artist": "Tubuo Evaristus",
+    "id": 406084352,
+    "name": "T-SON EVAS",
+    "fans": 0,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q124750873": {
+    "artist": "Uta Bella",
+    "id": 1070442,
+    "name": "Uta Bella",
+    "fans": 36,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q19629376": {
+    "artist": "Vicky Edimo",
+    "id": 1456170,
+    "name": "Vicky Edimo",
+    "fans": 38,
+    "similarity": 1,
+    "confidence": 0.85,
+    "status": "review"
+  },
+  "Q3055673": {
+    "artist": "Zanzibar",
+    "id": 5362,
+    "name": "Zanzibar",
+    "fans": 4765,
+    "similarity": 1,
+    "confidence": 0.95,
+    "status": "auto"
   }
 }

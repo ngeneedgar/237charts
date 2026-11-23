@@ -1,19 +1,19 @@
 [
   {
-    "name": "Ishaku",
+    "name": "Franck Ngouma",
     "sources": [
-      "collab"
+      "shazam-cm"
     ],
-    "collaborators": [
-      "Jovi",
-      "Reniss"
+    "bestRank": 120,
+    "songs": [
+      "Manè ma nkag (#120)"
     ],
     "confidence": 0.9,
     "status": "accept",
     "reasons": [
-      "MusicBrainz: Cameroon"
+      "credited with verified artist(s) on a Cameroon-charting song: Armand Biyag",
+      "charts on Shazam in Cameroon only"
     ],
-    "musicbrainz": "65b2fc9b-3e21-41d5-837a-7f89d3b53609",
     "youtube": []
   },
   {
@@ -96,6 +96,41 @@
     "youtube": []
   },
   {
+    "name": "la mélo du quartier",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 7,
+    "songs": [
+      "Moui de mamouai (#7)",
+      "Mon berger (feat. Le Roy Tsala & Iza muan) (#108)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "VANITY FAIR",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 9,
+    "songs": [
+      "Ma’a Philo (#9)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
     "name": "Hervouete",
     "sources": [
       "shazam-cm"
@@ -147,6 +182,23 @@
     "youtube": []
   },
   {
+    "name": "La Santinelle",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 37,
+    "songs": [
+      "1,2,3 tremble (#37)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
     "name": "BALI ROOT",
     "sources": [
       "shazam-cm"
@@ -159,6 +211,57 @@
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Tabaski",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 69,
+    "songs": [
+      "We Di Drink (#69)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "SOPEKA DIAMANT",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 70,
+    "songs": [
+      "Mission compliqué (#70)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Petit Axel",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 73,
+    "songs": [
+      "Tata mimi (#73)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
       "charts on Shazam in Cameroon only"
     ],
     "youtube": []
@@ -179,6 +282,61 @@
       "charts on Shazam in Cameroon only"
     ],
     "youtube": []
+  },
+  {
+    "name": "Ikardi Le Monument",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 88,
+    "songs": [
+      "Vieux têtu bandit de la nuit (#88)",
+      "Le destin (#126)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Tim Storm",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 93,
+    "songs": [
+      "SUSPENDU (GOSPEL) (#93)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Vanister Enama",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 100,
+    "songs": [
+      "Conduis Moi (#100)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "wikidata": "Q124152431",
+    "youtube": [
+      "UCFSArpv5v-H5jb5ULRo0mIA"
+    ]
   },
   {
     "name": "MORIOX KIDS",
@@ -249,6 +407,74 @@
     "youtube": []
   },
   {
+    "name": "Koutchoua Mbada",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 119,
+    "songs": [
+      "Swega Menzui (#119)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "LE DUO MAGIQUE",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 123,
+    "songs": [
+      "Viens danser (#123)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Sokeb Beatz",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 124,
+    "songs": [
+      "Faut toucher (feat. Tsimi Toro, Kill RB & LITH) (#124)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "LES FRANGINS PONGO",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 128,
+    "songs": [
+      "La Nouvelle Danse Des Frangins (feat. Consty Edem's & Olive MBENDE & NTONE Moise) (#128)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
     "name": "Dj diabolos tasmanie",
     "sources": [
       "shazam-cm"
@@ -261,6 +487,23 @@
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Tsimi Toro",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 141,
+    "songs": [
+      "Oyili (#141)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
       "charts on Shazam in Cameroon only"
     ],
     "youtube": []
@@ -317,6 +560,23 @@
     "youtube": []
   },
   {
+    "name": "EWOLO MINGA",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 171,
+    "songs": [
+      "LA TERRE EST SALE 2 (#171)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
     "name": "Ifeanyi Mojay",
     "sources": [
       "shazam-cm"
@@ -329,6 +589,23 @@
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
+      "charts on Shazam in Cameroon only"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Elang City",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 179,
+    "songs": [
+      "Tchokorobo (#179)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
       "charts on Shazam in Cameroon only"
     ],
     "youtube": []
@@ -413,27 +690,6 @@
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Iza muan",
-    "sources": [
-      "shazam-cm",
-      "collab"
-    ],
-    "bestRank": 197,
-    "songs": [
-      "O Bele Ma (#197)"
-    ],
-    "collaborators": [
-      "la mélo du quartier"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
       "charts on Shazam in Cameroon only"
     ],
     "youtube": []
@@ -909,19 +1165,179 @@
     "youtube": []
   },
   {
-    "name": "Fadil le sorcier",
+    "name": "Eddy NEM",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Michael Kiessou",
-      "Coco Argentée"
+      "Armand Biyag"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Armand Biyag"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Gabi E Wem Mwan",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Armand Biyag"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Armand Biyag"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Jack Anzouer",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Annie Anzouer"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Michael Kiessou, Coco Argentée"
+      "featured on a verified artist's video: Annie Anzouer"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Vegah",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Mamiso",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "musicbrainz": "02c79ef4-a988-4d47-9f6e-2b08f451347d",
+    "youtube": []
+  },
+  {
+    "name": "Dyonce",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Chindo",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Ewube",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "L'or",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Yung meagan",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Askia"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Dex Willy Change My Life",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Blacky Carat"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Blacky Carat"
     ],
     "youtube": []
   },
@@ -938,6 +1354,22 @@
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
       "featured on a verified artist's video: Darina Victry"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Adango-Addicted",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Adango salicia"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Adango salicia"
     ],
     "youtube": []
   },
@@ -974,6 +1406,22 @@
     "youtube": []
   },
   {
+    "name": "TATA",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Jovi"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Jovi"
+    ],
+    "youtube": []
+  },
+  {
     "name": "Rachel Applewhite",
     "sources": [
       "collab"
@@ -990,80 +1438,50 @@
     "youtube": []
   },
   {
-    "name": "DJ Chuucs",
+    "name": "Thomas Sankara : Noirosankarisme",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Jovi"
+      "Boudor"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Boudor"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "MUUTU.",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Boudor"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Jovi"
+      "featured on a verified artist's video: Boudor"
     ],
     "youtube": []
   },
   {
-    "name": "Eddy NEM",
+    "name": "IMILO LeChanceux",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Armand Biyag"
+      "Dynastie Le Tigre"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Armand Biyag"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Gabi E Wem Mwan",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Armand Biyag"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Armand Biyag"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Artibano",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Gaëlle Wondje"
-    ],
-    "confidence": 0.5,
-    "status": "review",
-    "reasons": [
-      "featured on a verified artist's video: Gaëlle Wondje"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Samy Mahop",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Gaëlle Wondje"
-    ],
-    "confidence": 0.5,
-    "status": "review",
-    "reasons": [
-      "featured on a verified artist's video: Gaëlle Wondje"
+      "featured on a verified artist's video: Dynastie Le Tigre"
     ],
     "youtube": []
   },
@@ -1100,6 +1518,38 @@
     "youtube": []
   },
   {
+    "name": "BASHIRU",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Ahri Yell Nkembe Pesauk"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Tino MBARGA",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Ahri Yell Nkembe Pesauk"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
+    ],
+    "youtube": []
+  },
+  {
     "name": "Tshibambi Lisa",
     "sources": [
       "collab"
@@ -1115,17 +1565,34 @@
     "youtube": []
   },
   {
-    "name": "les blacks styl's",
+    "name": "TAI P",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Émile Kangue"
+      "Junior Eyango"
     ],
-    "confidence": 0.5,
-    "status": "review",
+    "confidence": 0.99,
+    "status": "accept",
     "reasons": [
-      "featured on a verified artist's video: Émile Kangue"
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Junior Eyango"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "MEA SHOW",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Junior Eyango"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Junior Eyango"
     ],
     "youtube": []
   },
@@ -1146,98 +1613,47 @@
     "youtube": []
   },
   {
-    "name": "Thomas Sankara : Noirosankarisme",
+    "name": "Artibano",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Boudor"
+      "Gaëlle Wondje"
     ],
-    "confidence": 0,
-    "status": "reject",
+    "confidence": 0.5,
+    "status": "review",
     "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Boudor"
+      "featured on a verified artist's video: Gaëlle Wondje"
     ],
     "youtube": []
   },
   {
-    "name": "IMILO LeChanceux",
+    "name": "Samy Mahop",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Dynastie Le Tigre"
+      "Gaëlle Wondje"
     ],
-    "confidence": 0,
-    "status": "reject",
+    "confidence": 0.5,
+    "status": "review",
     "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Dynastie Le Tigre"
+      "featured on a verified artist's video: Gaëlle Wondje"
     ],
     "youtube": []
   },
   {
-    "name": "PHIL.B",
+    "name": "les blacks styl's",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Garcia Landry Belinga"
+      "Émile Kangue"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0.5,
+    "status": "review",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Garcia Landry Belinga"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Maxxy Dready",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Garcia Landry Belinga"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Garcia Landry Belinga"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Lady Fi",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Joe Lington"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Joe Lington"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Otaku Black",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Joe Lington"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Joe Lington"
+      "featured on a verified artist's video: Émile Kangue"
     ],
     "youtube": []
   },
@@ -1253,70 +1669,6 @@
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Prince Aimé"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "A. Mpacko",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Prince Aimé"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Gifto La Russe",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Prince Aimé"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Watto de Souza",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Prince Aimé"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Lili Anoma",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Prince Aimé"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
       "featured on a verified artist's video: Prince Aimé"
     ],
     "youtube": []
@@ -1568,6 +1920,364 @@
     "youtube": []
   },
   {
+    "name": "Ketidy",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Tzy Panchak"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tzy Panchak"
+    ],
+    "musicbrainz": "dfbfbac1-3cb2-48ec-b4d5-d28ae10df3df",
+    "youtube": []
+  },
+  {
+    "name": "Bluejay Kings",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Tzy Panchak"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tzy Panchak"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "MIGNON MBALE",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Polio Le Vent"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Polio Le Vent"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Mignon Mballe",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Polio Le Vent"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Polio Le Vent"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Blueprint Hakeem",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Herve Slim",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Kupbu",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Leera GD",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Fix Author",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Spido",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Fly Habit",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "MD Lyonga",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Melcube"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Melcube"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "1.9.0",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Gvybz",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Djé",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "musicbrainz": "90538afe-be0e-4568-a76c-54a3c7c0429a",
+    "youtube": []
+  },
+  {
+    "name": "- Willdy",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Allmighty Crew",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Sweely",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "PEURCY G",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "AMBER KUSH",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "GAIA",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "YOUNG WEEDLI",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "RUUD DADDY",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Maxxy Dready"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Maxxy Dready"
+    ],
+    "musicbrainz": "6e78ba25-f470-450d-b943-fa1da66a740d",
+    "youtube": []
+  },
+  {
     "name": "Skelly banks",
     "sources": [
       "collab"
@@ -1600,98 +2310,163 @@
     "youtube": []
   },
   {
-    "name": "Fix Author",
+    "name": "Joe Pro",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Melcube"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Melcube"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "le roy Tsala",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "la mélo du quartier"
+      "Tilla Tafari"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: la mélo du quartier"
+      "featured on a verified artist's video: Tilla Tafari"
     ],
     "youtube": []
   },
   {
-    "name": "Kiriku dj -Akiribo",
+    "name": "N.B.O",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "la mélo du quartier"
+      "Tilla Tafari"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: la mélo du quartier"
+      "featured on a verified artist's video: Tilla Tafari"
     ],
     "youtube": []
   },
   {
-    "name": "machine 1er",
+    "name": "Groovie Selecta",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "la mélo du quartier"
+      "Tilla Tafari"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: la mélo du quartier"
+      "featured on a verified artist's video: Tilla Tafari"
     ],
     "youtube": []
   },
   {
-    "name": "la team mballe act 2",
+    "name": "La Diktatur",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "la mélo du quartier"
+      "Shapat"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: la mélo du quartier"
+      "featured on a verified artist's video: Shapat"
     ],
     "youtube": []
   },
   {
-    "name": "Félix stone .",
+    "name": "styfler90",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "SOPEKA DIAMANT"
+      "Shapat"
     ],
-    "confidence": 0,
-    "status": "reject",
+    "confidence": 0.99,
+    "status": "accept",
     "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: SOPEKA DIAMANT"
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "musicbrainz": "13805d26-d2b8-4146-8de4-3df887f81273",
+    "youtube": []
+  },
+  {
+    "name": "SAMY ONLY",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "CDAK",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "OVER FLOW",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Shapat"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Ketia Anzouer",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Phillbill"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Mic Monsta",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Phillbill"
     ],
     "youtube": []
   },
@@ -1924,22 +2699,6 @@
     "youtube": []
   },
   {
-    "name": "JUST DIZLE",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Tenor"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Tenor"
-    ],
-    "youtube": []
-  },
-  {
     "name": "Rich KHASINO",
     "sources": [
       "collab"
@@ -1966,6 +2725,54 @@
     "status": "review",
     "reasons": [
       "featured on a verified artist's video: Maybelle Boma"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "EDEL KOULLA",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tenor"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "DJ KESSY",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tenor"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "JUST DIZLE",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Tenor"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Tenor"
     ],
     "youtube": []
   },
@@ -2046,18 +2853,34 @@
     "youtube": []
   },
   {
-    "name": "Martin's",
+    "name": "Germoh Group",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Sabrina"
+      "Prosper Germoh"
     ],
     "confidence": 0.99,
     "status": "accept",
     "reasons": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Sabrina"
+      "featured on a verified artist's video: Prosper Germoh"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "M'lynn",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Muriel Blanche"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Muriel Blanche"
     ],
     "youtube": []
   },
@@ -2122,54 +2945,6 @@
     "youtube": []
   },
   {
-    "name": "Polio Le Vent",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Coco Argentée"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Coco Argentée"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Ottou Marcelin",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Vanister Enama"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Vanister Enama"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "DJ MULUKUKU_JE BALAIE",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Vanister Enama"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Vanister Enama"
-    ],
-    "youtube": []
-  },
-  {
     "name": "ROGER",
     "sources": [
       "collab"
@@ -2186,34 +2961,77 @@
     "youtube": []
   },
   {
-    "name": "H-Campbell",
+    "name": "LB",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Andy Jemea"
+      "LE TALENT"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0.5,
+    "status": "review",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Andy Jemea"
+      "featured on a verified artist's video: LE TALENT"
     ],
     "youtube": []
   },
   {
-    "name": "Jeff Fotso",
+    "name": "Willy Wallas",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Andy Jemea"
+      "LE TALENT"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0.5,
+    "status": "review",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Andy Jemea"
+      "featured on a verified artist's video: LE TALENT"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Bibidi",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "LE TALENT"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: LE TALENT"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Ella",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "LE TALENT"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: LE TALENT"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Loic Ard",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "LE TALENT"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: LE TALENT"
     ],
     "youtube": []
   },
@@ -2234,305 +3052,34 @@
     "youtube": []
   },
   {
-    "name": "Kennel",
+    "name": "The Value",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Andy Jemea"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Andy Jemea"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Zépé kior_Le Warr_",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "LE DUO MAGIQUE"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: LE DUO MAGIQUE"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "TCHAKALA VIP MON ANNEE",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Kratos le Dieu de la guerre"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Kratos le Dieu de la guerre"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "AveiroDjess",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Elang City"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Elang City"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "MH Centro",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Dj Free Boy l'arrangeur"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Kaiena",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Dj Free Boy l'arrangeur"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "ADY KAKANDU",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Dj Free Boy l'arrangeur"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Rachida Jolie",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Dj Free Boy l'arrangeur"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Debordo parler parler",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Dj Free Boy l'arrangeur"
+      "Enjr"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
+      "featured on a verified artist's video: Enjr"
     ],
+    "musicbrainz": "73923ee9-07e4-4549-a4c4-af01895c4a7f",
     "youtube": []
   },
   {
-    "name": "AROUNA trésor",
+    "name": "killbpsycatra",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Dj Free Boy l'arrangeur"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "ERIC DE PARIS",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Dj Free Boy l'arrangeur"
+      "Kill B Psycatra"
     ],
     "confidence": 0.5,
     "status": "review",
     "reasons": [
-      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "GBC the yemba",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Fulbert Feudjio Fokoua"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "TheYembaOff",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Fulbert Feudjio Fokoua"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "marco bi",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Indira"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Indira"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "AMATULA",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Magasco"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Magasco"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "fallyipupa SACRIFICES",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Pit Baccardi"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Pit Baccardi"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Dinospichichi",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Pit Baccardi"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Pit Baccardi"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Sweetness Si loin de toi",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Pit Baccardi"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Pit Baccardi"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "HENDRY MASSAMBA",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Lydol"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Lydol"
+      "featured on a verified artist's video: Kill B Psycatra"
     ],
     "youtube": []
   },
@@ -2585,100 +3132,66 @@
     "youtube": []
   },
   {
-    "name": "LiFkA",
+    "name": "TheYembaOff",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Enjr"
-    ],
-    "musicbrainz": "0bd1bbc3-9bc3-4b5d-8b1f-003a6ecd3f19",
-    "youtube": []
-  },
-  {
-    "name": "Kill B Psycatra",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Enjr"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Enjr"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "The Value",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Enjr"
+      "Fulbert Feudjio Fokoua"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Enjr"
+      "featured on a verified artist's video: Fulbert Feudjio Fokoua"
     ],
-    "musicbrainz": "73923ee9-07e4-4549-a4c4-af01895c4a7f",
     "youtube": []
   },
   {
-    "name": "LUCKY +2",
+    "name": "fallyipupa SACRIFICES",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Petit Bozard"
+      "Pit Baccardi"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
       "decided by 237 Charts team: not Cameroonian",
-      "featured on a verified artist's video: Petit Bozard"
+      "featured on a verified artist's video: Pit Baccardi"
     ],
     "youtube": []
   },
   {
-    "name": "Yanicko la star du Flow",
+    "name": "Dinospichichi",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Joyce Sa'a"
+      "Pit Baccardi"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0,
+    "status": "reject",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Joyce Sa'a"
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Pit Baccardi"
     ],
     "youtube": []
   },
   {
-    "name": "Yvan Ango",
+    "name": "Sweetness Si loin de toi",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Kocee"
+      "Pit Baccardi"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0,
+    "status": "reject",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Kocee"
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Pit Baccardi"
     ],
     "youtube": []
   },
@@ -2732,66 +3245,34 @@
     "youtube": []
   },
   {
-    "name": "Cleo Grae",
+    "name": "HENDRY MASSAMBA",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Kocee"
+      "Lydol"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0,
+    "status": "reject",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Kocee"
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Lydol"
     ],
     "youtube": []
   },
   {
-    "name": "Banye",
+    "name": "LUCKY +2",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Kocee"
+      "Petit Bozard"
     ],
-    "confidence": 0.99,
-    "status": "accept",
+    "confidence": 0,
+    "status": "reject",
     "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Kocee"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Kikoh",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Kocee"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Kocee"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Kking Kum",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Kocee"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Kocee"
+      "decided by 237 Charts team: not Cameroonian",
+      "featured on a verified artist's video: Petit Bozard"
     ],
     "youtube": []
   },
@@ -2858,55 +3339,6 @@
     "youtube": []
   },
   {
-    "name": "LE TALENT",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "styfler90"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: styfler90"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "AL-K",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "styfler90"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: styfler90"
-    ],
-    "musicbrainz": "0ad25515-d5dc-4b19-9a1e-48cf510d84dc",
-    "youtube": []
-  },
-  {
-    "name": "IVEE",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "styfler90"
-    ],
-    "confidence": 0.99,
-    "status": "accept",
-    "reasons": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: styfler90"
-    ],
-    "youtube": []
-  },
-  {
     "name": "Petit Virus 1",
     "sources": [
       "collab"
@@ -2918,6 +3350,21 @@
     "status": "review",
     "reasons": [
       "featured on a verified artist's video: Watto de Souza"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Nizar Ali √ Gamarresyah",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Zanzibar"
+    ],
+    "confidence": 0.5,
+    "status": "review",
+    "reasons": [
+      "featured on a verified artist's video: Zanzibar"
     ],
     "youtube": []
   },
@@ -4843,6 +5290,58 @@
     "youtube": []
   },
   {
+    "name": "Sunny",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Zitalight"
+    ],
+    "confidence": 0.2,
+    "status": "reject",
+    "reasons": [
+      "nationality US/Q884, no link to Cameroon (featured guest)",
+      "featured on a verified artist's video: Zitalight"
+    ],
+    "wikidata": "Q233894",
+    "youtube": []
+  },
+  {
+    "name": "Keezy",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Askia"
+    ],
+    "confidence": 0.2,
+    "status": "reject",
+    "reasons": [
+      "nationality US, no link to Cameroon (featured guest)",
+      "featured on a verified artist's video: Askia"
+    ],
+    "wikidata": "Q133372258",
+    "musicbrainz": "219069f6-e076-4e08-91c1-a4d957e7b39b",
+    "youtube": []
+  },
+  {
+    "name": "Quarteto Do Rio",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Adango salicia"
+    ],
+    "confidence": 0.2,
+    "status": "reject",
+    "reasons": [
+      "nationality BR, no link to Cameroon (featured guest)",
+      "featured on a verified artist's video: Adango salicia"
+    ],
+    "musicbrainz": "f480131f-6bb9-4a3c-8e9d-42239e51f6c0",
+    "youtube": []
+  },
+  {
     "name": "YOUSSOUPHA",
     "sources": [
       "collab"
@@ -4898,23 +5397,6 @@
     "youtube": []
   },
   {
-    "name": "Sunny",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Zitalight"
-    ],
-    "confidence": 0.2,
-    "status": "reject",
-    "reasons": [
-      "nationality US/Q884, no link to Cameroon (featured guest)",
-      "featured on a verified artist's video: Zitalight"
-    ],
-    "wikidata": "Q233894",
-    "youtube": []
-  },
-  {
     "name": "SAFIATH",
     "sources": [
       "collab"
@@ -4933,38 +5415,20 @@
     "youtube": []
   },
   {
-    "name": "Keezy",
+    "name": "RHAMSIN",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Askia"
+      "Maxxy Dready"
     ],
     "confidence": 0.2,
     "status": "reject",
     "reasons": [
-      "nationality US, no link to Cameroon (featured guest)",
-      "featured on a verified artist's video: Askia"
+      "nationality FR, no link to Cameroon (featured guest)",
+      "featured on a verified artist's video: Maxxy Dready"
     ],
-    "wikidata": "Q133372258",
-    "musicbrainz": "219069f6-e076-4e08-91c1-a4d957e7b39b",
-    "youtube": []
-  },
-  {
-    "name": "Quarteto Do Rio",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Adango salicia"
-    ],
-    "confidence": 0.2,
-    "status": "reject",
-    "reasons": [
-      "nationality BR, no link to Cameroon (featured guest)",
-      "featured on a verified artist's video: Adango salicia"
-    ],
-    "musicbrainz": "f480131f-6bb9-4a3c-8e9d-42239e51f6c0",
+    "musicbrainz": "357d7e3f-48e3-4287-8737-ae7cf96297ad",
     "youtube": []
   },
   {
@@ -5001,24 +5465,6 @@
       "featured on a verified artist's video: Fulbert Feudjio Fokoua"
     ],
     "wikidata": "Q115813944",
-    "youtube": []
-  },
-  {
-    "name": "Jonathan Butler",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Ndom’a Deccah Grace"
-    ],
-    "confidence": 0.2,
-    "status": "reject",
-    "reasons": [
-      "nationality ZA/US, no link to Cameroon (featured guest)",
-      "featured on a verified artist's video: Ndom’a Deccah Grace"
-    ],
-    "wikidata": "Q1168056",
-    "musicbrainz": "68b8199b-eff2-45fb-be86-da8138d97067",
     "youtube": []
   },
   {
@@ -5077,6 +5523,24 @@
     "youtube": [
       "UCS8Q_gpBvsl2Xxgw0Q1Jn-A"
     ]
+  },
+  {
+    "name": "Jonathan Butler",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Ndom’a Deccah Grace"
+    ],
+    "confidence": 0.2,
+    "status": "reject",
+    "reasons": [
+      "nationality ZA/US, no link to Cameroon (featured guest)",
+      "featured on a verified artist's video: Ndom’a Deccah Grace"
+    ],
+    "wikidata": "Q1168056",
+    "musicbrainz": "68b8199b-eff2-45fb-be86-da8138d97067",
+    "youtube": []
   },
   {
     "name": "Cassandra Jenkins",
@@ -5265,6 +5729,23 @@
     "youtube": []
   },
   {
+    "name": "Kratos le Dieu de la guerre",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 100,
+    "songs": [
+      "Conduis Moi (#100)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "not an artist name: too many words for an artist name"
+    ],
+    "youtube": []
+  },
+  {
     "name": "P!nk",
     "sources": [
       "shazam-cm"
@@ -5282,6 +5763,23 @@
     "youtube": []
   },
   {
+    "name": "Petit Pays Rabbi",
+    "sources": [
+      "shazam-cm"
+    ],
+    "bestRank": 139,
+    "songs": [
+      "Loba (#139)"
+    ],
+    "confidence": 0.99,
+    "status": "accept",
+    "reasons": [
+      "decided by 237 Charts team: Cameroonian",
+      "not an artist name: known artist “Petit-Pays” followed by other words (probably a song title)"
+    ],
+    "youtube": []
+  },
+  {
     "name": "CYSOULOfficiel",
     "sources": [
       "collab"
@@ -5290,21 +5788,6 @@
       "Darina Victry",
       "Tenor",
       "Fulbert Feudjio Fokoua"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: contains video-title words (official, audio, directed…)"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Hen's Ebol'am HD Directed by MouphassA",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Cysoul"
     ],
     "confidence": 0,
     "status": "reject",
@@ -5344,21 +5827,6 @@
     "youtube": []
   },
   {
-    "name": "NICOLE MARA FAUT COMMENCER PETIT",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Junior Eyango"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: known artist “Nicole Mara” followed by other words (probably a song title)"
-    ],
-    "youtube": []
-  },
-  {
     "name": "TENOR Abena",
     "sources": [
       "collab"
@@ -5370,6 +5838,36 @@
     "status": "reject",
     "reasons": [
       "not an artist name: known artist “Tenor” followed by other words (probably a song title)"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Hen's Ebol'am HD Directed by MouphassA",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Cysoul"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "not an artist name: contains video-title words (official, audio, directed…)"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "NICOLE MARA FAUT COMMENCER PETIT",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Junior Eyango"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "not an artist name: known artist “Nicole Mara” followed by other words (probably a song title)"
     ],
     "youtube": []
   },
@@ -5434,51 +5932,6 @@
     "youtube": []
   },
   {
-    "name": "TROIS OFFICIEL -À la vie à la mort",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "la mélo du quartier"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: contains video-title words (official, audio, directed…)"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "krysm4403",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Phillbill"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: contains symbols or long numbers — part of a video title or a handle"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "Happy D’Effoulan",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Michael Kiessou"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: known artist “Happy” followed by other words (probably a song title)"
-    ],
-    "youtube": []
-  },
-  {
     "name": "minksofficiel5855",
     "sources": [
       "collab"
@@ -5520,6 +5973,36 @@
     "status": "reject",
     "reasons": [
       "not an artist name: contains video-title words (official, audio, directed…)"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "krysm4403",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Phillbill"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "not an artist name: contains symbols or long numbers — part of a video title or a handle"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Happy D’Effoulan",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Michael Kiessou"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "not an artist name: known artist “Happy” followed by other words (probably a song title)"
     ],
     "youtube": []
   },
@@ -5599,47 +6082,62 @@
     "youtube": []
   },
   {
-    "name": "Kocee_DONNE MOI L’ARGENT",
+    "name": "SXL OV × KEMI2VINCI × NZO CACHMIR",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Vanister Enama"
+      "Enjr"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
-      "not an artist name: known artist “Kocee” followed by other words (probably a song title)"
+      "not an artist name: several names or a title joined together"
     ],
     "youtube": []
   },
   {
-    "name": "ALOCH237 _ J'IRAI LA-BAS",
+    "name": "Disponible en Grrr !",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Vanister Enama"
+      "Enjr"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "not an artist name: contains video-title words (official, audio, directed…)"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "Diablit237 disponible partout",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Kill B Psycatra"
+    ],
+    "confidence": 0,
+    "status": "reject",
+    "reasons": [
+      "not an artist name: contains video-title words (official, audio, directed…)"
+    ],
+    "youtube": []
+  },
+  {
+    "name": "LucasDu237",
+    "sources": [
+      "collab"
+    ],
+    "collaborators": [
+      "Kill B Psycatra"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
       "not an artist name: contains symbols or long numbers — part of a video title or a handle"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "dijytal dk les amis de la rue",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Kratos le Dieu de la guerre"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: too many words for an artist name"
     ],
     "youtube": []
   },
@@ -5749,47 +6247,32 @@
     "youtube": []
   },
   {
-    "name": "SXL OV × KEMI2VINCI × NZO CACHMIR",
+    "name": "Magasco OUT 6pm GMT+1",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Enjr"
+      "Ewube"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
-      "not an artist name: several names or a title joined together"
+      "not an artist name: known artist “Magasco” followed by other words (probably a song title)"
     ],
     "youtube": []
   },
   {
-    "name": "Disponible en Grrr !",
+    "name": "LOCKO : Stay",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Enjr"
+      "Ewube"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
-      "not an artist name: contains video-title words (official, audio, directed…)"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "TENOR – YAMO",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Ulanda"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: several names or a title joined together"
+      "not an artist name: known artist “Locko” followed by other words (probably a song title)"
     ],
     "youtube": []
   },
@@ -5824,32 +6307,17 @@
     "youtube": []
   },
   {
-    "name": "Magasco OUT 6pm GMT+1",
+    "name": "TENOR – YAMO",
     "sources": [
       "collab"
     ],
     "collaborators": [
-      "Ewube"
+      "Ulanda"
     ],
     "confidence": 0,
     "status": "reject",
     "reasons": [
-      "not an artist name: known artist “Magasco” followed by other words (probably a song title)"
-    ],
-    "youtube": []
-  },
-  {
-    "name": "LOCKO : Stay",
-    "sources": [
-      "collab"
-    ],
-    "collaborators": [
-      "Ewube"
-    ],
-    "confidence": 0,
-    "status": "reject",
-    "reasons": [
-      "not an artist name: known artist “Locko” followed by other words (probably a song title)"
+      "not an artist name: several names or a title joined together"
     ],
     "youtube": []
   }

@@ -5967,25 +5967,32 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
-    "triedSongSearch": false,
+    "triedSearch": true,
+    "triedSongSearch": true,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-vanity-fair": {
     "name": "VANITY FAIR",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UC9OblQLNaelppkpEGIKu1sQ",
+      "title": "Vanity Fair - Topic",
+      "country": null,
+      "subscribers": 355,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
-    "triedSongSearch": false,
+    "triedSearch": true,
+    "triedSongSearch": true,
     "blocked": [
       "UCIsbLox_y9dCIMLd8tdC6qg"
     ],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-la-melo-du-quartier": {
     "name": "la mélo du quartier",
@@ -6022,21 +6029,22 @@
     "name": "Tabaski",
     "aliases": [],
     "best": {
-      "channelId": "UCs86-z389clzAg1noN19YUA",
-      "title": "tabaski",
+      "channelId": "UCDZsIYBiQys9F01neHHgVfg",
+      "title": "Forest INC",
       "country": null,
-      "subscribers": 0,
-      "similarity": 1,
-      "confidence": 0.7
+      "subscribers": 3970,
+      "similarity": 0,
+      "confidence": 0.75,
+      "viaSong": "We Di Drink"
     },
-    "method": "handle",
+    "method": "song-search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
     "triedSearch": false,
-    "triedSongSearch": false,
+    "triedSongSearch": true,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-sopeka-diamant": {
     "name": "SOPEKA DIAMANT",
@@ -6118,15 +6126,23 @@
   "X-les-frangins-pongo": {
     "name": "LES FRANGINS PONGO",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UC3ivSKRlgd2yBYM620XikRw",
+      "title": "LES FRANGINS OFFICIEL",
+      "country": "FR",
+      "subscribers": 160,
+      "similarity": 0.67,
+      "confidence": 0.92,
+      "viaSong": "La Nouvelle Danse Des Frangins (feat. Consty Edem's & Olive MBENDE & NTONE Moise)"
+    },
+    "method": "song-search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
     "triedSearch": false,
-    "triedSongSearch": false,
+    "triedSongSearch": true,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-sokeb-beatz": {
     "name": "Sokeb Beatz",
@@ -6209,27 +6225,28 @@
     "triedSearch": false,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-tsimi-toro": {
     "name": "Tsimi Toro",
     "aliases": [],
     "best": {
-      "channelId": "UCKPvLkIInShqFyt3Zohp5Mw",
-      "title": "Tsimi Toro",
-      "country": null,
-      "subscribers": 0,
-      "similarity": 1,
-      "confidence": 0.7
+      "channelId": "UCShjha_oAyWlWdSS32IH2UA",
+      "title": "Remy Roland2",
+      "country": "CA",
+      "subscribers": 25500,
+      "similarity": 0,
+      "confidence": 0.75,
+      "viaSong": "Oyili"
     },
-    "method": "handle",
+    "method": "song-search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
     "triedSearch": false,
-    "triedSongSearch": false,
+    "triedSongSearch": true,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-elang-city": {
     "name": "Elang City",
@@ -6281,21 +6298,21 @@
     "name": "TATA",
     "aliases": [],
     "best": {
-      "channelId": "UCoAuohhLstxxES8_S1PI1_A",
-      "title": "TATA Officiel",
+      "channelId": "UCXXxTCbe95OWKq4EHI1ajzg",
+      "title": "TaTa - Topic",
       "country": null,
-      "subscribers": 0,
+      "subscribers": 4500,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-martin-s": {
     "name": "Martin's",
@@ -6845,15 +6862,22 @@
   "X-adango-addicted": {
     "name": "Adango-Addicted",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCK92301eJE8RFrSZx6wCl-A",
+      "title": "Daniel Adongo",
+      "country": "US",
+      "subscribers": 4330,
+      "similarity": 0,
+      "confidence": 0.05
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-jack-anzouer": {
     "name": "Jack Anzouer",
@@ -6878,28 +6902,42 @@
   "X-muutu": {
     "name": "MUUTU.",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCMkkagkG6VFhDD7-2UIiOKQ",
+      "title": "MUUTU PISTHA",
+      "country": "IN",
+      "subscribers": 86,
+      "similarity": 0.5,
+      "confidence": 0.35
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-dex-willy-change-my-life": {
     "name": "Dex Willy Change My Life",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCc8qwNDy-XWx8P3qMx1b6Wg",
+      "title": "Trippie Redd - Topic",
+      "country": null,
+      "subscribers": 94900,
+      "similarity": 0,
+      "confidence": 0.25
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-zitalight": {
     "name": "Zitalight",
@@ -6945,41 +6983,41 @@
     "name": "MEA SHOW",
     "aliases": [],
     "best": {
-      "channelId": "UCnSzfVmzbLpVJl0XG31E84A",
-      "title": "Mea Show",
-      "country": "US",
-      "subscribers": 11,
+      "channelId": "UCIk5fCu7eiv9agWvd1eq0lA",
+      "title": "mea Tv show ",
+      "country": null,
+      "subscribers": 0,
       "similarity": 1,
       "confidence": 0.7
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-bashiru": {
     "name": "BASHIRU",
     "aliases": [],
     "best": {
-      "channelId": "UC5LrskqrGHDSNWp3RwtT8hA",
-      "title": "Bashiru",
-      "country": "NL",
-      "subscribers": 3,
+      "channelId": "UCpf01bmbGFIdBPESKD-6poQ",
+      "title": "Bashiru - Topic",
+      "country": null,
+      "subscribers": 4,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-tino-mbarga": {
     "name": "Tino MBARGA",
@@ -6996,10 +7034,10 @@
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-vegah": {
     "name": "Vegah",
@@ -7024,55 +7062,62 @@
   "X-mamiso": {
     "name": "Mamiso",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCjmu0Scw1bsXpWpaf7scalw",
+      "title": "Mamiso - Topic",
+      "country": null,
+      "subscribers": 76,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-dyonce": {
     "name": "Dyonce",
     "aliases": [],
     "best": {
-      "channelId": "UCZk0MA0CyY_q4aq1qDrgo1w",
-      "title": "dy once",
-      "country": null,
-      "subscribers": 0,
+      "channelId": "UC8QLfhVDTxSU1g0rKOS6OZg",
+      "title": "Dyonce Official",
+      "country": "CM",
+      "subscribers": 18,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
-    "method": "handle",
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-chindo": {
     "name": "Chindo",
     "aliases": [],
     "best": {
-      "channelId": "UCvB4A2OJnKdmpg3YEBuTnCg",
-      "title": "chindo",
-      "country": null,
-      "subscribers": 16,
+      "channelId": "UC6Gh61okQ00U1dKeEGWgA0g",
+      "title": "Chindo",
+      "country": "US",
+      "subscribers": 1840,
       "similarity": 1,
-      "confidence": 0.7
+      "confidence": 0.85
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-ewube": {
     "name": "Ewube",
@@ -7117,15 +7162,22 @@
   "X-yung-meagan": {
     "name": "Yung meagan",
     "aliases": [],
-    "best": null,
-    "method": null,
-    "status": "none",
+    "best": {
+      "channelId": "UCL-iEisDit6XsY54W0gHZAQ",
+      "title": "Yung Meagan - Topic",
+      "country": null,
+      "subscribers": 68,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
+    "status": "auto",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-germoh-group": {
     "name": "Germoh Group",
@@ -7138,20 +7190,27 @@
     "triedSearch": false,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-blueprint-hakeem": {
     "name": "Blueprint Hakeem",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCdD_vjwDCJjNzVzwq6rJrmg",
+      "title": "Blueprint Hakeem - Topic",
+      "country": null,
+      "subscribers": 27,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-herve-slim": {
     "name": "Herve Slim",
@@ -7176,15 +7235,22 @@
   "X-kupbu": {
     "name": "Kupbu",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCJXJPrNZ24-cKgPLjjk1Blw",
+      "title": "KUPBU",
+      "country": "US",
+      "subscribers": 13,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-leera-gd": {
     "name": "Leera GD",
@@ -7317,20 +7383,27 @@
     "triedSearch": false,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-la-diktatur": {
     "name": "La Diktatur",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCZUiyGpl7DjtwakJ3HB66hQ",
+      "title": "Diktatur - Topic",
+      "country": null,
+      "subscribers": 8,
+      "similarity": 0.5,
+      "confidence": 0.5
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-styfler90": {
     "name": "styfler90",
@@ -7390,7 +7463,7 @@
     "triedSearch": false,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-over-flow": {
     "name": "OVER FLOW",
@@ -7403,7 +7476,7 @@
     "triedSearch": false,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-joe-pro": {
     "name": "Joe Pro",
@@ -7429,34 +7502,41 @@
     "name": "N.B.O",
     "aliases": [],
     "best": {
-      "channelId": "UCtMkjuyeZTfBJL4Lgr_HzQQ",
-      "title": "nbo",
+      "channelId": "UCA5sWuQZSbtpUq_eQXF7hHQ",
+      "title": "N.B.O",
       "country": null,
-      "subscribers": 11,
+      "subscribers": 59,
       "similarity": 1,
       "confidence": 0.7
     },
-    "method": "handle",
-    "status": "none",
+    "method": "search",
+    "status": "review",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-groovie-selecta": {
     "name": "Groovie Selecta",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCqJJiAiA3JhUlt_hE2Ftr4w",
+      "title": "Groovie Selecta - Topic",
+      "country": null,
+      "subscribers": 14,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-ketia-anzouer": {
     "name": "Ketia Anzouer",
@@ -7469,7 +7549,7 @@
     "triedSearch": false,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-mic-monsta": {
     "name": "Mic Monsta",
@@ -7494,28 +7574,42 @@
   "X-ketidy": {
     "name": "Ketidy",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCXdIGS2Ywoj95GvHb4wyZNQ",
+      "title": "Ketidy - Topic",
+      "country": null,
+      "subscribers": 2,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-bluejay-kings": {
     "name": "Bluejay Kings",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCehgQlD1fTEwsF9Y7Mb475w",
+      "title": "Bluejay Kings",
+      "country": null,
+      "subscribers": 5,
+      "similarity": 1,
+      "confidence": 0.7
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
-    "checkedAt": "2026-11-22"
+    "checkedAt": "2026-11-23"
   },
   "X-le-roy-tsala": {
     "name": "le roy Tsala",
