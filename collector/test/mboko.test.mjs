@@ -36,3 +36,9 @@ test('velocity is smoothed, capped, and neutral when unknown', () => {
 test('non-Mboko songs are filtered out', () => {
   assert.deepEqual(mbokoScores([{ songId: 'z', artist: 'Generic Afropop', title: 'Douala Love', counts: { youtube: 90000 } }]), []); // one keyword = 0.15, below threshold
 });
+test('intros/skits and songs older than a year are excluded', () => {
+  const base = { artist: 'Jovi', counts: { youtube: 5000 } };
+  assert.equal(mbokoScores([{ ...base, songId: 'a', title: 'Intro', ageWeeks: 1 }]).length, 0);
+  assert.equal(mbokoScores([{ ...base, songId: 'b', title: 'Song', ageWeeks: 60 }]).length, 0);
+  assert.equal(mbokoScores([{ ...base, songId: 'c', title: 'Song', ageWeeks: 10 }]).length, 1);
+});
