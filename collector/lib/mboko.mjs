@@ -12,6 +12,9 @@ export const MBOKO_V1 = {
   velocity: { smoothing: 500, min: 0.8, max: 2.0 },
   artistScore: 0.60, adjacentScore: 0.35, labelScore: 0.30, keywordScore: 0.15, keywordMax: 0.45,
   size: 20,
+  maxAgeWeeks: 52,            // older catalog songs cannot chart (age in days ≤ 365)
+  maxPerArtist: 2,            // stops one artist (Tenor, Pit Baccardi…) flooding the chart
+  excludedTitle: /\b(intro|outro|skit|interlude)\b/i,   // album intros / skits are not songs
 };
 
 const fold = (s) => (s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[’']/g, "'").trim();
@@ -96,7 +99,9 @@ export const timeDecay = (ageWeeks, g = MBOKO_V1.decayGravity) => 1 / ((Math.max
  * @returns [{songId, score, confidence, why, velocity, decay}] — only songs at/over the confidence threshold, unsorted
  */
 export function mbokoScores(songs, m = MBOKO_V1) {
-  const cands = songs.map((s) => ({ s, ...mbokoConfidence(s, m) })).filter((c) => c.confidence >= m.confidenceThreshold);
+  const cands = songs
+    .filter((s) => !m.excludedTitle.test(s.cleanTitle ?? s.title ?? '') && !(s.ageWeeks != null && s.ageWeeks > m.maxAgeWeeks))
+    .map((s) => ({ s, ...mbokoConfidence(s, m) })).filter((c) => c.confidence >= m.confidenceThreshold);
   const lg = (x) => Math.log10(Math.max(0, x) + 1);
   const maxLog = {};
   for (const { s } of cands) for (const [p, c] of Object.entries(s.counts ?? {})) maxLog[p] = Math.max(maxLog[p] ?? 0, lg(c));
@@ -124,10 +129,17 @@ export function mbokoRows({ rows, songs, artistGenres, channelTitles, videos, we
     const teamGenre = x.genre === 'mboko' ? 'mboko' : ag?.source === '237 Charts team' ? ag.genre : null;
     // the cleaned title drops "feat. X", so classify on the original video titles too
     const rawTitles = (x.meta.sources ?? []).map((v) => videos[v.videoId]?.title).filter(Boolean);
-    return { songId: r.songId, artist: x.meta.artist, title: [x.meta.title, ...rawTitles].join(' | '), teamGenre, ageWeeks: age, counts: r.counts,
+    return { songId: r.songId, artist: x.meta.artist, title: [x.meta.title, ...rawTitles].join(' | '), cleanTitle: x.meta.title, teamGenre, ageWeeks: age, counts: r.counts,
       label: channelTitles[videos[x.meta.sources?.[0]?.videoId]?.channelId] ?? '',
       prevTotal: age != null && age < 1 ? 0 : null }; // released this week → last week was zero
   });
   const scored = Object.fromEntries(mbokoScores(input).map((r) => [r.songId, r]));
-  return rows.filter((r) => scored[r.songId]).map((r) => ({ ...r, genre: 'mboko', score: scored[r.songId].score, mboko: scored[r.songId] }));
+  // best songs first, at most maxPerArtist per lead artist
+  const seen = {}, keep = new Set();
+  const lead = (r) => creditedArtists(byId[r.songId].meta.artist)[0] ?? r.songId;
+  for (const r of rows.filter((r) => scored[r.songId]).sort((a, b) => scored[b.songId].score - scored[a.songId].score)) {
+    const a = lead(r); seen[a] = (seen[a] ?? 0) + 1;
+    if (seen[a] <= MBOKO_V1.maxPerArtist) keep.add(r.songId);
+  }
+  return rows.filter((r) => keep.has(r.songId)).map((r) => ({ ...r, genre: 'mboko', score: scored[r.songId].score, mboko: scored[r.songId] }));
 }
