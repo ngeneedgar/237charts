@@ -3132,5 +3132,145 @@
   "Q97277937::tegue 2026 newmusic afrobeats drill": {
     "checked": "2026-11-22T18:30:28.334Z",
     "youtubeThumb": "https://i.ytimg.com/vi/sAfPeERMROg/hqdefault.jpg"
+  },
+  "X-iza-muan::iza muan ining": {
+    "checked": "2026-11-23T08:45:24.284Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/fqnWL8es3NM/hqdefault.jpg"
+  },
+  "X-iza-muan::o bele ma": {
+    "checked": "2026-11-23T08:45:25.105Z",
+    "youtubeThumb": null,
+    "deezerId": 4074258851,
+    "deezer": "https://www.deezer.com/track/4074258851",
+    "deezerTitle": "O Bele Ma",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/2417ee80a5d55cf2330dcf5d6427f1c4/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/2417ee80a5d55cf2330dcf5d6427f1c4/250x250-000000-80-0-0.jpg",
+    "album": "O Bele Ma",
+    "releaseDate": "2026-06-05",
+    "durationSec": 266,
+    "isrc": "QM7282697917",
+    "artists": [
+      "Iza muan"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q24341755::je croyais": {
+    "checked": "2026-11-23T08:45:26.217Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/TvmaSjiCT3A/hqdefault.jpg",
+    "deezerId": 3154850681,
+    "deezer": "https://www.deezer.com/track/3154850681",
+    "deezerTitle": "Je croyais",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/43e117049ccb3d07bb4efdff6b6ca3b9/250x250-000000-80-0-0.jpg",
+    "album": "Légende",
+    "releaseDate": "2025-01-17",
+    "durationSec": 206,
+    "isrc": "FR7PE2400110",
+    "artists": [
+      "Lady Ponce"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q125845494::mimbang": {
+    "checked": "2026-11-23T08:45:27.353Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/xkxEWJdxGCY/hqdefault.jpg",
+    "deezerId": 3177421991,
+    "deezer": "https://www.deezer.com/track/3177421991",
+    "deezerTitle": "MIMBANG",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/bc3ba3d50afd3bf4fcff42e4f6bf72c6/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/bc3ba3d50afd3bf4fcff42e4f6bf72c6/250x250-000000-80-0-0.jpg",
+    "album": "MIMBANG",
+    "releaseDate": "2025-01-15",
+    "durationSec": 230,
+    "isrc": "ESA012503928",
+    "artists": [
+      "Enjr"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q125845494::bahebeck": {
+    "checked": "2026-11-23T08:45:28.525Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/kWgpRv6CBvQ/hqdefault.jpg",
+    "deezerId": 4346523992,
+    "deezer": "https://www.deezer.com/track/4346523992",
+    "deezerTitle": "BAHEBECK",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a6b75d24fd1ac5fa3a06e90d9c490dc8/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/a6b75d24fd1ac5fa3a06e90d9c490dc8/250x250-000000-80-0-0.jpg",
+    "album": "CNM (Couronne Noire & Métamorphose)",
+    "releaseDate": "2026-11-13",
+    "durationSec": 220,
+    "isrc": "ESA152612219",
+    "artists": [
+      "Enjr",
+      "Jovi"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q125845494::dojutsu 04": {
+    "checked": "2026-11-23T08:45:29.661Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/XyOHy01URak/hqdefault.jpg"
+  },
+  "Q125845494::mengoumou": {
+    "checked": "2026-11-23T08:45:30.733Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/llSMrt6Du28/hqdefault.jpg",
+    "deezerId": 3186674871,
+    "deezer": "https://www.deezer.com/track/3186674871",
+    "deezerTitle": "MENGOUMOU",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/30760e1dbad8bdb4f10d2093b4a9b371/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/30760e1dbad8bdb4f10d2093b4a9b371/250x250-000000-80-0-0.jpg",
+    "album": "MENGOUMOU",
+    "releaseDate": "2025-01-22",
+    "durationSec": 307,
+    "isrc": "ESA012509498",
+    "artists": [
+      "Enjr"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q125845494::les betises": {
+    "checked": "2026-11-23T08:45:31.989Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/WRTUPyhlBoo/hqdefault.jpg",
+    "deezerId": 3067458831,
+    "deezer": "https://www.deezer.com/track/3067458831",
+    "deezerTitle": "Les Bêtises",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/49958463f61bee3d625fcc6e538d5325/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/49958463f61bee3d625fcc6e538d5325/250x250-000000-80-0-0.jpg",
+    "album": "CHAPITRE WOW",
+    "releaseDate": "2024-11-08",
+    "durationSec": 177,
+    "isrc": "ESA012465969",
+    "artists": [
+      "Enjr",
+      "Shapat"
+    ],
+    "explicit": false,
+    "matchScore": 1
+  },
+  "Q125845494::le chiffre": {
+    "checked": "2026-11-23T08:45:33.133Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/TJ4g3_6VnYo/hqdefault.jpg"
+  },
+  "Q125845494::ernest ouandie": {
+    "checked": "2026-11-23T08:45:33.921Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/snhI0_K8ddk/hqdefault.jpg",
+    "deezerId": 3403337771,
+    "deezer": "https://www.deezer.com/track/3403337771",
+    "deezerTitle": "ERNEST OUANDIÉ",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/11326171383f92c68318b5d6311a0a26/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/11326171383f92c68318b5d6311a0a26/250x250-000000-80-0-0.jpg",
+    "album": "ERNEST OUANDIÉ",
+    "releaseDate": "2025-06-09",
+    "durationSec": 261,
+    "isrc": "ESA012586944",
+    "artists": [
+      "Enjr"
+    ],
+    "explicit": true,
+    "matchScore": 1
   }
 }

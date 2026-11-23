@@ -1,25 +1,22 @@
 [
   {
-    "wikidata": "X-franck-ngouma",
-    "name": "Franck Ngouma",
+    "wikidata": "X-ishaku",
+    "name": "Ishaku",
     "basis": [
-      "credited with verified artist(s) on a Cameroon-charting song: Armand Biyag",
-      "charts on Shazam in Cameroon only"
+      "MusicBrainz: Cameroon"
     ],
     "youtube": [],
     "spotify": [],
     "aliases": [],
     "confidence": 0.9,
     "discoveredVia": [
-      "shazam-cm"
+      "collab"
     ],
-    "songs": [
-      "Manè ma nkag"
-    ]
+    "songs": []
   },
   {
-    "wikidata": "X-vanity-fair",
-    "name": "VANITY FAIR",
+    "wikidata": "X-iza-muan",
+    "name": "Iza muan",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
       "charts on Shazam in Cameroon only"
@@ -29,310 +26,19 @@
     "aliases": [],
     "confidence": 0.99,
     "discoveredVia": [
-      "shazam-cm"
+      "shazam-cm",
+      "collab"
     ],
     "songs": [
-      "Ma’a Philo"
+      "O Bele Ma"
     ]
   },
   {
-    "wikidata": "X-la-melo-du-quartier",
-    "name": "la mélo du quartier",
+    "wikidata": "X-fadil-le-sorcier",
+    "name": "Fadil le sorcier",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Moui de mamouai",
-      "Mon berger (feat. Le Roy Tsala & Iza muan)"
-    ]
-  },
-  {
-    "wikidata": "X-la-santinelle",
-    "name": "La Santinelle",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "1,2,3 tremble"
-    ]
-  },
-  {
-    "wikidata": "X-tabaski",
-    "name": "Tabaski",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "We Di Drink"
-    ]
-  },
-  {
-    "wikidata": "X-sopeka-diamant",
-    "name": "SOPEKA DIAMANT",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Mission compliqué"
-    ]
-  },
-  {
-    "wikidata": "X-petit-axel",
-    "name": "Petit Axel",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Tata mimi"
-    ]
-  },
-  {
-    "wikidata": "X-ikardi-le-monument",
-    "name": "Ikardi Le Monument",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Vieux têtu bandit de la nuit",
-      "Le destin"
-    ]
-  },
-  {
-    "wikidata": "Q124152431",
-    "name": "Vanister Enama",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [
-      "UCFSArpv5v-H5jb5ULRo0mIA"
-    ],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Conduis Moi"
-    ]
-  },
-  {
-    "wikidata": "X-tim-storm",
-    "name": "Tim Storm",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "SUSPENDU (GOSPEL)"
-    ]
-  },
-  {
-    "wikidata": "X-le-duo-magique",
-    "name": "LE DUO MAGIQUE",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Viens danser"
-    ]
-  },
-  {
-    "wikidata": "X-sokeb-beatz",
-    "name": "Sokeb Beatz",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Faut toucher (feat. Tsimi Toro, Kill RB & LITH)"
-    ]
-  },
-  {
-    "wikidata": "X-les-frangins-pongo",
-    "name": "LES FRANGINS PONGO",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "La Nouvelle Danse Des Frangins (feat. Consty Edem's & Olive MBENDE & NTONE Moise)"
-    ]
-  },
-  {
-    "wikidata": "X-koutchoua-mbada",
-    "name": "Koutchoua Mbada",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Swega Menzui"
-    ]
-  },
-  {
-    "wikidata": "X-tsimi-toro",
-    "name": "Tsimi Toro",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Oyili"
-    ]
-  },
-  {
-    "wikidata": "X-ewolo-minga",
-    "name": "EWOLO MINGA",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "LA TERRE EST SALE 2"
-    ]
-  },
-  {
-    "wikidata": "X-elang-city",
-    "name": "Elang City",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "Tchokorobo"
-    ]
-  },
-  {
-    "wikidata": "X-dj-free-boy-l-arrangeur",
-    "name": "Dj Free Boy l'arrangeur",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "charts on Shazam in Cameroon only"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "shazam-cm"
-    ],
-    "songs": [
-      "CONTINGENT 2022"
-    ]
-  },
-  {
-    "wikidata": "X-dex-willy-change-my-life",
-    "name": "Dex Willy Change My Life",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Blacky Carat"
+      "featured on a verified artist's video: Michael Kiessou, Coco Argentée"
     ],
     "youtube": [],
     "spotify": [],
@@ -344,216 +50,8 @@
     "songs": []
   },
   {
-    "wikidata": "X-tai-p",
-    "name": "TAI P",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Junior Eyango"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-mea-show",
-    "name": "MEA SHOW",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Junior Eyango"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-bashiru",
-    "name": "BASHIRU",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-tino-mbarga",
-    "name": "Tino MBARGA",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-jack-anzouer",
-    "name": "Jack Anzouer",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Annie Anzouer"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-vegah",
-    "name": "Vegah",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-mamiso",
-    "name": "Mamiso",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-dyonce",
-    "name": "Dyonce",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-chindo",
-    "name": "Chindo",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-ewube",
-    "name": "Ewube",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-l-or",
-    "name": "L'or",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-yung-meagan",
-    "name": "Yung meagan",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Askia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-muutu",
-    "name": "MUUTU.",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Boudor"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-tata",
-    "name": "TATA",
+    "wikidata": "X-dj-chuucs",
+    "name": "DJ Chuucs",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
       "featured on a verified artist's video: Jovi"
@@ -568,11 +66,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-adango-addicted",
-    "name": "Adango-Addicted",
+    "wikidata": "X-phil-b",
+    "name": "PHIL.B",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Adango salicia"
+      "featured on a verified artist's video: Garcia Landry Belinga"
     ],
     "youtube": [],
     "spotify": [],
@@ -584,11 +82,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-ketia-anzouer",
-    "name": "Ketia Anzouer",
+    "wikidata": "X-maxxy-dready",
+    "name": "Maxxy Dready",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Phillbill"
+      "featured on a verified artist's video: Garcia Landry Belinga"
     ],
     "youtube": [],
     "spotify": [],
@@ -600,11 +98,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-mic-monsta",
-    "name": "Mic Monsta",
+    "wikidata": "X-lady-fi",
+    "name": "Lady Fi",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Phillbill"
+      "featured on a verified artist's video: Joe Lington"
     ],
     "youtube": [],
     "spotify": [],
@@ -616,11 +114,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-edel-koulla",
-    "name": "EDEL KOULLA",
+    "wikidata": "X-otaku-black",
+    "name": "Otaku Black",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tenor"
+      "featured on a verified artist's video: Joe Lington"
     ],
     "youtube": [],
     "spotify": [],
@@ -632,11 +130,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-dj-kessy",
-    "name": "DJ KESSY",
+    "wikidata": "X-a-mpacko",
+    "name": "A. Mpacko",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tenor"
+      "featured on a verified artist's video: Prince Aimé"
     ],
     "youtube": [],
     "spotify": [],
@@ -648,11 +146,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-m-lynn",
-    "name": "M'lynn",
+    "wikidata": "X-gifto-la-russe",
+    "name": "Gifto La Russe",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Muriel Blanche"
+      "featured on a verified artist's video: Prince Aimé"
     ],
     "youtube": [],
     "spotify": [],
@@ -664,11 +162,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-germoh-group",
-    "name": "Germoh Group",
+    "wikidata": "X-watto-de-souza",
+    "name": "Watto de Souza",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Prosper Germoh"
+      "featured on a verified artist's video: Prince Aimé"
     ],
     "youtube": [],
     "spotify": [],
@@ -680,11 +178,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-blueprint-hakeem",
-    "name": "Blueprint Hakeem",
+    "wikidata": "X-lili-anoma",
+    "name": "Lili Anoma",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: Prince Aimé"
     ],
     "youtube": [],
     "spotify": [],
@@ -696,11 +194,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-herve-slim",
-    "name": "Herve Slim",
+    "wikidata": "X-le-roy-tsala",
+    "name": "le roy Tsala",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: la mélo du quartier"
     ],
     "youtube": [],
     "spotify": [],
@@ -712,11 +210,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-kupbu",
-    "name": "Kupbu",
+    "wikidata": "X-kiriku-dj-akiribo",
+    "name": "Kiriku dj -Akiribo",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: la mélo du quartier"
     ],
     "youtube": [],
     "spotify": [],
@@ -728,11 +226,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-leera-gd",
-    "name": "Leera GD",
+    "wikidata": "X-machine-1er",
+    "name": "machine 1er",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: la mélo du quartier"
     ],
     "youtube": [],
     "spotify": [],
@@ -744,11 +242,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-spido",
-    "name": "Spido",
+    "wikidata": "X-la-team-mballe-act-2",
+    "name": "la team mballe act 2",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: la mélo du quartier"
     ],
     "youtube": [],
     "spotify": [],
@@ -760,11 +258,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-fly-habit",
-    "name": "Fly Habit",
+    "wikidata": "X-martin-s",
+    "name": "Martin's",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: Sabrina"
     ],
     "youtube": [],
     "spotify": [],
@@ -776,11 +274,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-md-lyonga",
-    "name": "MD Lyonga",
+    "wikidata": "X-polio-le-vent",
+    "name": "Polio Le Vent",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Melcube"
+      "featured on a verified artist's video: Coco Argentée"
     ],
     "youtube": [],
     "spotify": [],
@@ -792,11 +290,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-ketidy",
-    "name": "Ketidy",
+    "wikidata": "X-h-campbell",
+    "name": "H-Campbell",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tzy Panchak"
+      "featured on a verified artist's video: Andy Jemea"
     ],
     "youtube": [],
     "spotify": [],
@@ -808,11 +306,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-bluejay-kings",
-    "name": "Bluejay Kings",
+    "wikidata": "X-jeff-fotso",
+    "name": "Jeff Fotso",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tzy Panchak"
+      "featured on a verified artist's video: Andy Jemea"
     ],
     "youtube": [],
     "spotify": [],
@@ -824,11 +322,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-la-diktatur",
-    "name": "La Diktatur",
+    "wikidata": "X-kennel",
+    "name": "Kennel",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
+      "featured on a verified artist's video: Andy Jemea"
     ],
     "youtube": [],
     "spotify": [],
@@ -840,11 +338,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-styfler90",
-    "name": "styfler90",
+    "wikidata": "X-zepe-kior-le-warr",
+    "name": "Zépé kior_Le Warr_",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
+      "featured on a verified artist's video: LE DUO MAGIQUE"
     ],
     "youtube": [],
     "spotify": [],
@@ -856,11 +354,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-samy-only",
-    "name": "SAMY ONLY",
+    "wikidata": "X-tchakala-vip-mon-annee",
+    "name": "TCHAKALA VIP MON ANNEE",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
+      "featured on a verified artist's video: Kratos le Dieu de la guerre"
     ],
     "youtube": [],
     "spotify": [],
@@ -872,11 +370,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-cdak",
-    "name": "CDAK",
+    "wikidata": "X-aveirodjess",
+    "name": "AveiroDjess",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
+      "featured on a verified artist's video: Elang City"
     ],
     "youtube": [],
     "spotify": [],
@@ -888,11 +386,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-over-flow",
-    "name": "OVER FLOW",
+    "wikidata": "X-mh-centro",
+    "name": "MH Centro",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
+      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
     ],
     "youtube": [],
     "spotify": [],
@@ -904,11 +402,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-joe-pro",
-    "name": "Joe Pro",
+    "wikidata": "X-kaiena",
+    "name": "Kaiena",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tilla Tafari"
+      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
     ],
     "youtube": [],
     "spotify": [],
@@ -920,11 +418,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-n-b-o",
-    "name": "N.B.O",
+    "wikidata": "X-ady-kakandu",
+    "name": "ADY KAKANDU",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tilla Tafari"
+      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
     ],
     "youtube": [],
     "spotify": [],
@@ -936,11 +434,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-groovie-selecta",
-    "name": "Groovie Selecta",
+    "wikidata": "X-rachida-jolie",
+    "name": "Rachida Jolie",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tilla Tafari"
+      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
     ],
     "youtube": [],
     "spotify": [],
@@ -952,39 +450,243 @@
     "songs": []
   },
   {
-    "wikidata": "X-kratos-le-dieu-de-la-guerre",
-    "name": "Kratos le Dieu de la guerre",
+    "wikidata": "X-arouna-tresor",
+    "name": "AROUNA trésor",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "not an artist name: too many words for an artist name"
+      "featured on a verified artist's video: Dj Free Boy l'arrangeur"
     ],
     "youtube": [],
     "spotify": [],
     "aliases": [],
     "confidence": 0.99,
     "discoveredVia": [
-      "shazam-cm"
+      "collab"
     ],
-    "songs": [
-      "Conduis Moi"
-    ]
+    "songs": []
   },
   {
-    "wikidata": "X-petit-pays-rabbi",
-    "name": "Petit Pays Rabbi",
+    "wikidata": "X-gbc-the-yemba",
+    "name": "GBC the yemba",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "not an artist name: known artist “Petit-Pays” followed by other words (probably a song title)"
+      "featured on a verified artist's video: Fulbert Feudjio Fokoua"
     ],
     "youtube": [],
     "spotify": [],
     "aliases": [],
     "confidence": 0.99,
     "discoveredVia": [
-      "shazam-cm"
+      "collab"
     ],
-    "songs": [
-      "Loba"
-    ]
+    "songs": []
+  },
+  {
+    "wikidata": "X-marco-bi",
+    "name": "marco bi",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Indira"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-amatula",
+    "name": "AMATULA",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Magasco"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-lifka",
+    "name": "LiFkA",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Enjr"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-kill-b-psycatra",
+    "name": "Kill B Psycatra",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Enjr"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-yanicko-la-star-du-flow",
+    "name": "Yanicko la star du Flow",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Joyce Sa'a"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-yvan-ango",
+    "name": "Yvan Ango",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Kocee"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-cleo-grae",
+    "name": "Cleo Grae",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Kocee"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-banye",
+    "name": "Banye",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Kocee"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-kikoh",
+    "name": "Kikoh",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Kocee"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-kking-kum",
+    "name": "Kking Kum",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Kocee"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-le-talent",
+    "name": "LE TALENT",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: styfler90"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-al-k",
+    "name": "AL-K",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: styfler90"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-ivee",
+    "name": "IVEE",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: styfler90"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
   }
 ]
