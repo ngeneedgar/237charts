@@ -6903,10 +6903,10 @@
     "name": "MUUTU.",
     "aliases": [],
     "best": {
-      "channelId": "UCMkkagkG6VFhDD7-2UIiOKQ",
-      "title": "MUUTU PISTHA",
-      "country": "IN",
-      "subscribers": 86,
+      "channelId": "UCIjKcJe2Ha-yXf1Q7fiitsQ",
+      "title": "Bernadette Muutu",
+      "country": null,
+      "subscribers": 0,
       "similarity": 0.5,
       "confidence": 0.35
     },
@@ -7182,12 +7182,19 @@
   "X-germoh-group": {
     "name": "Germoh Group",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCYl2aiK0cP_rVoHBt9FsUZw",
+      "title": "Germoh Group - Topic",
+      "country": null,
+      "subscribers": 8,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -7375,12 +7382,19 @@
   "X-dj-kessy": {
     "name": "DJ KESSY",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UCXUFPvuoU047Wgfyrsv4AEg",
+      "title": "dj kessy - Topic",
+      "country": null,
+      "subscribers": 20,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"
@@ -7541,12 +7555,19 @@
   "X-ketia-anzouer": {
     "name": "Ketia Anzouer",
     "aliases": [],
-    "best": null,
-    "method": null,
+    "best": {
+      "channelId": "UChkqxpKV7h7odO93O37t7hQ",
+      "title": "Kétia Anzouer - Topic",
+      "country": null,
+      "subscribers": 17,
+      "similarity": 1,
+      "confidence": 0.9
+    },
+    "method": "search",
     "status": "none",
     "triedMusicbrainz": true,
     "triedHandles": true,
-    "triedSearch": false,
+    "triedSearch": true,
     "triedSongSearch": false,
     "blocked": [],
     "checkedAt": "2026-11-23"

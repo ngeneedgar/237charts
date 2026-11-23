@@ -1,5 +1,5 @@
 
-[09:15:13] 1/7 Collect sources
+[09:19:36] 1/7 Collect sources
 $ node collector/collect-shazam.mjs
 Shazam Cameroon: 200 entries (Monday, 23 November 2026 [performance over the past 7 days]) → collector/out/snapshots/shazam-cm-2026-11-23.json
 New candidate artists from Shazam Cameroon (→ review): 176
@@ -13,7 +13,7 @@ Quota used: 369 / 10,000
 $ node collector/collect-audiomack.mjs
 No Audiomack key yet → skipping. Add AUDIOMACK_CONSUMER_KEY and AUDIOMACK_CONSUMER_SECRET to .env
 
-[09:17:11] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
+[09:21:25] 2/7 Discovery: new artists and channels (cheap lookups + up to 25 searches)
 $ node collector/discover-collabs.mjs
 Seed channels: 233 · new candidate artists: 209 · with 2+ collaborators: 3
 Quota used: 238 / 10,000
@@ -72,7 +72,7 @@ Checked 318 artists · excluded by the hard rule: 31
   ✗ Yamê — France + Cameroon
   ✗ Zam Martino Ébalé — Belgium + Cameroon
 
-[09:18:11] 3/7 Build chart, then complete song data until stable
+[09:22:13] 3/7 Build chart, then complete song data until stable
 $ node collector/build-week.mjs
 Shazam CM: 3 matched to YouTube songs, 25 added as Shazam-only songs (of 200) ·Deezer tracks matched: 72/1263
 Release dates: 53 songs got an earlier date from Deezer
@@ -80,198 +80,198 @@ Song fixes applied (13): hide: Q130530315::what a beautiful name holy forever go
 1528 videos merged into 1355 songs
 Genre coverage — Top 50: 36/50 tagged · genre charts: Mbolé 20 · Mboko 3 · Njang 4 · Afro 20 · Makossa 20 · Bikutsi 20 · Rap 20 · Dancehall 1 · Gospel 20
 Chart for week ending 2026-11-23 (1.6-day window, scaled to 7):
- 1. Tenor — L'Homme  (731.22)
- 2. Shapat — Appelez les  (409.64)
- 3. Phillbill — PhillBill TÈTÈRI  (368.39)
- 4. Shapat — Tous les jours  (320.28)
- 5. Phillbill — Condiment  (257.12)
- 6. Tenor — S'aimer Bien  (254.95)
- 7. Tenor — Rahim  (215.61)
- 8. Kocee — Go Na Go  (208.59)
- 9. Sabrina — On Djah  (188.2)
-10. Tenor — DEUX  (188.18)
+ 1. Tenor — L'Homme  (731.17)
+ 2. Shapat — Appelez les  (409.63)
+ 3. Phillbill — PhillBill TÈTÈRI  (368.37)
+ 4. Shapat — Tous les jours  (320.25)
+ 5. Phillbill — Condiment  (257.1)
+ 6. Tenor — S'aimer Bien  (254.94)
+ 7. Tenor — Rahim  (215.59)
+ 8. Kocee — Go Na Go  (208.6)
+ 9. Sabrina — On Djah  (188.45)
+10. Tenor — DEUX  (188.17)
 Looked up 39 new songs (6 matched on Deezer).
-Coverage (142 songs on all charts): official artwork 70 · YouTube thumbnail only 65 · nothing 7
+Coverage (142 songs on all charts): official artwork 69 · YouTube thumbnail only 66 · nothing 7
 $ node collector/build-week.mjs
 Snapshots are only 0.6 days apart — no chart built. The next weekly run will build it.
 Looked up 0 new songs (0 matched on Deezer).
-Coverage (142 songs on all charts): official artwork 70 · YouTube thumbnail only 65 · nothing 7
+Coverage (142 songs on all charts): official artwork 69 · YouTube thumbnail only 66 · nothing 7
 
-[09:18:43] 4/7 Tests
+[09:22:43] 4/7 Tests
 $ node --test collector/test/candidate-name.test.mjs collector/test/chart-overrides.test.mjs collector/test/retention.test.mjs collector/test/scoring.test.mjs collector/test/song-fixes.test.mjs collector/test/songs.test.mjs collector/test/titles.test.mjs
 TAP version 13
 # Subtest: video-title junk is rejected
 ok 1 - video-title junk is rejected
   ---
-  duration_ms: 3.260171
+  duration_ms: 1.952404
   type: 'test'
   ...
 # Subtest: real artist names pass
 ok 2 - real artist names pass
   ---
-  duration_ms: 1.693222
+  duration_ms: 1.058456
   type: 'test'
   ...
 # Subtest: without pins the order follows the score
 ok 3 - without pins the order follows the score
   ---
-  duration_ms: 1.386284
+  duration_ms: 0.901299
   type: 'test'
   ...
 # Subtest: a pinned song takes its position; the others keep their order
 ok 4 - a pinned song takes its position; the others keep their order
   ---
-  duration_ms: 0.281988
+  duration_ms: 0.196486
   type: 'test'
   ...
 # Subtest: pins in a genre chart, unknown songs ignored, rank past the end goes last
 ok 5 - pins in a genre chart, unknown songs ignored, rank past the end goes last
   ---
-  duration_ms: 0.360752
+  duration_ms: 0.259881
   type: 'test'
   ...
 # Subtest: YouTube snapshots older than 30 days are expired; others and non-YouTube files are kept
 ok 6 - YouTube snapshots older than 30 days are expired; others and non-YouTube files are kept
   ---
-  duration_ms: 2.61437
+  duration_ms: 1.201602
   type: 'test'
   ...
 # Subtest: the snapshot a week back is always kept
 ok 7 - the snapshot a week back is always kept
   ---
-  duration_ms: 0.244261
+  duration_ms: 0.138009
   type: 'test'
   ...
 # Subtest: channel matches: stamped on first sight, YouTube fields removed after 30 days, IDs kept
 ok 8 - channel matches: stamped on first sight, YouTube fields removed after 30 days, IDs kept
   ---
-  duration_ms: 0.679285
+  duration_ms: 0.528597
   type: 'test'
   ...
 # Subtest: viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
 ok 9 - viral: only songs ≤ 8 weeks old; growth not volume; newness multiplier
   ---
-  duration_ms: 3.855606
+  duration_ms: 1.761325
   type: 'test'
   ...
 # Subtest: history carried week to week: peak keeps the best, weeks accumulate
 ok 10 - history carried week to week: peak keeps the best, weeks accumulate
   ---
-  duration_ms: 1.0784
+  duration_ms: 0.483619
   type: 'test'
   ...
 # Subtest: genres: from titles and Wikidata, most specific wins
 ok 11 - genres: from titles and Wikidata, most specific wins
   ---
-  duration_ms: 0.964407
+  duration_ms: 0.475237
   type: 'test'
   ...
 # Subtest: weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
 ok 12 - weights 50/25/25 across YouTube, Shazam CM, Deezer; scores sum to 10,000
   ---
-  duration_ms: 0.407323
+  duration_ms: 0.19262
   type: 'test'
   ...
 # Subtest: with Audiomack data the weights become 40/25/20/15
 ok 13 - with Audiomack data the weights become 40/25/20/15
   ---
-  duration_ms: 0.445522
+  duration_ms: 0.177888
   type: 'test'
   ...
 # Subtest: missing source one week → remaining weights rescale to 100%
 ok 14 - missing source one week → remaining weights rescale to 100%
   ---
-  duration_ms: 0.396043
+  duration_ms: 0.161663
   type: 'test'
   ...
 # Subtest: Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
 ok 15 - Shazam points: \#1 = 200, \#200 = 1, outside chart = 0
   ---
-  duration_ms: 0.23152
+  duration_ms: 0.096075
   type: 'test'
   ...
 # Subtest: songs older than 104 weeks are ineligible and do not dilute shares
 ok 16 - songs older than 104 weeks are ineligible and do not dilute shares
   ---
-  duration_ms: 0.330218
+  duration_ms: 0.151469
   type: 'test'
   ...
 # Subtest: anomaly: spike > 5× median is capped at 3× and flagged
 ok 17 - anomaly: spike > 5× median is capped at 3× and flagged
   ---
-  duration_ms: 0.482192
+  duration_ms: 0.217388
   type: 'test'
   ...
 # Subtest: ranking: LW, peak, weeks, movement NEW / RE / up / down
 ok 18 - ranking: LW, peak, weeks, movement NEW / RE / up / down
   ---
-  duration_ms: 0.753827
+  duration_ms: 0.32463
   type: 'test'
   ...
 # Subtest: genre chart only includes that genre; chart size caps entries
 ok 19 - genre chart only includes that genre; chart size caps entries
   ---
-  duration_ms: 0.991499
+  duration_ms: 0.454385
   type: 'test'
   ...
 # Subtest: recurrent songs (> 52 weeks) drop off Overall below rank 25
 ok 20 - recurrent songs (> 52 weeks) drop off Overall below rank 25
   ---
-  duration_ms: 2.217775
+  duration_ms: 0.831653
   type: 'test'
   ...
 # Subtest: merge adds YouTube views, keeps best Shazam/Deezer and the earliest date
 ok 21 - merge adds YouTube views, keeps best Shazam/Deezer and the earliest date
   ---
-  duration_ms: 1.445997
+  duration_ms: 1.318628
   type: 'test'
   ...
 # Subtest: title, genre, date and hide
 ok 22 - title, genre, date and hide
   ---
-  duration_ms: 0.292802
+  duration_ms: 0.263438
   type: 'test'
   ...
 # Subtest: unknown genre, unknown song and bad date are ignored; later line wins
 ok 23 - unknown genre, unknown song and bad date are ignored; later line wins
   ---
-  duration_ms: 0.420047
+  duration_ms: 0.35819
   type: 'test'
   ...
 # Subtest: songTitle strips artist prefix, version tags and features
 ok 24 - songTitle strips artist prefix, version tags and features
   ---
-  duration_ms: 3.417164
+  duration_ms: 1.694675
   type: 'test'
   ...
 # Subtest: versions of one song merge; different songs stay apart
 ok 25 - versions of one song merge; different songs stay apart
   ---
-  duration_ms: 3.504166
+  duration_ms: 2.415381
   type: 'test'
   ...
 # Subtest: stage name is used for display and stripped from titles
 ok 26 - stage name is used for display and stripped from titles
   ---
-  duration_ms: 0.583242
+  duration_ms: 0.345431
   type: 'test'
   ...
 # Subtest: same title by different artists does not merge
 ok 27 - same title by different artists does not merge
   ---
-  duration_ms: 0.342299
+  duration_ms: 0.197358
   type: 'test'
   ...
 # Subtest: ALL-CAPS titles are title-cased; mixed case is kept
 ok 28 - ALL-CAPS titles are title-cased; mixed case is kept
   ---
-  duration_ms: 2.147885
+  duration_ms: 1.23417
   type: 'test'
   ...
 # Subtest: Deezer's spelling wins when it is the same title
 ok 29 - Deezer's spelling wins when it is the same title
   ---
-  duration_ms: 1.687114
+  duration_ms: 0.938274
   type: 'test'
   ...
 1..29
@@ -282,17 +282,17 @@ ok 29 - Deezer's spelling wins when it is the same title
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 185.824657
+# duration_ms 131.603044
 
-[09:18:43] 5/7 Export for the website
+[09:22:43] 5/7 Export for the website
 $ node collector/export-web.mjs
 Exported Top 50 (50) + genre charts (Mbolé 20, Mboko 3, Njang 4, Afro 20, Makossa 20, Bikutsi 20, Rap 20, Dancehall 1, Gospel 20) from chart-2026-11-23.json
 Real charts so far: chart-2026-11-23.json
 
-[09:18:43] 6/7 Build website
+[09:22:43] 6/7 Build website
 $ npx next build
 ▲ Next.js 16.4.6 (Turbopack)
-✓ Running next.config.ts took 24ms
+✓ Running next.config.ts took 19ms
 ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
 Attention: Next.js now collects completely anonymous telemetry regarding usage.
 This information is used to shape Next.js' roadmap and prioritize features.
@@ -301,15 +301,15 @@ https://nextjs.org/telemetry
 
 
   Creating an optimized production build ...
-✓ Compiled successfully in 3.3s
+✓ Compiled successfully in 2.2s
   Running TypeScript ...
-  Finished TypeScript in 4.4s ...
+  Finished TypeScript in 3.1s ...
   Collecting page data using 3 workers ...
   Generating static pages using 3 workers (0/486) ...
   Generating static pages using 3 workers (121/486) 
   Generating static pages using 3 workers (242/486) 
   Generating static pages using 3 workers (364/486) 
-✓ Generating static pages using 3 workers (486/486) in 12.9s
+✓ Generating static pages using 3 workers (486/486) in 9.3s
   Finalizing page optimization ...
 
 Route (app)
@@ -394,17 +394,17 @@ Route (app)
 ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
 
 
-[09:19:06] 7/7 Deploy to Cloudflare Pages
+[09:23:00] 7/7 Deploy to Cloudflare Pages
 $ npx --yes wrangler@3 pages deploy out --project-name 237charts --branch main --commit-dirty=true
 ✨ Compiled Worker successfully
-Uploading... (42/2324)
-Uploading... (803/2324)
-Uploading... (1563/2324)
+Uploading... (76/2324)
+Uploading... (825/2324)
+Uploading... (1574/2324)
 Uploading... (2324/2324)
-✨ Success! Uploaded 2282 files (42 already uploaded) (3.55 sec)
+✨ Success! Uploaded 2248 files (76 already uploaded) (2.64 sec)
 
 ✨ Uploading Functions bundle
 🌎 Deploying...
-✨ Deployment complete! Take a peek over at https://211d0afa.237charts.pages.dev
+✨ Deployment complete! Take a peek over at https://81922a98.237charts.pages.dev
 
-[09:19:18] Done in 244 s
+[09:23:10] Done in 214 s

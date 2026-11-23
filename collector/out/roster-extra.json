@@ -310,11 +310,107 @@
     ]
   },
   {
-    "wikidata": "X-jack-anzouer",
-    "name": "Jack Anzouer",
+    "wikidata": "X-dex-willy-change-my-life",
+    "name": "Dex Willy Change My Life",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Annie Anzouer"
+      "featured on a verified artist's video: Blacky Carat"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-bashiru",
+    "name": "BASHIRU",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-tino-mbarga",
+    "name": "Tino MBARGA",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-muutu",
+    "name": "MUUTU.",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Boudor"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-tai-p",
+    "name": "TAI P",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Junior Eyango"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-mea-show",
+    "name": "MEA SHOW",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Junior Eyango"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-adango-addicted",
+    "name": "Adango-Addicted",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Adango salicia"
     ],
     "youtube": [],
     "spotify": [],
@@ -438,38 +534,6 @@
     "songs": []
   },
   {
-    "wikidata": "X-dex-willy-change-my-life",
-    "name": "Dex Willy Change My Life",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Blacky Carat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-adango-addicted",
-    "name": "Adango-Addicted",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Adango salicia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
     "wikidata": "X-tata",
     "name": "TATA",
     "basis": [
@@ -486,75 +550,11 @@
     "songs": []
   },
   {
-    "wikidata": "X-muutu",
-    "name": "MUUTU.",
+    "wikidata": "X-jack-anzouer",
+    "name": "Jack Anzouer",
     "basis": [
       "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Boudor"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-bashiru",
-    "name": "BASHIRU",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-tino-mbarga",
-    "name": "Tino MBARGA",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-tai-p",
-    "name": "TAI P",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Junior Eyango"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-mea-show",
-    "name": "MEA SHOW",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Junior Eyango"
+      "featured on a verified artist's video: Annie Anzouer"
     ],
     "youtube": [],
     "spotify": [],
@@ -587,6 +587,230 @@
     "basis": [
       "decided by 237 Charts team: Cameroonian",
       "featured on a verified artist's video: Tzy Panchak"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-germoh-group",
+    "name": "Germoh Group",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Prosper Germoh"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-ketia-anzouer",
+    "name": "Ketia Anzouer",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Phillbill"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-mic-monsta",
+    "name": "Mic Monsta",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Phillbill"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-joe-pro",
+    "name": "Joe Pro",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tilla Tafari"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-n-b-o",
+    "name": "N.B.O",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tilla Tafari"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-groovie-selecta",
+    "name": "Groovie Selecta",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tilla Tafari"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-m-lynn",
+    "name": "M'lynn",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Muriel Blanche"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-edel-koulla",
+    "name": "EDEL KOULLA",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tenor"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-dj-kessy",
+    "name": "DJ KESSY",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Tenor"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-la-diktatur",
+    "name": "La Diktatur",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-styfler90",
+    "name": "styfler90",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-samy-only",
+    "name": "SAMY ONLY",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-cdak",
+    "name": "CDAK",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-over-flow",
+    "name": "OVER FLOW",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Shapat"
     ],
     "youtube": [],
     "spotify": [],
@@ -699,230 +923,6 @@
     "basis": [
       "decided by 237 Charts team: Cameroonian",
       "featured on a verified artist's video: Melcube"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-joe-pro",
-    "name": "Joe Pro",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tilla Tafari"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-n-b-o",
-    "name": "N.B.O",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tilla Tafari"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-groovie-selecta",
-    "name": "Groovie Selecta",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tilla Tafari"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-la-diktatur",
-    "name": "La Diktatur",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-styfler90",
-    "name": "styfler90",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-samy-only",
-    "name": "SAMY ONLY",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-cdak",
-    "name": "CDAK",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-over-flow",
-    "name": "OVER FLOW",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Shapat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-ketia-anzouer",
-    "name": "Ketia Anzouer",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Phillbill"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-mic-monsta",
-    "name": "Mic Monsta",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Phillbill"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-edel-koulla",
-    "name": "EDEL KOULLA",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tenor"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-dj-kessy",
-    "name": "DJ KESSY",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Tenor"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-germoh-group",
-    "name": "Germoh Group",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Prosper Germoh"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-m-lynn",
-    "name": "M'lynn",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Muriel Blanche"
     ],
     "youtube": [],
     "spotify": [],

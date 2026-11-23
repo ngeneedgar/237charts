@@ -1,7 +1,7 @@
 {
   "weekEnd": "2026-11-23",
   "preview": false,
-  "generatedAt": "2026-11-23T09:18:43.584Z",
+  "generatedAt": "2026-11-23T09:22:43.802Z",
   "entries": [
     {
       "slug": "tenor-l-homme",
@@ -2006,44 +2006,15 @@
           "deezer": "https://www.deezer.com/track/3658242822"
         },
         {
-          "slug": "happy-d-efoulan-viens-nous-sauver",
-          "artistSlug": "happy-d-efoulan",
-          "primaryArtist": "Happy d'Efoulan",
-          "genre": "mbole",
-          "rank": 19,
-          "title": "Viens Nous Sauver",
-          "artist": "Happy d'Efoulan",
-          "lastWeek": null,
-          "peak": 19,
-          "weeks": 1,
-          "movement": "new",
-          "delta": null,
-          "adjusted": false,
-          "manual": false,
-          "artwork": "https://cdn-images.dzcdn.net/images/cover/cc1c5ebaf77a91ee00d8e00542bd32ce/1000x1000-000000-80-0-0.jpg",
-          "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/cc1c5ebaf77a91ee00d8e00542bd32ce/250x250-000000-80-0-0.jpg",
-          "artworkSource": "deezer",
-          "artists": [
-            "Happy D’efoulan"
-          ],
-          "album": "Viens Nous Sauver",
-          "releaseDate": "2025-01-31",
-          "durationSec": 220,
-          "isrc": "US7VG2571528",
-          "explicit": false,
-          "youtube": "https://www.youtube.com/watch?v=adwnYZVywZg",
-          "deezer": "https://www.deezer.com/track/3196788931"
-        },
-        {
           "slug": "petit-bozard-bozailleurs-migrants-immigration-migrantafricain-newmusic-af",
           "artistSlug": "petit-bozard",
           "primaryArtist": "Petit Bozard",
           "genre": "mbole",
-          "rank": 20,
+          "rank": 19,
           "title": "Bozailleurs #migrants #immigration #Migrantafricain #newmusic #africa",
           "artist": "Petit Bozard",
           "lastWeek": null,
-          "peak": 20,
+          "peak": 19,
           "weeks": 1,
           "movement": "new",
           "delta": null,
@@ -2061,6 +2032,35 @@
           "isrc": null,
           "explicit": false,
           "youtube": "https://www.youtube.com/watch?v=vhRk57MoExY",
+          "deezer": null
+        },
+        {
+          "slug": "la-santinelle-exagere-dans-ma-vie-la-santinelle",
+          "artistSlug": "la-santinelle",
+          "primaryArtist": "La Santinelle",
+          "genre": "mbole",
+          "rank": 20,
+          "title": "Exagere dans ma vie La santinelle",
+          "artist": "La Santinelle",
+          "lastWeek": null,
+          "peak": 20,
+          "weeks": 1,
+          "movement": "new",
+          "delta": null,
+          "adjusted": false,
+          "manual": false,
+          "artwork": "https://i.ytimg.com/vi/5PVipE50GCg/hqdefault.jpg",
+          "artworkSmall": "https://i.ytimg.com/vi/5PVipE50GCg/hqdefault.jpg",
+          "artworkSource": "youtube",
+          "artists": [
+            "La Santinelle"
+          ],
+          "album": null,
+          "releaseDate": null,
+          "durationSec": null,
+          "isrc": null,
+          "explicit": false,
+          "youtube": "https://www.youtube.com/watch?v=5PVipE50GCg",
           "deezer": null
         }
       ]

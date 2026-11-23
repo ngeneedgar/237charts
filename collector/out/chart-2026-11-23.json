@@ -1,11 +1,11 @@
 {
   "weekEnd": "2026-11-23",
-  "days": 1.57,
+  "days": 1.58,
   "entries": [
     {
       "rank": 1,
       "songId": "Q48774408::l homme",
-      "score": 731.22,
+      "score": 731.17,
       "adjusted": false,
       "lastWeek": null,
       "peak": 1,
@@ -21,7 +21,7 @@
     {
       "rank": 2,
       "songId": "Q125843988::appelez les",
-      "score": 409.64,
+      "score": 409.63,
       "adjusted": false,
       "lastWeek": null,
       "peak": 2,
@@ -37,7 +37,7 @@
     {
       "rank": 3,
       "songId": "Q108862298::phillbill teteri",
-      "score": 368.39,
+      "score": 368.37,
       "adjusted": false,
       "lastWeek": null,
       "peak": 3,
@@ -53,7 +53,7 @@
     {
       "rank": 4,
       "songId": "Q125843988::tous les jours",
-      "score": 320.28,
+      "score": 320.25,
       "adjusted": false,
       "lastWeek": null,
       "peak": 4,
@@ -69,7 +69,7 @@
     {
       "rank": 5,
       "songId": "Q108862298::condiment",
-      "score": 257.12,
+      "score": 257.1,
       "adjusted": false,
       "lastWeek": null,
       "peak": 5,
@@ -85,7 +85,7 @@
     {
       "rank": 6,
       "songId": "Q48774408::s aimer bien",
-      "score": 254.95,
+      "score": 254.94,
       "adjusted": false,
       "lastWeek": null,
       "peak": 6,
@@ -101,7 +101,7 @@
     {
       "rank": 7,
       "songId": "Q48774408::rahim",
-      "score": 215.61,
+      "score": 215.59,
       "adjusted": false,
       "lastWeek": null,
       "peak": 7,
@@ -117,7 +117,7 @@
     {
       "rank": 8,
       "songId": "Q111470436::go na go",
-      "score": 208.59,
+      "score": 208.6,
       "adjusted": false,
       "lastWeek": null,
       "peak": 8,
@@ -133,7 +133,7 @@
     {
       "rank": 9,
       "songId": "Q117325000::on djah",
-      "score": 188.2,
+      "score": 188.45,
       "adjusted": false,
       "lastWeek": null,
       "peak": 9,
@@ -149,7 +149,7 @@
     {
       "rank": 10,
       "songId": "Q48774408::deux",
-      "score": 188.18,
+      "score": 188.17,
       "adjusted": false,
       "lastWeek": null,
       "peak": 10,
@@ -197,7 +197,7 @@
     {
       "rank": 13,
       "songId": "Q61653325::jonze",
-      "score": 163.46,
+      "score": 163.45,
       "adjusted": false,
       "lastWeek": null,
       "peak": 13,
@@ -213,7 +213,7 @@
     {
       "rank": 14,
       "songId": "Q106977880::my baby",
-      "score": 151.92,
+      "score": 151.91,
       "adjusted": false,
       "lastWeek": null,
       "peak": 14,
@@ -277,7 +277,7 @@
     {
       "rank": 18,
       "songId": "Q61653325::chako lonely",
-      "score": 129.78,
+      "score": 129.77,
       "adjusted": false,
       "lastWeek": null,
       "peak": 18,
@@ -293,7 +293,7 @@
     {
       "rank": 19,
       "songId": "Q61653325::chako holy father",
-      "score": 128.68,
+      "score": 128.67,
       "adjusted": false,
       "lastWeek": null,
       "peak": 19,
@@ -309,7 +309,7 @@
     {
       "rank": 20,
       "songId": "Q16021407::oublie mon passe",
-      "score": 122.94,
+      "score": 122.93,
       "adjusted": false,
       "lastWeek": null,
       "peak": 20,
@@ -389,7 +389,7 @@
     {
       "rank": 25,
       "songId": "Q111470436::stranger",
-      "score": 103.43,
+      "score": 103.44,
       "adjusted": false,
       "lastWeek": null,
       "peak": 25,
@@ -421,7 +421,7 @@
     {
       "rank": 27,
       "songId": "Q16021407::victoire",
-      "score": 95.61,
+      "score": 95.6,
       "adjusted": false,
       "lastWeek": null,
       "peak": 27,
@@ -437,7 +437,7 @@
     {
       "rank": 28,
       "songId": "Q48774408::gros nerfs",
-      "score": 92.29,
+      "score": 92.28,
       "adjusted": false,
       "lastWeek": null,
       "peak": 28,
@@ -485,7 +485,7 @@
     {
       "rank": 31,
       "songId": "Q112112912::baninga mabe 2026",
-      "score": 84.82,
+      "score": 84.81,
       "adjusted": false,
       "lastWeek": null,
       "peak": 31,
@@ -741,7 +741,7 @@
     {
       "rank": 47,
       "songId": "Q61653325::tzy panchak ensemble",
-      "score": 39.54,
+      "score": 39.56,
       "adjusted": false,
       "lastWeek": null,
       "peak": 47,
@@ -1095,7 +1095,7 @@
       },
       {
         "rank": 19,
-        "songId": "Q115612456::viens nous sauver",
+        "songId": "Q115612717::bozailleurs migrants immigration migrantafricain newmusic africa",
         "score": 0.01,
         "adjusted": false,
         "lastWeek": null,
@@ -1103,15 +1103,15 @@
         "weeksOnChart": 1,
         "movement": "new",
         "delta": null,
-        "title": "Viens Nous Sauver",
-        "artist": "Happy d'Efoulan",
+        "title": "Bozailleurs #migrants #immigration #Migrantafricain #newmusic #africa",
+        "artist": "Petit Bozard",
         "genre": "mbole",
-        "videoId": "adwnYZVywZg",
+        "videoId": "vhRk57MoExY",
         "versions": 1
       },
       {
         "rank": 20,
-        "songId": "Q115612717::bozailleurs migrants immigration migrantafricain newmusic africa",
+        "songId": "X-la-santinelle::exagere dans ma vie la santinelle",
         "score": 0.01,
         "adjusted": false,
         "lastWeek": null,
@@ -1119,10 +1119,10 @@
         "weeksOnChart": 1,
         "movement": "new",
         "delta": null,
-        "title": "Bozailleurs #migrants #immigration #Migrantafricain #newmusic #africa",
-        "artist": "Petit Bozard",
+        "title": "Exagere dans ma vie La santinelle",
+        "artist": "La Santinelle",
         "genre": "mbole",
-        "videoId": "vhRk57MoExY",
+        "videoId": "5PVipE50GCg",
         "versions": 1
       }
     ],
@@ -1246,7 +1246,7 @@
       {
         "rank": 1,
         "songId": "Q108862298::phillbill teteri",
-        "score": 368.39,
+        "score": 368.37,
         "adjusted": false,
         "lastWeek": null,
         "peak": 1,
@@ -1262,7 +1262,7 @@
       {
         "rank": 2,
         "songId": "Q108862298::condiment",
-        "score": 257.12,
+        "score": 257.1,
         "adjusted": false,
         "lastWeek": null,
         "peak": 2,
@@ -1278,7 +1278,7 @@
       {
         "rank": 3,
         "songId": "Q111470436::go na go",
-        "score": 208.59,
+        "score": 208.6,
         "adjusted": false,
         "lastWeek": null,
         "peak": 3,
@@ -1294,7 +1294,7 @@
       {
         "rank": 4,
         "songId": "Q117325000::on djah",
-        "score": 188.2,
+        "score": 188.45,
         "adjusted": false,
         "lastWeek": null,
         "peak": 4,
@@ -1310,7 +1310,7 @@
       {
         "rank": 5,
         "songId": "Q61653325::jonze",
-        "score": 163.46,
+        "score": 163.45,
         "adjusted": false,
         "lastWeek": null,
         "peak": 5,
@@ -1358,7 +1358,7 @@
       {
         "rank": 8,
         "songId": "Q61653325::chako lonely",
-        "score": 129.78,
+        "score": 129.77,
         "adjusted": false,
         "lastWeek": null,
         "peak": 8,
@@ -1374,7 +1374,7 @@
       {
         "rank": 9,
         "songId": "Q61653325::chako holy father",
-        "score": 128.68,
+        "score": 128.67,
         "adjusted": false,
         "lastWeek": null,
         "peak": 9,
@@ -1390,7 +1390,7 @@
       {
         "rank": 10,
         "songId": "Q111470436::stranger",
-        "score": 103.43,
+        "score": 103.44,
         "adjusted": false,
         "lastWeek": null,
         "peak": 10,
@@ -1438,7 +1438,7 @@
       {
         "rank": 13,
         "songId": "Q61653325::sentiment",
-        "score": 79.74,
+        "score": 79.73,
         "adjusted": false,
         "lastWeek": null,
         "peak": 13,
@@ -1502,7 +1502,7 @@
       {
         "rank": 17,
         "songId": "Q61653325::tzy panchak ensemble",
-        "score": 39.54,
+        "score": 39.56,
         "adjusted": false,
         "lastWeek": null,
         "peak": 17,
@@ -1568,7 +1568,7 @@
       {
         "rank": 1,
         "songId": "Q112112912::baninga mabe 2026",
-        "score": 84.82,
+        "score": 84.81,
         "adjusted": false,
         "lastWeek": null,
         "peak": 1,
@@ -1712,7 +1712,7 @@
       {
         "rank": 10,
         "songId": "Q112112912::sergeo polo maitrise le live",
-        "score": 2.22,
+        "score": 2.21,
         "adjusted": false,
         "lastWeek": null,
         "peak": 10,
@@ -1728,7 +1728,7 @@
       {
         "rank": 11,
         "songId": "Q27062890::johnny",
-        "score": 1.84,
+        "score": 1.85,
         "adjusted": false,
         "lastWeek": null,
         "peak": 11,
@@ -2212,7 +2212,7 @@
       {
         "rank": 1,
         "songId": "Q125843988::appelez les",
-        "score": 409.64,
+        "score": 409.63,
         "adjusted": false,
         "lastWeek": null,
         "peak": 1,
@@ -2228,7 +2228,7 @@
       {
         "rank": 2,
         "songId": "Q125843988::tous les jours",
-        "score": 320.28,
+        "score": 320.25,
         "adjusted": false,
         "lastWeek": null,
         "peak": 2,
