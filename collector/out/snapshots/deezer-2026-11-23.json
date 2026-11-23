@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-23T10:24:13.492Z",
+  "takenAt": "2026-11-23T10:59:59.275Z",
   "artists": {
     "Q24341755": {
       "deezerId": 1725661,
@@ -89,7 +89,7 @@
     "Q3037333": {
       "deezerId": 158083,
       "name": "Dosseh",
-      "fans": 1121211
+      "fans": 1121212
     },
     "Q140945528": {
       "deezerId": 5901025,
@@ -5281,7 +5281,7 @@
       "wikidata": "Q30596023",
       "artist": "Vagabon",
       "title": "Cold Apartment",
-      "rank": 21991,
+      "rank": 62472,
       "albumId": 219648082,
       "link": "https://www.deezer.com/track/1304124582"
     },
@@ -7601,7 +7601,7 @@
       "wikidata": "X-tata",
       "artist": "TATA",
       "title": "Tweak",
-      "rank": 78277,
+      "rank": 46435,
       "albumId": 578832141,
       "link": "https://www.deezer.com/track/2768840711"
     },
@@ -9513,7 +9513,7 @@
       "wikidata": "Q439028",
       "artist": "Irma",
       "title": "Lost and Found",
-      "rank": 215286,
+      "rank": 220566,
       "albumId": 917398791,
       "link": "https://www.deezer.com/track/3839189191"
     },
@@ -10225,7 +10225,7 @@
       "wikidata": "Q24341755",
       "artist": "Adèle Ruffine Ngono",
       "title": "Mon Medecin",
-      "rank": 171681,
+      "rank": 207989,
       "albumId": 1036113342,
       "link": "https://www.deezer.com/track/4172033942"
     },

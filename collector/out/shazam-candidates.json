@@ -94,31 +94,12 @@
     "confidence": 0.7
   },
   {
-    "name": "la mélo du quartier",
-    "bestRank": 7,
-    "songs": [
-      "Moui de mamouai (#7)",
-      "Mon berger (feat. Le Roy Tsala & Iza muan) (#108)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "Mauvais Djo",
     "bestRank": 8,
     "songs": [
       "4 (#8)",
       "Wagyu (#27)",
       "12 (#58)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "VANITY FAIR",
-    "bestRank": 9,
-    "songs": [
-      "Ma’a Philo (#9)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -315,15 +296,6 @@
       "ÇA CHAUFFE (#36)",
       "Ma diva (#147)",
       "BANTU MENTALITÉ (#184)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "La Santinelle",
-    "bestRank": 37,
-    "songs": [
-      "1,2,3 tremble (#37)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -567,24 +539,6 @@
     "confidence": 0.7
   },
   {
-    "name": "Tabaski",
-    "bestRank": 69,
-    "songs": [
-      "We Di Drink (#69)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "SOPEKA DIAMANT",
-    "bestRank": 70,
-    "songs": [
-      "Mission compliqué (#70)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "Ninho",
     "bestRank": 71,
     "songs": [
@@ -600,15 +554,6 @@
     "bestRank": 72,
     "songs": [
       "Runaway (#72)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Petit Axel",
-    "bestRank": 73,
-    "songs": [
-      "Tata mimi (#73)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -742,16 +687,6 @@
     "confidence": 0.7
   },
   {
-    "name": "Ikardi Le Monument",
-    "bestRank": 88,
-    "songs": [
-      "Vieux têtu bandit de la nuit (#88)",
-      "Le destin (#126)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "Ruthee",
     "bestRank": 89,
     "songs": [
@@ -788,15 +723,6 @@
     "confidence": 0.7
   },
   {
-    "name": "Tim Storm",
-    "bestRank": 93,
-    "songs": [
-      "SUSPENDU (GOSPEL) (#93)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "Looze Cannon",
     "bestRank": 94,
     "songs": [
@@ -828,24 +754,6 @@
     "bestRank": 98,
     "songs": [
       "See You Again (feat. Charlie Puth) [From Furious 7] (#98)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Vanister Enama",
-    "bestRank": 100,
-    "songs": [
-      "Conduis Moi (#100)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Kratos le Dieu de la guerre",
-    "bestRank": 100,
-    "songs": [
-      "Conduis Moi (#100)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1007,24 +915,6 @@
     "confidence": 0.7
   },
   {
-    "name": "Koutchoua Mbada",
-    "bestRank": 119,
-    "songs": [
-      "Swega Menzui (#119)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Franck Ngouma",
-    "bestRank": 120,
-    "songs": [
-      "Manè ma nkag (#120)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "Sis. Agatha Moses",
     "bestRank": 121,
     "songs": [
@@ -1052,38 +942,11 @@
     "confidence": 0.7
   },
   {
-    "name": "LE DUO MAGIQUE",
-    "bestRank": 123,
-    "songs": [
-      "Viens danser (#123)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Sokeb Beatz",
-    "bestRank": 124,
-    "songs": [
-      "Faut toucher (feat. Tsimi Toro, Kill RB & LITH) (#124)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "GIMS",
     "bestRank": 127,
     "songs": [
       "MUGANGA (#127)",
       "Dis-moi tout (#142)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "LES FRANGINS PONGO",
-    "bestRank": 128,
-    "songs": [
-      "La Nouvelle Danse Des Frangins (feat. Consty Edem's & Olive MBENDE & NTONE Moise) (#128)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1181,28 +1044,10 @@
     "confidence": 0.7
   },
   {
-    "name": "Petit Pays Rabbi",
-    "bestRank": 139,
-    "songs": [
-      "Loba (#139)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "Alec Benjamin",
     "bestRank": 140,
     "songs": [
       "Let Me Down Slowly (#140)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Tsimi Toro",
-    "bestRank": 141,
-    "songs": [
-      "Oyili (#141)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1372,15 +1217,6 @@
     "confidence": 0.7
   },
   {
-    "name": "EWOLO MINGA",
-    "bestRank": 171,
-    "songs": [
-      "LA TERRE EST SALE 2 (#171)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
     "name": "KØRE",
     "bestRank": 173,
     "songs": [
@@ -1421,15 +1257,6 @@
     "bestRank": 178,
     "songs": [
       "Dedans (#178)"
-    ],
-    "source": "shazam-cm",
-    "confidence": 0.7
-  },
-  {
-    "name": "Elang City",
-    "bestRank": 179,
-    "songs": [
-      "Tchokorobo (#179)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
@@ -1575,6 +1402,15 @@
     "bestRank": 195,
     "songs": [
       "Rebanav 126bpm (#195)"
+    ],
+    "source": "shazam-cm",
+    "confidence": 0.7
+  },
+  {
+    "name": "Iza muan",
+    "bestRank": 197,
+    "songs": [
+      "O Bele Ma (#197)"
     ],
     "source": "shazam-cm",
     "confidence": 0.7
