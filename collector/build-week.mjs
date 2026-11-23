@@ -23,7 +23,7 @@ if (files.length < 2 && !(DRY && files.length)) {
 // (e.g. after an admin edit) must not shorten the chart week.
 const day = (f) => new Date(f.match(/(\d{4}-\d{2}-\d{2})/)[1] + 'T00:00:00Z');
 const curFile = files.at(-1);
-const FIRST = !(await readdir('collector/out')).some((f) => /^chart-\d{4}-\d{2}-\d{2}\.json$/.test(f)); // first official chart (23 Nov 2026): short window allowed, oldest snapshot
+const FIRST = !(await readdir('collector/out')).some((f) => /^chart-\d{4}-\d{2}-\d{2}\.json$/.test(f) && f !== `chart-${curFile.slice(8, 18)}.json`); // first official chart (23 Nov 2026): short window allowed, oldest snapshot
 const prevFile = DRY ? '__empty__' : [...files].reverse().find((f) => (day(curFile) - day(f)) / 864e5 >= 6) ?? (FIRST ? files[0] : files.at(-2));
 const [prev, cur] = await Promise.all([prevFile, curFile].map(async (f) => f === '__empty__' ? null : JSON.parse(await readFile(`${dir}/${f}`, 'utf8'))));
 if (DRY) Object.assign(prev ?? {}, {});
@@ -40,12 +40,7 @@ if (!DRY && days < (FIRST ? 1 : 6)) {
 const aliases = Object.fromEntries(
   (await loadRoster()).map((a) => [a.wikidata, a.aliases ?? []]));
 // Only artists still in the roster (researched exclusions are dropped even if an old snapshot has them)
-const videos = Object.entries(cur.videos).filter(([, v]) => v.wikidata in aliases).map(([id, v]) => {
-  const before = prevSnap.videos[id]?.views;
-  const weekly = before == null ? v.views : Math.max(0, v.views - before); // new upload: all its views are this week's
-  return { videoId: id, artistId: v.wikidata, artist: v.artist, aliases: aliases[v.wikidata], title: v.title,
-           publishedAt: v.publishedAt, isTopic: false, weekly: Math.round(weekly * scale) };
-});
+/* A video missing from the previous snapshot is NOT automatically new: its channel may have been added since. Use the earliest later snapshot that has it (scaled to 7 days); count all its views only if it was really uploaded after the previous snapshot; otherwise leave it out this week (lifetime views are not weekly views). */ const between = DRY ? [] : await Promise.all(files.filter((f) => f > prevFile && f < curFile).map(async (f) => JSON.parse(await readFile(`${dir}/${f}`, 'utf8')))); const videos = Object.entries(cur.videos).filter(([, v]) => v.wikidata in aliases).map(([id, v]) => { let weekly; const before = prevSnap.videos[id]?.views; if (before != null) weekly = Math.max(0, v.views - before) * scale; else if (DRY || (v.publishedAt && v.publishedAt > prevSnap.takenAt)) weekly = v.views * (DRY ? 1 : scale); else { const s = between.find((x) => x.videos[id]?.views != null); const d = s ? (new Date(cur.takenAt) - new Date(s.takenAt)) / 864e5 : 0; if (!s || d < 0.5) return null; weekly = Math.max(0, v.views - s.videos[id].views) * 7 / d; } return { videoId: id, artistId: v.wikidata, artist: v.artist, aliases: aliases[v.wikidata], title: v.title, publishedAt: v.publishedAt, isTopic: false, weekly: Math.round(weekly) }; }).filter(Boolean);
 const merged = mergeVersions(videos);
 const songs = merged.map((s) => ({ songId: s.songId, releaseDate: s.releaseDate, counts: { youtube: s.weekly }, meta: s }));
 const byKey = new Map(songs.map((s) => [s.songId, s]));
