@@ -310,118 +310,6 @@
     ]
   },
   {
-    "wikidata": "X-muutu",
-    "name": "MUUTU.",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Boudor"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-tata",
-    "name": "TATA",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Jovi"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-tai-p",
-    "name": "TAI P",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Junior Eyango"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-mea-show",
-    "name": "MEA SHOW",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Junior Eyango"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-dex-willy-change-my-life",
-    "name": "Dex Willy Change My Life",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Blacky Carat"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-adango-addicted",
-    "name": "Adango-Addicted",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Adango salicia"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
-    "wikidata": "X-jack-anzouer",
-    "name": "Jack Anzouer",
-    "basis": [
-      "decided by 237 Charts team: Cameroonian",
-      "featured on a verified artist's video: Annie Anzouer"
-    ],
-    "youtube": [],
-    "spotify": [],
-    "aliases": [],
-    "confidence": 0.99,
-    "discoveredVia": [
-      "collab"
-    ],
-    "songs": []
-  },
-  {
     "wikidata": "X-vegah",
     "name": "Vegah",
     "basis": [
@@ -555,6 +443,118 @@
     "basis": [
       "decided by 237 Charts team: Cameroonian",
       "featured on a verified artist's video: Ahri Yell Nkembe Pesauk"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-jack-anzouer",
+    "name": "Jack Anzouer",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Annie Anzouer"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-adango-addicted",
+    "name": "Adango-Addicted",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Adango salicia"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-dex-willy-change-my-life",
+    "name": "Dex Willy Change My Life",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Blacky Carat"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-muutu",
+    "name": "MUUTU.",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Boudor"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-tai-p",
+    "name": "TAI P",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Junior Eyango"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-mea-show",
+    "name": "MEA SHOW",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Junior Eyango"
+    ],
+    "youtube": [],
+    "spotify": [],
+    "aliases": [],
+    "confidence": 0.99,
+    "discoveredVia": [
+      "collab"
+    ],
+    "songs": []
+  },
+  {
+    "wikidata": "X-tata",
+    "name": "TATA",
+    "basis": [
+      "decided by 237 Charts team: Cameroonian",
+      "featured on a verified artist's video: Jovi"
     ],
     "youtube": [],
     "spotify": [],

@@ -3679,5 +3679,65 @@
   "Q130530235::germoh group fine fine people with jesus": {
     "checked": "2026-11-23T09:50:18.749Z",
     "youtubeThumb": "https://i.ytimg.com/vi/_72Lg_zEYAo/hqdefault.jpg"
+  },
+  "Q48774408::lpdl intro": {
+    "checked": "2026-11-23T10:26:00.907Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/7zu_RUQRWuQ/hqdefault.jpg"
+  },
+  "Q48774408::stone by stone": {
+    "checked": "2026-11-23T10:26:01.711Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/FXlrebCUAcA/hqdefault.jpg",
+    "deezerId": 4183067372,
+    "deezer": "https://www.deezer.com/track/4183067372",
+    "deezerTitle": "Stone By Stone",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/41162cfe8d9e83c178fba55caf0f2b82/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/41162cfe8d9e83c178fba55caf0f2b82/250x250-000000-80-0-0.jpg",
+    "album": "LE POIDS DE L'ÂME, Pt. 1",
+    "releaseDate": "2026-08-28",
+    "durationSec": 172,
+    "isrc": "QMBZ92610902",
+    "artists": [
+      "Tenor"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q24578963::franko il ne peut pas t abandonner": {
+    "checked": "2026-11-23T10:26:02.762Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/wShEcpfDHbs/hqdefault.jpg"
+  },
+  "Q48774408::vibe": {
+    "checked": "2026-11-23T10:26:03.579Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/Ae9Lc5Dce4g/hqdefault.jpg",
+    "deezerId": 4183067362,
+    "deezer": "https://www.deezer.com/track/4183067362",
+    "deezerTitle": "Vibe",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/41162cfe8d9e83c178fba55caf0f2b82/1000x1000-000000-80-0-0.jpg",
+    "artworkSmall": "https://cdn-images.dzcdn.net/images/cover/41162cfe8d9e83c178fba55caf0f2b82/250x250-000000-80-0-0.jpg",
+    "album": "LE POIDS DE L'ÂME, Pt. 1",
+    "releaseDate": "2026-08-28",
+    "durationSec": 202,
+    "isrc": "QMDA62651727",
+    "artists": [
+      "Tenor"
+    ],
+    "explicit": true,
+    "matchScore": 1
+  },
+  "Q48774408::intro": {
+    "checked": "2026-11-23T10:26:04.629Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/NxNXy9R19aY/hqdefault.jpg"
+  },
+  "Q48774408::ca arrive le morceau gros nerfs grosnerfs prochainement rapcamer kickage": {
+    "checked": "2026-11-23T10:26:05.286Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/BbwrQt_QwYI/hqdefault.jpg"
+  },
+  "Q3389313::pit baccardi seul": {
+    "checked": "2026-11-23T10:26:06.025Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/LcpR328RZLQ/hqdefault.jpg"
+  },
+  "Q130530235::2026 worship songs for prayer and reflection with pastor prosper germoh germoh group": {
+    "checked": "2026-11-23T10:26:06.674Z",
+    "youtubeThumb": "https://i.ytimg.com/vi/OQ9KUauio2c/hqdefault.jpg"
   }
 }
