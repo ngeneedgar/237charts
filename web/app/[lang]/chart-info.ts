@@ -9,7 +9,7 @@ const L = {
   fr: {
     weeks: "Choisir la semaine", info: "À propos de ce classement", share: "Partager", close: "OK",
     methodology: "Méthodologie complète", copied: "Lien copié", copyFail: "Impossible de partager. Copiez l'adresse de la page.",
-    onlyWeek: "Les semaines précédentes apparaîtront ici dès le premier classement officiel (lundi 30 novembre 2026).",
+    onlyWeek: "Les semaines précédentes apparaîtront ici dès le premier classement officiel (lundi 23 novembre 2026).",
     current: "Cette semaine", copyLink: "Copier le lien",
     image: "Partager en image", story: "Story · Statut", post: "Publication", imageHint: "Le Top 10 de cette semaine, prêt pour WhatsApp, Instagram ou Facebook.", downloaded: "Image téléchargée",
     sources: "Calculé chaque semaine à partir des vues YouTube (50 %), de la position dans le Top 200 Shazam Cameroun (25 %) et de la popularité Deezer (25 %). Artistes camerounais uniquement, chaînes officielles uniquement.",
@@ -17,7 +17,7 @@ const L = {
   en: {
     weeks: "Choose week", info: "About this chart", share: "Share", close: "Done",
     methodology: "Full methodology", copied: "Link copied", copyFail: "Couldn't share. Copy the page address instead.",
-    onlyWeek: "Earlier weeks will appear here from the first official chart (Monday 30 November 2026).",
+    onlyWeek: "Earlier weeks will appear here from the first official chart (Monday 23 November 2026).",
     current: "This week", copyLink: "Copy link",
     image: "Share as image", story: "Story · Status", post: "Post", imageHint: "This week's Top 10, ready for WhatsApp, Instagram or Facebook.", downloaded: "Image downloaded",
     sources: "Calculated every week from YouTube views (50%), position in Shazam's Cameroon Top 200 (25%) and Deezer popularity (25%). Cameroonian artists only, official channels only.",
