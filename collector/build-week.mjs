@@ -3,7 +3,8 @@
 // Needs ≥ 2 snapshots; the first real chart is possible one week after the first snapshot.
 // Usage: node collector/build-week.mjs
 import { readdir, readFile, writeFile } from 'node:fs/promises';
-import { scoreWeek, rankChart, shazamPoints } from './lib/scoring.mjs';
+import { scoreWeek, rankChart, shazamPoints, weeksBetween } from './lib/scoring.mjs';
+import { mbokoRows } from './lib/mboko.mjs';
 import { mergeVersions, songKey } from './lib/songs.mjs';
 import { norm } from './lib/names.mjs';
 import { GENRES, genreFromTitle } from './lib/genres.mjs';
@@ -143,7 +144,11 @@ const withMeta = (e) => ({
 });
 const out = chart.map(withMeta);
 // Genre Top 20s (same scores, filtered by genre)
-const genreCharts = Object.fromEntries(GENRES.map((g) => [g.slug, rankChart(rows, history((c) => c.genreCharts?.[g.slug]), g.slug, undefined, pins[g.slug]).map(withMeta)]));
+const channelTitles = {};
+for (const m of Object.values(JSON.parse(await readFile('collector/out/channel-matches.json', 'utf8').catch(() => '{}')))) for (const c of m.candidates ?? []) channelTitles[c.channelId] ??= c.title;
+const mbokoChartRows = mbokoRows({ rows, songs, artistGenres, channelTitles, videos: cur.videos, weekEnd, weeksBetween });
+console.log(`Mboko chart (own algorithm): ${mbokoChartRows.length} songs classified as Mboko`);
+const genreCharts = Object.fromEntries(GENRES.map((g) => [g.slug, rankChart(g.slug === 'mboko' ? mbokoChartRows : rows, history((c) => c.genreCharts?.[g.slug]), g.slug, undefined, pins[g.slug]).map(withMeta)]));
 console.log(`${videos.length} videos merged into ${merged.length} songs`);
 console.log(`Genre coverage — Top 50: ${out.filter((e) => e.genre).length}/50 tagged · genre charts: ` +
   GENRES.map((g) => `${g.en} ${genreCharts[g.slug].length}`).join(' · '));
